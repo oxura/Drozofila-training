@@ -23,18 +23,30 @@ def main():
     state = Path('/tmp/flybrain-publish'); state.mkdir(exist_ok=True)
     directory = ROOT / 'results/stage7/confirmation'
     manifest = json.loads((ROOT / 'results/stage7/recovery/restore_manifest.json').read_text())
-    paths = [ROOT / name for name in ['stage7_recover.py', 'stage7_analysis.py', 'stage7_audit.py', 'stage7_report.py',
+    paths = [ROOT / name for name in ['stage7_recover.py', 'stage7_analysis.py', 'stage7_audit.py', 'stage7_report.py', 'stage7_restore_sources.py',
         'tools/publish_github_snapshot.py', 'tools/archive_stage7_progress.py', 'CONTINUE.md',
+        'notes/stage7_CONTINUE_before_recovery.md',
         'results/stage7/data_characterization.json', 'results/stage7/recovery/restore_manifest.json']]
+    paths.extend((ROOT / 'results/stage7/recovery').glob('*.json'))
+    for filename in ['checkpoint_consistency.json', 'checkpoints_before_test.json', 'cli_verification.json']:
+        paths.append(ROOT / 'results/stage7' / filename)
     progress = {}
-    for name in manifest['reproduced_runs']:
+    plan = json.loads((directory / 'plan.json').read_text())
+    for name in plan['runs']:
         path = directory / name
         if not (path / 'last.pt').exists() or not (path / 'history.jsonl').exists(): continue
         last = torch.load(path / 'last.pt', map_location='cpu', weights_only=True)
         history = [json.loads(line) for line in (path / 'history.jsonl').read_text().splitlines()]
         if not history or history[-1]['step'] != last['step']: continue
         progress[name] = last['step']
-        paths.extend(f for f in path.iterdir() if f.is_file())
+        # Completed evaluations are immutable. Otherwise include only training
+        # files; prediction files may still be in the middle of a write.
+        evaluated = (path / 'final_metrics.json').exists()
+        training_files = {'best.pt', 'last.pt', 'config.json', 'history.jsonl',
+            'validation.json', 'initial_validation.json', 'initial_predictions.jsonl',
+            'validation_predictions.jsonl'}
+        paths.extend(f for f in path.iterdir() if f.is_file() and (evaluated or f.name in training_files))
+        if evaluated: paths.append(directory / (name + '_evaluation.log'))
         paths += [directory / (name + '.log'), directory / (name + '_config.json')]
     source_dir = ROOT / 'results/stage7/source_baselines'
     for path in source_dir.glob('*.jsonl'):

@@ -1,0 +1,29 @@
+{
+  "checkpoint_steps": {
+    "prompt_seed0": 8000,
+    "prompt_seed1": 8000,
+    "prompt_seed2": 8000,
+    "history_seed0": 8000,
+    "history_seed1": 8000,
+    "history_seed2": 8000,
+    "slots_seed0": 8000,
+    "slots_seed1": 8000,
+    "slots_seed2": 8000,
+    "wider_seed0": 8000,
+    "wider_seed1": 8000,
+    "wider_seed2": 8000,
+    "no_memory_curriculum_seed0": 8000,
+    "no_memory_curriculum_seed1": 8000,
+    "no_memory_curriculum_seed2": 8000,
+    "fly_seed0": 8000,
+    "fly_seed1": 8000,
+    "fly_seed2": 8000,
+    "rewired_seed0": 8000,
+    "rewired_seed1": 8000,
+    "rewired_seed2": 8000,
+    "no_edges_seed0": 8000,
+    "no_edges_seed1": 8000,
+    "no_edges_seed2": 4000
+  },
+  "note": "Immutable staged snapshot of completed checkpoint writes; training may continue after this snapshot."
+}

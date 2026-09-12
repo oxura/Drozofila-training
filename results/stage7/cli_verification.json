@@ -1,0 +1,74 @@
+{
+  "teacher_imports_blocked": true,
+  "demonstrations": [
+    {
+      "prompt": "код a=2;b=3;c=0;d=1;a=7;b=8;?a",
+      "output": {
+        "text": "a=7;b=8|7",
+        "halted": true,
+        "generated_tokens": 10,
+        "checkpoint": "/workspace/scratch/f69c8da825ec/flybrain_lab/results/stage7/confirmation/history_seed1/best.pt",
+        "mode": "history",
+        "condition": "mlp"
+      }
+    },
+    {
+      "prompt": "код a=2;b=3;c=0;d=1;a=(a+b)%10;b=(b+1)%10;?a",
+      "output": {
+        "text": "a:2+3=5;b:3+1=4|5",
+        "halted": true,
+        "generated_tokens": 18,
+        "checkpoint": "/workspace/scratch/f69c8da825ec/flybrain_lab/results/stage7/confirmation/history_seed1/best.pt",
+        "mode": "history",
+        "condition": "mlp"
+      }
+    },
+    {
+      "prompt": "сумма 7,5,11,15",
+      "output": {
+        "text": "0+7=7;7+5=12;12+11=23;23+15=38|38",
+        "halted": true,
+        "generated_tokens": 34,
+        "checkpoint": "/workspace/scratch/f69c8da825ec/flybrain_lab/results/stage7/confirmation/history_seed1/best.pt",
+        "mode": "history",
+        "condition": "mlp"
+      }
+    },
+    {
+      "prompt": "логика xor(1,and(1,0))",
+      "output": {
+        "text": "and(1,0)=0;xor(1,0)=1|1",
+        "halted": true,
+        "generated_tokens": 24,
+        "checkpoint": "/workspace/scratch/f69c8da825ec/flybrain_lab/results/stage7/confirmation/history_seed1/best.pt",
+        "mode": "history",
+        "condition": "mlp"
+      }
+    }
+  ],
+  "invalid_input_checks": [
+    {
+      "arguments": [
+        "",
+        "--json"
+      ],
+      "exit_code": 2
+    },
+    {
+      "arguments": [
+        "unsupported!",
+        "--json"
+      ],
+      "exit_code": 2
+    },
+    {
+      "arguments": [
+        "код a=2;b=3;c=0;d=1;a=7;b=8;?a",
+        "--max-new-tokens",
+        "0"
+      ],
+      "exit_code": 2
+    }
+  ],
+  "note": "Operational tests, not accuracy estimates. Every demonstration output retained without correction."
+}

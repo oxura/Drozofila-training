@@ -1,0 +1,31 @@
+{
+  "created_utc": "2026-09-12T15:17:40.984781+00:00",
+  "inherited_complete_prediction_sha256": {
+    "mlp_seed0": "26070b9ef7005ddf8b2cdc7c9282743c1059159e9b0e9480d275b7c427467759",
+    "mlp_seed1": "e0b477fd7e43a6d326acf09ffdfbacaf8c1a134a1dc5c6837c6e9c10a8f1a36a",
+    "mlp_seed2": "383edfeb0d9b039b23a5c84c3cd983433f60c3a0638c2bc0387aa84432d04cd4",
+    "fly_seed0": "b2fd454c47f432d1dda4105e160f00b8b82d10f628f81de718128fde837ff964",
+    "fly_seed1": "1bf7b7cfab7042f55b2d11be1d4a96264c053a94e65500918abd3699d42ea62a",
+    "fly_seed2": "fc1e8d8b919cf51e72ab627bd2b51375208a283ea991c7acaefa909dd87b5b98"
+  },
+  "test_sha256": "a1d899e5fa1036fbe6d65619e0982d877e2747c7ebc205f38414075e38233306",
+  "source_checkpoint_sha256": {
+    "results/stage6/confirmation/resolved_copy_atomic_fly_seed0/best.pt": "d9b449785faf6ded4b103cb023c66915c26679a258a948f767d43749f943bc1d",
+    "results/stage6/confirmation/resolved_copy_atomic_fly_seed1/best.pt": "f24d8ecd35ce7903e39c1ee7f8056d40fecba1da2a8712f318d19ffc1279f1f7",
+    "results/stage6/confirmation/resolved_copy_atomic_fly_seed2/best.pt": "f7de0d918cbfd0cd851bd798e90043613d162002383440051d08eca962d36dae",
+    "results/stage6/confirmation/resolved_copy_atomic_mlp_seed0/best.pt": "8d9aa1571e2c4fc02c2d184f09188882907f179b6e5b5d6b8567c283069f9b27",
+    "results/stage6/confirmation/resolved_copy_atomic_mlp_seed1/best.pt": "fb8a71c7b5324266fc5f9539bfad937f31cd354c8d5de74a5ca9c343020d09f5",
+    "results/stage6/confirmation/resolved_copy_atomic_mlp_seed2/best.pt": "0ac76f67ad3e1e073161c22d3feb8ae9ddf6433137e4dc0e68c4584e817ebe2a",
+    "results/stage6/confirmation/resolved_copy_atomic_no_edges_seed0/best.pt": "3fb92955f7033bef0a4580199d7b468c6e5bbae9c8dbf4c3d7e904c4dc4777b1",
+    "results/stage6/confirmation/resolved_copy_atomic_no_edges_seed1/best.pt": "4271e37eef4822440397d544c7327c2fc3249925724a67800e5f1a7060e0be40",
+    "results/stage6/confirmation/resolved_copy_atomic_no_edges_seed2/best.pt": "2d30a213665515498f6d34484e4b11b3d7129760573bac253a44aa27a0b4df3f",
+    "results/stage6/confirmation/resolved_copy_atomic_rewired_seed0/best.pt": "7f73b66a7dd98a5d15d0e86d414cf31715f65a4c6ba73ece11f730ee055911cf",
+    "results/stage6/confirmation/resolved_copy_atomic_rewired_seed1/best.pt": "a7ea88399180fe7115d803d0705875bb7d5db0b9cc1f7acd24498542dccd0d16",
+    "results/stage6/confirmation/resolved_copy_atomic_rewired_seed2/best.pt": "57db573618a0f449018b0065eaefc7637cd2d392bb1613e2983df81e48cc54d8"
+  },
+  "threads_per_model": 2,
+  "batch_size": 32,
+  "max_new_tokens": 512,
+  "training_or_selection": false,
+  "note": "Resume interrupted evaluation. Inherited files came from the original evaluator; validate every row and recompute all scores from their saved output, then use the unchanged generator for missing models."
+}

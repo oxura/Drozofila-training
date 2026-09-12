@@ -1,0 +1,20 @@
+{
+  "completed_utc": "2026-09-12T15:18:47.184146+00:00",
+  "predictions": 11520,
+  "prediction_sha256": {
+    "mlp_seed0": "26070b9ef7005ddf8b2cdc7c9282743c1059159e9b0e9480d275b7c427467759",
+    "mlp_seed1": "e0b477fd7e43a6d326acf09ffdfbacaf8c1a134a1dc5c6837c6e9c10a8f1a36a",
+    "mlp_seed2": "383edfeb0d9b039b23a5c84c3cd983433f60c3a0638c2bc0387aa84432d04cd4",
+    "fly_seed0": "b2fd454c47f432d1dda4105e160f00b8b82d10f628f81de718128fde837ff964",
+    "fly_seed1": "1bf7b7cfab7042f55b2d11be1d4a96264c053a94e65500918abd3699d42ea62a",
+    "fly_seed2": "fc1e8d8b919cf51e72ab627bd2b51375208a283ea991c7acaefa909dd87b5b98",
+    "rewired_seed0": "8f39180c5ee375dab40c8fa9cf96a9a2e2dcf3d9870a961979be5a05e656dd73",
+    "rewired_seed1": "ce1de175e7dab840c8250989f879ffef78b01af8290ef5d4c451a3ffd36ca021",
+    "rewired_seed2": "a71fd0f3721ffce606a9ebcbb46e4d0e0270d9135e6953000df2789255df5de0",
+    "no_edges_seed0": "5e5dafd1fd0a73e550c77e8e1d0f2ed337abf060c1e3c01e09dbae267d33f1bf",
+    "no_edges_seed1": "7c835ac54a849fc1606987f01b52c078d3d74bddb8fc99955a688b4301ee2201",
+    "no_edges_seed2": "5ac213e36e5f0103322275f4f8040cfb442a3c5f74ede9f631c3fac293a2823a"
+  },
+  "metrics_sha256": "ccd99f18e3fccfc84133b464d089366b407e2aebd2e931d8ef9ba38d2d9b9581",
+  "all_rows_revalidated": true
+}

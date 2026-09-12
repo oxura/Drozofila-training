@@ -132,7 +132,7 @@ def recovery_lines(summary):
     r = summary['recovery']; c = r['checkpoints']; comparison = r['metric_comparison']
     lines = ['**Восстановление после потери рабочей папки**', '',
         f"В GitHub сохранились {len(r['manifest']['retained_runs'])} законченных обучений. Остальные {len(r['manifest']['reproduced_runs'])} воспроизведены по прежним исходникам, данным, seed и настройкам. Выбранная модель не менялась; все тесты были уже открыты.",
-        f"Дополнительная стоимость восстановления: {r['additional_optimizer_steps']:,} обновлений и {r['additional_example_presentations']:,} предъявлений примеров. Это повторная работа, не новые независимые запуски.",
+        f"Сохранённый повторный прогресс восстановления: {r['additional_optimizer_steps']:,} обновлений и {r['additional_example_presentations']:,} предъявлений примеров. Фактическая стоимость выше, если работа после последнего checkpoint повторялась при прерывании. Это повторная работа, не новые независимые запуски.",
         f"Контрольная сумма карты всех 48 best/last {'совпала с опубликованной до сбоя: файлы checkpoint восстановлены побайтно' if c['matches_original_checkpoint_map'] else 'не совпала с прежней: десять воспроизведённых checkpoint нельзя выдавать за исходные утраченные байты' }.",
         f"С опубликованной до сбоя сводкой совпало {comparison['group_metric_comparisons'] - len(comparison['differences'])} из {comparison['group_metric_comparisons']} округлённых групповых метрик. Числа ниже рассчитаны из полного нынешнего архива.",
         'Подробности: results/stage7/recovery/restore_manifest.json, checkpoint_reconstruction.json и observed_metric_comparison.json.', '']
