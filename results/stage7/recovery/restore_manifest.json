@@ -1,0 +1,92 @@
+{
+  "created_utc": "2026-09-12T14:46:31.589835+00:00",
+  "reason": "Execution environment disconnected and previous scratch directory was lost. Clone restored published artifacts; reproduce only the missing runs under the unchanged public protocol.",
+  "git_source_commit": "b0135cc8519e275ff27084afc4789e7e67ba9d2b",
+  "retained_runs": [
+    "prompt_seed0",
+    "prompt_seed1",
+    "prompt_seed2",
+    "history_seed0",
+    "history_seed1",
+    "history_seed2",
+    "slots_seed0",
+    "slots_seed1",
+    "slots_seed2",
+    "wider_seed0",
+    "wider_seed1",
+    "wider_seed2",
+    "no_memory_curriculum_seed0",
+    "no_memory_curriculum_seed1"
+  ],
+  "reproduced_runs": [
+    "no_memory_curriculum_seed2",
+    "fly_seed0",
+    "fly_seed1",
+    "fly_seed2",
+    "rewired_seed0",
+    "rewired_seed1",
+    "rewired_seed2",
+    "no_edges_seed0",
+    "no_edges_seed1",
+    "no_edges_seed2"
+  ],
+  "retained_checkpoint_hashes": {
+    "results/stage7/confirmation/prompt_seed0/best.pt": "dfad748320ec5ff5aa120486217046c7c315dfb2ebd1a4a7b0c7846d917910b4",
+    "results/stage7/confirmation/prompt_seed0/last.pt": "bd2fbee25a47dbfe8ca93d79bd1073c1c6474c678cc38bb082b80635d6b9d56a",
+    "results/stage7/confirmation/prompt_seed1/best.pt": "d55654a735844941162af3cbd7850cc2b3d77ee7b1aacf9f019b686c318dc596",
+    "results/stage7/confirmation/prompt_seed1/last.pt": "13d363ddba94996a6655bf2278459b0e5db506f2af26a0e670d4d3225e21c8eb",
+    "results/stage7/confirmation/prompt_seed2/best.pt": "f303b723f9aaae23bfda8caa5830acb2de99ecd203aea6bbe5e121323dbdd657",
+    "results/stage7/confirmation/prompt_seed2/last.pt": "5a054e9c76f539a74b0a9e2bcdf6a2ec6d9812a2b9a428a7340a99c8f7da9dc5",
+    "results/stage7/confirmation/history_seed0/best.pt": "f24df2589335d0714fdf87c6779355393f0c55c1ac51485e48a3468c55d19947",
+    "results/stage7/confirmation/history_seed0/last.pt": "3ee6152631211c8b60fd43a20d4a76fc268fb47dc8be2eccbe8c2662ce5d08bc",
+    "results/stage7/confirmation/history_seed1/best.pt": "fc7004b5319c1d30575b0bfef6133558155539ae2c3981beb6b44a61f0ad349e",
+    "results/stage7/confirmation/history_seed1/last.pt": "00b1bc34c4fd5aeec481493b2cab30ab946f65a3e298c3001e9544ff2ca9e051",
+    "results/stage7/confirmation/history_seed2/best.pt": "db5896fbf281bd00ec237184d0d567166d334f44f23b0f70e5933a067a81af5c",
+    "results/stage7/confirmation/history_seed2/last.pt": "c667fce664c1733bce3ee7e98986fa4e32384e6721c53e9894449288f4b354c6",
+    "results/stage7/confirmation/slots_seed0/best.pt": "5ebed4d803e2a25fba948a6523b0f6467e7f2e0c580adfd033a5957997ec9a9e",
+    "results/stage7/confirmation/slots_seed0/last.pt": "bc0238b6e2ce3656f2ac2bab15f2e9a7cd6100ac8adde42f76baf63019b41134",
+    "results/stage7/confirmation/slots_seed1/best.pt": "2fda7364f45e37aaaca04b189655399c9223c687b076cd1683fef1d47ed107c4",
+    "results/stage7/confirmation/slots_seed1/last.pt": "399eaa00c16b2d7af1def8c7416591af0c8e218ac464eedaeecff595de735b67",
+    "results/stage7/confirmation/slots_seed2/best.pt": "5dc6b42b2aabce1fb009e9fb40d52ebef369ae4fd9669357d9c5cda384c0429b",
+    "results/stage7/confirmation/slots_seed2/last.pt": "b81950bb11d02daf18112beabaacfd58ee5005bf7ec5e3ae8e3a6063738ee335",
+    "results/stage7/confirmation/wider_seed0/best.pt": "e3de0f12f4905e2b399fc5c5c94e4c11902db0cd579d7007b1bab07b9dcd7a6b",
+    "results/stage7/confirmation/wider_seed0/last.pt": "54a3513ebd721e4e27da6b26c10bb8c173a58a69a79cab959a8fb6d118e034e4",
+    "results/stage7/confirmation/wider_seed1/best.pt": "86e479c2369770555172fff73d90352d37138f55e26a797f3ab9bb0523374bb0",
+    "results/stage7/confirmation/wider_seed1/last.pt": "dca15041700b4cf96cc623cf3d205eac028437e8e22d1775cd9e74e760a9b0ce",
+    "results/stage7/confirmation/wider_seed2/best.pt": "8c05835395669aec472445a48122e06a3e6722b4046fbd66ae47be9236e746ba",
+    "results/stage7/confirmation/wider_seed2/last.pt": "2ca4d7ea8be0ae11c5e8c58feb284962c124ee5b577436bedf66762f6816709c",
+    "results/stage7/confirmation/no_memory_curriculum_seed0/best.pt": "1c7edcf3dd2c04c04515674022c069c980312e69ceaa9140bb625cdc930d49cc",
+    "results/stage7/confirmation/no_memory_curriculum_seed0/last.pt": "b572aa1ced781c645ac05ef51b283f84bb578aac503a1a90116d8cb2b7ede073",
+    "results/stage7/confirmation/no_memory_curriculum_seed1/best.pt": "625b9c0048fecfc9f62c55ce62128c58f65dff1e11cda985657cbe729c462fb1",
+    "results/stage7/confirmation/no_memory_curriculum_seed1/last.pt": "a4f19fae1bc39bb2ffe9e46329bce023f5910de08a9662adf9bd3764c08b64b7"
+  },
+  "original_test_open_marker": {
+    "opened_utc": "2026-09-12T10:08:22.460699+00:00",
+    "checkpoint_hashes": "59b902be1378dd30f059d651ac8da737a3435c244a305d1d65c3f9b1f5859a90",
+    "default_selection": "1cc8d4adc1ae59692d0e23a950a52999036ec6ab8da6a1921bfbe47906d82caf"
+  },
+  "original_marker_sha256": "4f5fbca370280d4aab2b5dd599a68363f72a9775dad2e365b9cf2f8d1a30e0c4",
+  "default_model": {
+    "run": "history_seed1",
+    "checkpoint": "results/stage7/confirmation/history_seed1/best.pt",
+    "validation_score": [
+      0.8916666666666667,
+      0.8041666666666667,
+      -0.020285721169859796
+    ],
+    "selection": "Validation only before test",
+    "final_test_used": false
+  },
+  "frozen_plan_sha256": "ae93318329d8a6a2051dcde037b4e165148c66dc4e0161b2f798f310c9b8acc8",
+  "runtime": {
+    "python": "3.12.14",
+    "torch": "2.14.0+cpu",
+    "numpy": "2.3.5"
+  },
+  "training_parameters_changed": false,
+  "model_selection_repeated": false,
+  "final_test_already_open": true,
+  "independent_new_confirmation": false,
+  "repeated_optimizer_progress_steps": 80000,
+  "note": "This is artifact reproduction, not extra evidence from new independent seeds. Timing-dependent logs will differ. The original 48-checkpoint map hash was published before scratch loss; equality after regeneration can be checked."
+}

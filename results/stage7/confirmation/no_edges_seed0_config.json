@@ -1,0 +1,14 @@
+{
+  "variant": "no_edges",
+  "mode": "history",
+  "condition": "no_edges",
+  "curriculum": true,
+  "wider": false,
+  "answer_weight": 0.0,
+  "seed": 0,
+  "steps": 8000,
+  "eval_every": 2000,
+  "batch_size": 16,
+  "lr": 0.0005,
+  "threads": 1
+}
