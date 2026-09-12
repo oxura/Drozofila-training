@@ -1,0 +1,6 @@
+{
+  "count": 20516,
+  "independent_labels_and_basic_traces": true,
+  "disjoint_from_all_validation_and_final_prompts": true,
+  "no_heldout_aliases": true
+}

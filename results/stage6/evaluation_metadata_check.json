@@ -1,0 +1,6 @@
+{
+  "validation_examples": 90,
+  "raw_output_roundtrip": true,
+  "final_tests_read": false,
+  "amendment_recorded_in_plan": true
+}

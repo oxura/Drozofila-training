@@ -1,0 +1,1 @@
+{"checkpoint": "results/stage6/confirmation/resolved_copy_atomic_mlp_seed1/best.pt", "checkpoint_unchanged": true, "teacher_imports_blocked_during_inference": true, "scope": "Operational checks, not an accuracy benchmark; examples fixed by validation order."}

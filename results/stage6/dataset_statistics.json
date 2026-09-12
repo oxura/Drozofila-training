@@ -1,0 +1,23 @@
+{
+  "held_register_letters_absent_from_positive_training_symbols": true,
+  "held_letters": "ijkl",
+  "training_characters": " %()*+,-0123456789:;=?abcdnortx|агдиклмосу",
+  "families": {
+    "sum": {
+      "rows": 20078,
+      "mean_input_length": 14.333349935252516,
+      "mean_resolved_target_length": 32.654796294451636
+    },
+    "logic": {
+      "rows": 4438,
+      "mean_input_length": 34.25146462370437,
+      "mean_resolved_target_length": 43.81928796755295
+    },
+    "code": {
+      "rows": 24000,
+      "mean_input_length": 41.33891666666667,
+      "mean_resolved_target_length": 15.064666666666668
+    }
+  },
+  "notes": "Row counts include intentional duplicate training oversampling; no final neural predictions inspected."
+}

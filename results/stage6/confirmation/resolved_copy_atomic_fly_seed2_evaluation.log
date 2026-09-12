@@ -1,0 +1,1 @@
+{"run": "resolved_copy_atomic_fly_seed2", "answer_accuracy": {"test": 0.41111111111111115, "long": 0.05416666666666667, "very_long": 0.04583333333333333, "composition": 0.6541666666666667, "deep_logic": 0.5458333333333333, "alias": 0.24166666666666667, "renamed": 0.15, "large_values": 0.0}}

@@ -1,0 +1,1 @@
+{"run": "resolved_copy_atomic_rewired_seed1", "answer_accuracy": {"test": 0.5777777777777778, "long": 0.07916666666666666, "very_long": 0.05416666666666667, "composition": 0.6791666666666667, "deep_logic": 0.5875, "alias": 0.3125, "renamed": 0.09166666666666666, "large_values": 0.0}}

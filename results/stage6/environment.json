@@ -1,0 +1,15 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux x86_64",
+  "cpu_count": 9,
+  "cpu_quota": "800000 100000",
+  "memory_limit": "21474836480",
+  "cuda_available": false,
+  "training_threads_per_process": 2,
+  "parallel_confirmation_jobs": 4,
+  "versions": {
+    "torch": "2.14.0+cpu",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8"
+  }
+}

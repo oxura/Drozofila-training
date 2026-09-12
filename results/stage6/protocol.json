@@ -1,0 +1,82 @@
+{
+  "created_utc": "2026-09-12T07:32:54.486271+00:00",
+  "stage": 6,
+  "question": "Can a shared text-only neural model learn computation across sums, Boolean trees and variable programs, with less externally supplied algorithmic control than stage 5?",
+  "hypotheses": [
+    "Intermediate supervised scratchpads improve multi-step execution over answer-only training.",
+    "A learned prompt-copy mixture helps variable binding and unseen variable spellings.",
+    "Original connectome FF is compared to degree-preserving rewiring, zero edges and a near-matched ordinary FF."
+  ],
+  "architecture": "3-layer causal transformer, d=96, 4 heads, rotary positions, optional learned copy distribution over prompt tokens. Source graph 256 neurons/7514 edges used as FF topology in three independent layers; biological source count remains 256, not 768 different original neurons.",
+  "data_hashes": {
+    "train": "4e2ed105309684b318fc9834a4c2ed0a473cd11864da89d5b7e6abbe57d0e6fc",
+    "val": "fe365cc075f6e5ed94168b27698e4017fbf52bd4fefe2764997cf3ec27c4379f",
+    "test": "df4cd3a6cd5be7bcf1df3e840063aaf19a6ace9464310643f3974d43a02edd73",
+    "long": "61523da5d3773eb8026042e3fd26043a092c97ce03f8620f9d898a700a222f8d",
+    "very_long": "1ce774a4dd19e4b815738da25cee8fd194e5041228728038f34f8fdeea6eebe0",
+    "composition": "50d76ff4ca27223117ca186987dcd79256c3d7d6b907971964312042208e20dd",
+    "deep_logic": "e5c2f63ab0ba729446d218cba9d56fc860ffcb5c9216f7849cd28d96799c1c11",
+    "alias": "a6658593ba03f94b4c23e7dda215c924b33908564380b76e8d77390b4a6c0c4f",
+    "renamed": "d45272e737852557e679645ce33e964442428aad13ccec03b272763405b1b20f",
+    "large_values": "f1b4121ff81edcd59d289606e89fd8822cf5b4cb058474f09e3aef6ebd83dd47"
+  },
+  "development": {
+    "configurations": [
+      "direct_mlp",
+      "trace_mlp",
+      "trace_copy_mlp",
+      "trace_copy_fly"
+    ],
+    "steps": 1200,
+    "eval_every": 400,
+    "lr": 0.0015,
+    "batch_size": 16,
+    "selection": "Only train/validation; additional pilot budgets may be chosen from their results."
+  },
+  "confirmation_proposed": {
+    "variants": [
+      "direct_mlp",
+      "trace_mlp",
+      "trace_copy_mlp",
+      "trace_copy_fly",
+      "trace_copy_rewired",
+      "trace_copy_no_edges"
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "budget": "Freeze after measuring train/validation learning curves and CPU cost."
+  },
+  "sampling": "Family balanced, then length-bucketed; half batches follow increasing difficulty in first 30% of budget, half use full training range.",
+  "inference": "Free greedy autoregressive character generation. No Python evaluator, true intermediate states, parsed AST, task solver, per-instruction prompt refresh, or oracle fallback.",
+  "evaluation": [
+    "ordinary held-out strings",
+    "long and very long sequences/programs",
+    "held-out Boolean parent-child operation pairs",
+    "deep Boolean trees",
+    "same-variable operands excluded from training",
+    "paired alpha-renaming to unseen register characters",
+    "larger numeric values"
+  ],
+  "primary_metrics": [
+    "macro final answer exactness over families",
+    "complete generated trace+answer exactness",
+    "per-family exactness",
+    "runtime, processed input tokens and supervised target tokens"
+  ],
+  "constraints": [
+    "This is a new jointly trained model initialized from scratch, not a merger of previously learned weights.",
+    "Russian prefixes are a tiny formal interface, not general Russian comprehension.",
+    "Scratchpads supply more supervised labels; equal steps/examples are not equal target-token budgets.",
+    "New test strings/structures are not wholly unknown primitive semantics. All operators are taught.",
+    "No claim of AGI, sentience, whole-brain emulation, or biological superiority."
+  ],
+  "references": [
+    "https://arxiv.org/abs/2112.00114",
+    "https://arxiv.org/abs/1704.04368",
+    "https://arxiv.org/abs/1410.4615"
+  ],
+  "final_test_open": false
+}

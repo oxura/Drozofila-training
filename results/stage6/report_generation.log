@@ -1,0 +1,20 @@
+{
+  "groups": 8,
+  "default": "resolved_copy_atomic_mlp_seed1",
+  "budgets": {
+    "unique_training_runs": 30,
+    "confirmation_candidates": 24,
+    "reused_completed_pilots": 4,
+    "unique_optimizer_steps": 212800,
+    "unique_training_examples": 3404800,
+    "unique_training_target_tokens": 89862001,
+    "summed_run_seconds": 9518.729342189967,
+    "note": "Summed process runtimes overlap and are not elapsed wall time or exact CPU time."
+  },
+  "verification": {
+    "checkpoints_unchanged": true,
+    "source_and_data_hashes_match": true,
+    "selected_on_validation_only": true,
+    "predictions_recounted": 57600
+  }
+}

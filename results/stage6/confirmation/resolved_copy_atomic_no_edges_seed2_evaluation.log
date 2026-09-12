@@ -1,0 +1,1 @@
+{"run": "resolved_copy_atomic_no_edges_seed2", "answer_accuracy": {"test": 0.40138888888888885, "long": 0.058333333333333334, "very_long": 0.06666666666666667, "composition": 0.75, "deep_logic": 0.5708333333333333, "alias": 0.25416666666666665, "renamed": 0.09166666666666666, "large_values": 0.0}}

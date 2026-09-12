@@ -1,0 +1,74 @@
+{
+  "checkpoint": "results/stage6/confirmation/resolved_copy_atomic_mlp_seed1/best.pt",
+  "checkpoint_unchanged": true,
+  "teacher_imports_blocked_during_inference": true,
+  "cases": [
+    {
+      "validation_id": "val-sum-10",
+      "family": "sum",
+      "prompt": "сумма 0,67,93,92,15",
+      "generated": {
+        "text": "0+0=0;0+67=67;67+93=160;160+92=252;252+15=267|267",
+        "halted": true,
+        "generated_tokens": 50,
+        "answer": "267",
+        "mode": "resolved",
+        "condition": "mlp",
+        "copy": true,
+        "checkpoint": "/workspace/scratch/f69c8da825ec/flybrain_lab/results/stage6/confirmation/resolved_copy_atomic_mlp_seed1/best.pt",
+        "scope": "Формальные задачи; вывод модели без подстановки ответа из вычислителя."
+      }
+    },
+    {
+      "validation_id": "val-logic-61",
+      "family": "logic",
+      "prompt": "логика or(1,or(0,1))",
+      "generated": {
+        "text": "or(0,1)=1;or(1,1)=1|1",
+        "halted": true,
+        "generated_tokens": 22,
+        "answer": "1",
+        "mode": "resolved",
+        "condition": "mlp",
+        "copy": true,
+        "checkpoint": "/workspace/scratch/f69c8da825ec/flybrain_lab/results/stage6/confirmation/resolved_copy_atomic_mlp_seed1/best.pt",
+        "scope": "Формальные задачи; вывод модели без подстановки ответа из вычислителя."
+      }
+    },
+    {
+      "validation_id": "val-code-33",
+      "family": "code",
+      "prompt": "код b=1;c=9;d=6;a=0;d=(d*c)%10;?d",
+      "generated": {
+        "text": "d:6*9=4|4",
+        "halted": true,
+        "generated_tokens": 10,
+        "answer": "4",
+        "mode": "resolved",
+        "condition": "mlp",
+        "copy": true,
+        "checkpoint": "/workspace/scratch/f69c8da825ec/flybrain_lab/results/stage6/confirmation/resolved_copy_atomic_mlp_seed1/best.pt",
+        "scope": "Формальные задачи; вывод модели без подстановки ответа из вычислителя."
+      }
+    }
+  ],
+  "invalid_inputs": [
+    {
+      "arguments": [
+        "сумма 🙂"
+      ],
+      "exit_code": 2,
+      "error": "fly_reason.py: error: Unsupported character: '🙂'"
+    },
+    {
+      "arguments": [
+        "сумма 1,2",
+        "--max-new-tokens",
+        "0"
+      ],
+      "exit_code": 2,
+      "error": "fly_reason.py: error: Лимит генерации должен быть 1–2048."
+    }
+  ],
+  "scope": "Operational checks, not an accuracy benchmark; examples fixed by validation order."
+}

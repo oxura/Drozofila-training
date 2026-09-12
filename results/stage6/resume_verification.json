@@ -1,0 +1,10 @@
+{
+  "original_unchanged": true,
+  "source": "results/stage6/development/direct_mlp_seed0",
+  "copy": "results/stage6/resume_check",
+  "from_step": 1200,
+  "to_step": 1201,
+  "optimizer_and_rng_restored": true,
+  "training_examples": 19216,
+  "note": "One-step operational persistence check; cosine rescaled and not equivalent to uninterrupted training. Excluded from confirmation and development tuning."
+}

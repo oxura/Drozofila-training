@@ -1,0 +1,1 @@
+{"run": "resolved_atomic_mlp_seed2", "answer_accuracy": {"test": 0.6194444444444445, "long": 0.075, "very_long": 0.07916666666666666, "composition": 0.7083333333333334, "deep_logic": 0.4625, "alias": 0.2708333333333333, "renamed": 0.20416666666666666, "large_values": 0.0}}

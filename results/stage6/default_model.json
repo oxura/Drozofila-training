@@ -1,0 +1,11 @@
+{
+  "run": "resolved_copy_atomic_mlp_seed1",
+  "checkpoint": "results/stage6/confirmation/resolved_copy_atomic_mlp_seed1/best.pt",
+  "validation_score": [
+    0.775,
+    0.7277777777777779,
+    -0.03642588525291054
+  ],
+  "selection": "Validation only; chosen before final evaluation.",
+  "final_test_used": false
+}

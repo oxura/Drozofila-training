@@ -1,0 +1,397 @@
+{
+  "initial_runs": [
+    {
+      "run": "direct_mlp_seed0",
+      "validation_by_step": [
+        {
+          "step": 400,
+          "validation": {
+            "macro_answer_accuracy": 0.23055555555555554,
+            "macro_completion_exact": 0.23055555555555554,
+            "answer_accuracy": 0.23055555555555557,
+            "completion_exact": 0.23055555555555557,
+            "count": 360,
+            "by_family": {
+              "logic": {
+                "answer_accuracy": 0.575,
+                "completion_exact": 0.575,
+                "count": 120,
+                "halted_fraction": 1.0
+              },
+              "code": {
+                "answer_accuracy": 0.11666666666666667,
+                "completion_exact": 0.11666666666666667,
+                "count": 120,
+                "halted_fraction": 1.0
+              },
+              "sum": {
+                "answer_accuracy": 0.0,
+                "completion_exact": 0.0,
+                "count": 120,
+                "halted_fraction": 1.0
+              }
+            },
+            "token_nll": 1.1365297930364517
+          }
+        },
+        {
+          "step": 800,
+          "validation": {
+            "macro_answer_accuracy": 0.28055555555555556,
+            "macro_completion_exact": 0.28055555555555556,
+            "answer_accuracy": 0.28055555555555556,
+            "completion_exact": 0.28055555555555556,
+            "count": 360,
+            "by_family": {
+              "logic": {
+                "answer_accuracy": 0.6833333333333333,
+                "completion_exact": 0.6833333333333333,
+                "count": 120,
+                "halted_fraction": 1.0
+              },
+              "code": {
+                "answer_accuracy": 0.15833333333333333,
+                "completion_exact": 0.15833333333333333,
+                "count": 120,
+                "halted_fraction": 1.0
+              },
+              "sum": {
+                "answer_accuracy": 0.0,
+                "completion_exact": 0.0,
+                "count": 120,
+                "halted_fraction": 1.0
+              }
+            },
+            "token_nll": 1.0710538882339493
+          }
+        },
+        {
+          "step": 1200,
+          "validation": {
+            "macro_answer_accuracy": 0.3,
+            "macro_completion_exact": 0.3,
+            "answer_accuracy": 0.3,
+            "completion_exact": 0.3,
+            "count": 360,
+            "by_family": {
+              "logic": {
+                "answer_accuracy": 0.7583333333333333,
+                "completion_exact": 0.7583333333333333,
+                "count": 120,
+                "halted_fraction": 1.0
+              },
+              "code": {
+                "answer_accuracy": 0.14166666666666666,
+                "completion_exact": 0.14166666666666666,
+                "count": 120,
+                "halted_fraction": 1.0
+              },
+              "sum": {
+                "answer_accuracy": 0.0,
+                "completion_exact": 0.0,
+                "count": 120,
+                "halted_fraction": 1.0
+              }
+            },
+            "token_nll": 1.0199919626796232
+          }
+        }
+      ]
+    },
+    {
+      "run": "trace_copy_fly_seed0",
+      "validation_by_step": [
+        {
+          "step": 400,
+          "validation": {
+            "macro_answer_accuracy": 0.24444444444444444,
+            "macro_completion_exact": 0.06388888888888888,
+            "answer_accuracy": 0.24444444444444444,
+            "completion_exact": 0.06388888888888888,
+            "count": 360,
+            "by_family": {
+              "logic": {
+                "answer_accuracy": 0.6333333333333333,
+                "completion_exact": 0.14166666666666666,
+                "count": 120,
+                "halted_fraction": 1.0
+              },
+              "code": {
+                "answer_accuracy": 0.1,
+                "completion_exact": 0.05,
+                "count": 120,
+                "halted_fraction": 1.0
+              },
+              "sum": {
+                "answer_accuracy": 0.0,
+                "completion_exact": 0.0,
+                "count": 120,
+                "halted_fraction": 0.975
+              }
+            },
+            "token_nll": 0.7328028478827909
+          }
+        },
+        {
+          "step": 800,
+          "validation": {
+            "macro_answer_accuracy": 0.29444444444444445,
+            "macro_completion_exact": 0.14722222222222223,
+            "answer_accuracy": 0.29444444444444445,
+            "completion_exact": 0.14722222222222223,
+            "count": 360,
+            "by_family": {
+              "logic": {
+                "answer_accuracy": 0.7083333333333334,
+                "completion_exact": 0.35833333333333334,
+                "count": 120,
+                "halted_fraction": 1.0
+              },
+              "code": {
+                "answer_accuracy": 0.175,
+                "completion_exact": 0.08333333333333333,
+                "count": 120,
+                "halted_fraction": 1.0
+              },
+              "sum": {
+                "answer_accuracy": 0.0,
+                "completion_exact": 0.0,
+                "count": 120,
+                "halted_fraction": 1.0
+              }
+            },
+            "token_nll": 0.4980728282894479
+          }
+        },
+        {
+          "step": 1200,
+          "validation": {
+            "macro_answer_accuracy": 0.28611111111111115,
+            "macro_completion_exact": 0.15555555555555559,
+            "answer_accuracy": 0.2861111111111111,
+            "completion_exact": 0.15555555555555556,
+            "count": 360,
+            "by_family": {
+              "logic": {
+                "answer_accuracy": 0.7083333333333334,
+                "completion_exact": 0.4,
+                "count": 120,
+                "halted_fraction": 1.0
+              },
+              "code": {
+                "answer_accuracy": 0.14166666666666666,
+                "completion_exact": 0.058333333333333334,
+                "count": 120,
+                "halted_fraction": 1.0
+              },
+              "sum": {
+                "answer_accuracy": 0.008333333333333333,
+                "completion_exact": 0.008333333333333333,
+                "count": 120,
+                "halted_fraction": 1.0
+              }
+            },
+            "token_nll": 0.465820638167497
+          }
+        }
+      ]
+    },
+    {
+      "run": "trace_copy_mlp_seed0",
+      "validation_by_step": [
+        {
+          "step": 400,
+          "validation": {
+            "macro_answer_accuracy": 0.25833333333333336,
+            "macro_completion_exact": 0.08888888888888889,
+            "answer_accuracy": 0.25833333333333336,
+            "completion_exact": 0.08888888888888889,
+            "count": 360,
+            "by_family": {
+              "logic": {
+                "answer_accuracy": 0.6333333333333333,
+                "completion_exact": 0.2,
+                "count": 120,
+                "halted_fraction": 1.0
+              },
+              "code": {
+                "answer_accuracy": 0.11666666666666667,
+                "completion_exact": 0.06666666666666667,
+                "count": 120,
+                "halted_fraction": 1.0
+              },
+              "sum": {
+                "answer_accuracy": 0.025,
+                "completion_exact": 0.0,
+                "count": 120,
+                "halted_fraction": 1.0
+              }
+            },
+            "token_nll": 0.6748533170110844
+          }
+        },
+        {
+          "step": 800,
+          "validation": {
+            "macro_answer_accuracy": 0.26944444444444443,
+            "macro_completion_exact": 0.10833333333333334,
+            "answer_accuracy": 0.26944444444444443,
+            "completion_exact": 0.10833333333333334,
+            "count": 360,
+            "by_family": {
+              "logic": {
+                "answer_accuracy": 0.6583333333333333,
+                "completion_exact": 0.24166666666666667,
+                "count": 120,
+                "halted_fraction": 1.0
+              },
+              "code": {
+                "answer_accuracy": 0.14166666666666666,
+                "completion_exact": 0.08333333333333333,
+                "count": 120,
+                "halted_fraction": 1.0
+              },
+              "sum": {
+                "answer_accuracy": 0.008333333333333333,
+                "completion_exact": 0.0,
+                "count": 120,
+                "halted_fraction": 1.0
+              }
+            },
+            "token_nll": 0.5010820991618695
+          }
+        },
+        {
+          "step": 1200,
+          "validation": {
+            "macro_answer_accuracy": 0.28888888888888886,
+            "macro_completion_exact": 0.17777777777777778,
+            "answer_accuracy": 0.28888888888888886,
+            "completion_exact": 0.17777777777777778,
+            "count": 360,
+            "by_family": {
+              "logic": {
+                "answer_accuracy": 0.7333333333333333,
+                "completion_exact": 0.4583333333333333,
+                "count": 120,
+                "halted_fraction": 1.0
+              },
+              "code": {
+                "answer_accuracy": 0.13333333333333333,
+                "completion_exact": 0.075,
+                "count": 120,
+                "halted_fraction": 1.0
+              },
+              "sum": {
+                "answer_accuracy": 0.0,
+                "completion_exact": 0.0,
+                "count": 120,
+                "halted_fraction": 1.0
+              }
+            },
+            "token_nll": 0.4605269896313995
+          }
+        }
+      ]
+    },
+    {
+      "run": "trace_mlp_seed0",
+      "validation_by_step": [
+        {
+          "step": 400,
+          "validation": {
+            "macro_answer_accuracy": 0.23611111111111113,
+            "macro_completion_exact": 0.049999999999999996,
+            "answer_accuracy": 0.2361111111111111,
+            "completion_exact": 0.05,
+            "count": 360,
+            "by_family": {
+              "logic": {
+                "answer_accuracy": 0.5916666666666667,
+                "completion_exact": 0.10833333333333334,
+                "count": 120,
+                "halted_fraction": 0.975
+              },
+              "code": {
+                "answer_accuracy": 0.11666666666666667,
+                "completion_exact": 0.041666666666666664,
+                "count": 120,
+                "halted_fraction": 1.0
+              },
+              "sum": {
+                "answer_accuracy": 0.0,
+                "completion_exact": 0.0,
+                "count": 120,
+                "halted_fraction": 0.975
+              }
+            },
+            "token_nll": 0.8046823362853797
+          }
+        },
+        {
+          "step": 800,
+          "validation": {
+            "macro_answer_accuracy": 0.26666666666666666,
+            "macro_completion_exact": 0.12777777777777777,
+            "answer_accuracy": 0.26666666666666666,
+            "completion_exact": 0.12777777777777777,
+            "count": 360,
+            "by_family": {
+              "logic": {
+                "answer_accuracy": 0.65,
+                "completion_exact": 0.31666666666666665,
+                "count": 120,
+                "halted_fraction": 1.0
+              },
+              "code": {
+                "answer_accuracy": 0.14166666666666666,
+                "completion_exact": 0.06666666666666667,
+                "count": 120,
+                "halted_fraction": 1.0
+              },
+              "sum": {
+                "answer_accuracy": 0.008333333333333333,
+                "completion_exact": 0.0,
+                "count": 120,
+                "halted_fraction": 1.0
+              }
+            },
+            "token_nll": 0.5377675076077905
+          }
+        },
+        {
+          "step": 1200,
+          "validation": {
+            "macro_answer_accuracy": 0.2777777777777778,
+            "macro_completion_exact": 0.16944444444444443,
+            "answer_accuracy": 0.2777777777777778,
+            "completion_exact": 0.16944444444444445,
+            "count": 360,
+            "by_family": {
+              "logic": {
+                "answer_accuracy": 0.7083333333333334,
+                "completion_exact": 0.425,
+                "count": 120,
+                "halted_fraction": 1.0
+              },
+              "code": {
+                "answer_accuracy": 0.125,
+                "completion_exact": 0.08333333333333333,
+                "count": 120,
+                "halted_fraction": 1.0
+              },
+              "sum": {
+                "answer_accuracy": 0.0,
+                "completion_exact": 0.0,
+                "count": 120,
+                "halted_fraction": 1.0
+              }
+            },
+            "token_nll": 0.47788004811069246
+          }
+        }
+      ]
+    }
+  ],
+  "decision": "All initial pilots are weak on numerical execution. Before final tests, compare longer training and explicit resolved-operand traces. Initial source version preserved in notes/stage6_initial_pilots; dataset bytes unchanged."
+}

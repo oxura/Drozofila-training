@@ -1,0 +1,1 @@
+{"run": "resolved_copy_mlp_seed2", "answer_accuracy": {"test": 0.6833333333333332, "long": 0.09166666666666666, "very_long": 0.0875, "composition": 0.7291666666666666, "deep_logic": 0.5625, "alias": 0.25416666666666665, "renamed": 0.09166666666666666, "large_values": 0.0}}

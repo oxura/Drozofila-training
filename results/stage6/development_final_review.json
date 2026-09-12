@@ -1,0 +1,276 @@
+{
+  "final_tests_read": false,
+  "pilots": [
+    {
+      "path": "results/stage6/development/direct_mlp_seed0",
+      "step": 1200,
+      "macro": 0.3,
+      "families": {
+        "logic": {
+          "answer_accuracy": 0.7583333333333333,
+          "completion_exact": 0.7583333333333333,
+          "count": 120,
+          "halted_fraction": 1.0
+        },
+        "code": {
+          "answer_accuracy": 0.14166666666666666,
+          "completion_exact": 0.14166666666666666,
+          "count": 120,
+          "halted_fraction": 1.0
+        },
+        "sum": {
+          "answer_accuracy": 0.0,
+          "completion_exact": 0.0,
+          "count": 120,
+          "halted_fraction": 1.0
+        }
+      },
+      "target_tokens": 49807,
+      "parameters": 306183
+    },
+    {
+      "path": "results/stage6/development/trace_copy_fly_seed0",
+      "step": 800,
+      "macro": 0.29444444444444445,
+      "families": {
+        "logic": {
+          "answer_accuracy": 0.7083333333333334,
+          "completion_exact": 0.35833333333333334,
+          "count": 120,
+          "halted_fraction": 1.0
+        },
+        "code": {
+          "answer_accuracy": 0.175,
+          "completion_exact": 0.08333333333333333,
+          "count": 120,
+          "halted_fraction": 1.0
+        },
+        "sum": {
+          "answer_accuracy": 0.0,
+          "completion_exact": 0.0,
+          "count": 120,
+          "halted_fraction": 1.0
+        }
+      },
+      "target_tokens": 359979,
+      "parameters": 302542
+    },
+    {
+      "path": "results/stage6/development/trace_copy_mlp_seed0",
+      "step": 1200,
+      "macro": 0.28888888888888886,
+      "families": {
+        "logic": {
+          "answer_accuracy": 0.7333333333333333,
+          "completion_exact": 0.4583333333333333,
+          "count": 120,
+          "halted_fraction": 1.0
+        },
+        "code": {
+          "answer_accuracy": 0.13333333333333333,
+          "completion_exact": 0.075,
+          "count": 120,
+          "halted_fraction": 1.0
+        },
+        "sum": {
+          "answer_accuracy": 0.0,
+          "completion_exact": 0.0,
+          "count": 120,
+          "halted_fraction": 1.0
+        }
+      },
+      "target_tokens": 359979,
+      "parameters": 312424
+    },
+    {
+      "path": "results/stage6/development/trace_mlp_seed0",
+      "step": 1200,
+      "macro": 0.2777777777777778,
+      "families": {
+        "logic": {
+          "answer_accuracy": 0.7083333333333334,
+          "completion_exact": 0.425,
+          "count": 120,
+          "halted_fraction": 1.0
+        },
+        "code": {
+          "answer_accuracy": 0.125,
+          "completion_exact": 0.08333333333333333,
+          "count": 120,
+          "halted_fraction": 1.0
+        },
+        "sum": {
+          "answer_accuracy": 0.0,
+          "completion_exact": 0.0,
+          "count": 120,
+          "halted_fraction": 1.0
+        }
+      },
+      "target_tokens": 359979,
+      "parameters": 306183
+    },
+    {
+      "path": "results/stage6/development_atomic/resolved_copy_atomic_fly_seed0",
+      "step": 8000,
+      "macro": 0.5027777777777779,
+      "families": {
+        "logic": {
+          "answer_accuracy": 0.975,
+          "completion_exact": 0.8416666666666667,
+          "count": 120,
+          "halted_fraction": 1.0
+        },
+        "code": {
+          "answer_accuracy": 0.5,
+          "completion_exact": 0.39166666666666666,
+          "count": 120,
+          "halted_fraction": 1.0
+        },
+        "sum": {
+          "answer_accuracy": 0.03333333333333333,
+          "completion_exact": 0.016666666666666666,
+          "count": 120,
+          "halted_fraction": 1.0
+        }
+      },
+      "target_tokens": 3730559,
+      "parameters": 302542
+    },
+    {
+      "path": "results/stage6/development_atomic/resolved_copy_atomic_mlp_seed0",
+      "step": 8000,
+      "macro": 0.513888888888889,
+      "families": {
+        "logic": {
+          "answer_accuracy": 0.9666666666666667,
+          "completion_exact": 0.875,
+          "count": 120,
+          "halted_fraction": 1.0
+        },
+        "code": {
+          "answer_accuracy": 0.25833333333333336,
+          "completion_exact": 0.08333333333333333,
+          "count": 120,
+          "halted_fraction": 1.0
+        },
+        "sum": {
+          "answer_accuracy": 0.31666666666666665,
+          "completion_exact": 0.26666666666666666,
+          "count": 120,
+          "halted_fraction": 1.0
+        }
+      },
+      "target_tokens": 3730559,
+      "parameters": 312424
+    },
+    {
+      "path": "results/stage6/development_extended/resolved_copy_fly_seed0",
+      "step": 8000,
+      "macro": 0.40277777777777773,
+      "families": {
+        "logic": {
+          "answer_accuracy": 0.9666666666666667,
+          "completion_exact": 0.8916666666666667,
+          "count": 120,
+          "halted_fraction": 1.0
+        },
+        "code": {
+          "answer_accuracy": 0.21666666666666667,
+          "completion_exact": 0.075,
+          "count": 120,
+          "halted_fraction": 1.0
+        },
+        "sum": {
+          "answer_accuracy": 0.025,
+          "completion_exact": 0.016666666666666666,
+          "count": 120,
+          "halted_fraction": 1.0
+        }
+      },
+      "target_tokens": 4584405,
+      "parameters": 302542
+    },
+    {
+      "path": "results/stage6/development_extended/resolved_copy_mlp_seed0",
+      "step": 8000,
+      "macro": 0.6138888888888889,
+      "families": {
+        "logic": {
+          "answer_accuracy": 0.9583333333333334,
+          "completion_exact": 0.9333333333333333,
+          "count": 120,
+          "halted_fraction": 1.0
+        },
+        "code": {
+          "answer_accuracy": 0.275,
+          "completion_exact": 0.10833333333333334,
+          "count": 120,
+          "halted_fraction": 1.0
+        },
+        "sum": {
+          "answer_accuracy": 0.6083333333333333,
+          "completion_exact": 0.5833333333333334,
+          "count": 120,
+          "halted_fraction": 1.0
+        }
+      },
+      "target_tokens": 4584405,
+      "parameters": 312424
+    },
+    {
+      "path": "results/stage6/development_extended/trace_copy_fly_seed0",
+      "step": 8000,
+      "macro": 0.36944444444444446,
+      "families": {
+        "logic": {
+          "answer_accuracy": 0.8666666666666667,
+          "completion_exact": 0.8083333333333333,
+          "count": 120,
+          "halted_fraction": 1.0
+        },
+        "code": {
+          "answer_accuracy": 0.18333333333333332,
+          "completion_exact": 0.075,
+          "count": 120,
+          "halted_fraction": 1.0
+        },
+        "sum": {
+          "answer_accuracy": 0.058333333333333334,
+          "completion_exact": 0.03333333333333333,
+          "count": 120,
+          "halted_fraction": 1.0
+        }
+      },
+      "target_tokens": 2355452,
+      "parameters": 302542
+    },
+    {
+      "path": "results/stage6/development_extended/trace_copy_mlp_seed0",
+      "step": 8000,
+      "macro": 0.4000000000000001,
+      "families": {
+        "logic": {
+          "answer_accuracy": 0.925,
+          "completion_exact": 0.8666666666666667,
+          "count": 120,
+          "halted_fraction": 1.0
+        },
+        "code": {
+          "answer_accuracy": 0.225,
+          "completion_exact": 0.06666666666666667,
+          "count": 120,
+          "halted_fraction": 1.0
+        },
+        "sum": {
+          "answer_accuracy": 0.05,
+          "completion_exact": 0.03333333333333333,
+          "count": 120,
+          "halted_fraction": 1.0
+        }
+      },
+      "target_tokens": 2355452,
+      "parameters": 312424
+    }
+  ],
+  "decision": "24 candidates, 8 variants x 3 seeds, 8000 steps. Keep atomic and no-atomic MLP/fly because validation effects differ; reuse 4 exactly matching completed pilot trainings."
+}

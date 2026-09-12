@@ -1,0 +1,17 @@
+{
+  "seed": 2026091766,
+  "sha256": "8065cfe56ec33875021d74b8e37f1a07050537e734805a649d0bc764d1aff4af",
+  "count": 20516,
+  "families": {
+    "sum": 8078,
+    "code": 12000,
+    "logic": 438
+  },
+  "overlap_with_original_training": 2608,
+  "overlap_with_validation_or_final": 0,
+  "selection": "Constructed from diagnosis of train/validation errors; no final predictions read.",
+  "same_primitive_operators": true,
+  "source_registers": "abcd",
+  "maximum_arithmetic_operand": 99,
+  "notes": "Training-label augmentation only. Inference remains unchanged and has no atomic task executor."
+}

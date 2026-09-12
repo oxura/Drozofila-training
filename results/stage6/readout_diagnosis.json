@@ -1,0 +1,38 @@
+{
+  "run": "resolved_copy_atomic_mlp_seed1",
+  "correct_canonical_program_steps_but_wrong_answer": 56,
+  "of_these_answer_equals_last_written_value": 52,
+  "query_is_last_destination": {
+    "False": {
+      "macro_answer_accuracy": 0.13761467889908258,
+      "macro_completion_exact": 0.09174311926605505,
+      "answer_accuracy": 0.13761467889908258,
+      "completion_exact": 0.09174311926605505,
+      "count": 109,
+      "by_family": {
+        "code": {
+          "answer_accuracy": 0.13761467889908258,
+          "completion_exact": 0.09174311926605505,
+          "count": 109,
+          "halted_fraction": 1.0
+        }
+      }
+    },
+    "True": {
+      "macro_answer_accuracy": 0.8091603053435115,
+      "macro_completion_exact": 0.7633587786259542,
+      "answer_accuracy": 0.8091603053435115,
+      "completion_exact": 0.7633587786259542,
+      "count": 131,
+      "by_family": {
+        "code": {
+          "answer_accuracy": 0.8091603053435115,
+          "completion_exact": 0.7633587786259542,
+          "count": 131,
+          "halted_fraction": 1.0
+        }
+      }
+    }
+  },
+  "note": "Post-test descriptive diagnosis only; no checkpoint, data, sampling, or inference correction was made. It does not establish an internal causal mechanism."
+}

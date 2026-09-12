@@ -1,0 +1,98 @@
+{
+  "direct_atomic_mlp_seed0": {
+    "best.pt": "1bc1ef476d700f70b23b8a607a48e1026f8ed7f45eef417ffdd27ddeaf8c32c7",
+    "last.pt": "3cb34e4b7b8d51696eaf9553efb1ca8dc849900285ab9062ab22fbb89fb61f48"
+  },
+  "direct_atomic_mlp_seed1": {
+    "best.pt": "2125f22975497d10185fc3ca5a0197e4323cf36dd8bc68dd08c3931274a2752e",
+    "last.pt": "cfed07dea85c44ea738b566d2e77bcaa10bee05f3bee546a5d5ffc2276d5ab4e"
+  },
+  "direct_atomic_mlp_seed2": {
+    "best.pt": "0ab9de5061829134793821df5078a94f00673c4dfec73c4cab3f5551ade021f7",
+    "last.pt": "4685447e3c86bc6a83a6baf63613c0286aa6402b781505b69b4aeed94c264390"
+  },
+  "resolved_atomic_mlp_seed0": {
+    "best.pt": "9e7f8ea00d3cfc282e24151f158baf049b0c67fc07cc5401d6f017d68a4b05cf",
+    "last.pt": "c2733d2561a4d75c73539d874667b23dc1094afa94b7a73766b346d0c8895761"
+  },
+  "resolved_atomic_mlp_seed1": {
+    "best.pt": "e248b93e8e15842491691a6fdcc109ea516147ef4169fad1d27916f869a68ff5",
+    "last.pt": "1b7fc6508512de4add57d0a5470d844a54dc65161ae0fd0717f03e2498989f6c"
+  },
+  "resolved_atomic_mlp_seed2": {
+    "best.pt": "12b1e659ebf9c8f295eb79a0ec66f2268d0b17f87fc1a9ed346f449eb6511a98",
+    "last.pt": "d322c7490791c42de354cefd72fe82d280a3fe13a57d37381b717e70ed5be61a"
+  },
+  "resolved_copy_atomic_mlp_seed0": {
+    "best.pt": "8d9aa1571e2c4fc02c2d184f09188882907f179b6e5b5d6b8567c283069f9b27",
+    "last.pt": "42de5b99d4585716bb7397ecc0660a16023a9d1bc0a9a1b2cb32d92a8289f5ad"
+  },
+  "resolved_copy_atomic_mlp_seed1": {
+    "best.pt": "fb8a71c7b5324266fc5f9539bfad937f31cd354c8d5de74a5ca9c343020d09f5",
+    "last.pt": "d2a9caa2011ddeab89cf6ea39f559b6dc3be391f22071247a2cbbd38919b2a86"
+  },
+  "resolved_copy_atomic_mlp_seed2": {
+    "best.pt": "0ac76f67ad3e1e073161c22d3feb8ae9ddf6433137e4dc0e68c4584e817ebe2a",
+    "last.pt": "dff7bd81fdc37614072b3404fbc1fb2c0f45e1dfa673585dfe9c2bc407e98e11"
+  },
+  "resolved_copy_mlp_seed0": {
+    "best.pt": "7798ec58bd20b96a38f9a5b8f6d049d60f8d08a41ff22a321184014c63a18fd4",
+    "last.pt": "d40e63297fea6eb8028badf0dc8b992979844b28e81053f67419c33ec69625df"
+  },
+  "resolved_copy_mlp_seed1": {
+    "best.pt": "fcacaffb19e2d6c93198b75dc28dde9451c07f23b1d45bee3df460d5071f8555",
+    "last.pt": "41639d7e5e27f415d9db1af3352d853ca307ee1c45cec9b6709c12e5432bbda7"
+  },
+  "resolved_copy_mlp_seed2": {
+    "best.pt": "edcfca72c9a23cfad9d84d8aae89722c975ec6e2285b604f03f485d446a0511e",
+    "last.pt": "82925ace57fe41df3b2eb31316a8133abb603b2d25d3298c737099b7cc1a78a5"
+  },
+  "resolved_copy_atomic_fly_seed0": {
+    "best.pt": "d9b449785faf6ded4b103cb023c66915c26679a258a948f767d43749f943bc1d",
+    "last.pt": "65ed3d08bd48d849a97ed050c914e16cfb6fdd8b1ab28b25cd78cdbf6699383b"
+  },
+  "resolved_copy_atomic_fly_seed1": {
+    "best.pt": "f24d8ecd35ce7903e39c1ee7f8056d40fecba1da2a8712f318d19ffc1279f1f7",
+    "last.pt": "c899f76ca1fec8fbe339feba0447ae9c16e4a166e3a37ebb2d33c501b60b7d97"
+  },
+  "resolved_copy_atomic_fly_seed2": {
+    "best.pt": "f7de0d918cbfd0cd851bd798e90043613d162002383440051d08eca962d36dae",
+    "last.pt": "7c94f481598a2e69c0a0d5e91e9a777397ef6024b0d6339d902ef45284e8a241"
+  },
+  "resolved_copy_fly_seed0": {
+    "best.pt": "b1fe21a517bd83c1f51e91c667f8516c183a51da942f4c10d338476687911db0",
+    "last.pt": "3c84b4bcc2ed17abda25468a5433369fef4209676a2f1b4fe9ed2760c5e77101"
+  },
+  "resolved_copy_fly_seed1": {
+    "best.pt": "b5a59977ce10f75bf8053c50b1be3a0c280325a2c35d1ea2c02412383ee61a52",
+    "last.pt": "49f4f048d68aeec0f54c9780ebfd64da0821bbe80cc40747cbade3edb27ee128"
+  },
+  "resolved_copy_fly_seed2": {
+    "best.pt": "18f8e4e8b1f5641e9c331d161d4121166fc07e3272a597c04f06371027a0af16",
+    "last.pt": "763955ea9ff04eb34a5723c3c1081f12e7a2f98f65ee90c23b2ef1b8a08ab33b"
+  },
+  "resolved_copy_atomic_rewired_seed0": {
+    "best.pt": "7f73b66a7dd98a5d15d0e86d414cf31715f65a4c6ba73ece11f730ee055911cf",
+    "last.pt": "9f55c3451c3b723d544be82bfb172d2ba19c4f3e2f424ff67ae4f55c9430a707"
+  },
+  "resolved_copy_atomic_rewired_seed1": {
+    "best.pt": "a7ea88399180fe7115d803d0705875bb7d5db0b9cc1f7acd24498542dccd0d16",
+    "last.pt": "0d793f4ff53d80c2dbb011520710ee4ba261082a3aa3706593b8f47859a81399"
+  },
+  "resolved_copy_atomic_rewired_seed2": {
+    "best.pt": "57db573618a0f449018b0065eaefc7637cd2d392bb1613e2983df81e48cc54d8",
+    "last.pt": "afeda09269c6df4f7df4118476a4b7cfcf9a83126e4db04ad276788a58598d9d"
+  },
+  "resolved_copy_atomic_no_edges_seed0": {
+    "best.pt": "3fb92955f7033bef0a4580199d7b468c6e5bbae9c8dbf4c3d7e904c4dc4777b1",
+    "last.pt": "e1a9e53d430cc101e7c50f52b8b63ea3da5a4714b5d0c6ab2a5659c1798245bc"
+  },
+  "resolved_copy_atomic_no_edges_seed1": {
+    "best.pt": "4271e37eef4822440397d544c7327c2fc3249925724a67800e5f1a7060e0be40",
+    "last.pt": "e67e75cf77acf5cd9ee17639f6e4a82b78ec84691b5a7f2b1dda093ad6b8541a"
+  },
+  "resolved_copy_atomic_no_edges_seed2": {
+    "best.pt": "2d30a213665515498f6d34484e4b11b3d7129760573bac253a44aa27a0b4df3f",
+    "last.pt": "5720485963a0f47c0e8d7e8eeb190e658a18b1391a7965bbe3a0342505d6715a"
+  }
+}

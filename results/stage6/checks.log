@@ -1,0 +1,22 @@
+{
+  "mlp_copyFalse_cache_max_difference": 2.60770320892334e-08,
+  "mlp_copyTrue_cache_max_difference": 2.2351741790771484e-08,
+  "fly_copyTrue_cache_max_difference": 1.862645149230957e-08,
+  "checked_examples": 30760,
+  "all_prompt_strings_disjoint": true,
+  "independent_answers_and_traces": true,
+  "heldout_structure_verified": true,
+  "no_future_target_leakage": true,
+  "copy_uses_prompt_only": true,
+  "graph_gradients_present": true,
+  "inference_has_no_teacher_or_program_parser": true,
+  "resolved_operands_and_results_checked": true,
+  "vocabulary": 63,
+  "parameters": {
+    "mlp_copyFalse": 306183,
+    "mlp_copyTrue": 312424,
+    "fly_copyTrue": 302542,
+    "rewired_copyTrue": 302542,
+    "no_edges_copyTrue": 280000
+  }
+}
