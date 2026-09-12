@@ -1,0 +1,62 @@
+{
+  "created_utc": "2026-09-12T09:22:15.009077+00:00",
+  "runs": {
+    "prompt_seed0": {
+      "variant": "prompt",
+      "mode": "prompt",
+      "condition": "mlp",
+      "curriculum": true,
+      "wider": false,
+      "answer_weight": 0.5,
+      "seed": 0,
+      "steps": 1600,
+      "eval_every": 800,
+      "batch_size": 16,
+      "lr": 0.0005,
+      "threads": 2
+    },
+    "history_seed0": {
+      "variant": "history",
+      "mode": "history",
+      "condition": "mlp",
+      "curriculum": true,
+      "wider": false,
+      "answer_weight": 0.5,
+      "seed": 0,
+      "steps": 1600,
+      "eval_every": 800,
+      "batch_size": 16,
+      "lr": 0.0005,
+      "threads": 2
+    }
+  },
+  "source_hashes": {
+    "stage7_tasks.py": "563bcc9de27f498a9b4bedd8749e7b23e9144ead637615eb6056c9021e1af946",
+    "stage7_model.py": "ed8ee2a37e58cc1474de353e995bf5c0fdadad7b6b45cdd34363c1b30bb6599a",
+    "stage7_engine.py": "602850991cd962e9b77fe59de21aed84f96cf7fea770efdf2e53a15c635985fc",
+    "stage7_train.py": "99b6331c8dc012f313fe55a79c97432af0a1c6e3d2a7a0db033d17bbee295ae0",
+    "stage7_checks.py": "36cd98c9ede1a580e4ea31786d2b326c0829671e5a95157558bf4450ef5797d5",
+    "stage7_run.py": "61f64f867ebd097a1803547b980b52ab87838baf7b019e790b5d847af0c40a78",
+    "stage7_evaluate.py": "9c049f32f3046d99a0f6aba85574f3085ed62d7a749540c774dc0f925ad82146",
+    "fly_memory.py": "15239f71b179cc9f9c415c524c6be33a56981e5cac44e1ac49effbebcd83923b",
+    "stage6_tokens.py": "e6c2a5e9734821720731ddfb3386e7dfcb79f120a70b9987e63319d2184f3aa4",
+    "stage6_model.py": "46bd3b06847db91b1ec9d84b335a0e1c6a42557a53a36fb21e54e7dd0f4291cc",
+    "stage6_engine.py": "4c702c11502282946ade4aa75410a814c4a1ac23de4290848e4ea663bf06f78c",
+    "stage6_tasks.py": "0b12d8887414597585c34c4227b9324662341a1f7c431b32aa1232c6cc42cf71",
+    "stage6_train.py": "47f91e0bcd4b61f5a980ac42a4a01940b274a97d8625c57d4215883c2dc628df",
+    "model.py": "5e0f41d93d33630ead06f01e8fc4abb784188e52c449d2af4b27281199658426"
+  },
+  "dataset_hashes": {
+    "counterfactual": "42b4d4a4adfb60b93039271b8703162ed0d5951b8391e250b4560feb7a04ce73",
+    "long": "fd1a65e24be0b4a3249acf4a931b2deda6286890d70090b01c7b51df2a0232cf",
+    "renamed": "721bb4159487e6b8ab2ce62cfc68ebf06ea7352bbea37f3d872450a958434bb5",
+    "replay": "4e2ed105309684b318fc9834a4c2ed0a473cd11864da89d5b7e6abbe57d0e6fc",
+    "test": "a1d899e5fa1036fbe6d65619e0982d877e2747c7ebc205f38414075e38233306",
+    "train": "84c023acd8881c905cf8d4e5fd03f9aa2c30eb9e645133542cd3cd5aeaed3a5b",
+    "unseen_chars": "39e17775baf777ec0dd708ce67b1d69280ba6e8d2480d9347a94251f6f1f400f",
+    "val": "c200f97568cd5d418fbef637cb5369d0e8e515a738829c924d412fea74df2e5d",
+    "very_long": "d57929631408c82119608bef0d9e8878e717a10e208ae9f0142d67fe306d8822"
+  },
+  "reason": "Initial validation: correct traces sometimes followed by wrong answers; test increased supervision weight on answer/EOS.",
+  "final_test_open": false
+}

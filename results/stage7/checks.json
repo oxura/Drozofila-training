@@ -1,0 +1,77 @@
+{
+  "data": {
+    "counts": {
+      "counterfactual": 480,
+      "long": 320,
+      "renamed": 480,
+      "replay": 28000,
+      "test": 960,
+      "train": 28000,
+      "unseen_chars": 480,
+      "val": 480,
+      "very_long": 320
+    },
+    "prompt_overlap": 0,
+    "binding_group_train_val_test_overlap": 0,
+    "historical_prompt_overlap": 0,
+    "labels_checked_from_text": true
+  },
+  "models": {
+    "prompt": {
+      "parameters": 312424,
+      "future_error": 0.0,
+      "cached_error": 8.344650268554688e-07,
+      "padding_error": 9.5367431640625e-07,
+      "double_cached_error": null,
+      "source_preservation_error": 1.7881393432617188e-07
+    },
+    "history": {
+      "parameters": 312424,
+      "future_error": 0.0,
+      "cached_error": 1.1622905731201172e-06,
+      "padding_error": 9.5367431640625e-07,
+      "double_cached_error": null
+    },
+    "slots": {
+      "parameters": 317257,
+      "future_error": 0.0,
+      "cached_error": 1.1622905731201172e-06,
+      "padding_error": 9.5367431640625e-07,
+      "double_cached_error": null,
+      "initial_function_error": 0.0
+    },
+    "wider": {
+      "parameters": 317056,
+      "future_error": 0.0,
+      "cached_error": 1.043081283569336e-06,
+      "padding_error": 6.854534149169922e-07,
+      "double_cached_error": null,
+      "initial_function_error": 1.6093254089355469e-06
+    },
+    "scan_serial_error": 1.7881393432617188e-07,
+    "slot_gradients": {
+      "memory.write_address.weight": 0.0009992476552724838,
+      "memory.write_address.bias": 0.0003011629160027951,
+      "memory.write_gate.weight": 0.0015470816288143396,
+      "memory.write_gate.bias": 0.0001409962133038789,
+      "memory.value.weight": 0.004482256714254618,
+      "memory.value.bias": 0.002250704448670149,
+      "memory.read_address.weight": 0.000664021703414619,
+      "memory.read_address.bias": 0.0002590053481981158,
+      "memory.output.weight": 0.10527081787586212,
+      "memory.output.bias": 0.20185494422912598
+    },
+    "two_verification_updates_seconds": 0.05114162899553776,
+    "wider_new_unit_gradients": {
+      "block0_incoming": 0.004139551892876625,
+      "block0_outgoing": 0.14650718867778778,
+      "block1_incoming": 0.003555992851033807,
+      "block1_outgoing": 0.09766001999378204,
+      "block2_incoming": 0.0015902362065389752,
+      "block2_outgoing": 0.04427635669708252
+    },
+    "verification_optimizer_updates": 4,
+    "verification_weights_discarded": true
+  },
+  "final_model_predictions_opened": false
+}

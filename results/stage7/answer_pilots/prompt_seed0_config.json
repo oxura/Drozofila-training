@@ -1,0 +1,14 @@
+{
+  "variant": "prompt",
+  "mode": "prompt",
+  "condition": "mlp",
+  "curriculum": true,
+  "wider": false,
+  "answer_weight": 0.5,
+  "seed": 0,
+  "steps": 1600,
+  "eval_every": 800,
+  "batch_size": 16,
+  "lr": 0.0005,
+  "threads": 2
+}

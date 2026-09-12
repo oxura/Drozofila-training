@@ -1,0 +1,114 @@
+{
+  "records": [
+    {
+      "mode": "history",
+      "threads": 1,
+      "steps": 40,
+      "seconds": 3.676979243988171,
+      "seconds_per_step": 0.09192448109970427,
+      "approximate_core_seconds_per_step": 0.09192448109970427
+    },
+    {
+      "mode": "history",
+      "threads": 2,
+      "steps": 40,
+      "seconds": 2.4367368340026587,
+      "seconds_per_step": 0.06091842085006647,
+      "approximate_core_seconds_per_step": 0.12183684170013294
+    },
+    {
+      "mode": "slots",
+      "threads": 1,
+      "steps": 40,
+      "seconds": 3.893858392999391,
+      "seconds_per_step": 0.09734645982498477,
+      "approximate_core_seconds_per_step": 0.09734645982498477
+    },
+    {
+      "mode": "slots",
+      "threads": 2,
+      "steps": 40,
+      "seconds": 2.888737419998506,
+      "seconds_per_step": 0.07221843549996265,
+      "approximate_core_seconds_per_step": 0.1444368709999253
+    }
+  ],
+  "input_ids": [
+    [
+      "train-memory-07511",
+      "train-memory-08972",
+      "train-memory-02102",
+      "train-memory-02967",
+      "train-memory-05763",
+      "train-memory-00845",
+      "train-memory-09773",
+      "train-memory-02816",
+      "train-memory-08827",
+      "train-memory-08473",
+      "train-memory-09397",
+      "train-memory-07631",
+      "train-memory-03906",
+      "train-memory-05452",
+      "train-memory-09901",
+      "train-memory-09988"
+    ],
+    [
+      "train-code-06986",
+      "train-code-08611",
+      "train-code-04180",
+      "train-code-05144",
+      "train-code-04837",
+      "train-code-05244",
+      "train-code-08168",
+      "train-code-05086",
+      "train-code-09726",
+      "train-code-03535",
+      "train-code-00255",
+      "train-code-07331",
+      "train-code-03651",
+      "train-code-03230",
+      "train-code-09510",
+      "train-code-05417"
+    ],
+    [
+      "train-sum-01195",
+      "train-sum-01788",
+      "train-sum-00163",
+      "train-sum-02664",
+      "train-sum-03282",
+      "train-sum-03203",
+      "train-sum-03534",
+      "train-sum-03291",
+      "train-sum-01197",
+      "train-sum-00897",
+      "train-sum-01329",
+      "train-sum-02633",
+      "train-sum-02580",
+      "train-sum-02189",
+      "train-sum-03496",
+      "train-sum-03882"
+    ],
+    [
+      "train-logic-01357",
+      "train-logic-01150",
+      "train-logic-01676",
+      "train-logic-03726",
+      "train-logic-00843",
+      "train-logic-03124",
+      "train-logic-01103",
+      "train-logic-00341",
+      "train-logic-03481",
+      "train-logic-00531",
+      "train-logic-01253",
+      "train-logic-01107",
+      "train-logic-00863",
+      "train-logic-00976",
+      "train-logic-01822",
+      "train-logic-00922"
+    ]
+  ],
+  "profiling_only": true,
+  "optimizer_updates": 192,
+  "weights_discarded": true,
+  "note": "Single-process measurement, not a guarantee of multi-process scaling; includes longer mixed-family padding than bucketed training."
+}

@@ -1,0 +1,67 @@
+{
+  "seed": 2026091207,
+  "hashes": {
+    "counterfactual": "42b4d4a4adfb60b93039271b8703162ed0d5951b8391e250b4560feb7a04ce73",
+    "long": "fd1a65e24be0b4a3249acf4a931b2deda6286890d70090b01c7b51df2a0232cf",
+    "renamed": "721bb4159487e6b8ab2ce62cfc68ebf06ea7352bbea37f3d872450a958434bb5",
+    "replay": "4e2ed105309684b318fc9834a4c2ed0a473cd11864da89d5b7e6abbe57d0e6fc",
+    "test": "a1d899e5fa1036fbe6d65619e0982d877e2747c7ebc205f38414075e38233306",
+    "train": "84c023acd8881c905cf8d4e5fd03f9aa2c30eb9e645133542cd3cd5aeaed3a5b",
+    "unseen_chars": "39e17775baf777ec0dd708ce67b1d69280ba6e8d2480d9347a94251f6f1f400f",
+    "val": "c200f97568cd5d418fbef637cb5369d0e8e515a738829c924d412fea74df2e5d",
+    "very_long": "d57929631408c82119608bef0d9e8878e717a10e208ae9f0142d67fe306d8822"
+  },
+  "counts": {
+    "train": 28000,
+    "val": 480,
+    "test": 960,
+    "long": 320,
+    "very_long": 320,
+    "renamed": 480,
+    "unseen_chars": 480,
+    "counterfactual": 480
+  },
+  "replay_count": 28000,
+  "prior_data_hashes": {
+    "alias.jsonl": "a6658593ba03f94b4c23e7dda215c924b33908564380b76e8d77390b4a6c0c4f",
+    "atomic_train.jsonl": "8065cfe56ec33875021d74b8e37f1a07050537e734805a649d0bc764d1aff4af",
+    "composition.jsonl": "50d76ff4ca27223117ca186987dcd79256c3d7d6b907971964312042208e20dd",
+    "deep_logic.jsonl": "e5c2f63ab0ba729446d218cba9d56fc860ffcb5c9216f7849cd28d96799c1c11",
+    "large_values.jsonl": "f1b4121ff81edcd59d289606e89fd8822cf5b4cb058474f09e3aef6ebd83dd47",
+    "long.jsonl": "61523da5d3773eb8026042e3fd26043a092c97ce03f8620f9d898a700a222f8d",
+    "renamed.jsonl": "d45272e737852557e679645ce33e964442428aad13ccec03b272763405b1b20f",
+    "test.jsonl": "df4cd3a6cd5be7bcf1df3e840063aaf19a6ace9464310643f3974d43a02edd73",
+    "train.jsonl": "4e2ed105309684b318fc9834a4c2ed0a473cd11864da89d5b7e6abbe57d0e6fc",
+    "val.jsonl": "fe365cc075f6e5ed94168b27698e4017fbf52bd4fefe2764997cf3ec27c4379f",
+    "very_long.jsonl": "1ce774a4dd19e4b815738da25cee8fd194e5041228728038f34f8fdeea6eebe0"
+  },
+  "train_names": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "aa",
+    "bb",
+    "cc",
+    "dd"
+  ],
+  "held_names": [
+    "ab",
+    "ac",
+    "ad",
+    "ba",
+    "bc",
+    "bd",
+    "ca",
+    "cb",
+    "cd",
+    "da",
+    "db",
+    "dc"
+  ],
+  "all_labels": "Deterministic Python teachers; independent answer implementation checked every row.",
+  "split_rule": "SHA256 binding structure or exact sum/logic prompt modulo 10: train 0..7, val 8, test 9.",
+  "structure_caveat": "Long and paired renaming/intervention sets intentionally share base-test structures; they are not independent replications.",
+  "pretraining_exclusion": "All new prompts exclude every stage6 input; code val/test also exclude all stage6 code binding structures.",
+  "final_test_open": false
+}

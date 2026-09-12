@@ -1,0 +1,13 @@
+{
+  "variant": "wider",
+  "mode": "history",
+  "condition": "mlp",
+  "curriculum": true,
+  "wider": true,
+  "seed": 0,
+  "steps": 1600,
+  "eval_every": 800,
+  "batch_size": 16,
+  "lr": 0.0005,
+  "threads": 2
+}

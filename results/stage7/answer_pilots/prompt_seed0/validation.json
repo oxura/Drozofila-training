@@ -1,0 +1,54 @@
+{
+  "config": {
+    "variant": "prompt",
+    "mode": "prompt",
+    "condition": "mlp",
+    "curriculum": true,
+    "wider": false,
+    "answer_weight": 0.5,
+    "seed": 0,
+    "steps": 1600,
+    "eval_every": 800,
+    "batch_size": 16,
+    "lr": 0.0005,
+    "threads": 2
+  },
+  "best_step": 1600,
+  "validation_score": [
+    0.4916666666666667,
+    0.3416666666666667,
+    -0.15186831817019686
+  ],
+  "seconds_this_invocation": 95.02866716599965,
+  "start_step": 1,
+  "parameters": 312424,
+  "source_checkpoint": "results/stage6/confirmation/resolved_copy_atomic_mlp_seed0/best.pt",
+  "source_sha256": "8d9aa1571e2c4fc02c2d184f09188882907f179b6e5b5d6b8567c283069f9b27",
+  "target_tokens": 814771,
+  "input_tokens": 2013096,
+  "training_examples": 25600,
+  "family_counts": {
+    "code": 8896,
+    "logic": 3808,
+    "sum": 3680,
+    "memory": 9216
+  },
+  "replay_counts": {
+    "sum": 1984,
+    "logic": 2016,
+    "code": 2016
+  },
+  "max_component_gradients": {},
+  "dataset_hashes": {
+    "counterfactual": "42b4d4a4adfb60b93039271b8703162ed0d5951b8391e250b4560feb7a04ce73",
+    "long": "fd1a65e24be0b4a3249acf4a931b2deda6286890d70090b01c7b51df2a0232cf",
+    "renamed": "721bb4159487e6b8ab2ce62cfc68ebf06ea7352bbea37f3d872450a958434bb5",
+    "replay": "4e2ed105309684b318fc9834a4c2ed0a473cd11864da89d5b7e6abbe57d0e6fc",
+    "test": "a1d899e5fa1036fbe6d65619e0982d877e2747c7ebc205f38414075e38233306",
+    "train": "84c023acd8881c905cf8d4e5fd03f9aa2c30eb9e645133542cd3cd5aeaed3a5b",
+    "unseen_chars": "39e17775baf777ec0dd708ce67b1d69280ba6e8d2480d9347a94251f6f1f400f",
+    "val": "c200f97568cd5d418fbef637cb5369d0e8e515a738829c924d412fea74df2e5d",
+    "very_long": "d57929631408c82119608bef0d9e8878e717a10e208ae9f0142d67fe306d8822"
+  },
+  "final_test_read": false
+}
