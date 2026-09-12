@@ -1,0 +1,106 @@
+{
+  "config": {
+    "mode": "discrete",
+    "condition": "rewired",
+    "seed": 1,
+    "ticks": 4,
+    "steps": 6000,
+    "batch_size": 96,
+    "lr": 0.003,
+    "threads": 2,
+    "eval_every": 500
+  },
+  "best_step": 6000,
+  "lengths": {
+    "4": {
+      "by_op": {
+        "add": 1.0,
+        "sub": 1.0,
+        "mul_digit": 1.0
+      },
+      "macro_exact": 1.0
+    },
+    "8": {
+      "by_op": {
+        "add": 1.0,
+        "sub": 1.0,
+        "mul_digit": 1.0
+      },
+      "macro_exact": 1.0
+    },
+    "32": {
+      "by_op": {
+        "add": 1.0,
+        "sub": 1.0,
+        "mul_digit": 1.0
+      },
+      "macro_exact": 1.0
+    },
+    "128": {
+      "by_op": {
+        "add": 1.0,
+        "sub": 1.0,
+        "mul_digit": 1.0
+      },
+      "macro_exact": 1.0
+    },
+    "1000": {
+      "by_op": {
+        "add": 1.0,
+        "sub": 1.0,
+        "mul_digit": 1.0
+      },
+      "macro_exact": 1.0
+    }
+  },
+  "stress": {
+    "by_op": {
+      "add": 1.0,
+      "sub": 1.0,
+      "mul_digit": 1.0
+    },
+    "macro_exact": 1.0
+  },
+  "programs_exact": 1.0,
+  "program_count": 120,
+  "local_training_table": {
+    "add": {
+      "correct": 200,
+      "total": 200,
+      "joint_exact": 1.0,
+      "minimum_target_margin": 5.937444686889648
+    },
+    "sub": {
+      "correct": 200,
+      "total": 200,
+      "joint_exact": 1.0,
+      "minimum_target_margin": 5.691930770874023
+    },
+    "mul_digit": {
+      "correct": 460,
+      "total": 460,
+      "joint_exact": 1.0,
+      "minimum_target_margin": 4.00293493270874
+    }
+  },
+  "ablations_32_digits": {
+    "zero_carry_exact": 0.078125,
+    "disabled_edges": {
+      "by_op": {
+        "add": 0.0,
+        "sub": 0.0,
+        "mul_digit": 0.125
+      },
+      "macro_exact": 0.041666666666666664
+    }
+  },
+  "direct_cache_parity": {
+    "length": 1000,
+    "cases": 3,
+    "identical": true,
+    "direct_batch_seconds": 0.30244240499450825,
+    "compiled_batch_seconds": 0.024436940002487972
+  },
+  "seconds": 1.3510190139932092,
+  "checkpoint_sha256": "2542841db0d30839ed0c5b51938262b485769d5ebc5e6a4132139d6dfa899e9b"
+}

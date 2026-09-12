@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "models": [
+    {
+      "variant": "gated",
+      "condition": "fly",
+      "loss": 3.883267879486084,
+      "edge_gradient": 0.0012088398216292262
+    },
+    {
+      "variant": "memory_rate",
+      "condition": "fly",
+      "loss": 3.876521110534668,
+      "edge_gradient": 0.0014202159363776445
+    },
+    {
+      "variant": "memory_lif",
+      "condition": "fly",
+      "loss": 3.8697633743286133,
+      "edge_gradient": 0.0050949049182236195
+    },
+    {
+      "variant": "memory_rate",
+      "condition": "rewired",
+      "loss": 3.9164106845855713,
+      "edge_gradient": 0.0032341214828193188
+    },
+    {
+      "variant": "memory_rate",
+      "condition": "frozen",
+      "loss": 3.876521110534668,
+      "edge_gradient": 0
+    },
+    {
+      "variant": "memory_rate",
+      "condition": "gru",
+      "loss": 3.9134161472320557,
+      "edge_gradient": 0
+    },
+    {
+      "variant": "memory_rate",
+      "condition": "no_edges",
+      "loss": 3.8800344467163086,
+      "edge_gradient": 0
+    }
+  ]
+}

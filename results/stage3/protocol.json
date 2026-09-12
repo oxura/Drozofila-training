@@ -1,0 +1,49 @@
+{
+  "created_at": "2026-09-12T05:58:31.194253+00:00",
+  "final_test_opened": false,
+  "hypothesis": "An explicitly supervised discrete carry register permits length-independent composition of learned local transitions. No assumption of connectome advantage.",
+  "development": [
+    {
+      "mode": "discrete",
+      "condition": "fly",
+      "steps": 600,
+      "seed": 0
+    },
+    {
+      "mode": "continuous",
+      "condition": "fly",
+      "steps": 600,
+      "seed": 0
+    }
+  ],
+  "confirmation_candidates": [
+    "discrete/fly",
+    "discrete/rewired",
+    "discrete/frozen",
+    "discrete/no_edges",
+    "discrete/mlp",
+    "continuous/fly"
+  ],
+  "confirmation_seeds": [
+    0,
+    1,
+    2
+  ],
+  "test_lengths": [
+    4,
+    8,
+    32,
+    128,
+    1000
+  ],
+  "local_table_is_training": true,
+  "selection": "Use train and length 2-4 validation only; freeze confirmation budget and code hashes before final evaluation.",
+  "supervision_difference": "Discrete has explicit carry labels and exhaustive 860 local states; continuous learns output digits on 4800 short sequences without carry labels. This is an architectural-and-supervision comparison, not an isolated memory ablation.",
+  "primary_metrics": [
+    "whole-answer exact match by operation and length",
+    "exhaustive local transition agreement (training set)",
+    "composed expression exact match",
+    "stress carry/borrow chains"
+  ],
+  "inference": "No answer oracle. Optional cache contains only model predictions. Direct inference parity checked separately."
+}

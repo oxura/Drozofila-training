@@ -1,0 +1,27 @@
+{
+  "graph_edges_and_signs_preserved": true,
+  "nonzero_finite_edge_gradient": true,
+  "model_cache_parity_before_training": true,
+  "zeroed_network_changes_answer": "0",
+  "unsupported_expressions_rejected": [
+    "__import__(\"os\")",
+    "a+1",
+    "2**10",
+    "1/2",
+    "True+1",
+    "[1][0]"
+  ],
+  "sequence_groups_disjoint": {
+    "train_sequences": 4800,
+    "val": 384,
+    "test": 960
+  },
+  "all_860_local_transitions_are_training_examples": true,
+  "parameters": {
+    "fly": 21614,
+    "rewired": 21614,
+    "frozen": 14100,
+    "no_edges": 14100,
+    "mlp": 21020
+  }
+}

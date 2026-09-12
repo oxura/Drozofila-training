@@ -1,0 +1,432 @@
+{
+  "config": {
+    "variant": "memory_rate",
+    "condition": "fly",
+    "seed": 1,
+    "steps": 2400,
+    "lr": 0.003,
+    "batch_size": 48,
+    "eval_every": 200,
+    "threads": 2,
+    "device": "cpu"
+  },
+  "best_step": 2200,
+  "checkpoint_sha256": "2f8f1c0d39d6394adc7a68689241534a279e84232fbb947c287e6c9a59770e37",
+  "test": {
+    "arithmetic": {
+      "n": 588,
+      "exact_match": 0.5289115646258503
+    },
+    "memory": {
+      "n": 1200,
+      "exact_match": 0.685
+    },
+    "code": {
+      "n": 240,
+      "exact_match": 0.8125,
+      "valid_code": 0.9041666666666667,
+      "execution_pass": 0.8125,
+      "requested_signature": 0.9041666666666667,
+      "strict_execution_pass": 0.8125
+    },
+    "macro_exact": 0.6754705215419502,
+    "breakdown": {
+      "arithmetic/\u0441\u043b\u043e\u0436\u0438": {
+        "n": 147,
+        "exact": 0.08843537414965986
+      },
+      "arithmetic/\u0432\u044b\u0447\u0442\u0438": {
+        "n": 147,
+        "exact": 0.12244897959183673
+      },
+      "arithmetic/\u043c\u0430\u043a\u0441\u0438\u043c\u0443\u043c": {
+        "n": 147,
+        "exact": 0.9591836734693877
+      },
+      "arithmetic/\u043c\u0438\u043d\u0438\u043c\u0443\u043c": {
+        "n": 147,
+        "exact": 0.9455782312925171
+      },
+      "memory/\u043f\u043e\u0432\u0442\u043e\u0440\u0438/digits/length5": {
+        "n": 151,
+        "exact": 0.8874172185430463
+      },
+      "memory/\u0440\u0430\u0437\u0432\u0435\u0440\u043d\u0438/digits/length5": {
+        "n": 151,
+        "exact": 0.1986754966887417
+      },
+      "memory/\u043f\u043e\u0432\u0442\u043e\u0440\u0438/digits/length4": {
+        "n": 125,
+        "exact": 0.952
+      },
+      "memory/\u0440\u0430\u0437\u0432\u0435\u0440\u043d\u0438/digits/length4": {
+        "n": 125,
+        "exact": 0.648
+      },
+      "memory/\u043f\u043e\u0432\u0442\u043e\u0440\u0438/digits/length3": {
+        "n": 18,
+        "exact": 0.8333333333333334
+      },
+      "memory/\u0440\u0430\u0437\u0432\u0435\u0440\u043d\u0438/digits/length3": {
+        "n": 18,
+        "exact": 0.5555555555555556
+      },
+      "memory/\u043f\u043e\u0432\u0442\u043e\u0440\u0438/digits/length2": {
+        "n": 6,
+        "exact": 1.0
+      },
+      "memory/\u0440\u0430\u0437\u0432\u0435\u0440\u043d\u0438/digits/length2": {
+        "n": 6,
+        "exact": 0.6666666666666666
+      },
+      "memory/\u043f\u043e\u0432\u0442\u043e\u0440\u0438/names/length4": {
+        "n": 96,
+        "exact": 0.96875
+      },
+      "memory/\u0440\u0430\u0437\u0432\u0435\u0440\u043d\u0438/names/length4": {
+        "n": 96,
+        "exact": 0.78125
+      },
+      "memory/\u043f\u043e\u0432\u0442\u043e\u0440\u0438/names/length5": {
+        "n": 123,
+        "exact": 0.9105691056910569
+      },
+      "memory/\u0440\u0430\u0437\u0432\u0435\u0440\u043d\u0438/names/length5": {
+        "n": 123,
+        "exact": 0.17886178861788618
+      },
+      "memory/\u043f\u043e\u0432\u0442\u043e\u0440\u0438/names/length3": {
+        "n": 74,
+        "exact": 0.9324324324324325
+      },
+      "memory/\u0440\u0430\u0437\u0432\u0435\u0440\u043d\u0438/names/length3": {
+        "n": 74,
+        "exact": 0.5945945945945946
+      },
+      "memory/\u043f\u043e\u0432\u0442\u043e\u0440\u0438/names/length2": {
+        "n": 7,
+        "exact": 0.7142857142857143
+      },
+      "memory/\u0440\u0430\u0437\u0432\u0435\u0440\u043d\u0438/names/length2": {
+        "n": 7,
+        "exact": 0.42857142857142855
+      },
+      "code/\u0441\u043b\u043e\u0436\u0438": {
+        "n": 60,
+        "exact": 0.8166666666666667
+      },
+      "code/\u0432\u044b\u0447\u0442\u0438": {
+        "n": 60,
+        "exact": 0.7666666666666667
+      },
+      "code/\u043c\u0430\u043a\u0441\u0438\u043c\u0443\u043c": {
+        "n": 60,
+        "exact": 0.8166666666666667
+      },
+      "code/\u043c\u0438\u043d\u0438\u043c\u0443\u043c": {
+        "n": 60,
+        "exact": 0.85
+      }
+    }
+  },
+  "phrasing": {
+    "arithmetic": {
+      "n": 196,
+      "exact_match": 0.5357142857142857
+    },
+    "macro_exact": 0.5357142857142857,
+    "breakdown": {
+      "arithmetic/\u0441\u043b\u043e\u0436\u0438": {
+        "n": 49,
+        "exact": 0.10204081632653061
+      },
+      "arithmetic/\u0432\u044b\u0447\u0442\u0438": {
+        "n": 49,
+        "exact": 0.12244897959183673
+      },
+      "arithmetic/\u043c\u0430\u043a\u0441\u0438\u043c\u0443\u043c": {
+        "n": 49,
+        "exact": 0.9591836734693877
+      },
+      "arithmetic/\u043c\u0438\u043d\u0438\u043c\u0443\u043c": {
+        "n": 49,
+        "exact": 0.9591836734693877
+      }
+    }
+  },
+  "longer": {
+    "memory": {
+      "n": 800,
+      "exact_match": 0.0
+    },
+    "macro_exact": 0.0,
+    "breakdown": {
+      "memory/\u043f\u043e\u0432\u0442\u043e\u0440\u0438/digits/length6": {
+        "n": 100,
+        "exact": 0.0
+      },
+      "memory/\u0440\u0430\u0437\u0432\u0435\u0440\u043d\u0438/digits/length6": {
+        "n": 100,
+        "exact": 0.0
+      },
+      "memory/\u043f\u043e\u0432\u0442\u043e\u0440\u0438/digits/length7": {
+        "n": 100,
+        "exact": 0.0
+      },
+      "memory/\u0440\u0430\u0437\u0432\u0435\u0440\u043d\u0438/digits/length7": {
+        "n": 100,
+        "exact": 0.0
+      },
+      "memory/\u043f\u043e\u0432\u0442\u043e\u0440\u0438/names/length6": {
+        "n": 100,
+        "exact": 0.0
+      },
+      "memory/\u0440\u0430\u0437\u0432\u0435\u0440\u043d\u0438/names/length6": {
+        "n": 100,
+        "exact": 0.0
+      },
+      "memory/\u043f\u043e\u0432\u0442\u043e\u0440\u0438/names/length7": {
+        "n": 100,
+        "exact": 0.0
+      },
+      "memory/\u0440\u0430\u0437\u0432\u0435\u0440\u043d\u0438/names/length7": {
+        "n": 100,
+        "exact": 0.0
+      }
+    }
+  },
+  "test_without_edges": {
+    "arithmetic": {
+      "n": 588,
+      "exact_match": 0.008503401360544218
+    },
+    "memory": {
+      "n": 1200,
+      "exact_match": 0.0
+    },
+    "code": {
+      "n": 240,
+      "exact_match": 0.0,
+      "valid_code": 0.0,
+      "execution_pass": 0.0,
+      "requested_signature": 0.0,
+      "strict_execution_pass": 0.0
+    },
+    "macro_exact": 0.0028344671201814063,
+    "breakdown": {
+      "arithmetic/\u0441\u043b\u043e\u0436\u0438": {
+        "n": 147,
+        "exact": 0.0
+      },
+      "arithmetic/\u0432\u044b\u0447\u0442\u0438": {
+        "n": 147,
+        "exact": 0.0
+      },
+      "arithmetic/\u043c\u0430\u043a\u0441\u0438\u043c\u0443\u043c": {
+        "n": 147,
+        "exact": 0.0
+      },
+      "arithmetic/\u043c\u0438\u043d\u0438\u043c\u0443\u043c": {
+        "n": 147,
+        "exact": 0.034013605442176874
+      },
+      "memory/\u043f\u043e\u0432\u0442\u043e\u0440\u0438/digits/length5": {
+        "n": 151,
+        "exact": 0.0
+      },
+      "memory/\u0440\u0430\u0437\u0432\u0435\u0440\u043d\u0438/digits/length5": {
+        "n": 151,
+        "exact": 0.0
+      },
+      "memory/\u043f\u043e\u0432\u0442\u043e\u0440\u0438/digits/length4": {
+        "n": 125,
+        "exact": 0.0
+      },
+      "memory/\u0440\u0430\u0437\u0432\u0435\u0440\u043d\u0438/digits/length4": {
+        "n": 125,
+        "exact": 0.0
+      },
+      "memory/\u043f\u043e\u0432\u0442\u043e\u0440\u0438/digits/length3": {
+        "n": 18,
+        "exact": 0.0
+      },
+      "memory/\u0440\u0430\u0437\u0432\u0435\u0440\u043d\u0438/digits/length3": {
+        "n": 18,
+        "exact": 0.0
+      },
+      "memory/\u043f\u043e\u0432\u0442\u043e\u0440\u0438/digits/length2": {
+        "n": 6,
+        "exact": 0.0
+      },
+      "memory/\u0440\u0430\u0437\u0432\u0435\u0440\u043d\u0438/digits/length2": {
+        "n": 6,
+        "exact": 0.0
+      },
+      "memory/\u043f\u043e\u0432\u0442\u043e\u0440\u0438/names/length4": {
+        "n": 96,
+        "exact": 0.0
+      },
+      "memory/\u0440\u0430\u0437\u0432\u0435\u0440\u043d\u0438/names/length4": {
+        "n": 96,
+        "exact": 0.0
+      },
+      "memory/\u043f\u043e\u0432\u0442\u043e\u0440\u0438/names/length5": {
+        "n": 123,
+        "exact": 0.0
+      },
+      "memory/\u0440\u0430\u0437\u0432\u0435\u0440\u043d\u0438/names/length5": {
+        "n": 123,
+        "exact": 0.0
+      },
+      "memory/\u043f\u043e\u0432\u0442\u043e\u0440\u0438/names/length3": {
+        "n": 74,
+        "exact": 0.0
+      },
+      "memory/\u0440\u0430\u0437\u0432\u0435\u0440\u043d\u0438/names/length3": {
+        "n": 74,
+        "exact": 0.0
+      },
+      "memory/\u043f\u043e\u0432\u0442\u043e\u0440\u0438/names/length2": {
+        "n": 7,
+        "exact": 0.0
+      },
+      "memory/\u0440\u0430\u0437\u0432\u0435\u0440\u043d\u0438/names/length2": {
+        "n": 7,
+        "exact": 0.0
+      },
+      "code/\u0441\u043b\u043e\u0436\u0438": {
+        "n": 60,
+        "exact": 0.0
+      },
+      "code/\u0432\u044b\u0447\u0442\u0438": {
+        "n": 60,
+        "exact": 0.0
+      },
+      "code/\u043c\u0430\u043a\u0441\u0438\u043c\u0443\u043c": {
+        "n": 60,
+        "exact": 0.0
+      },
+      "code/\u043c\u0438\u043d\u0438\u043c\u0443\u043c": {
+        "n": 60,
+        "exact": 0.0
+      }
+    }
+  },
+  "test_without_input_memory": {
+    "arithmetic": {
+      "n": 588,
+      "exact_match": 0.0017006802721088435
+    },
+    "memory": {
+      "n": 1200,
+      "exact_match": 0.0
+    },
+    "code": {
+      "n": 240,
+      "exact_match": 0.0,
+      "valid_code": 0.05416666666666667,
+      "execution_pass": 0.0,
+      "requested_signature": 0.0,
+      "strict_execution_pass": 0.0
+    },
+    "macro_exact": 0.0005668934240362812,
+    "breakdown": {
+      "arithmetic/\u0441\u043b\u043e\u0436\u0438": {
+        "n": 147,
+        "exact": 0.0
+      },
+      "arithmetic/\u0432\u044b\u0447\u0442\u0438": {
+        "n": 147,
+        "exact": 0.006802721088435374
+      },
+      "arithmetic/\u043c\u0430\u043a\u0441\u0438\u043c\u0443\u043c": {
+        "n": 147,
+        "exact": 0.0
+      },
+      "arithmetic/\u043c\u0438\u043d\u0438\u043c\u0443\u043c": {
+        "n": 147,
+        "exact": 0.0
+      },
+      "memory/\u043f\u043e\u0432\u0442\u043e\u0440\u0438/digits/length5": {
+        "n": 151,
+        "exact": 0.0
+      },
+      "memory/\u0440\u0430\u0437\u0432\u0435\u0440\u043d\u0438/digits/length5": {
+        "n": 151,
+        "exact": 0.0
+      },
+      "memory/\u043f\u043e\u0432\u0442\u043e\u0440\u0438/digits/length4": {
+        "n": 125,
+        "exact": 0.0
+      },
+      "memory/\u0440\u0430\u0437\u0432\u0435\u0440\u043d\u0438/digits/length4": {
+        "n": 125,
+        "exact": 0.0
+      },
+      "memory/\u043f\u043e\u0432\u0442\u043e\u0440\u0438/digits/length3": {
+        "n": 18,
+        "exact": 0.0
+      },
+      "memory/\u0440\u0430\u0437\u0432\u0435\u0440\u043d\u0438/digits/length3": {
+        "n": 18,
+        "exact": 0.0
+      },
+      "memory/\u043f\u043e\u0432\u0442\u043e\u0440\u0438/digits/length2": {
+        "n": 6,
+        "exact": 0.0
+      },
+      "memory/\u0440\u0430\u0437\u0432\u0435\u0440\u043d\u0438/digits/length2": {
+        "n": 6,
+        "exact": 0.0
+      },
+      "memory/\u043f\u043e\u0432\u0442\u043e\u0440\u0438/names/length4": {
+        "n": 96,
+        "exact": 0.0
+      },
+      "memory/\u0440\u0430\u0437\u0432\u0435\u0440\u043d\u0438/names/length4": {
+        "n": 96,
+        "exact": 0.0
+      },
+      "memory/\u043f\u043e\u0432\u0442\u043e\u0440\u0438/names/length5": {
+        "n": 123,
+        "exact": 0.0
+      },
+      "memory/\u0440\u0430\u0437\u0432\u0435\u0440\u043d\u0438/names/length5": {
+        "n": 123,
+        "exact": 0.0
+      },
+      "memory/\u043f\u043e\u0432\u0442\u043e\u0440\u0438/names/length3": {
+        "n": 74,
+        "exact": 0.0
+      },
+      "memory/\u0440\u0430\u0437\u0432\u0435\u0440\u043d\u0438/names/length3": {
+        "n": 74,
+        "exact": 0.0
+      },
+      "memory/\u043f\u043e\u0432\u0442\u043e\u0440\u0438/names/length2": {
+        "n": 7,
+        "exact": 0.0
+      },
+      "memory/\u0440\u0430\u0437\u0432\u0435\u0440\u043d\u0438/names/length2": {
+        "n": 7,
+        "exact": 0.0
+      },
+      "code/\u0441\u043b\u043e\u0436\u0438": {
+        "n": 60,
+        "exact": 0.0
+      },
+      "code/\u0432\u044b\u0447\u0442\u0438": {
+        "n": 60,
+        "exact": 0.0
+      },
+      "code/\u043c\u0430\u043a\u0441\u0438\u043c\u0443\u043c": {
+        "n": 60,
+        "exact": 0.0
+      },
+      "code/\u043c\u0438\u043d\u0438\u043c\u0443\u043c": {
+        "n": 60,
+        "exact": 0.0
+      }
+    }
+  }
+}

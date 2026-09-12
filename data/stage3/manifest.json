@@ -1,0 +1,49 @@
+{
+  "seed": 2026091403,
+  "hashes": {
+    "local_train.json": "8e41014fde7d460aee6a770b21e68f127898f517c631bb0afe8181d1420a4c8e",
+    "train_sequences.json": "51f303e6e6b8783a0e68f14e01ea85efbb582c475a7f922f09366fe1454e8627",
+    "val.json": "3a784ca3ad4e49d9bfbfadfed55d7e7901ed133f407e938794b14556d8b427a2",
+    "test.json": "974ec235dfcd947973744075968d380c814f5cfc3ea5bde30b63a6515b699d3c",
+    "stress.json": "283b504f984f08bcf841d08c171e24a6e0229397dca03fbe66c99b24375be3d6",
+    "programs.json": "e980e20428769af9c1967ed488a8b564a3ee7a78676de377621abe10d2a1c061"
+  },
+  "counts": {
+    "local_train": 860,
+    "train_sequences": 4800,
+    "val": 384,
+    "test": 960,
+    "stress": 24,
+    "programs": 120
+  },
+  "local_transitions": 860,
+  "sequence_train_local_coverage": 855,
+  "train_lengths": [
+    2,
+    3,
+    4
+  ],
+  "test_lengths": [
+    4,
+    8,
+    32,
+    128,
+    1000
+  ],
+  "all_local_transitions_are_training": true,
+  "engineered": [
+    "decimal alignment",
+    "least-significant-first traversal",
+    "carry/borrow register and its training labels",
+    "termination after input width plus one",
+    "signed comparison and sign routing",
+    "multi-digit multiplication schedule",
+    "expression parser"
+  ],
+  "learned": [
+    "output digit",
+    "next carry/borrow state",
+    "input/output adapters",
+    "existing graph edge gains when unfrozen"
+  ]
+}

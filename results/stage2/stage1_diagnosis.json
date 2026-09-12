@@ -1,0 +1,74 @@
+{
+  "rate": {
+    "training": {
+      "arithmetic": {
+        "n": 852,
+        "exact_match": 0.534037558685446
+      },
+      "memory": {
+        "n": 640,
+        "exact_match": 0.5171875
+      },
+      "code": {
+        "n": 96,
+        "exact_match": 1.0,
+        "valid_code": 1.0,
+        "execution_pass": 1.0
+      },
+      "macro_exact": 0.683741686228482
+    },
+    "old_validation": {
+      "arithmetic": {
+        "n": 168,
+        "exact_match": 0.35119047619047616
+      },
+      "memory": {
+        "n": 160,
+        "exact_match": 0.5
+      },
+      "code": {
+        "n": 24,
+        "exact_match": 0.0,
+        "valid_code": 0.25,
+        "execution_pass": 0.25
+      },
+      "macro_exact": 0.2837301587301587
+    }
+  },
+  "lif": {
+    "training": {
+      "arithmetic": {
+        "n": 852,
+        "exact_match": 0.4800469483568075
+      },
+      "memory": {
+        "n": 640,
+        "exact_match": 0.00625
+      },
+      "code": {
+        "n": 96,
+        "exact_match": 0.2604166666666667,
+        "valid_code": 0.84375,
+        "execution_pass": 0.4270833333333333
+      },
+      "macro_exact": 0.24890453834115808
+    },
+    "old_validation": {
+      "arithmetic": {
+        "n": 168,
+        "exact_match": 0.35714285714285715
+      },
+      "memory": {
+        "n": 160,
+        "exact_match": 0.0125
+      },
+      "code": {
+        "n": 24,
+        "exact_match": 0.0,
+        "valid_code": 0.9166666666666666,
+        "execution_pass": 0.5833333333333334
+      },
+      "macro_exact": 0.12321428571428572
+    }
+  }
+}

@@ -1,0 +1,3074 @@
+[
+  {
+    "id": "val_0",
+    "op": "add",
+    "a": "8106",
+    "b": "6014",
+    "length": 4,
+    "answer": "14120"
+  },
+  {
+    "id": "val_1",
+    "op": "add",
+    "a": "1246",
+    "b": "6011",
+    "length": 4,
+    "answer": "7257"
+  },
+  {
+    "id": "val_2",
+    "op": "add",
+    "a": "17",
+    "b": "43",
+    "length": 2,
+    "answer": "60"
+  },
+  {
+    "id": "val_3",
+    "op": "add",
+    "a": "42",
+    "b": "14",
+    "length": 2,
+    "answer": "56"
+  },
+  {
+    "id": "val_4",
+    "op": "add",
+    "a": "4080",
+    "b": "5789",
+    "length": 4,
+    "answer": "9869"
+  },
+  {
+    "id": "val_5",
+    "op": "add",
+    "a": "33",
+    "b": "15",
+    "length": 2,
+    "answer": "48"
+  },
+  {
+    "id": "val_6",
+    "op": "add",
+    "a": "173",
+    "b": "750",
+    "length": 3,
+    "answer": "923"
+  },
+  {
+    "id": "val_7",
+    "op": "add",
+    "a": "5405",
+    "b": "3091",
+    "length": 4,
+    "answer": "8496"
+  },
+  {
+    "id": "val_8",
+    "op": "add",
+    "a": "93",
+    "b": "50",
+    "length": 2,
+    "answer": "143"
+  },
+  {
+    "id": "val_9",
+    "op": "add",
+    "a": "942",
+    "b": "808",
+    "length": 3,
+    "answer": "1750"
+  },
+  {
+    "id": "val_10",
+    "op": "add",
+    "a": "7592",
+    "b": "4614",
+    "length": 4,
+    "answer": "12206"
+  },
+  {
+    "id": "val_11",
+    "op": "add",
+    "a": "857",
+    "b": "751",
+    "length": 3,
+    "answer": "1608"
+  },
+  {
+    "id": "val_12",
+    "op": "add",
+    "a": "53",
+    "b": "28",
+    "length": 2,
+    "answer": "81"
+  },
+  {
+    "id": "val_13",
+    "op": "add",
+    "a": "7103",
+    "b": "7133",
+    "length": 4,
+    "answer": "14236"
+  },
+  {
+    "id": "val_14",
+    "op": "add",
+    "a": "2634",
+    "b": "4437",
+    "length": 4,
+    "answer": "7071"
+  },
+  {
+    "id": "val_15",
+    "op": "add",
+    "a": "99",
+    "b": "56",
+    "length": 2,
+    "answer": "155"
+  },
+  {
+    "id": "val_16",
+    "op": "add",
+    "a": "61",
+    "b": "56",
+    "length": 2,
+    "answer": "117"
+  },
+  {
+    "id": "val_17",
+    "op": "add",
+    "a": "1164",
+    "b": "3447",
+    "length": 4,
+    "answer": "4611"
+  },
+  {
+    "id": "val_18",
+    "op": "add",
+    "a": "8993",
+    "b": "7463",
+    "length": 4,
+    "answer": "16456"
+  },
+  {
+    "id": "val_19",
+    "op": "add",
+    "a": "4412",
+    "b": "6027",
+    "length": 4,
+    "answer": "10439"
+  },
+  {
+    "id": "val_20",
+    "op": "add",
+    "a": "19",
+    "b": "27",
+    "length": 2,
+    "answer": "46"
+  },
+  {
+    "id": "val_21",
+    "op": "add",
+    "a": "6960",
+    "b": "4595",
+    "length": 4,
+    "answer": "11555"
+  },
+  {
+    "id": "val_22",
+    "op": "add",
+    "a": "5324",
+    "b": "6803",
+    "length": 4,
+    "answer": "12127"
+  },
+  {
+    "id": "val_23",
+    "op": "add",
+    "a": "9558",
+    "b": "1805",
+    "length": 4,
+    "answer": "11363"
+  },
+  {
+    "id": "val_24",
+    "op": "add",
+    "a": "1058",
+    "b": "4432",
+    "length": 4,
+    "answer": "5490"
+  },
+  {
+    "id": "val_25",
+    "op": "add",
+    "a": "509",
+    "b": "761",
+    "length": 3,
+    "answer": "1270"
+  },
+  {
+    "id": "val_26",
+    "op": "add",
+    "a": "191",
+    "b": "158",
+    "length": 3,
+    "answer": "349"
+  },
+  {
+    "id": "val_27",
+    "op": "add",
+    "a": "6949",
+    "b": "5495",
+    "length": 4,
+    "answer": "12444"
+  },
+  {
+    "id": "val_28",
+    "op": "add",
+    "a": "883",
+    "b": "252",
+    "length": 3,
+    "answer": "1135"
+  },
+  {
+    "id": "val_29",
+    "op": "add",
+    "a": "5084",
+    "b": "6581",
+    "length": 4,
+    "answer": "11665"
+  },
+  {
+    "id": "val_30",
+    "op": "add",
+    "a": "12",
+    "b": "25",
+    "length": 2,
+    "answer": "37"
+  },
+  {
+    "id": "val_31",
+    "op": "add",
+    "a": "626",
+    "b": "450",
+    "length": 3,
+    "answer": "1076"
+  },
+  {
+    "id": "val_32",
+    "op": "add",
+    "a": "6233",
+    "b": "4539",
+    "length": 4,
+    "answer": "10772"
+  },
+  {
+    "id": "val_33",
+    "op": "add",
+    "a": "3872",
+    "b": "1246",
+    "length": 4,
+    "answer": "5118"
+  },
+  {
+    "id": "val_34",
+    "op": "add",
+    "a": "5605",
+    "b": "7920",
+    "length": 4,
+    "answer": "13525"
+  },
+  {
+    "id": "val_35",
+    "op": "add",
+    "a": "38",
+    "b": "11",
+    "length": 2,
+    "answer": "49"
+  },
+  {
+    "id": "val_36",
+    "op": "add",
+    "a": "676",
+    "b": "248",
+    "length": 3,
+    "answer": "924"
+  },
+  {
+    "id": "val_37",
+    "op": "add",
+    "a": "5429",
+    "b": "1206",
+    "length": 4,
+    "answer": "6635"
+  },
+  {
+    "id": "val_38",
+    "op": "add",
+    "a": "1162",
+    "b": "9971",
+    "length": 4,
+    "answer": "11133"
+  },
+  {
+    "id": "val_39",
+    "op": "add",
+    "a": "46",
+    "b": "96",
+    "length": 2,
+    "answer": "142"
+  },
+  {
+    "id": "val_40",
+    "op": "add",
+    "a": "953",
+    "b": "913",
+    "length": 3,
+    "answer": "1866"
+  },
+  {
+    "id": "val_41",
+    "op": "add",
+    "a": "966",
+    "b": "695",
+    "length": 3,
+    "answer": "1661"
+  },
+  {
+    "id": "val_42",
+    "op": "add",
+    "a": "1014",
+    "b": "6870",
+    "length": 4,
+    "answer": "7884"
+  },
+  {
+    "id": "val_43",
+    "op": "add",
+    "a": "14",
+    "b": "46",
+    "length": 2,
+    "answer": "60"
+  },
+  {
+    "id": "val_44",
+    "op": "add",
+    "a": "956",
+    "b": "384",
+    "length": 3,
+    "answer": "1340"
+  },
+  {
+    "id": "val_45",
+    "op": "add",
+    "a": "5649",
+    "b": "9367",
+    "length": 4,
+    "answer": "15016"
+  },
+  {
+    "id": "val_46",
+    "op": "add",
+    "a": "145",
+    "b": "437",
+    "length": 3,
+    "answer": "582"
+  },
+  {
+    "id": "val_47",
+    "op": "add",
+    "a": "195",
+    "b": "894",
+    "length": 3,
+    "answer": "1089"
+  },
+  {
+    "id": "val_48",
+    "op": "add",
+    "a": "704",
+    "b": "173",
+    "length": 3,
+    "answer": "877"
+  },
+  {
+    "id": "val_49",
+    "op": "add",
+    "a": "3795",
+    "b": "2506",
+    "length": 4,
+    "answer": "6301"
+  },
+  {
+    "id": "val_50",
+    "op": "add",
+    "a": "98",
+    "b": "29",
+    "length": 2,
+    "answer": "127"
+  },
+  {
+    "id": "val_51",
+    "op": "add",
+    "a": "3408",
+    "b": "2904",
+    "length": 4,
+    "answer": "6312"
+  },
+  {
+    "id": "val_52",
+    "op": "add",
+    "a": "9701",
+    "b": "1177",
+    "length": 4,
+    "answer": "10878"
+  },
+  {
+    "id": "val_53",
+    "op": "add",
+    "a": "331",
+    "b": "509",
+    "length": 3,
+    "answer": "840"
+  },
+  {
+    "id": "val_54",
+    "op": "add",
+    "a": "45",
+    "b": "58",
+    "length": 2,
+    "answer": "103"
+  },
+  {
+    "id": "val_55",
+    "op": "add",
+    "a": "733",
+    "b": "202",
+    "length": 3,
+    "answer": "935"
+  },
+  {
+    "id": "val_56",
+    "op": "add",
+    "a": "806",
+    "b": "561",
+    "length": 3,
+    "answer": "1367"
+  },
+  {
+    "id": "val_57",
+    "op": "add",
+    "a": "1549",
+    "b": "2675",
+    "length": 4,
+    "answer": "4224"
+  },
+  {
+    "id": "val_58",
+    "op": "add",
+    "a": "4250",
+    "b": "9913",
+    "length": 4,
+    "answer": "14163"
+  },
+  {
+    "id": "val_59",
+    "op": "add",
+    "a": "55",
+    "b": "77",
+    "length": 2,
+    "answer": "132"
+  },
+  {
+    "id": "val_60",
+    "op": "add",
+    "a": "29",
+    "b": "59",
+    "length": 2,
+    "answer": "88"
+  },
+  {
+    "id": "val_61",
+    "op": "add",
+    "a": "755",
+    "b": "624",
+    "length": 3,
+    "answer": "1379"
+  },
+  {
+    "id": "val_62",
+    "op": "add",
+    "a": "154",
+    "b": "747",
+    "length": 3,
+    "answer": "901"
+  },
+  {
+    "id": "val_63",
+    "op": "add",
+    "a": "60",
+    "b": "98",
+    "length": 2,
+    "answer": "158"
+  },
+  {
+    "id": "val_64",
+    "op": "add",
+    "a": "8277",
+    "b": "9224",
+    "length": 4,
+    "answer": "17501"
+  },
+  {
+    "id": "val_65",
+    "op": "add",
+    "a": "810",
+    "b": "609",
+    "length": 3,
+    "answer": "1419"
+  },
+  {
+    "id": "val_66",
+    "op": "add",
+    "a": "576",
+    "b": "482",
+    "length": 3,
+    "answer": "1058"
+  },
+  {
+    "id": "val_67",
+    "op": "add",
+    "a": "4083",
+    "b": "3951",
+    "length": 4,
+    "answer": "8034"
+  },
+  {
+    "id": "val_68",
+    "op": "add",
+    "a": "102",
+    "b": "417",
+    "length": 3,
+    "answer": "519"
+  },
+  {
+    "id": "val_69",
+    "op": "add",
+    "a": "927",
+    "b": "496",
+    "length": 3,
+    "answer": "1423"
+  },
+  {
+    "id": "val_70",
+    "op": "add",
+    "a": "7036",
+    "b": "3991",
+    "length": 4,
+    "answer": "11027"
+  },
+  {
+    "id": "val_71",
+    "op": "add",
+    "a": "38",
+    "b": "22",
+    "length": 2,
+    "answer": "60"
+  },
+  {
+    "id": "val_72",
+    "op": "add",
+    "a": "760",
+    "b": "773",
+    "length": 3,
+    "answer": "1533"
+  },
+  {
+    "id": "val_73",
+    "op": "add",
+    "a": "823",
+    "b": "635",
+    "length": 3,
+    "answer": "1458"
+  },
+  {
+    "id": "val_74",
+    "op": "add",
+    "a": "5417",
+    "b": "9197",
+    "length": 4,
+    "answer": "14614"
+  },
+  {
+    "id": "val_75",
+    "op": "add",
+    "a": "18",
+    "b": "42",
+    "length": 2,
+    "answer": "60"
+  },
+  {
+    "id": "val_76",
+    "op": "add",
+    "a": "20",
+    "b": "99",
+    "length": 2,
+    "answer": "119"
+  },
+  {
+    "id": "val_77",
+    "op": "add",
+    "a": "5102",
+    "b": "4045",
+    "length": 4,
+    "answer": "9147"
+  },
+  {
+    "id": "val_78",
+    "op": "add",
+    "a": "5920",
+    "b": "3094",
+    "length": 4,
+    "answer": "9014"
+  },
+  {
+    "id": "val_79",
+    "op": "add",
+    "a": "5408",
+    "b": "2926",
+    "length": 4,
+    "answer": "8334"
+  },
+  {
+    "id": "val_80",
+    "op": "add",
+    "a": "9432",
+    "b": "9175",
+    "length": 4,
+    "answer": "18607"
+  },
+  {
+    "id": "val_81",
+    "op": "add",
+    "a": "95",
+    "b": "30",
+    "length": 2,
+    "answer": "125"
+  },
+  {
+    "id": "val_82",
+    "op": "add",
+    "a": "679",
+    "b": "869",
+    "length": 3,
+    "answer": "1548"
+  },
+  {
+    "id": "val_83",
+    "op": "add",
+    "a": "1124",
+    "b": "6623",
+    "length": 4,
+    "answer": "7747"
+  },
+  {
+    "id": "val_84",
+    "op": "add",
+    "a": "618",
+    "b": "920",
+    "length": 3,
+    "answer": "1538"
+  },
+  {
+    "id": "val_85",
+    "op": "add",
+    "a": "66",
+    "b": "44",
+    "length": 2,
+    "answer": "110"
+  },
+  {
+    "id": "val_86",
+    "op": "add",
+    "a": "115",
+    "b": "849",
+    "length": 3,
+    "answer": "964"
+  },
+  {
+    "id": "val_87",
+    "op": "add",
+    "a": "8483",
+    "b": "2030",
+    "length": 4,
+    "answer": "10513"
+  },
+  {
+    "id": "val_88",
+    "op": "add",
+    "a": "62",
+    "b": "30",
+    "length": 2,
+    "answer": "92"
+  },
+  {
+    "id": "val_89",
+    "op": "add",
+    "a": "945",
+    "b": "370",
+    "length": 3,
+    "answer": "1315"
+  },
+  {
+    "id": "val_90",
+    "op": "add",
+    "a": "672",
+    "b": "802",
+    "length": 3,
+    "answer": "1474"
+  },
+  {
+    "id": "val_91",
+    "op": "add",
+    "a": "72",
+    "b": "54",
+    "length": 2,
+    "answer": "126"
+  },
+  {
+    "id": "val_92",
+    "op": "add",
+    "a": "142",
+    "b": "865",
+    "length": 3,
+    "answer": "1007"
+  },
+  {
+    "id": "val_93",
+    "op": "add",
+    "a": "77",
+    "b": "79",
+    "length": 2,
+    "answer": "156"
+  },
+  {
+    "id": "val_94",
+    "op": "add",
+    "a": "284",
+    "b": "752",
+    "length": 3,
+    "answer": "1036"
+  },
+  {
+    "id": "val_95",
+    "op": "add",
+    "a": "7378",
+    "b": "7115",
+    "length": 4,
+    "answer": "14493"
+  },
+  {
+    "id": "val_96",
+    "op": "add",
+    "a": "948",
+    "b": "342",
+    "length": 3,
+    "answer": "1290"
+  },
+  {
+    "id": "val_97",
+    "op": "add",
+    "a": "611",
+    "b": "200",
+    "length": 3,
+    "answer": "811"
+  },
+  {
+    "id": "val_98",
+    "op": "add",
+    "a": "163",
+    "b": "916",
+    "length": 3,
+    "answer": "1079"
+  },
+  {
+    "id": "val_99",
+    "op": "add",
+    "a": "802",
+    "b": "287",
+    "length": 3,
+    "answer": "1089"
+  },
+  {
+    "id": "val_100",
+    "op": "add",
+    "a": "9628",
+    "b": "1704",
+    "length": 4,
+    "answer": "11332"
+  },
+  {
+    "id": "val_101",
+    "op": "add",
+    "a": "51",
+    "b": "72",
+    "length": 2,
+    "answer": "123"
+  },
+  {
+    "id": "val_102",
+    "op": "add",
+    "a": "5566",
+    "b": "5375",
+    "length": 4,
+    "answer": "10941"
+  },
+  {
+    "id": "val_103",
+    "op": "add",
+    "a": "348",
+    "b": "590",
+    "length": 3,
+    "answer": "938"
+  },
+  {
+    "id": "val_104",
+    "op": "add",
+    "a": "8334",
+    "b": "8531",
+    "length": 4,
+    "answer": "16865"
+  },
+  {
+    "id": "val_105",
+    "op": "add",
+    "a": "4314",
+    "b": "1211",
+    "length": 4,
+    "answer": "5525"
+  },
+  {
+    "id": "val_106",
+    "op": "add",
+    "a": "1942",
+    "b": "8256",
+    "length": 4,
+    "answer": "10198"
+  },
+  {
+    "id": "val_107",
+    "op": "add",
+    "a": "6006",
+    "b": "8573",
+    "length": 4,
+    "answer": "14579"
+  },
+  {
+    "id": "val_108",
+    "op": "add",
+    "a": "19",
+    "b": "16",
+    "length": 2,
+    "answer": "35"
+  },
+  {
+    "id": "val_109",
+    "op": "add",
+    "a": "4242",
+    "b": "6166",
+    "length": 4,
+    "answer": "10408"
+  },
+  {
+    "id": "val_110",
+    "op": "add",
+    "a": "238",
+    "b": "870",
+    "length": 3,
+    "answer": "1108"
+  },
+  {
+    "id": "val_111",
+    "op": "add",
+    "a": "8595",
+    "b": "5590",
+    "length": 4,
+    "answer": "14185"
+  },
+  {
+    "id": "val_112",
+    "op": "add",
+    "a": "31",
+    "b": "14",
+    "length": 2,
+    "answer": "45"
+  },
+  {
+    "id": "val_113",
+    "op": "add",
+    "a": "11",
+    "b": "98",
+    "length": 2,
+    "answer": "109"
+  },
+  {
+    "id": "val_114",
+    "op": "add",
+    "a": "3224",
+    "b": "6522",
+    "length": 4,
+    "answer": "9746"
+  },
+  {
+    "id": "val_115",
+    "op": "add",
+    "a": "2227",
+    "b": "4461",
+    "length": 4,
+    "answer": "6688"
+  },
+  {
+    "id": "val_116",
+    "op": "add",
+    "a": "7533",
+    "b": "8563",
+    "length": 4,
+    "answer": "16096"
+  },
+  {
+    "id": "val_117",
+    "op": "add",
+    "a": "2521",
+    "b": "8769",
+    "length": 4,
+    "answer": "11290"
+  },
+  {
+    "id": "val_118",
+    "op": "add",
+    "a": "24",
+    "b": "66",
+    "length": 2,
+    "answer": "90"
+  },
+  {
+    "id": "val_119",
+    "op": "add",
+    "a": "83",
+    "b": "69",
+    "length": 2,
+    "answer": "152"
+  },
+  {
+    "id": "val_120",
+    "op": "add",
+    "a": "6589",
+    "b": "1887",
+    "length": 4,
+    "answer": "8476"
+  },
+  {
+    "id": "val_121",
+    "op": "add",
+    "a": "8266",
+    "b": "5164",
+    "length": 4,
+    "answer": "13430"
+  },
+  {
+    "id": "val_122",
+    "op": "add",
+    "a": "499",
+    "b": "996",
+    "length": 3,
+    "answer": "1495"
+  },
+  {
+    "id": "val_123",
+    "op": "add",
+    "a": "6087",
+    "b": "2006",
+    "length": 4,
+    "answer": "8093"
+  },
+  {
+    "id": "val_124",
+    "op": "add",
+    "a": "694",
+    "b": "717",
+    "length": 3,
+    "answer": "1411"
+  },
+  {
+    "id": "val_125",
+    "op": "add",
+    "a": "399",
+    "b": "947",
+    "length": 3,
+    "answer": "1346"
+  },
+  {
+    "id": "val_126",
+    "op": "add",
+    "a": "38",
+    "b": "37",
+    "length": 2,
+    "answer": "75"
+  },
+  {
+    "id": "val_127",
+    "op": "add",
+    "a": "963",
+    "b": "946",
+    "length": 3,
+    "answer": "1909"
+  },
+  {
+    "id": "val_128",
+    "op": "sub",
+    "a": "462",
+    "b": "414",
+    "length": 3,
+    "answer": "48"
+  },
+  {
+    "id": "val_129",
+    "op": "sub",
+    "a": "3954",
+    "b": "1343",
+    "length": 4,
+    "answer": "2611"
+  },
+  {
+    "id": "val_130",
+    "op": "sub",
+    "a": "94",
+    "b": "88",
+    "length": 2,
+    "answer": "6"
+  },
+  {
+    "id": "val_131",
+    "op": "sub",
+    "a": "79",
+    "b": "79",
+    "length": 2,
+    "answer": "0"
+  },
+  {
+    "id": "val_132",
+    "op": "sub",
+    "a": "553",
+    "b": "453",
+    "length": 3,
+    "answer": "100"
+  },
+  {
+    "id": "val_133",
+    "op": "sub",
+    "a": "581",
+    "b": "414",
+    "length": 3,
+    "answer": "167"
+  },
+  {
+    "id": "val_134",
+    "op": "sub",
+    "a": "50",
+    "b": "27",
+    "length": 2,
+    "answer": "23"
+  },
+  {
+    "id": "val_135",
+    "op": "sub",
+    "a": "7006",
+    "b": "5030",
+    "length": 4,
+    "answer": "1976"
+  },
+  {
+    "id": "val_136",
+    "op": "sub",
+    "a": "96",
+    "b": "93",
+    "length": 2,
+    "answer": "3"
+  },
+  {
+    "id": "val_137",
+    "op": "sub",
+    "a": "894",
+    "b": "110",
+    "length": 3,
+    "answer": "784"
+  },
+  {
+    "id": "val_138",
+    "op": "sub",
+    "a": "5933",
+    "b": "5568",
+    "length": 4,
+    "answer": "365"
+  },
+  {
+    "id": "val_139",
+    "op": "sub",
+    "a": "8880",
+    "b": "6636",
+    "length": 4,
+    "answer": "2244"
+  },
+  {
+    "id": "val_140",
+    "op": "sub",
+    "a": "973",
+    "b": "879",
+    "length": 3,
+    "answer": "94"
+  },
+  {
+    "id": "val_141",
+    "op": "sub",
+    "a": "78",
+    "b": "39",
+    "length": 2,
+    "answer": "39"
+  },
+  {
+    "id": "val_142",
+    "op": "sub",
+    "a": "89",
+    "b": "70",
+    "length": 2,
+    "answer": "19"
+  },
+  {
+    "id": "val_143",
+    "op": "sub",
+    "a": "7627",
+    "b": "3721",
+    "length": 4,
+    "answer": "3906"
+  },
+  {
+    "id": "val_144",
+    "op": "sub",
+    "a": "96",
+    "b": "41",
+    "length": 2,
+    "answer": "55"
+  },
+  {
+    "id": "val_145",
+    "op": "sub",
+    "a": "67",
+    "b": "13",
+    "length": 2,
+    "answer": "54"
+  },
+  {
+    "id": "val_146",
+    "op": "sub",
+    "a": "92",
+    "b": "12",
+    "length": 2,
+    "answer": "80"
+  },
+  {
+    "id": "val_147",
+    "op": "sub",
+    "a": "3529",
+    "b": "1000",
+    "length": 4,
+    "answer": "2529"
+  },
+  {
+    "id": "val_148",
+    "op": "sub",
+    "a": "936",
+    "b": "528",
+    "length": 3,
+    "answer": "408"
+  },
+  {
+    "id": "val_149",
+    "op": "sub",
+    "a": "388",
+    "b": "250",
+    "length": 3,
+    "answer": "138"
+  },
+  {
+    "id": "val_150",
+    "op": "sub",
+    "a": "92",
+    "b": "30",
+    "length": 2,
+    "answer": "62"
+  },
+  {
+    "id": "val_151",
+    "op": "sub",
+    "a": "86",
+    "b": "78",
+    "length": 2,
+    "answer": "8"
+  },
+  {
+    "id": "val_152",
+    "op": "sub",
+    "a": "95",
+    "b": "35",
+    "length": 2,
+    "answer": "60"
+  },
+  {
+    "id": "val_153",
+    "op": "sub",
+    "a": "404",
+    "b": "341",
+    "length": 3,
+    "answer": "63"
+  },
+  {
+    "id": "val_154",
+    "op": "sub",
+    "a": "824",
+    "b": "585",
+    "length": 3,
+    "answer": "239"
+  },
+  {
+    "id": "val_155",
+    "op": "sub",
+    "a": "86",
+    "b": "13",
+    "length": 2,
+    "answer": "73"
+  },
+  {
+    "id": "val_156",
+    "op": "sub",
+    "a": "5604",
+    "b": "3889",
+    "length": 4,
+    "answer": "1715"
+  },
+  {
+    "id": "val_157",
+    "op": "sub",
+    "a": "512",
+    "b": "410",
+    "length": 3,
+    "answer": "102"
+  },
+  {
+    "id": "val_158",
+    "op": "sub",
+    "a": "9047",
+    "b": "6819",
+    "length": 4,
+    "answer": "2228"
+  },
+  {
+    "id": "val_159",
+    "op": "sub",
+    "a": "905",
+    "b": "806",
+    "length": 3,
+    "answer": "99"
+  },
+  {
+    "id": "val_160",
+    "op": "sub",
+    "a": "67",
+    "b": "29",
+    "length": 2,
+    "answer": "38"
+  },
+  {
+    "id": "val_161",
+    "op": "sub",
+    "a": "81",
+    "b": "11",
+    "length": 2,
+    "answer": "70"
+  },
+  {
+    "id": "val_162",
+    "op": "sub",
+    "a": "831",
+    "b": "601",
+    "length": 3,
+    "answer": "230"
+  },
+  {
+    "id": "val_163",
+    "op": "sub",
+    "a": "39",
+    "b": "13",
+    "length": 2,
+    "answer": "26"
+  },
+  {
+    "id": "val_164",
+    "op": "sub",
+    "a": "46",
+    "b": "45",
+    "length": 2,
+    "answer": "1"
+  },
+  {
+    "id": "val_165",
+    "op": "sub",
+    "a": "92",
+    "b": "83",
+    "length": 2,
+    "answer": "9"
+  },
+  {
+    "id": "val_166",
+    "op": "sub",
+    "a": "738",
+    "b": "402",
+    "length": 3,
+    "answer": "336"
+  },
+  {
+    "id": "val_167",
+    "op": "sub",
+    "a": "548",
+    "b": "262",
+    "length": 3,
+    "answer": "286"
+  },
+  {
+    "id": "val_168",
+    "op": "sub",
+    "a": "58",
+    "b": "18",
+    "length": 2,
+    "answer": "40"
+  },
+  {
+    "id": "val_169",
+    "op": "sub",
+    "a": "7081",
+    "b": "1885",
+    "length": 4,
+    "answer": "5196"
+  },
+  {
+    "id": "val_170",
+    "op": "sub",
+    "a": "77",
+    "b": "38",
+    "length": 2,
+    "answer": "39"
+  },
+  {
+    "id": "val_171",
+    "op": "sub",
+    "a": "7639",
+    "b": "4430",
+    "length": 4,
+    "answer": "3209"
+  },
+  {
+    "id": "val_172",
+    "op": "sub",
+    "a": "68",
+    "b": "45",
+    "length": 2,
+    "answer": "23"
+  },
+  {
+    "id": "val_173",
+    "op": "sub",
+    "a": "999",
+    "b": "609",
+    "length": 3,
+    "answer": "390"
+  },
+  {
+    "id": "val_174",
+    "op": "sub",
+    "a": "8782",
+    "b": "2693",
+    "length": 4,
+    "answer": "6089"
+  },
+  {
+    "id": "val_175",
+    "op": "sub",
+    "a": "49",
+    "b": "44",
+    "length": 2,
+    "answer": "5"
+  },
+  {
+    "id": "val_176",
+    "op": "sub",
+    "a": "8239",
+    "b": "7604",
+    "length": 4,
+    "answer": "635"
+  },
+  {
+    "id": "val_177",
+    "op": "sub",
+    "a": "44",
+    "b": "23",
+    "length": 2,
+    "answer": "21"
+  },
+  {
+    "id": "val_178",
+    "op": "sub",
+    "a": "8295",
+    "b": "7474",
+    "length": 4,
+    "answer": "821"
+  },
+  {
+    "id": "val_179",
+    "op": "sub",
+    "a": "83",
+    "b": "13",
+    "length": 2,
+    "answer": "70"
+  },
+  {
+    "id": "val_180",
+    "op": "sub",
+    "a": "7459",
+    "b": "2271",
+    "length": 4,
+    "answer": "5188"
+  },
+  {
+    "id": "val_181",
+    "op": "sub",
+    "a": "810",
+    "b": "707",
+    "length": 3,
+    "answer": "103"
+  },
+  {
+    "id": "val_182",
+    "op": "sub",
+    "a": "94",
+    "b": "87",
+    "length": 2,
+    "answer": "7"
+  },
+  {
+    "id": "val_183",
+    "op": "sub",
+    "a": "24",
+    "b": "19",
+    "length": 2,
+    "answer": "5"
+  },
+  {
+    "id": "val_184",
+    "op": "sub",
+    "a": "8232",
+    "b": "5495",
+    "length": 4,
+    "answer": "2737"
+  },
+  {
+    "id": "val_185",
+    "op": "sub",
+    "a": "5939",
+    "b": "4406",
+    "length": 4,
+    "answer": "1533"
+  },
+  {
+    "id": "val_186",
+    "op": "sub",
+    "a": "605",
+    "b": "283",
+    "length": 3,
+    "answer": "322"
+  },
+  {
+    "id": "val_187",
+    "op": "sub",
+    "a": "9808",
+    "b": "6853",
+    "length": 4,
+    "answer": "2955"
+  },
+  {
+    "id": "val_188",
+    "op": "sub",
+    "a": "486",
+    "b": "325",
+    "length": 3,
+    "answer": "161"
+  },
+  {
+    "id": "val_189",
+    "op": "sub",
+    "a": "8308",
+    "b": "7145",
+    "length": 4,
+    "answer": "1163"
+  },
+  {
+    "id": "val_190",
+    "op": "sub",
+    "a": "734",
+    "b": "678",
+    "length": 3,
+    "answer": "56"
+  },
+  {
+    "id": "val_191",
+    "op": "sub",
+    "a": "99",
+    "b": "63",
+    "length": 2,
+    "answer": "36"
+  },
+  {
+    "id": "val_192",
+    "op": "sub",
+    "a": "9257",
+    "b": "5362",
+    "length": 4,
+    "answer": "3895"
+  },
+  {
+    "id": "val_193",
+    "op": "sub",
+    "a": "7443",
+    "b": "3407",
+    "length": 4,
+    "answer": "4036"
+  },
+  {
+    "id": "val_194",
+    "op": "sub",
+    "a": "5670",
+    "b": "3670",
+    "length": 4,
+    "answer": "2000"
+  },
+  {
+    "id": "val_195",
+    "op": "sub",
+    "a": "9840",
+    "b": "1014",
+    "length": 4,
+    "answer": "8826"
+  },
+  {
+    "id": "val_196",
+    "op": "sub",
+    "a": "5122",
+    "b": "3449",
+    "length": 4,
+    "answer": "1673"
+  },
+  {
+    "id": "val_197",
+    "op": "sub",
+    "a": "8626",
+    "b": "4372",
+    "length": 4,
+    "answer": "4254"
+  },
+  {
+    "id": "val_198",
+    "op": "sub",
+    "a": "9839",
+    "b": "6854",
+    "length": 4,
+    "answer": "2985"
+  },
+  {
+    "id": "val_199",
+    "op": "sub",
+    "a": "972",
+    "b": "961",
+    "length": 3,
+    "answer": "11"
+  },
+  {
+    "id": "val_200",
+    "op": "sub",
+    "a": "8564",
+    "b": "2475",
+    "length": 4,
+    "answer": "6089"
+  },
+  {
+    "id": "val_201",
+    "op": "sub",
+    "a": "549",
+    "b": "194",
+    "length": 3,
+    "answer": "355"
+  },
+  {
+    "id": "val_202",
+    "op": "sub",
+    "a": "73",
+    "b": "64",
+    "length": 2,
+    "answer": "9"
+  },
+  {
+    "id": "val_203",
+    "op": "sub",
+    "a": "5115",
+    "b": "4471",
+    "length": 4,
+    "answer": "644"
+  },
+  {
+    "id": "val_204",
+    "op": "sub",
+    "a": "67",
+    "b": "21",
+    "length": 2,
+    "answer": "46"
+  },
+  {
+    "id": "val_205",
+    "op": "sub",
+    "a": "41",
+    "b": "24",
+    "length": 2,
+    "answer": "17"
+  },
+  {
+    "id": "val_206",
+    "op": "sub",
+    "a": "977",
+    "b": "602",
+    "length": 3,
+    "answer": "375"
+  },
+  {
+    "id": "val_207",
+    "op": "sub",
+    "a": "580",
+    "b": "438",
+    "length": 3,
+    "answer": "142"
+  },
+  {
+    "id": "val_208",
+    "op": "sub",
+    "a": "4927",
+    "b": "4500",
+    "length": 4,
+    "answer": "427"
+  },
+  {
+    "id": "val_209",
+    "op": "sub",
+    "a": "948",
+    "b": "734",
+    "length": 3,
+    "answer": "214"
+  },
+  {
+    "id": "val_210",
+    "op": "sub",
+    "a": "4252",
+    "b": "3438",
+    "length": 4,
+    "answer": "814"
+  },
+  {
+    "id": "val_211",
+    "op": "sub",
+    "a": "46",
+    "b": "26",
+    "length": 2,
+    "answer": "20"
+  },
+  {
+    "id": "val_212",
+    "op": "sub",
+    "a": "96",
+    "b": "59",
+    "length": 2,
+    "answer": "37"
+  },
+  {
+    "id": "val_213",
+    "op": "sub",
+    "a": "34",
+    "b": "18",
+    "length": 2,
+    "answer": "16"
+  },
+  {
+    "id": "val_214",
+    "op": "sub",
+    "a": "42",
+    "b": "15",
+    "length": 2,
+    "answer": "27"
+  },
+  {
+    "id": "val_215",
+    "op": "sub",
+    "a": "36",
+    "b": "34",
+    "length": 2,
+    "answer": "2"
+  },
+  {
+    "id": "val_216",
+    "op": "sub",
+    "a": "9517",
+    "b": "5869",
+    "length": 4,
+    "answer": "3648"
+  },
+  {
+    "id": "val_217",
+    "op": "sub",
+    "a": "6943",
+    "b": "1495",
+    "length": 4,
+    "answer": "5448"
+  },
+  {
+    "id": "val_218",
+    "op": "sub",
+    "a": "2898",
+    "b": "1633",
+    "length": 4,
+    "answer": "1265"
+  },
+  {
+    "id": "val_219",
+    "op": "sub",
+    "a": "3587",
+    "b": "2634",
+    "length": 4,
+    "answer": "953"
+  },
+  {
+    "id": "val_220",
+    "op": "sub",
+    "a": "7396",
+    "b": "5458",
+    "length": 4,
+    "answer": "1938"
+  },
+  {
+    "id": "val_221",
+    "op": "sub",
+    "a": "257",
+    "b": "255",
+    "length": 3,
+    "answer": "2"
+  },
+  {
+    "id": "val_222",
+    "op": "sub",
+    "a": "826",
+    "b": "276",
+    "length": 3,
+    "answer": "550"
+  },
+  {
+    "id": "val_223",
+    "op": "sub",
+    "a": "2428",
+    "b": "1042",
+    "length": 4,
+    "answer": "1386"
+  },
+  {
+    "id": "val_224",
+    "op": "sub",
+    "a": "887",
+    "b": "121",
+    "length": 3,
+    "answer": "766"
+  },
+  {
+    "id": "val_225",
+    "op": "sub",
+    "a": "86",
+    "b": "17",
+    "length": 2,
+    "answer": "69"
+  },
+  {
+    "id": "val_226",
+    "op": "sub",
+    "a": "53",
+    "b": "34",
+    "length": 2,
+    "answer": "19"
+  },
+  {
+    "id": "val_227",
+    "op": "sub",
+    "a": "788",
+    "b": "471",
+    "length": 3,
+    "answer": "317"
+  },
+  {
+    "id": "val_228",
+    "op": "sub",
+    "a": "737",
+    "b": "511",
+    "length": 3,
+    "answer": "226"
+  },
+  {
+    "id": "val_229",
+    "op": "sub",
+    "a": "4018",
+    "b": "2719",
+    "length": 4,
+    "answer": "1299"
+  },
+  {
+    "id": "val_230",
+    "op": "sub",
+    "a": "4993",
+    "b": "2411",
+    "length": 4,
+    "answer": "2582"
+  },
+  {
+    "id": "val_231",
+    "op": "sub",
+    "a": "968",
+    "b": "495",
+    "length": 3,
+    "answer": "473"
+  },
+  {
+    "id": "val_232",
+    "op": "sub",
+    "a": "9174",
+    "b": "3288",
+    "length": 4,
+    "answer": "5886"
+  },
+  {
+    "id": "val_233",
+    "op": "sub",
+    "a": "805",
+    "b": "438",
+    "length": 3,
+    "answer": "367"
+  },
+  {
+    "id": "val_234",
+    "op": "sub",
+    "a": "743",
+    "b": "425",
+    "length": 3,
+    "answer": "318"
+  },
+  {
+    "id": "val_235",
+    "op": "sub",
+    "a": "36",
+    "b": "14",
+    "length": 2,
+    "answer": "22"
+  },
+  {
+    "id": "val_236",
+    "op": "sub",
+    "a": "6137",
+    "b": "4171",
+    "length": 4,
+    "answer": "1966"
+  },
+  {
+    "id": "val_237",
+    "op": "sub",
+    "a": "816",
+    "b": "377",
+    "length": 3,
+    "answer": "439"
+  },
+  {
+    "id": "val_238",
+    "op": "sub",
+    "a": "96",
+    "b": "78",
+    "length": 2,
+    "answer": "18"
+  },
+  {
+    "id": "val_239",
+    "op": "sub",
+    "a": "6174",
+    "b": "2701",
+    "length": 4,
+    "answer": "3473"
+  },
+  {
+    "id": "val_240",
+    "op": "sub",
+    "a": "940",
+    "b": "377",
+    "length": 3,
+    "answer": "563"
+  },
+  {
+    "id": "val_241",
+    "op": "sub",
+    "a": "64",
+    "b": "31",
+    "length": 2,
+    "answer": "33"
+  },
+  {
+    "id": "val_242",
+    "op": "sub",
+    "a": "7132",
+    "b": "4357",
+    "length": 4,
+    "answer": "2775"
+  },
+  {
+    "id": "val_243",
+    "op": "sub",
+    "a": "69",
+    "b": "44",
+    "length": 2,
+    "answer": "25"
+  },
+  {
+    "id": "val_244",
+    "op": "sub",
+    "a": "8271",
+    "b": "5891",
+    "length": 4,
+    "answer": "2380"
+  },
+  {
+    "id": "val_245",
+    "op": "sub",
+    "a": "929",
+    "b": "311",
+    "length": 3,
+    "answer": "618"
+  },
+  {
+    "id": "val_246",
+    "op": "sub",
+    "a": "6315",
+    "b": "4402",
+    "length": 4,
+    "answer": "1913"
+  },
+  {
+    "id": "val_247",
+    "op": "sub",
+    "a": "649",
+    "b": "586",
+    "length": 3,
+    "answer": "63"
+  },
+  {
+    "id": "val_248",
+    "op": "sub",
+    "a": "8226",
+    "b": "7294",
+    "length": 4,
+    "answer": "932"
+  },
+  {
+    "id": "val_249",
+    "op": "sub",
+    "a": "484",
+    "b": "224",
+    "length": 3,
+    "answer": "260"
+  },
+  {
+    "id": "val_250",
+    "op": "sub",
+    "a": "801",
+    "b": "336",
+    "length": 3,
+    "answer": "465"
+  },
+  {
+    "id": "val_251",
+    "op": "sub",
+    "a": "88",
+    "b": "22",
+    "length": 2,
+    "answer": "66"
+  },
+  {
+    "id": "val_252",
+    "op": "sub",
+    "a": "998",
+    "b": "375",
+    "length": 3,
+    "answer": "623"
+  },
+  {
+    "id": "val_253",
+    "op": "sub",
+    "a": "961",
+    "b": "299",
+    "length": 3,
+    "answer": "662"
+  },
+  {
+    "id": "val_254",
+    "op": "sub",
+    "a": "845",
+    "b": "173",
+    "length": 3,
+    "answer": "672"
+  },
+  {
+    "id": "val_255",
+    "op": "sub",
+    "a": "753",
+    "b": "638",
+    "length": 3,
+    "answer": "115"
+  },
+  {
+    "id": "val_256",
+    "op": "mul_digit",
+    "a": "3619",
+    "b": "1",
+    "length": 4,
+    "answer": "3619"
+  },
+  {
+    "id": "val_257",
+    "op": "mul_digit",
+    "a": "86",
+    "b": "4",
+    "length": 2,
+    "answer": "344"
+  },
+  {
+    "id": "val_258",
+    "op": "mul_digit",
+    "a": "393",
+    "b": "1",
+    "length": 3,
+    "answer": "393"
+  },
+  {
+    "id": "val_259",
+    "op": "mul_digit",
+    "a": "7248",
+    "b": "1",
+    "length": 4,
+    "answer": "7248"
+  },
+  {
+    "id": "val_260",
+    "op": "mul_digit",
+    "a": "1402",
+    "b": "2",
+    "length": 4,
+    "answer": "2804"
+  },
+  {
+    "id": "val_261",
+    "op": "mul_digit",
+    "a": "102",
+    "b": "4",
+    "length": 3,
+    "answer": "408"
+  },
+  {
+    "id": "val_262",
+    "op": "mul_digit",
+    "a": "6893",
+    "b": "1",
+    "length": 4,
+    "answer": "6893"
+  },
+  {
+    "id": "val_263",
+    "op": "mul_digit",
+    "a": "264",
+    "b": "9",
+    "length": 3,
+    "answer": "2376"
+  },
+  {
+    "id": "val_264",
+    "op": "mul_digit",
+    "a": "8403",
+    "b": "5",
+    "length": 4,
+    "answer": "42015"
+  },
+  {
+    "id": "val_265",
+    "op": "mul_digit",
+    "a": "47",
+    "b": "5",
+    "length": 2,
+    "answer": "235"
+  },
+  {
+    "id": "val_266",
+    "op": "mul_digit",
+    "a": "154",
+    "b": "7",
+    "length": 3,
+    "answer": "1078"
+  },
+  {
+    "id": "val_267",
+    "op": "mul_digit",
+    "a": "45",
+    "b": "3",
+    "length": 2,
+    "answer": "135"
+  },
+  {
+    "id": "val_268",
+    "op": "mul_digit",
+    "a": "714",
+    "b": "6",
+    "length": 3,
+    "answer": "4284"
+  },
+  {
+    "id": "val_269",
+    "op": "mul_digit",
+    "a": "142",
+    "b": "6",
+    "length": 3,
+    "answer": "852"
+  },
+  {
+    "id": "val_270",
+    "op": "mul_digit",
+    "a": "23",
+    "b": "6",
+    "length": 2,
+    "answer": "138"
+  },
+  {
+    "id": "val_271",
+    "op": "mul_digit",
+    "a": "86",
+    "b": "0",
+    "length": 2,
+    "answer": "0"
+  },
+  {
+    "id": "val_272",
+    "op": "mul_digit",
+    "a": "794",
+    "b": "3",
+    "length": 3,
+    "answer": "2382"
+  },
+  {
+    "id": "val_273",
+    "op": "mul_digit",
+    "a": "698",
+    "b": "7",
+    "length": 3,
+    "answer": "4886"
+  },
+  {
+    "id": "val_274",
+    "op": "mul_digit",
+    "a": "6899",
+    "b": "7",
+    "length": 4,
+    "answer": "48293"
+  },
+  {
+    "id": "val_275",
+    "op": "mul_digit",
+    "a": "199",
+    "b": "2",
+    "length": 3,
+    "answer": "398"
+  },
+  {
+    "id": "val_276",
+    "op": "mul_digit",
+    "a": "87",
+    "b": "5",
+    "length": 2,
+    "answer": "435"
+  },
+  {
+    "id": "val_277",
+    "op": "mul_digit",
+    "a": "4776",
+    "b": "8",
+    "length": 4,
+    "answer": "38208"
+  },
+  {
+    "id": "val_278",
+    "op": "mul_digit",
+    "a": "430",
+    "b": "1",
+    "length": 3,
+    "answer": "430"
+  },
+  {
+    "id": "val_279",
+    "op": "mul_digit",
+    "a": "85",
+    "b": "0",
+    "length": 2,
+    "answer": "0"
+  },
+  {
+    "id": "val_280",
+    "op": "mul_digit",
+    "a": "669",
+    "b": "2",
+    "length": 3,
+    "answer": "1338"
+  },
+  {
+    "id": "val_281",
+    "op": "mul_digit",
+    "a": "722",
+    "b": "2",
+    "length": 3,
+    "answer": "1444"
+  },
+  {
+    "id": "val_282",
+    "op": "mul_digit",
+    "a": "2090",
+    "b": "8",
+    "length": 4,
+    "answer": "16720"
+  },
+  {
+    "id": "val_283",
+    "op": "mul_digit",
+    "a": "2191",
+    "b": "6",
+    "length": 4,
+    "answer": "13146"
+  },
+  {
+    "id": "val_284",
+    "op": "mul_digit",
+    "a": "363",
+    "b": "6",
+    "length": 3,
+    "answer": "2178"
+  },
+  {
+    "id": "val_285",
+    "op": "mul_digit",
+    "a": "4759",
+    "b": "1",
+    "length": 4,
+    "answer": "4759"
+  },
+  {
+    "id": "val_286",
+    "op": "mul_digit",
+    "a": "43",
+    "b": "9",
+    "length": 2,
+    "answer": "387"
+  },
+  {
+    "id": "val_287",
+    "op": "mul_digit",
+    "a": "7022",
+    "b": "2",
+    "length": 4,
+    "answer": "14044"
+  },
+  {
+    "id": "val_288",
+    "op": "mul_digit",
+    "a": "88",
+    "b": "2",
+    "length": 2,
+    "answer": "176"
+  },
+  {
+    "id": "val_289",
+    "op": "mul_digit",
+    "a": "884",
+    "b": "6",
+    "length": 3,
+    "answer": "5304"
+  },
+  {
+    "id": "val_290",
+    "op": "mul_digit",
+    "a": "501",
+    "b": "9",
+    "length": 3,
+    "answer": "4509"
+  },
+  {
+    "id": "val_291",
+    "op": "mul_digit",
+    "a": "9300",
+    "b": "3",
+    "length": 4,
+    "answer": "27900"
+  },
+  {
+    "id": "val_292",
+    "op": "mul_digit",
+    "a": "8625",
+    "b": "3",
+    "length": 4,
+    "answer": "25875"
+  },
+  {
+    "id": "val_293",
+    "op": "mul_digit",
+    "a": "910",
+    "b": "9",
+    "length": 3,
+    "answer": "8190"
+  },
+  {
+    "id": "val_294",
+    "op": "mul_digit",
+    "a": "7460",
+    "b": "5",
+    "length": 4,
+    "answer": "37300"
+  },
+  {
+    "id": "val_295",
+    "op": "mul_digit",
+    "a": "42",
+    "b": "4",
+    "length": 2,
+    "answer": "168"
+  },
+  {
+    "id": "val_296",
+    "op": "mul_digit",
+    "a": "2971",
+    "b": "9",
+    "length": 4,
+    "answer": "26739"
+  },
+  {
+    "id": "val_297",
+    "op": "mul_digit",
+    "a": "9548",
+    "b": "8",
+    "length": 4,
+    "answer": "76384"
+  },
+  {
+    "id": "val_298",
+    "op": "mul_digit",
+    "a": "976",
+    "b": "9",
+    "length": 3,
+    "answer": "8784"
+  },
+  {
+    "id": "val_299",
+    "op": "mul_digit",
+    "a": "749",
+    "b": "4",
+    "length": 3,
+    "answer": "2996"
+  },
+  {
+    "id": "val_300",
+    "op": "mul_digit",
+    "a": "6893",
+    "b": "0",
+    "length": 4,
+    "answer": "0"
+  },
+  {
+    "id": "val_301",
+    "op": "mul_digit",
+    "a": "7984",
+    "b": "4",
+    "length": 4,
+    "answer": "31936"
+  },
+  {
+    "id": "val_302",
+    "op": "mul_digit",
+    "a": "2220",
+    "b": "4",
+    "length": 4,
+    "answer": "8880"
+  },
+  {
+    "id": "val_303",
+    "op": "mul_digit",
+    "a": "1948",
+    "b": "0",
+    "length": 4,
+    "answer": "0"
+  },
+  {
+    "id": "val_304",
+    "op": "mul_digit",
+    "a": "867",
+    "b": "0",
+    "length": 3,
+    "answer": "0"
+  },
+  {
+    "id": "val_305",
+    "op": "mul_digit",
+    "a": "768",
+    "b": "9",
+    "length": 3,
+    "answer": "6912"
+  },
+  {
+    "id": "val_306",
+    "op": "mul_digit",
+    "a": "93",
+    "b": "8",
+    "length": 2,
+    "answer": "744"
+  },
+  {
+    "id": "val_307",
+    "op": "mul_digit",
+    "a": "54",
+    "b": "5",
+    "length": 2,
+    "answer": "270"
+  },
+  {
+    "id": "val_308",
+    "op": "mul_digit",
+    "a": "2452",
+    "b": "4",
+    "length": 4,
+    "answer": "9808"
+  },
+  {
+    "id": "val_309",
+    "op": "mul_digit",
+    "a": "15",
+    "b": "3",
+    "length": 2,
+    "answer": "45"
+  },
+  {
+    "id": "val_310",
+    "op": "mul_digit",
+    "a": "709",
+    "b": "2",
+    "length": 3,
+    "answer": "1418"
+  },
+  {
+    "id": "val_311",
+    "op": "mul_digit",
+    "a": "592",
+    "b": "1",
+    "length": 3,
+    "answer": "592"
+  },
+  {
+    "id": "val_312",
+    "op": "mul_digit",
+    "a": "97",
+    "b": "4",
+    "length": 2,
+    "answer": "388"
+  },
+  {
+    "id": "val_313",
+    "op": "mul_digit",
+    "a": "6592",
+    "b": "5",
+    "length": 4,
+    "answer": "32960"
+  },
+  {
+    "id": "val_314",
+    "op": "mul_digit",
+    "a": "8623",
+    "b": "2",
+    "length": 4,
+    "answer": "17246"
+  },
+  {
+    "id": "val_315",
+    "op": "mul_digit",
+    "a": "1407",
+    "b": "4",
+    "length": 4,
+    "answer": "5628"
+  },
+  {
+    "id": "val_316",
+    "op": "mul_digit",
+    "a": "959",
+    "b": "2",
+    "length": 3,
+    "answer": "1918"
+  },
+  {
+    "id": "val_317",
+    "op": "mul_digit",
+    "a": "6946",
+    "b": "3",
+    "length": 4,
+    "answer": "20838"
+  },
+  {
+    "id": "val_318",
+    "op": "mul_digit",
+    "a": "8782",
+    "b": "2",
+    "length": 4,
+    "answer": "17564"
+  },
+  {
+    "id": "val_319",
+    "op": "mul_digit",
+    "a": "1591",
+    "b": "4",
+    "length": 4,
+    "answer": "6364"
+  },
+  {
+    "id": "val_320",
+    "op": "mul_digit",
+    "a": "6818",
+    "b": "7",
+    "length": 4,
+    "answer": "47726"
+  },
+  {
+    "id": "val_321",
+    "op": "mul_digit",
+    "a": "680",
+    "b": "5",
+    "length": 3,
+    "answer": "3400"
+  },
+  {
+    "id": "val_322",
+    "op": "mul_digit",
+    "a": "8022",
+    "b": "7",
+    "length": 4,
+    "answer": "56154"
+  },
+  {
+    "id": "val_323",
+    "op": "mul_digit",
+    "a": "2664",
+    "b": "4",
+    "length": 4,
+    "answer": "10656"
+  },
+  {
+    "id": "val_324",
+    "op": "mul_digit",
+    "a": "68",
+    "b": "6",
+    "length": 2,
+    "answer": "408"
+  },
+  {
+    "id": "val_325",
+    "op": "mul_digit",
+    "a": "2604",
+    "b": "5",
+    "length": 4,
+    "answer": "13020"
+  },
+  {
+    "id": "val_326",
+    "op": "mul_digit",
+    "a": "506",
+    "b": "6",
+    "length": 3,
+    "answer": "3036"
+  },
+  {
+    "id": "val_327",
+    "op": "mul_digit",
+    "a": "2353",
+    "b": "3",
+    "length": 4,
+    "answer": "7059"
+  },
+  {
+    "id": "val_328",
+    "op": "mul_digit",
+    "a": "70",
+    "b": "4",
+    "length": 2,
+    "answer": "280"
+  },
+  {
+    "id": "val_329",
+    "op": "mul_digit",
+    "a": "655",
+    "b": "5",
+    "length": 3,
+    "answer": "3275"
+  },
+  {
+    "id": "val_330",
+    "op": "mul_digit",
+    "a": "3894",
+    "b": "2",
+    "length": 4,
+    "answer": "7788"
+  },
+  {
+    "id": "val_331",
+    "op": "mul_digit",
+    "a": "35",
+    "b": "5",
+    "length": 2,
+    "answer": "175"
+  },
+  {
+    "id": "val_332",
+    "op": "mul_digit",
+    "a": "13",
+    "b": "0",
+    "length": 2,
+    "answer": "0"
+  },
+  {
+    "id": "val_333",
+    "op": "mul_digit",
+    "a": "5590",
+    "b": "9",
+    "length": 4,
+    "answer": "50310"
+  },
+  {
+    "id": "val_334",
+    "op": "mul_digit",
+    "a": "54",
+    "b": "1",
+    "length": 2,
+    "answer": "54"
+  },
+  {
+    "id": "val_335",
+    "op": "mul_digit",
+    "a": "17",
+    "b": "0",
+    "length": 2,
+    "answer": "0"
+  },
+  {
+    "id": "val_336",
+    "op": "mul_digit",
+    "a": "961",
+    "b": "6",
+    "length": 3,
+    "answer": "5766"
+  },
+  {
+    "id": "val_337",
+    "op": "mul_digit",
+    "a": "139",
+    "b": "6",
+    "length": 3,
+    "answer": "834"
+  },
+  {
+    "id": "val_338",
+    "op": "mul_digit",
+    "a": "279",
+    "b": "8",
+    "length": 3,
+    "answer": "2232"
+  },
+  {
+    "id": "val_339",
+    "op": "mul_digit",
+    "a": "326",
+    "b": "2",
+    "length": 3,
+    "answer": "652"
+  },
+  {
+    "id": "val_340",
+    "op": "mul_digit",
+    "a": "3106",
+    "b": "3",
+    "length": 4,
+    "answer": "9318"
+  },
+  {
+    "id": "val_341",
+    "op": "mul_digit",
+    "a": "825",
+    "b": "5",
+    "length": 3,
+    "answer": "4125"
+  },
+  {
+    "id": "val_342",
+    "op": "mul_digit",
+    "a": "3703",
+    "b": "9",
+    "length": 4,
+    "answer": "33327"
+  },
+  {
+    "id": "val_343",
+    "op": "mul_digit",
+    "a": "4908",
+    "b": "3",
+    "length": 4,
+    "answer": "14724"
+  },
+  {
+    "id": "val_344",
+    "op": "mul_digit",
+    "a": "868",
+    "b": "9",
+    "length": 3,
+    "answer": "7812"
+  },
+  {
+    "id": "val_345",
+    "op": "mul_digit",
+    "a": "109",
+    "b": "3",
+    "length": 3,
+    "answer": "327"
+  },
+  {
+    "id": "val_346",
+    "op": "mul_digit",
+    "a": "3172",
+    "b": "1",
+    "length": 4,
+    "answer": "3172"
+  },
+  {
+    "id": "val_347",
+    "op": "mul_digit",
+    "a": "293",
+    "b": "5",
+    "length": 3,
+    "answer": "1465"
+  },
+  {
+    "id": "val_348",
+    "op": "mul_digit",
+    "a": "7272",
+    "b": "8",
+    "length": 4,
+    "answer": "58176"
+  },
+  {
+    "id": "val_349",
+    "op": "mul_digit",
+    "a": "367",
+    "b": "4",
+    "length": 3,
+    "answer": "1468"
+  },
+  {
+    "id": "val_350",
+    "op": "mul_digit",
+    "a": "33",
+    "b": "8",
+    "length": 2,
+    "answer": "264"
+  },
+  {
+    "id": "val_351",
+    "op": "mul_digit",
+    "a": "9787",
+    "b": "1",
+    "length": 4,
+    "answer": "9787"
+  },
+  {
+    "id": "val_352",
+    "op": "mul_digit",
+    "a": "3788",
+    "b": "8",
+    "length": 4,
+    "answer": "30304"
+  },
+  {
+    "id": "val_353",
+    "op": "mul_digit",
+    "a": "993",
+    "b": "0",
+    "length": 3,
+    "answer": "0"
+  },
+  {
+    "id": "val_354",
+    "op": "mul_digit",
+    "a": "1975",
+    "b": "0",
+    "length": 4,
+    "answer": "0"
+  },
+  {
+    "id": "val_355",
+    "op": "mul_digit",
+    "a": "5998",
+    "b": "7",
+    "length": 4,
+    "answer": "41986"
+  },
+  {
+    "id": "val_356",
+    "op": "mul_digit",
+    "a": "673",
+    "b": "1",
+    "length": 3,
+    "answer": "673"
+  },
+  {
+    "id": "val_357",
+    "op": "mul_digit",
+    "a": "26",
+    "b": "9",
+    "length": 2,
+    "answer": "234"
+  },
+  {
+    "id": "val_358",
+    "op": "mul_digit",
+    "a": "2940",
+    "b": "0",
+    "length": 4,
+    "answer": "0"
+  },
+  {
+    "id": "val_359",
+    "op": "mul_digit",
+    "a": "634",
+    "b": "2",
+    "length": 3,
+    "answer": "1268"
+  },
+  {
+    "id": "val_360",
+    "op": "mul_digit",
+    "a": "9664",
+    "b": "9",
+    "length": 4,
+    "answer": "86976"
+  },
+  {
+    "id": "val_361",
+    "op": "mul_digit",
+    "a": "701",
+    "b": "1",
+    "length": 3,
+    "answer": "701"
+  },
+  {
+    "id": "val_362",
+    "op": "mul_digit",
+    "a": "26",
+    "b": "5",
+    "length": 2,
+    "answer": "130"
+  },
+  {
+    "id": "val_363",
+    "op": "mul_digit",
+    "a": "966",
+    "b": "6",
+    "length": 3,
+    "answer": "5796"
+  },
+  {
+    "id": "val_364",
+    "op": "mul_digit",
+    "a": "9538",
+    "b": "3",
+    "length": 4,
+    "answer": "28614"
+  },
+  {
+    "id": "val_365",
+    "op": "mul_digit",
+    "a": "18",
+    "b": "6",
+    "length": 2,
+    "answer": "108"
+  },
+  {
+    "id": "val_366",
+    "op": "mul_digit",
+    "a": "669",
+    "b": "8",
+    "length": 3,
+    "answer": "5352"
+  },
+  {
+    "id": "val_367",
+    "op": "mul_digit",
+    "a": "61",
+    "b": "5",
+    "length": 2,
+    "answer": "305"
+  },
+  {
+    "id": "val_368",
+    "op": "mul_digit",
+    "a": "69",
+    "b": "0",
+    "length": 2,
+    "answer": "0"
+  },
+  {
+    "id": "val_369",
+    "op": "mul_digit",
+    "a": "587",
+    "b": "0",
+    "length": 3,
+    "answer": "0"
+  },
+  {
+    "id": "val_370",
+    "op": "mul_digit",
+    "a": "112",
+    "b": "3",
+    "length": 3,
+    "answer": "336"
+  },
+  {
+    "id": "val_371",
+    "op": "mul_digit",
+    "a": "1412",
+    "b": "4",
+    "length": 4,
+    "answer": "5648"
+  },
+  {
+    "id": "val_372",
+    "op": "mul_digit",
+    "a": "82",
+    "b": "0",
+    "length": 2,
+    "answer": "0"
+  },
+  {
+    "id": "val_373",
+    "op": "mul_digit",
+    "a": "969",
+    "b": "4",
+    "length": 3,
+    "answer": "3876"
+  },
+  {
+    "id": "val_374",
+    "op": "mul_digit",
+    "a": "806",
+    "b": "2",
+    "length": 3,
+    "answer": "1612"
+  },
+  {
+    "id": "val_375",
+    "op": "mul_digit",
+    "a": "19",
+    "b": "9",
+    "length": 2,
+    "answer": "171"
+  },
+  {
+    "id": "val_376",
+    "op": "mul_digit",
+    "a": "957",
+    "b": "9",
+    "length": 3,
+    "answer": "8613"
+  },
+  {
+    "id": "val_377",
+    "op": "mul_digit",
+    "a": "308",
+    "b": "4",
+    "length": 3,
+    "answer": "1232"
+  },
+  {
+    "id": "val_378",
+    "op": "mul_digit",
+    "a": "53",
+    "b": "8",
+    "length": 2,
+    "answer": "424"
+  },
+  {
+    "id": "val_379",
+    "op": "mul_digit",
+    "a": "9847",
+    "b": "2",
+    "length": 4,
+    "answer": "19694"
+  },
+  {
+    "id": "val_380",
+    "op": "mul_digit",
+    "a": "8779",
+    "b": "2",
+    "length": 4,
+    "answer": "17558"
+  },
+  {
+    "id": "val_381",
+    "op": "mul_digit",
+    "a": "46",
+    "b": "9",
+    "length": 2,
+    "answer": "414"
+  },
+  {
+    "id": "val_382",
+    "op": "mul_digit",
+    "a": "128",
+    "b": "3",
+    "length": 3,
+    "answer": "384"
+  },
+  {
+    "id": "val_383",
+    "op": "mul_digit",
+    "a": "998",
+    "b": "6",
+    "length": 3,
+    "answer": "5988"
+  }
+]

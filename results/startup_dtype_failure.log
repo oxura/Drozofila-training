@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/f69c8da825ec/flybrain_lab/train.py", line 158, in <module>
+    main()
+  File "/workspace/scratch/f69c8da825ec/flybrain_lab/train.py", line 154, in main
+    run(args, records, vocab, condition, cell, seed)
+  File "/workspace/scratch/f69c8da825ec/flybrain_lab/train.py", line 58, in run
+    initial_metrics, _ = evaluate(model, records['val'], vocab)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/flybrain-venv/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/f69c8da825ec/flybrain_lab/evaluate.py", line 53, in evaluate
+    output = model.generate(ids).cpu().tolist()
+             ^^^^^^^^^^^^^^^^^^^
+  File "/tmp/flybrain-venv/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/f69c8da825ec/flybrain_lab/model.py", line 116, in generate
+    logits, state = self.step(prompt_ids[:, t], state, matrix)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/f69c8da825ec/flybrain_lab/model.py", line 90, in step
+    h = 0.25 * h + 0.75 * torch.tanh(drive + F.linear(h, matrix))
+                                             ^^^^^^^^^^^^^^^^^^^
+RuntimeError: expected m1 and m2 to have the same dtype, but got: float != double

@@ -1,0 +1,38 @@
+{
+  "seed": 2026091301,
+  "counts": {
+    "train": {
+      "arithmetic": 3648,
+      "memory": 7200,
+      "code": 1104
+    },
+    "val": {
+      "arithmetic": 564,
+      "memory": 1200,
+      "code": 240
+    },
+    "test": {
+      "arithmetic": 588,
+      "memory": 1200,
+      "code": 240
+    },
+    "phrasing": {
+      "arithmetic": 196,
+      "memory": 0,
+      "code": 0
+    },
+    "longer": {
+      "arithmetic": 0,
+      "memory": 800,
+      "code": 0
+    }
+  },
+  "hashes": {
+    "train": "b31310979682510fd85e63042fa6c643016a9db014aeb27865e357d7c82d97c0",
+    "val": "6aba007290b91f83f8c47895ffdd1ed90d264bea1f434988ee968662bc7442c5",
+    "test": "1f24468560616e509d54c464561aba1567c0d0e6805e80b7dc26e0de2f90c0bf",
+    "phrasing": "79867ff7589e667cbfb906d81faf8393baa335d2d708e711b071a9dc4b423733",
+    "longer": "15580294ff1bf68ed93f05c5a2c273e3cd5ae711eeadaed4dd4c49e53bed76ed"
+  },
+  "vocab_size": 49
+}

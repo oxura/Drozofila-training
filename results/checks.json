@@ -1,0 +1,24 @@
+{
+  "partition_sizes": {
+    "train": 1588,
+    "val": 352,
+    "test": 364,
+    "phrasing": 60
+  },
+  "vocabulary_size": 41,
+  "rewired_edge_overlap": 0.2390204950758584,
+  "rewiring_swaps": 75140,
+  "checks": [
+    {
+      "cell": "rate",
+      "loss": 3.7621098677237645,
+      "max_edge_gradient": 0.005169096489221009
+    },
+    {
+      "cell": "lif",
+      "loss": 3.8290776400685202,
+      "max_edge_gradient": 0.002501127697968451
+    }
+  ],
+  "status": "passed"
+}

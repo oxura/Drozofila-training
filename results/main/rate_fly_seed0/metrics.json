@@ -1,0 +1,97 @@
+{
+  "config": {
+    "nodes": 256,
+    "seed": 0,
+    "cell": "rate",
+    "condition": "fly",
+    "lr": 0.003,
+    "batch_size": 63,
+    "steps_per_epoch": 16,
+    "epochs": 40,
+    "device": "cpu",
+    "threads": 2
+  },
+  "initial_val": {
+    "arithmetic": {
+      "n": 168,
+      "exact_match": 0.0
+    },
+    "memory": {
+      "n": 160,
+      "exact_match": 0.0
+    },
+    "code": {
+      "n": 24,
+      "exact_match": 0.0,
+      "valid_code": 0.0,
+      "execution_pass": 0.0
+    },
+    "macro_exact": 0.0
+  },
+  "best_epoch": 38,
+  "train_seconds": 16.425041615992086,
+  "edge_count": 7514,
+  "trainable_parameters": 28547,
+  "trainable_edge_parameters": 7514,
+  "max_observed_edge_gradient": 0.018333174288272858,
+  "selected_mean_abs_edge_log_change": 0.24278058111667633,
+  "rewiring_swaps": 0,
+  "val": {
+    "arithmetic": {
+      "n": 168,
+      "exact_match": 0.35119047619047616
+    },
+    "memory": {
+      "n": 160,
+      "exact_match": 0.5
+    },
+    "code": {
+      "n": 24,
+      "exact_match": 0.0,
+      "valid_code": 0.25,
+      "execution_pass": 0.25
+    },
+    "macro_exact": 0.2837301587301587
+  },
+  "test": {
+    "arithmetic": {
+      "n": 180,
+      "exact_match": 0.35555555555555557
+    },
+    "memory": {
+      "n": 160,
+      "exact_match": 0.5125
+    },
+    "code": {
+      "n": 24,
+      "exact_match": 0.0,
+      "valid_code": 0.5833333333333334,
+      "execution_pass": 0.4583333333333333
+    },
+    "macro_exact": 0.28935185185185186
+  },
+  "phrasing": {
+    "arithmetic": {
+      "n": 60,
+      "exact_match": 0.35
+    },
+    "macro_exact": 0.35
+  },
+  "test_without_recurrent_edges": {
+    "arithmetic": {
+      "n": 180,
+      "exact_match": 0.0
+    },
+    "memory": {
+      "n": 160,
+      "exact_match": 0.0
+    },
+    "code": {
+      "n": 24,
+      "exact_match": 0.0,
+      "valid_code": 0.0,
+      "execution_pass": 0.0
+    },
+    "macro_exact": 0.0
+  }
+}

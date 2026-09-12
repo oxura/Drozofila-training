@@ -1,0 +1,97 @@
+{
+  "config": {
+    "nodes": 256,
+    "seed": 0,
+    "cell": "rate",
+    "condition": "fly",
+    "lr": 0.003,
+    "batch_size": 63,
+    "steps_per_epoch": 16,
+    "epochs": 41,
+    "device": "cpu",
+    "threads": 2
+  },
+  "initial_val": {
+    "arithmetic": {
+      "n": 168,
+      "exact_match": 0.30952380952380953
+    },
+    "memory": {
+      "n": 160,
+      "exact_match": 0.5125
+    },
+    "code": {
+      "n": 24,
+      "exact_match": 0.0,
+      "valid_code": 0.25,
+      "execution_pass": 0.25
+    },
+    "macro_exact": 0.2740079365079365
+  },
+  "best_epoch": 41,
+  "train_seconds": 0.37675390900403727,
+  "edge_count": 7514,
+  "trainable_parameters": 28547,
+  "trainable_edge_parameters": 7514,
+  "max_observed_edge_gradient": 0.024051230400800705,
+  "selected_mean_abs_edge_log_change": 0.250892698764801,
+  "rewiring_swaps": 0,
+  "val": {
+    "arithmetic": {
+      "n": 168,
+      "exact_match": 0.3273809523809524
+    },
+    "memory": {
+      "n": 160,
+      "exact_match": 0.525
+    },
+    "code": {
+      "n": 24,
+      "exact_match": 0.0,
+      "valid_code": 0.3333333333333333,
+      "execution_pass": 0.2916666666666667
+    },
+    "macro_exact": 0.2841269841269842
+  },
+  "test": {
+    "arithmetic": {
+      "n": 180,
+      "exact_match": 0.40555555555555556
+    },
+    "memory": {
+      "n": 160,
+      "exact_match": 0.5625
+    },
+    "code": {
+      "n": 24,
+      "exact_match": 0.0,
+      "valid_code": 0.5416666666666666,
+      "execution_pass": 0.4166666666666667
+    },
+    "macro_exact": 0.3226851851851852
+  },
+  "phrasing": {
+    "arithmetic": {
+      "n": 60,
+      "exact_match": 0.4166666666666667
+    },
+    "macro_exact": 0.4166666666666667
+  },
+  "test_without_recurrent_edges": {
+    "arithmetic": {
+      "n": 180,
+      "exact_match": 0.0
+    },
+    "memory": {
+      "n": 160,
+      "exact_match": 0.0
+    },
+    "code": {
+      "n": 24,
+      "exact_match": 0.0,
+      "valid_code": 0.0,
+      "execution_pass": 0.0
+    },
+    "macro_exact": 0.0
+  }
+}

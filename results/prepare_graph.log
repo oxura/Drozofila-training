@@ -1,0 +1,87 @@
+{
+  "source_neurons": 138639,
+  "source_rows": 15091983,
+  "source_synapse_count": 54492922,
+  "source_zero_weight_rows": 0,
+  "source_self_loop_rows": 0,
+  "aggregate_pairs_before_zero_removal": 15091983,
+  "active_directed_pairs": 15091983,
+  "source_positive_rows": 9059302,
+  "source_negative_rows": 6032681,
+  "source_sha": "91bdd1e7dcf193f3e7ca5a8933497fcef63b7960",
+  "full_graph_rate_smoke": [
+    {
+      "step": 1,
+      "active_neurons": 1,
+      "l2_norm": 0.7615941762924194
+    },
+    {
+      "step": 2,
+      "active_neurons": 9784,
+      "l2_norm": 6.266812801361084
+    },
+    {
+      "step": 3,
+      "active_neurons": 47247,
+      "l2_norm": 7.309030532836914
+    },
+    {
+      "step": 4,
+      "active_neurons": 117993,
+      "l2_norm": 7.051988124847412
+    },
+    {
+      "step": 5,
+      "active_neurons": 132510,
+      "l2_norm": 1.2879923582077026
+    },
+    {
+      "step": 6,
+      "active_neurons": 135310,
+      "l2_norm": 0.6414780020713806
+    },
+    {
+      "step": 7,
+      "active_neurons": 135632,
+      "l2_norm": 0.1664552092552185
+    },
+    {
+      "step": 8,
+      "active_neurons": 135334,
+      "l2_norm": 0.05733325704932213
+    },
+    {
+      "step": 9,
+      "active_neurons": 134502,
+      "l2_norm": 0.0212465338408947
+    },
+    {
+      "step": 10,
+      "active_neurons": 132035,
+      "l2_norm": 0.005985118914395571
+    },
+    {
+      "step": 11,
+      "active_neurons": 125926,
+      "l2_norm": 0.0032234136015176773
+    },
+    {
+      "step": 12,
+      "active_neurons": 118597,
+      "l2_norm": 0.0011091438354924321
+    }
+  ],
+  "pilot": {
+    "nodes": 256,
+    "edges": 7514,
+    "positive_edges": 4056,
+    "negative_edges": 3458,
+    "removed_self_edges": 0,
+    "selection": "strong-neighbor traversal from maximum outgoing absolute strength",
+    "center_source_index": 90883,
+    "center_root_id": "720575940628908548",
+    "selected_fraction": 0.0018465222628553293,
+    "graph_sha256": "66a7d9946ffa699bcb6d6647d7a7bc4c802b72d1bb3fc47b5700d8cd2d806cde"
+  },
+  "prepare_seconds": 4.025755365000805
+}

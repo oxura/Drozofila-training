@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "examples": [
+    {
+      "prompt": "сложи 0 15",
+      "answer": "15",
+      "output_tokens": [
+        "1",
+        "5"
+      ],
+      "unknown_input_words": [],
+      "expected": "15"
+    },
+    {
+      "prompt": "повтори 9 2 8 0 9",
+      "answer": "9 2 8 0 9",
+      "output_tokens": [
+        "9",
+        "2",
+        "8",
+        "0",
+        "9"
+      ],
+      "unknown_input_words": [],
+      "expected": "9 2 8 0 9"
+    },
+    {
+      "prompt": "код сложи y v",
+      "answer": "def f ( y , v ) : return y + v",
+      "output_tokens": [
+        "def",
+        "f",
+        "(",
+        "y",
+        ",",
+        "v",
+        ")",
+        ":",
+        "return",
+        "y",
+        "+",
+        "v"
+      ],
+      "unknown_input_words": [],
+      "expected": "def f ( y , v ) : return y + v"
+    }
+  ]
+}

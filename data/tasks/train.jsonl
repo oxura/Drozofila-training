@@ -1,0 +1,1588 @@
+{"task": "arithmetic", "prompt": "сложи 3 4", "answer": "7", "group": "arith:(3, 4)", "id": "2d7c0809d7b40d14"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 3 4", "answer": "7", "group": "arith:(3, 4)", "id": "b1706aa9ed13ce4d"}
+{"task": "arithmetic", "prompt": "сложи числа 3 и 4", "answer": "7", "group": "arith:(3, 4)", "id": "d5e80a95e0ce65df"}
+{"task": "arithmetic", "prompt": "вычти 3 4", "answer": "-1", "group": "arith:(3, 4)", "id": "9e97124b603cc5cc"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 3 4", "answer": "-1", "group": "arith:(3, 4)", "id": "75b8a153a0001b1b"}
+{"task": "arithmetic", "prompt": "вычти числа 3 и 4", "answer": "-1", "group": "arith:(3, 4)", "id": "1b1b11664fb9ec93"}
+{"task": "arithmetic", "prompt": "максимум 3 4", "answer": "4", "group": "arith:(3, 4)", "id": "bb2f6074929e586f"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 3 4", "answer": "4", "group": "arith:(3, 4)", "id": "a95692726e1298da"}
+{"task": "arithmetic", "prompt": "максимум числа 3 и 4", "answer": "4", "group": "arith:(3, 4)", "id": "1b30c995ef9086a2"}
+{"task": "arithmetic", "prompt": "минимум 3 4", "answer": "3", "group": "arith:(3, 4)", "id": "16ddc81534f5b696"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 3 4", "answer": "3", "group": "arith:(3, 4)", "id": "aee002312c961bb4"}
+{"task": "arithmetic", "prompt": "минимум числа 3 и 4", "answer": "3", "group": "arith:(3, 4)", "id": "55db5d0ce0991a0a"}
+{"task": "arithmetic", "prompt": "сложи 4 3", "answer": "7", "group": "arith:(3, 4)", "id": "d06b0a04dac1b491"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 4 3", "answer": "7", "group": "arith:(3, 4)", "id": "17e26ec26108f636"}
+{"task": "arithmetic", "prompt": "сложи числа 4 и 3", "answer": "7", "group": "arith:(3, 4)", "id": "246d1a4a6808596f"}
+{"task": "arithmetic", "prompt": "вычти 4 3", "answer": "1", "group": "arith:(3, 4)", "id": "f9d62f0534006fa1"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 4 3", "answer": "1", "group": "arith:(3, 4)", "id": "6b0b57bac04f1aa6"}
+{"task": "arithmetic", "prompt": "вычти числа 4 и 3", "answer": "1", "group": "arith:(3, 4)", "id": "752becaae26d72c4"}
+{"task": "arithmetic", "prompt": "максимум 4 3", "answer": "4", "group": "arith:(3, 4)", "id": "5a6cd420f02339c0"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 4 3", "answer": "4", "group": "arith:(3, 4)", "id": "e307f54c3aba505c"}
+{"task": "arithmetic", "prompt": "максимум числа 4 и 3", "answer": "4", "group": "arith:(3, 4)", "id": "70e82c307b3f9eea"}
+{"task": "arithmetic", "prompt": "минимум 4 3", "answer": "3", "group": "arith:(3, 4)", "id": "9c20221898cde25c"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 4 3", "answer": "3", "group": "arith:(3, 4)", "id": "9e0ab897cc480d33"}
+{"task": "arithmetic", "prompt": "минимум числа 4 и 3", "answer": "3", "group": "arith:(3, 4)", "id": "478f24679817ae78"}
+{"task": "arithmetic", "prompt": "сложи 2 7", "answer": "9", "group": "arith:(2, 7)", "id": "74072c3463ec618a"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 2 7", "answer": "9", "group": "arith:(2, 7)", "id": "18b7471f7aa38103"}
+{"task": "arithmetic", "prompt": "сложи числа 2 и 7", "answer": "9", "group": "arith:(2, 7)", "id": "c260a943ca49828c"}
+{"task": "arithmetic", "prompt": "вычти 2 7", "answer": "-5", "group": "arith:(2, 7)", "id": "691ef8b05e2a717b"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 2 7", "answer": "-5", "group": "arith:(2, 7)", "id": "fa95e60f774e27c9"}
+{"task": "arithmetic", "prompt": "вычти числа 2 и 7", "answer": "-5", "group": "arith:(2, 7)", "id": "43b58d554c583b7e"}
+{"task": "arithmetic", "prompt": "максимум 2 7", "answer": "7", "group": "arith:(2, 7)", "id": "f5315265fffa55a6"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 2 7", "answer": "7", "group": "arith:(2, 7)", "id": "e72bc66b306f9acd"}
+{"task": "arithmetic", "prompt": "максимум числа 2 и 7", "answer": "7", "group": "arith:(2, 7)", "id": "3d51210b68dc7eb7"}
+{"task": "arithmetic", "prompt": "минимум 2 7", "answer": "2", "group": "arith:(2, 7)", "id": "3fc3c0b0f613ddf0"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 2 7", "answer": "2", "group": "arith:(2, 7)", "id": "7fb2e1d97cc09ecc"}
+{"task": "arithmetic", "prompt": "минимум числа 2 и 7", "answer": "2", "group": "arith:(2, 7)", "id": "65c01aafb24b6464"}
+{"task": "arithmetic", "prompt": "сложи 7 2", "answer": "9", "group": "arith:(2, 7)", "id": "6244e36f734a0140"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 7 2", "answer": "9", "group": "arith:(2, 7)", "id": "858d3fd89a99dc45"}
+{"task": "arithmetic", "prompt": "сложи числа 7 и 2", "answer": "9", "group": "arith:(2, 7)", "id": "297855b3e759d069"}
+{"task": "arithmetic", "prompt": "вычти 7 2", "answer": "5", "group": "arith:(2, 7)", "id": "a0065830bd9ca159"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 7 2", "answer": "5", "group": "arith:(2, 7)", "id": "a4c76c0a833b9665"}
+{"task": "arithmetic", "prompt": "вычти числа 7 и 2", "answer": "5", "group": "arith:(2, 7)", "id": "72b22e98ff5cc72a"}
+{"task": "arithmetic", "prompt": "максимум 7 2", "answer": "7", "group": "arith:(2, 7)", "id": "142142f71743fafe"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 7 2", "answer": "7", "group": "arith:(2, 7)", "id": "8372949ca0ba9792"}
+{"task": "arithmetic", "prompt": "максимум числа 7 и 2", "answer": "7", "group": "arith:(2, 7)", "id": "a98dd82e98b40b9f"}
+{"task": "arithmetic", "prompt": "минимум 7 2", "answer": "2", "group": "arith:(2, 7)", "id": "e3a2cbb156409f03"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 7 2", "answer": "2", "group": "arith:(2, 7)", "id": "2000b314bffc78cb"}
+{"task": "arithmetic", "prompt": "минимум числа 7 и 2", "answer": "2", "group": "arith:(2, 7)", "id": "8c48e8344195daa2"}
+{"task": "arithmetic", "prompt": "сложи 3 8", "answer": "11", "group": "arith:(3, 8)", "id": "92ef91c687ca73c8"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 3 8", "answer": "11", "group": "arith:(3, 8)", "id": "d2d0394e26d20960"}
+{"task": "arithmetic", "prompt": "сложи числа 3 и 8", "answer": "11", "group": "arith:(3, 8)", "id": "8c8776a26c711fe3"}
+{"task": "arithmetic", "prompt": "вычти 3 8", "answer": "-5", "group": "arith:(3, 8)", "id": "2ed687e6f1d19772"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 3 8", "answer": "-5", "group": "arith:(3, 8)", "id": "fe890608b9da1833"}
+{"task": "arithmetic", "prompt": "вычти числа 3 и 8", "answer": "-5", "group": "arith:(3, 8)", "id": "03e37cc9a0884af2"}
+{"task": "arithmetic", "prompt": "максимум 3 8", "answer": "8", "group": "arith:(3, 8)", "id": "065c17c74c6f756c"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 3 8", "answer": "8", "group": "arith:(3, 8)", "id": "81d3aa99142ee8da"}
+{"task": "arithmetic", "prompt": "максимум числа 3 и 8", "answer": "8", "group": "arith:(3, 8)", "id": "b5c82a45a41e561e"}
+{"task": "arithmetic", "prompt": "минимум 3 8", "answer": "3", "group": "arith:(3, 8)", "id": "265d54362ca86d2b"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 3 8", "answer": "3", "group": "arith:(3, 8)", "id": "0742bb9db0cb7e5d"}
+{"task": "arithmetic", "prompt": "минимум числа 3 и 8", "answer": "3", "group": "arith:(3, 8)", "id": "21ed7cbed47dcede"}
+{"task": "arithmetic", "prompt": "сложи 8 3", "answer": "11", "group": "arith:(3, 8)", "id": "5ca4ddc3cefaae03"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 8 3", "answer": "11", "group": "arith:(3, 8)", "id": "04a3e9082b3d12e3"}
+{"task": "arithmetic", "prompt": "сложи числа 8 и 3", "answer": "11", "group": "arith:(3, 8)", "id": "49da87890e9353e5"}
+{"task": "arithmetic", "prompt": "вычти 8 3", "answer": "5", "group": "arith:(3, 8)", "id": "6cee77dbbd195b27"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 8 3", "answer": "5", "group": "arith:(3, 8)", "id": "d794a74e48127585"}
+{"task": "arithmetic", "prompt": "вычти числа 8 и 3", "answer": "5", "group": "arith:(3, 8)", "id": "c1932cd5498d64f6"}
+{"task": "arithmetic", "prompt": "максимум 8 3", "answer": "8", "group": "arith:(3, 8)", "id": "f2a0da5a81fe3d49"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 8 3", "answer": "8", "group": "arith:(3, 8)", "id": "2ddca41e938fcb78"}
+{"task": "arithmetic", "prompt": "максимум числа 8 и 3", "answer": "8", "group": "arith:(3, 8)", "id": "badbd7483a209195"}
+{"task": "arithmetic", "prompt": "минимум 8 3", "answer": "3", "group": "arith:(3, 8)", "id": "d0546adbd3d88d4a"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 8 3", "answer": "3", "group": "arith:(3, 8)", "id": "42225964b68df1fb"}
+{"task": "arithmetic", "prompt": "минимум числа 8 и 3", "answer": "3", "group": "arith:(3, 8)", "id": "ecb2b550ba96722f"}
+{"task": "arithmetic", "prompt": "сложи 0 4", "answer": "4", "group": "arith:(0, 4)", "id": "0e1b0948ff3b73b6"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 0 4", "answer": "4", "group": "arith:(0, 4)", "id": "f14f250ab6236dcf"}
+{"task": "arithmetic", "prompt": "сложи числа 0 и 4", "answer": "4", "group": "arith:(0, 4)", "id": "4b54f57c57913549"}
+{"task": "arithmetic", "prompt": "вычти 0 4", "answer": "-4", "group": "arith:(0, 4)", "id": "67303588e987cc5b"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 0 4", "answer": "-4", "group": "arith:(0, 4)", "id": "3aa0312deffaf4d6"}
+{"task": "arithmetic", "prompt": "вычти числа 0 и 4", "answer": "-4", "group": "arith:(0, 4)", "id": "be82eaeb739a4b34"}
+{"task": "arithmetic", "prompt": "максимум 0 4", "answer": "4", "group": "arith:(0, 4)", "id": "c1c60f10f4e8fa55"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 0 4", "answer": "4", "group": "arith:(0, 4)", "id": "e8bf2701c25a8a87"}
+{"task": "arithmetic", "prompt": "максимум числа 0 и 4", "answer": "4", "group": "arith:(0, 4)", "id": "ef1d16cada9d2825"}
+{"task": "arithmetic", "prompt": "минимум 0 4", "answer": "0", "group": "arith:(0, 4)", "id": "a0e6887d54803153"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 0 4", "answer": "0", "group": "arith:(0, 4)", "id": "7196103c1201d4e6"}
+{"task": "arithmetic", "prompt": "минимум числа 0 и 4", "answer": "0", "group": "arith:(0, 4)", "id": "6b70fbd89440ceb9"}
+{"task": "arithmetic", "prompt": "сложи 4 0", "answer": "4", "group": "arith:(0, 4)", "id": "db3e551b2032ae5f"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 4 0", "answer": "4", "group": "arith:(0, 4)", "id": "8844bb817f23cf5f"}
+{"task": "arithmetic", "prompt": "сложи числа 4 и 0", "answer": "4", "group": "arith:(0, 4)", "id": "a7d09d44f7af0586"}
+{"task": "arithmetic", "prompt": "вычти 4 0", "answer": "4", "group": "arith:(0, 4)", "id": "bcec68b1c2e3ec46"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 4 0", "answer": "4", "group": "arith:(0, 4)", "id": "580a8df68cb4d384"}
+{"task": "arithmetic", "prompt": "вычти числа 4 и 0", "answer": "4", "group": "arith:(0, 4)", "id": "cc6d82a7007bb110"}
+{"task": "arithmetic", "prompt": "максимум 4 0", "answer": "4", "group": "arith:(0, 4)", "id": "b2dc9bc4aeccfb4f"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 4 0", "answer": "4", "group": "arith:(0, 4)", "id": "b4fc95f4160f19cb"}
+{"task": "arithmetic", "prompt": "максимум числа 4 и 0", "answer": "4", "group": "arith:(0, 4)", "id": "b12a44f707bcc752"}
+{"task": "arithmetic", "prompt": "минимум 4 0", "answer": "0", "group": "arith:(0, 4)", "id": "0a86aaa197e82b9c"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 4 0", "answer": "0", "group": "arith:(0, 4)", "id": "a281eb2c2fec6c92"}
+{"task": "arithmetic", "prompt": "минимум числа 4 и 0", "answer": "0", "group": "arith:(0, 4)", "id": "92afcdb490f6d555"}
+{"task": "arithmetic", "prompt": "сложи 0 6", "answer": "6", "group": "arith:(0, 6)", "id": "67ec9dcad6104da4"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 0 6", "answer": "6", "group": "arith:(0, 6)", "id": "effe63429dd8b8cc"}
+{"task": "arithmetic", "prompt": "сложи числа 0 и 6", "answer": "6", "group": "arith:(0, 6)", "id": "ddb54c687f039f1b"}
+{"task": "arithmetic", "prompt": "вычти 0 6", "answer": "-6", "group": "arith:(0, 6)", "id": "d001076915a0cea7"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 0 6", "answer": "-6", "group": "arith:(0, 6)", "id": "88d6ba4eac1b142b"}
+{"task": "arithmetic", "prompt": "вычти числа 0 и 6", "answer": "-6", "group": "arith:(0, 6)", "id": "f54fbdb6a6c07fbe"}
+{"task": "arithmetic", "prompt": "максимум 0 6", "answer": "6", "group": "arith:(0, 6)", "id": "487398b73fef6bfc"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 0 6", "answer": "6", "group": "arith:(0, 6)", "id": "a0adbef5bd31ad54"}
+{"task": "arithmetic", "prompt": "максимум числа 0 и 6", "answer": "6", "group": "arith:(0, 6)", "id": "269ba3d4220f84e3"}
+{"task": "arithmetic", "prompt": "минимум 0 6", "answer": "0", "group": "arith:(0, 6)", "id": "8675b3435ba1bd79"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 0 6", "answer": "0", "group": "arith:(0, 6)", "id": "91ad344436656fad"}
+{"task": "arithmetic", "prompt": "минимум числа 0 и 6", "answer": "0", "group": "arith:(0, 6)", "id": "aab6645455607f5b"}
+{"task": "arithmetic", "prompt": "сложи 6 0", "answer": "6", "group": "arith:(0, 6)", "id": "2f19488e894d8bfa"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 6 0", "answer": "6", "group": "arith:(0, 6)", "id": "0d8d2b1e4b4a082a"}
+{"task": "arithmetic", "prompt": "сложи числа 6 и 0", "answer": "6", "group": "arith:(0, 6)", "id": "d31ccc170611a8b6"}
+{"task": "arithmetic", "prompt": "вычти 6 0", "answer": "6", "group": "arith:(0, 6)", "id": "3fa04a67af1a362a"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 6 0", "answer": "6", "group": "arith:(0, 6)", "id": "df07daac168c2985"}
+{"task": "arithmetic", "prompt": "вычти числа 6 и 0", "answer": "6", "group": "arith:(0, 6)", "id": "1035a128ace16c70"}
+{"task": "arithmetic", "prompt": "максимум 6 0", "answer": "6", "group": "arith:(0, 6)", "id": "6c71832c74a6b2e8"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 6 0", "answer": "6", "group": "arith:(0, 6)", "id": "991bc2c42aa0ee76"}
+{"task": "arithmetic", "prompt": "максимум числа 6 и 0", "answer": "6", "group": "arith:(0, 6)", "id": "95df6b9e7af12703"}
+{"task": "arithmetic", "prompt": "минимум 6 0", "answer": "0", "group": "arith:(0, 6)", "id": "286c6eeeb0c4c1ba"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 6 0", "answer": "0", "group": "arith:(0, 6)", "id": "d2efd8c7c538d213"}
+{"task": "arithmetic", "prompt": "минимум числа 6 и 0", "answer": "0", "group": "arith:(0, 6)", "id": "21f58271b35fccb2"}
+{"task": "arithmetic", "prompt": "сложи 0 0", "answer": "0", "group": "arith:(0, 0)", "id": "b384d8103d916bf8"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 0 0", "answer": "0", "group": "arith:(0, 0)", "id": "d98547ec8bff09d0"}
+{"task": "arithmetic", "prompt": "сложи числа 0 и 0", "answer": "0", "group": "arith:(0, 0)", "id": "8a609959a6bf00a9"}
+{"task": "arithmetic", "prompt": "вычти 0 0", "answer": "0", "group": "arith:(0, 0)", "id": "a0450252bd5a6223"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 0 0", "answer": "0", "group": "arith:(0, 0)", "id": "af5e6ee875fe2154"}
+{"task": "arithmetic", "prompt": "вычти числа 0 и 0", "answer": "0", "group": "arith:(0, 0)", "id": "803bb97b9b32ddb5"}
+{"task": "arithmetic", "prompt": "максимум 0 0", "answer": "0", "group": "arith:(0, 0)", "id": "468f247edae1b698"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 0 0", "answer": "0", "group": "arith:(0, 0)", "id": "2d64762ff1b3c5ad"}
+{"task": "arithmetic", "prompt": "максимум числа 0 и 0", "answer": "0", "group": "arith:(0, 0)", "id": "30f51ff4d86637bd"}
+{"task": "arithmetic", "prompt": "минимум 0 0", "answer": "0", "group": "arith:(0, 0)", "id": "1c772c4532823bb7"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 0 0", "answer": "0", "group": "arith:(0, 0)", "id": "3409a298b43e9ae0"}
+{"task": "arithmetic", "prompt": "минимум числа 0 и 0", "answer": "0", "group": "arith:(0, 0)", "id": "623cf0346e3672c4"}
+{"task": "arithmetic", "prompt": "сложи 2 5", "answer": "7", "group": "arith:(2, 5)", "id": "12dea2799998c73b"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 2 5", "answer": "7", "group": "arith:(2, 5)", "id": "6b1c4516eb45ce93"}
+{"task": "arithmetic", "prompt": "сложи числа 2 и 5", "answer": "7", "group": "arith:(2, 5)", "id": "c0955a11adffd468"}
+{"task": "arithmetic", "prompt": "вычти 2 5", "answer": "-3", "group": "arith:(2, 5)", "id": "638d420e7da3a63a"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 2 5", "answer": "-3", "group": "arith:(2, 5)", "id": "318e08c662838ad2"}
+{"task": "arithmetic", "prompt": "вычти числа 2 и 5", "answer": "-3", "group": "arith:(2, 5)", "id": "ab2197d455899c07"}
+{"task": "arithmetic", "prompt": "максимум 2 5", "answer": "5", "group": "arith:(2, 5)", "id": "c92cb4610c1aa992"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 2 5", "answer": "5", "group": "arith:(2, 5)", "id": "1425fde750ffe18d"}
+{"task": "arithmetic", "prompt": "максимум числа 2 и 5", "answer": "5", "group": "arith:(2, 5)", "id": "06a46bb56500c233"}
+{"task": "arithmetic", "prompt": "минимум 2 5", "answer": "2", "group": "arith:(2, 5)", "id": "d98ed66916e2f319"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 2 5", "answer": "2", "group": "arith:(2, 5)", "id": "c9a7e5e45aab6ba8"}
+{"task": "arithmetic", "prompt": "минимум числа 2 и 5", "answer": "2", "group": "arith:(2, 5)", "id": "f9bd1ddadfa1284c"}
+{"task": "arithmetic", "prompt": "сложи 5 2", "answer": "7", "group": "arith:(2, 5)", "id": "29c4f0e0b43e53db"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 5 2", "answer": "7", "group": "arith:(2, 5)", "id": "2701eb32d090da96"}
+{"task": "arithmetic", "prompt": "сложи числа 5 и 2", "answer": "7", "group": "arith:(2, 5)", "id": "5a49b8ce2837150a"}
+{"task": "arithmetic", "prompt": "вычти 5 2", "answer": "3", "group": "arith:(2, 5)", "id": "66b759017fac18cc"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 5 2", "answer": "3", "group": "arith:(2, 5)", "id": "abd7d43d01e0a6eb"}
+{"task": "arithmetic", "prompt": "вычти числа 5 и 2", "answer": "3", "group": "arith:(2, 5)", "id": "5374eee279d7db08"}
+{"task": "arithmetic", "prompt": "максимум 5 2", "answer": "5", "group": "arith:(2, 5)", "id": "0f1100d96b0f9cfd"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 5 2", "answer": "5", "group": "arith:(2, 5)", "id": "1fe96aa23e30a3c3"}
+{"task": "arithmetic", "prompt": "максимум числа 5 и 2", "answer": "5", "group": "arith:(2, 5)", "id": "86dbb695a26c3064"}
+{"task": "arithmetic", "prompt": "минимум 5 2", "answer": "2", "group": "arith:(2, 5)", "id": "7d4769204af63d44"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 5 2", "answer": "2", "group": "arith:(2, 5)", "id": "1e24b94c008df8ab"}
+{"task": "arithmetic", "prompt": "минимум числа 5 и 2", "answer": "2", "group": "arith:(2, 5)", "id": "6f30dceb0afc7262"}
+{"task": "arithmetic", "prompt": "сложи 4 9", "answer": "13", "group": "arith:(4, 9)", "id": "eab70c82eadb383f"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 4 9", "answer": "13", "group": "arith:(4, 9)", "id": "ddf0bc2574708019"}
+{"task": "arithmetic", "prompt": "сложи числа 4 и 9", "answer": "13", "group": "arith:(4, 9)", "id": "5183f22a2d6a0b99"}
+{"task": "arithmetic", "prompt": "вычти 4 9", "answer": "-5", "group": "arith:(4, 9)", "id": "437dfdee54bd7ac3"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 4 9", "answer": "-5", "group": "arith:(4, 9)", "id": "bfaccd089a8f60b9"}
+{"task": "arithmetic", "prompt": "вычти числа 4 и 9", "answer": "-5", "group": "arith:(4, 9)", "id": "682531c5e1bb0fcd"}
+{"task": "arithmetic", "prompt": "максимум 4 9", "answer": "9", "group": "arith:(4, 9)", "id": "2b1d2e4910eeb065"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 4 9", "answer": "9", "group": "arith:(4, 9)", "id": "0735048aed912d6b"}
+{"task": "arithmetic", "prompt": "максимум числа 4 и 9", "answer": "9", "group": "arith:(4, 9)", "id": "58810e1b7d44c055"}
+{"task": "arithmetic", "prompt": "минимум 4 9", "answer": "4", "group": "arith:(4, 9)", "id": "9d9b8a4379fd4c99"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 4 9", "answer": "4", "group": "arith:(4, 9)", "id": "39b1b27f1d7a5b16"}
+{"task": "arithmetic", "prompt": "минимум числа 4 и 9", "answer": "4", "group": "arith:(4, 9)", "id": "141ee48d3124b866"}
+{"task": "arithmetic", "prompt": "сложи 9 4", "answer": "13", "group": "arith:(4, 9)", "id": "666ed37f62d069c9"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 9 4", "answer": "13", "group": "arith:(4, 9)", "id": "654c81962b79dd38"}
+{"task": "arithmetic", "prompt": "сложи числа 9 и 4", "answer": "13", "group": "arith:(4, 9)", "id": "2633fe51a2e8a84a"}
+{"task": "arithmetic", "prompt": "вычти 9 4", "answer": "5", "group": "arith:(4, 9)", "id": "ca17ab90d9c479b3"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 9 4", "answer": "5", "group": "arith:(4, 9)", "id": "83dcd582395ce73b"}
+{"task": "arithmetic", "prompt": "вычти числа 9 и 4", "answer": "5", "group": "arith:(4, 9)", "id": "31fe862a972a3347"}
+{"task": "arithmetic", "prompt": "максимум 9 4", "answer": "9", "group": "arith:(4, 9)", "id": "c8d8bcea239a04c8"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 9 4", "answer": "9", "group": "arith:(4, 9)", "id": "b8bed6317db6b8bc"}
+{"task": "arithmetic", "prompt": "максимум числа 9 и 4", "answer": "9", "group": "arith:(4, 9)", "id": "9583e1afbc8a6dbe"}
+{"task": "arithmetic", "prompt": "минимум 9 4", "answer": "4", "group": "arith:(4, 9)", "id": "588b590381e6383f"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 9 4", "answer": "4", "group": "arith:(4, 9)", "id": "34d8f686394522cd"}
+{"task": "arithmetic", "prompt": "минимум числа 9 и 4", "answer": "4", "group": "arith:(4, 9)", "id": "15358b2c5ab45eda"}
+{"task": "arithmetic", "prompt": "сложи 3 6", "answer": "9", "group": "arith:(3, 6)", "id": "6b9821eb33cfe3f6"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 3 6", "answer": "9", "group": "arith:(3, 6)", "id": "babfd579ba1e6cbe"}
+{"task": "arithmetic", "prompt": "сложи числа 3 и 6", "answer": "9", "group": "arith:(3, 6)", "id": "ca39126d059464cb"}
+{"task": "arithmetic", "prompt": "вычти 3 6", "answer": "-3", "group": "arith:(3, 6)", "id": "04743a3298636ffb"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 3 6", "answer": "-3", "group": "arith:(3, 6)", "id": "f6a2b41896cae963"}
+{"task": "arithmetic", "prompt": "вычти числа 3 и 6", "answer": "-3", "group": "arith:(3, 6)", "id": "74a7963bc80e15ce"}
+{"task": "arithmetic", "prompt": "максимум 3 6", "answer": "6", "group": "arith:(3, 6)", "id": "a467544529da0ef4"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 3 6", "answer": "6", "group": "arith:(3, 6)", "id": "ac8064d38977e576"}
+{"task": "arithmetic", "prompt": "максимум числа 3 и 6", "answer": "6", "group": "arith:(3, 6)", "id": "eb90483538cb1417"}
+{"task": "arithmetic", "prompt": "минимум 3 6", "answer": "3", "group": "arith:(3, 6)", "id": "92ef5f1ba574c03b"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 3 6", "answer": "3", "group": "arith:(3, 6)", "id": "9917ef1c3cdebd77"}
+{"task": "arithmetic", "prompt": "минимум числа 3 и 6", "answer": "3", "group": "arith:(3, 6)", "id": "df6300c32f2066c9"}
+{"task": "arithmetic", "prompt": "сложи 6 3", "answer": "9", "group": "arith:(3, 6)", "id": "9028619659b36681"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 6 3", "answer": "9", "group": "arith:(3, 6)", "id": "678eb3d24b5c2e33"}
+{"task": "arithmetic", "prompt": "сложи числа 6 и 3", "answer": "9", "group": "arith:(3, 6)", "id": "b8ea294a1112cdcd"}
+{"task": "arithmetic", "prompt": "вычти 6 3", "answer": "3", "group": "arith:(3, 6)", "id": "7204875994bdd021"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 6 3", "answer": "3", "group": "arith:(3, 6)", "id": "7658d657c2d83b58"}
+{"task": "arithmetic", "prompt": "вычти числа 6 и 3", "answer": "3", "group": "arith:(3, 6)", "id": "2994d1c3f13961f3"}
+{"task": "arithmetic", "prompt": "максимум 6 3", "answer": "6", "group": "arith:(3, 6)", "id": "bda14f422d299d2d"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 6 3", "answer": "6", "group": "arith:(3, 6)", "id": "aa57040087e453fd"}
+{"task": "arithmetic", "prompt": "максимум числа 6 и 3", "answer": "6", "group": "arith:(3, 6)", "id": "f1400de19517b243"}
+{"task": "arithmetic", "prompt": "минимум 6 3", "answer": "3", "group": "arith:(3, 6)", "id": "a0fd77ecd69b2fca"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 6 3", "answer": "3", "group": "arith:(3, 6)", "id": "a460b14f9192bc18"}
+{"task": "arithmetic", "prompt": "минимум числа 6 и 3", "answer": "3", "group": "arith:(3, 6)", "id": "9c553b9d0548ca48"}
+{"task": "arithmetic", "prompt": "сложи 0 1", "answer": "1", "group": "arith:(0, 1)", "id": "90fba515ddf438bf"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 0 1", "answer": "1", "group": "arith:(0, 1)", "id": "260a7b21a0ad0f93"}
+{"task": "arithmetic", "prompt": "сложи числа 0 и 1", "answer": "1", "group": "arith:(0, 1)", "id": "e7b90619c5dabf00"}
+{"task": "arithmetic", "prompt": "вычти 0 1", "answer": "-1", "group": "arith:(0, 1)", "id": "92b0df44af1e9110"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 0 1", "answer": "-1", "group": "arith:(0, 1)", "id": "23ab1016cf53ade2"}
+{"task": "arithmetic", "prompt": "вычти числа 0 и 1", "answer": "-1", "group": "arith:(0, 1)", "id": "2d2f0cf1f8a6f59b"}
+{"task": "arithmetic", "prompt": "максимум 0 1", "answer": "1", "group": "arith:(0, 1)", "id": "5ba7be31b9e012ae"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 0 1", "answer": "1", "group": "arith:(0, 1)", "id": "4f41c3656e3b44e6"}
+{"task": "arithmetic", "prompt": "максимум числа 0 и 1", "answer": "1", "group": "arith:(0, 1)", "id": "09c1f5ff8febbfc1"}
+{"task": "arithmetic", "prompt": "минимум 0 1", "answer": "0", "group": "arith:(0, 1)", "id": "2bca0a104e5ef284"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 0 1", "answer": "0", "group": "arith:(0, 1)", "id": "a0d78cf81574526a"}
+{"task": "arithmetic", "prompt": "минимум числа 0 и 1", "answer": "0", "group": "arith:(0, 1)", "id": "fba110a8e0b332d9"}
+{"task": "arithmetic", "prompt": "сложи 1 0", "answer": "1", "group": "arith:(0, 1)", "id": "3f52b3ca2158e74d"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 1 0", "answer": "1", "group": "arith:(0, 1)", "id": "6abeb4abfd77c870"}
+{"task": "arithmetic", "prompt": "сложи числа 1 и 0", "answer": "1", "group": "arith:(0, 1)", "id": "295abf0874d17c72"}
+{"task": "arithmetic", "prompt": "вычти 1 0", "answer": "1", "group": "arith:(0, 1)", "id": "a7805552ff31aa4c"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 1 0", "answer": "1", "group": "arith:(0, 1)", "id": "783e76124cb921ba"}
+{"task": "arithmetic", "prompt": "вычти числа 1 и 0", "answer": "1", "group": "arith:(0, 1)", "id": "3fa055876eb5aea4"}
+{"task": "arithmetic", "prompt": "максимум 1 0", "answer": "1", "group": "arith:(0, 1)", "id": "3d6672a7a2e2a704"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 1 0", "answer": "1", "group": "arith:(0, 1)", "id": "60a5c83f5637d8e9"}
+{"task": "arithmetic", "prompt": "максимум числа 1 и 0", "answer": "1", "group": "arith:(0, 1)", "id": "fa25eac2a2976ec0"}
+{"task": "arithmetic", "prompt": "минимум 1 0", "answer": "0", "group": "arith:(0, 1)", "id": "099ebf72ee110a3d"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 1 0", "answer": "0", "group": "arith:(0, 1)", "id": "271de9748ddd5d6e"}
+{"task": "arithmetic", "prompt": "минимум числа 1 и 0", "answer": "0", "group": "arith:(0, 1)", "id": "ef192bb8eb668eca"}
+{"task": "arithmetic", "prompt": "сложи 0 9", "answer": "9", "group": "arith:(0, 9)", "id": "de53936e423fde66"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 0 9", "answer": "9", "group": "arith:(0, 9)", "id": "a399c645b84f3257"}
+{"task": "arithmetic", "prompt": "сложи числа 0 и 9", "answer": "9", "group": "arith:(0, 9)", "id": "3eb408d315f58d5f"}
+{"task": "arithmetic", "prompt": "вычти 0 9", "answer": "-9", "group": "arith:(0, 9)", "id": "17de3f6f594722be"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 0 9", "answer": "-9", "group": "arith:(0, 9)", "id": "a42bfbb67dac9d5c"}
+{"task": "arithmetic", "prompt": "вычти числа 0 и 9", "answer": "-9", "group": "arith:(0, 9)", "id": "cb13d4a399ef41a8"}
+{"task": "arithmetic", "prompt": "максимум 0 9", "answer": "9", "group": "arith:(0, 9)", "id": "9eb8d0c51d222969"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 0 9", "answer": "9", "group": "arith:(0, 9)", "id": "eb5c00991d8de7b8"}
+{"task": "arithmetic", "prompt": "максимум числа 0 и 9", "answer": "9", "group": "arith:(0, 9)", "id": "fbdb1ca86fd5e78c"}
+{"task": "arithmetic", "prompt": "минимум 0 9", "answer": "0", "group": "arith:(0, 9)", "id": "52a494b9c65499c3"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 0 9", "answer": "0", "group": "arith:(0, 9)", "id": "7cb5511954f9ab36"}
+{"task": "arithmetic", "prompt": "минимум числа 0 и 9", "answer": "0", "group": "arith:(0, 9)", "id": "704b7514855b18a8"}
+{"task": "arithmetic", "prompt": "сложи 9 0", "answer": "9", "group": "arith:(0, 9)", "id": "26e2caf8da5e95b8"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 9 0", "answer": "9", "group": "arith:(0, 9)", "id": "053bc747a88e8c51"}
+{"task": "arithmetic", "prompt": "сложи числа 9 и 0", "answer": "9", "group": "arith:(0, 9)", "id": "97bdac943a43dce2"}
+{"task": "arithmetic", "prompt": "вычти 9 0", "answer": "9", "group": "arith:(0, 9)", "id": "5eab819f119ade54"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 9 0", "answer": "9", "group": "arith:(0, 9)", "id": "818aa88650e1b632"}
+{"task": "arithmetic", "prompt": "вычти числа 9 и 0", "answer": "9", "group": "arith:(0, 9)", "id": "8c4808e4ba3bd2b5"}
+{"task": "arithmetic", "prompt": "максимум 9 0", "answer": "9", "group": "arith:(0, 9)", "id": "f81d17ff6f574931"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 9 0", "answer": "9", "group": "arith:(0, 9)", "id": "45ce396259da8131"}
+{"task": "arithmetic", "prompt": "максимум числа 9 и 0", "answer": "9", "group": "arith:(0, 9)", "id": "5e9fe34bb0d832fa"}
+{"task": "arithmetic", "prompt": "минимум 9 0", "answer": "0", "group": "arith:(0, 9)", "id": "b857e6531345f442"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 9 0", "answer": "0", "group": "arith:(0, 9)", "id": "c91ff6d64b9e1832"}
+{"task": "arithmetic", "prompt": "минимум числа 9 и 0", "answer": "0", "group": "arith:(0, 9)", "id": "323f3162536963ef"}
+{"task": "arithmetic", "prompt": "сложи 9 9", "answer": "18", "group": "arith:(9, 9)", "id": "d13491ffb322368f"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 9 9", "answer": "18", "group": "arith:(9, 9)", "id": "bc7e79ff630bc693"}
+{"task": "arithmetic", "prompt": "сложи числа 9 и 9", "answer": "18", "group": "arith:(9, 9)", "id": "c1624acf04be7eaf"}
+{"task": "arithmetic", "prompt": "вычти 9 9", "answer": "0", "group": "arith:(9, 9)", "id": "45decfa5b1538921"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 9 9", "answer": "0", "group": "arith:(9, 9)", "id": "6b4ec811eadfeb04"}
+{"task": "arithmetic", "prompt": "вычти числа 9 и 9", "answer": "0", "group": "arith:(9, 9)", "id": "943b42b017c2b067"}
+{"task": "arithmetic", "prompt": "максимум 9 9", "answer": "9", "group": "arith:(9, 9)", "id": "774735f539237657"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 9 9", "answer": "9", "group": "arith:(9, 9)", "id": "fdbd8f12c1590aa0"}
+{"task": "arithmetic", "prompt": "максимум числа 9 и 9", "answer": "9", "group": "arith:(9, 9)", "id": "8eb0265e3055c1b5"}
+{"task": "arithmetic", "prompt": "минимум 9 9", "answer": "9", "group": "arith:(9, 9)", "id": "5be5f423a3ba739f"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 9 9", "answer": "9", "group": "arith:(9, 9)", "id": "83f6f0fb3f37cfc2"}
+{"task": "arithmetic", "prompt": "минимум числа 9 и 9", "answer": "9", "group": "arith:(9, 9)", "id": "f34912d17263b3c5"}
+{"task": "arithmetic", "prompt": "сложи 7 9", "answer": "16", "group": "arith:(7, 9)", "id": "f73a33a277f1365f"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 7 9", "answer": "16", "group": "arith:(7, 9)", "id": "70add94045afa265"}
+{"task": "arithmetic", "prompt": "сложи числа 7 и 9", "answer": "16", "group": "arith:(7, 9)", "id": "3bf9f2ef4c0bb614"}
+{"task": "arithmetic", "prompt": "вычти 7 9", "answer": "-2", "group": "arith:(7, 9)", "id": "13466d0716dae2a5"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 7 9", "answer": "-2", "group": "arith:(7, 9)", "id": "de0b696eeba89770"}
+{"task": "arithmetic", "prompt": "вычти числа 7 и 9", "answer": "-2", "group": "arith:(7, 9)", "id": "6e955c2a7c2e55f5"}
+{"task": "arithmetic", "prompt": "максимум 7 9", "answer": "9", "group": "arith:(7, 9)", "id": "db96cc1c47f61ba2"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 7 9", "answer": "9", "group": "arith:(7, 9)", "id": "372d114577c479f3"}
+{"task": "arithmetic", "prompt": "максимум числа 7 и 9", "answer": "9", "group": "arith:(7, 9)", "id": "5f4f5ed3d79b1039"}
+{"task": "arithmetic", "prompt": "минимум 7 9", "answer": "7", "group": "arith:(7, 9)", "id": "d49d747e9ecd7350"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 7 9", "answer": "7", "group": "arith:(7, 9)", "id": "a18b525d44580265"}
+{"task": "arithmetic", "prompt": "минимум числа 7 и 9", "answer": "7", "group": "arith:(7, 9)", "id": "a6951d7f3f7a4000"}
+{"task": "arithmetic", "prompt": "сложи 9 7", "answer": "16", "group": "arith:(7, 9)", "id": "cda0f84096e3226c"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 9 7", "answer": "16", "group": "arith:(7, 9)", "id": "fab43288ed399ae3"}
+{"task": "arithmetic", "prompt": "сложи числа 9 и 7", "answer": "16", "group": "arith:(7, 9)", "id": "a814d84b0382de24"}
+{"task": "arithmetic", "prompt": "вычти 9 7", "answer": "2", "group": "arith:(7, 9)", "id": "6220d346d7d5e733"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 9 7", "answer": "2", "group": "arith:(7, 9)", "id": "61812ac9c96e0eae"}
+{"task": "arithmetic", "prompt": "вычти числа 9 и 7", "answer": "2", "group": "arith:(7, 9)", "id": "983c123d09fa589f"}
+{"task": "arithmetic", "prompt": "максимум 9 7", "answer": "9", "group": "arith:(7, 9)", "id": "01405bf01e828f63"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 9 7", "answer": "9", "group": "arith:(7, 9)", "id": "3faba6996594f8c3"}
+{"task": "arithmetic", "prompt": "максимум числа 9 и 7", "answer": "9", "group": "arith:(7, 9)", "id": "327839161c8ba891"}
+{"task": "arithmetic", "prompt": "минимум 9 7", "answer": "7", "group": "arith:(7, 9)", "id": "5c849d34d412eb39"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 9 7", "answer": "7", "group": "arith:(7, 9)", "id": "11dd8cf790fe6d39"}
+{"task": "arithmetic", "prompt": "минимум числа 9 и 7", "answer": "7", "group": "arith:(7, 9)", "id": "ff411466f1cfe1e4"}
+{"task": "arithmetic", "prompt": "сложи 3 9", "answer": "12", "group": "arith:(3, 9)", "id": "e7692f859bd79a1c"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 3 9", "answer": "12", "group": "arith:(3, 9)", "id": "7f707d9337723531"}
+{"task": "arithmetic", "prompt": "сложи числа 3 и 9", "answer": "12", "group": "arith:(3, 9)", "id": "1592e7889081f7b7"}
+{"task": "arithmetic", "prompt": "вычти 3 9", "answer": "-6", "group": "arith:(3, 9)", "id": "0c926feefee12e0f"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 3 9", "answer": "-6", "group": "arith:(3, 9)", "id": "dd9f526dbd5677c3"}
+{"task": "arithmetic", "prompt": "вычти числа 3 и 9", "answer": "-6", "group": "arith:(3, 9)", "id": "154de6368fa65863"}
+{"task": "arithmetic", "prompt": "максимум 3 9", "answer": "9", "group": "arith:(3, 9)", "id": "51bda99a3211aa75"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 3 9", "answer": "9", "group": "arith:(3, 9)", "id": "53dacebc0372e549"}
+{"task": "arithmetic", "prompt": "максимум числа 3 и 9", "answer": "9", "group": "arith:(3, 9)", "id": "776c8a4ec48fe8df"}
+{"task": "arithmetic", "prompt": "минимум 3 9", "answer": "3", "group": "arith:(3, 9)", "id": "8e2837717b13903a"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 3 9", "answer": "3", "group": "arith:(3, 9)", "id": "d707ecba8bbeb807"}
+{"task": "arithmetic", "prompt": "минимум числа 3 и 9", "answer": "3", "group": "arith:(3, 9)", "id": "308c8dc262efebb6"}
+{"task": "arithmetic", "prompt": "сложи 9 3", "answer": "12", "group": "arith:(3, 9)", "id": "2c06f13e6a0fbc8c"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 9 3", "answer": "12", "group": "arith:(3, 9)", "id": "2c5070039dd58d72"}
+{"task": "arithmetic", "prompt": "сложи числа 9 и 3", "answer": "12", "group": "arith:(3, 9)", "id": "46ab97773229a8f0"}
+{"task": "arithmetic", "prompt": "вычти 9 3", "answer": "6", "group": "arith:(3, 9)", "id": "f198770b5b4f0e0c"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 9 3", "answer": "6", "group": "arith:(3, 9)", "id": "aca5edb2439d29cf"}
+{"task": "arithmetic", "prompt": "вычти числа 9 и 3", "answer": "6", "group": "arith:(3, 9)", "id": "e61f1602f86b1d6b"}
+{"task": "arithmetic", "prompt": "максимум 9 3", "answer": "9", "group": "arith:(3, 9)", "id": "2bdbaf7cb6b5397f"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 9 3", "answer": "9", "group": "arith:(3, 9)", "id": "327ff823b50ae184"}
+{"task": "arithmetic", "prompt": "максимум числа 9 и 3", "answer": "9", "group": "arith:(3, 9)", "id": "34c5885b9d084734"}
+{"task": "arithmetic", "prompt": "минимум 9 3", "answer": "3", "group": "arith:(3, 9)", "id": "f64b853bb0d5e1b8"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 9 3", "answer": "3", "group": "arith:(3, 9)", "id": "4e9e7923181f6b99"}
+{"task": "arithmetic", "prompt": "минимум числа 9 и 3", "answer": "3", "group": "arith:(3, 9)", "id": "fc58ab7ab4af43a2"}
+{"task": "arithmetic", "prompt": "сложи 5 9", "answer": "14", "group": "arith:(5, 9)", "id": "a95de80d93608493"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 5 9", "answer": "14", "group": "arith:(5, 9)", "id": "2c77a820d1929924"}
+{"task": "arithmetic", "prompt": "сложи числа 5 и 9", "answer": "14", "group": "arith:(5, 9)", "id": "fb6e723699d7adbd"}
+{"task": "arithmetic", "prompt": "вычти 5 9", "answer": "-4", "group": "arith:(5, 9)", "id": "3813de217b2041ab"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 5 9", "answer": "-4", "group": "arith:(5, 9)", "id": "ed3ef6394e2c2806"}
+{"task": "arithmetic", "prompt": "вычти числа 5 и 9", "answer": "-4", "group": "arith:(5, 9)", "id": "61c0d5fcd7e34f79"}
+{"task": "arithmetic", "prompt": "максимум 5 9", "answer": "9", "group": "arith:(5, 9)", "id": "c30a1051d85eff48"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 5 9", "answer": "9", "group": "arith:(5, 9)", "id": "5e3a8456c8961f54"}
+{"task": "arithmetic", "prompt": "максимум числа 5 и 9", "answer": "9", "group": "arith:(5, 9)", "id": "85caaf3ecb9f488b"}
+{"task": "arithmetic", "prompt": "минимум 5 9", "answer": "5", "group": "arith:(5, 9)", "id": "d1b81991ad4a14f3"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 5 9", "answer": "5", "group": "arith:(5, 9)", "id": "93b33af3e01084c8"}
+{"task": "arithmetic", "prompt": "минимум числа 5 и 9", "answer": "5", "group": "arith:(5, 9)", "id": "b7bdb62668a4bbc2"}
+{"task": "arithmetic", "prompt": "сложи 9 5", "answer": "14", "group": "arith:(5, 9)", "id": "0440307150efdd48"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 9 5", "answer": "14", "group": "arith:(5, 9)", "id": "183274239b6f5ba4"}
+{"task": "arithmetic", "prompt": "сложи числа 9 и 5", "answer": "14", "group": "arith:(5, 9)", "id": "87624674317ae9cd"}
+{"task": "arithmetic", "prompt": "вычти 9 5", "answer": "4", "group": "arith:(5, 9)", "id": "85d892f843be8ba2"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 9 5", "answer": "4", "group": "arith:(5, 9)", "id": "7057181d270bc9d5"}
+{"task": "arithmetic", "prompt": "вычти числа 9 и 5", "answer": "4", "group": "arith:(5, 9)", "id": "06d58382af40fffc"}
+{"task": "arithmetic", "prompt": "максимум 9 5", "answer": "9", "group": "arith:(5, 9)", "id": "5e8d1d2aa2af21b5"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 9 5", "answer": "9", "group": "arith:(5, 9)", "id": "045a3ab1b9ad626a"}
+{"task": "arithmetic", "prompt": "максимум числа 9 и 5", "answer": "9", "group": "arith:(5, 9)", "id": "6f892da6f86b4362"}
+{"task": "arithmetic", "prompt": "минимум 9 5", "answer": "5", "group": "arith:(5, 9)", "id": "2c5f7a5fda3f8517"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 9 5", "answer": "5", "group": "arith:(5, 9)", "id": "6ccb9fead647efcc"}
+{"task": "arithmetic", "prompt": "минимум числа 9 и 5", "answer": "5", "group": "arith:(5, 9)", "id": "3fdb549e800a646c"}
+{"task": "arithmetic", "prompt": "сложи 7 8", "answer": "15", "group": "arith:(7, 8)", "id": "29b28cc20dc89c86"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 7 8", "answer": "15", "group": "arith:(7, 8)", "id": "71e3c7be875ff0ba"}
+{"task": "arithmetic", "prompt": "сложи числа 7 и 8", "answer": "15", "group": "arith:(7, 8)", "id": "fc439e6f3d28cfa4"}
+{"task": "arithmetic", "prompt": "вычти 7 8", "answer": "-1", "group": "arith:(7, 8)", "id": "7b6f5e5dbc0f2e49"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 7 8", "answer": "-1", "group": "arith:(7, 8)", "id": "c5360919c9f74217"}
+{"task": "arithmetic", "prompt": "вычти числа 7 и 8", "answer": "-1", "group": "arith:(7, 8)", "id": "588a6ed8858a3eeb"}
+{"task": "arithmetic", "prompt": "максимум 7 8", "answer": "8", "group": "arith:(7, 8)", "id": "d23145d79418dfb2"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 7 8", "answer": "8", "group": "arith:(7, 8)", "id": "b916255543078836"}
+{"task": "arithmetic", "prompt": "максимум числа 7 и 8", "answer": "8", "group": "arith:(7, 8)", "id": "4d98b8a4e246df48"}
+{"task": "arithmetic", "prompt": "минимум 7 8", "answer": "7", "group": "arith:(7, 8)", "id": "7e712813867923d9"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 7 8", "answer": "7", "group": "arith:(7, 8)", "id": "4e74bf82adb009f1"}
+{"task": "arithmetic", "prompt": "минимум числа 7 и 8", "answer": "7", "group": "arith:(7, 8)", "id": "64fe033fbb7886fe"}
+{"task": "arithmetic", "prompt": "сложи 8 7", "answer": "15", "group": "arith:(7, 8)", "id": "22d4d305e8bb50a9"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 8 7", "answer": "15", "group": "arith:(7, 8)", "id": "45752ce705fdcde2"}
+{"task": "arithmetic", "prompt": "сложи числа 8 и 7", "answer": "15", "group": "arith:(7, 8)", "id": "35803058139b2575"}
+{"task": "arithmetic", "prompt": "вычти 8 7", "answer": "1", "group": "arith:(7, 8)", "id": "6ba7dabf396286ba"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 8 7", "answer": "1", "group": "arith:(7, 8)", "id": "7e5c2b9a15d6d471"}
+{"task": "arithmetic", "prompt": "вычти числа 8 и 7", "answer": "1", "group": "arith:(7, 8)", "id": "940369ac92f09aab"}
+{"task": "arithmetic", "prompt": "максимум 8 7", "answer": "8", "group": "arith:(7, 8)", "id": "dc0d65e042f309f5"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 8 7", "answer": "8", "group": "arith:(7, 8)", "id": "855d199f359c2af1"}
+{"task": "arithmetic", "prompt": "максимум числа 8 и 7", "answer": "8", "group": "arith:(7, 8)", "id": "da5ab4ebbef54f0a"}
+{"task": "arithmetic", "prompt": "минимум 8 7", "answer": "7", "group": "arith:(7, 8)", "id": "2b63bf55e57e661f"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 8 7", "answer": "7", "group": "arith:(7, 8)", "id": "e496824cd5689563"}
+{"task": "arithmetic", "prompt": "минимум числа 8 и 7", "answer": "7", "group": "arith:(7, 8)", "id": "e5c32f24b88ce1d9"}
+{"task": "arithmetic", "prompt": "сложи 5 8", "answer": "13", "group": "arith:(5, 8)", "id": "fd4458f5e0278464"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 5 8", "answer": "13", "group": "arith:(5, 8)", "id": "1c952872e39041d4"}
+{"task": "arithmetic", "prompt": "сложи числа 5 и 8", "answer": "13", "group": "arith:(5, 8)", "id": "0f71bfc433dfdd7f"}
+{"task": "arithmetic", "prompt": "вычти 5 8", "answer": "-3", "group": "arith:(5, 8)", "id": "18a38c6de10ed561"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 5 8", "answer": "-3", "group": "arith:(5, 8)", "id": "4f67c44f695d0bda"}
+{"task": "arithmetic", "prompt": "вычти числа 5 и 8", "answer": "-3", "group": "arith:(5, 8)", "id": "8415b2897beec880"}
+{"task": "arithmetic", "prompt": "максимум 5 8", "answer": "8", "group": "arith:(5, 8)", "id": "e36966ce34bf570e"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 5 8", "answer": "8", "group": "arith:(5, 8)", "id": "266ec62be6a6a515"}
+{"task": "arithmetic", "prompt": "максимум числа 5 и 8", "answer": "8", "group": "arith:(5, 8)", "id": "538566c2cbb5931c"}
+{"task": "arithmetic", "prompt": "минимум 5 8", "answer": "5", "group": "arith:(5, 8)", "id": "13a4a73b80c6dae5"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 5 8", "answer": "5", "group": "arith:(5, 8)", "id": "3ab5fe68ac451f4b"}
+{"task": "arithmetic", "prompt": "минимум числа 5 и 8", "answer": "5", "group": "arith:(5, 8)", "id": "122a653bed1fa3a9"}
+{"task": "arithmetic", "prompt": "сложи 8 5", "answer": "13", "group": "arith:(5, 8)", "id": "260b32f8eb0012a2"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 8 5", "answer": "13", "group": "arith:(5, 8)", "id": "cdaeae36eebcfd51"}
+{"task": "arithmetic", "prompt": "сложи числа 8 и 5", "answer": "13", "group": "arith:(5, 8)", "id": "3d4df40ed95daeeb"}
+{"task": "arithmetic", "prompt": "вычти 8 5", "answer": "3", "group": "arith:(5, 8)", "id": "3898f37073502ae4"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 8 5", "answer": "3", "group": "arith:(5, 8)", "id": "95fd583339ec3a3c"}
+{"task": "arithmetic", "prompt": "вычти числа 8 и 5", "answer": "3", "group": "arith:(5, 8)", "id": "48923039b70a02c9"}
+{"task": "arithmetic", "prompt": "максимум 8 5", "answer": "8", "group": "arith:(5, 8)", "id": "108215ec97eb7fd6"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 8 5", "answer": "8", "group": "arith:(5, 8)", "id": "fecc8a75d6cca2e7"}
+{"task": "arithmetic", "prompt": "максимум числа 8 и 5", "answer": "8", "group": "arith:(5, 8)", "id": "cbbd421e64632b10"}
+{"task": "arithmetic", "prompt": "минимум 8 5", "answer": "5", "group": "arith:(5, 8)", "id": "b3279c0136695064"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 8 5", "answer": "5", "group": "arith:(5, 8)", "id": "069fb17fca864ee6"}
+{"task": "arithmetic", "prompt": "минимум числа 8 и 5", "answer": "5", "group": "arith:(5, 8)", "id": "798c7721cb72b693"}
+{"task": "arithmetic", "prompt": "сложи 1 7", "answer": "8", "group": "arith:(1, 7)", "id": "cc53720fac429318"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 1 7", "answer": "8", "group": "arith:(1, 7)", "id": "b5def37982d1e745"}
+{"task": "arithmetic", "prompt": "сложи числа 1 и 7", "answer": "8", "group": "arith:(1, 7)", "id": "c96ee8801c22a949"}
+{"task": "arithmetic", "prompt": "вычти 1 7", "answer": "-6", "group": "arith:(1, 7)", "id": "2157abc6b00d2a9d"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 1 7", "answer": "-6", "group": "arith:(1, 7)", "id": "23a44b0d5058ea5e"}
+{"task": "arithmetic", "prompt": "вычти числа 1 и 7", "answer": "-6", "group": "arith:(1, 7)", "id": "fe93ac5ebb3c7444"}
+{"task": "arithmetic", "prompt": "максимум 1 7", "answer": "7", "group": "arith:(1, 7)", "id": "dfc9ec767597a5a1"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 1 7", "answer": "7", "group": "arith:(1, 7)", "id": "0b7ba1b8e2815987"}
+{"task": "arithmetic", "prompt": "максимум числа 1 и 7", "answer": "7", "group": "arith:(1, 7)", "id": "f5087bf70445b98d"}
+{"task": "arithmetic", "prompt": "минимум 1 7", "answer": "1", "group": "arith:(1, 7)", "id": "f1c71b5c19b961fb"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 1 7", "answer": "1", "group": "arith:(1, 7)", "id": "f54c59f6691f62fa"}
+{"task": "arithmetic", "prompt": "минимум числа 1 и 7", "answer": "1", "group": "arith:(1, 7)", "id": "4bf7c01db127426d"}
+{"task": "arithmetic", "prompt": "сложи 7 1", "answer": "8", "group": "arith:(1, 7)", "id": "7bc29c32fedf6874"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 7 1", "answer": "8", "group": "arith:(1, 7)", "id": "33e01cd3df21c780"}
+{"task": "arithmetic", "prompt": "сложи числа 7 и 1", "answer": "8", "group": "arith:(1, 7)", "id": "cfcf06963f20ea4d"}
+{"task": "arithmetic", "prompt": "вычти 7 1", "answer": "6", "group": "arith:(1, 7)", "id": "cc2fce8450db3790"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 7 1", "answer": "6", "group": "arith:(1, 7)", "id": "5dd1893ac13f08bb"}
+{"task": "arithmetic", "prompt": "вычти числа 7 и 1", "answer": "6", "group": "arith:(1, 7)", "id": "2f687217a8dea06a"}
+{"task": "arithmetic", "prompt": "максимум 7 1", "answer": "7", "group": "arith:(1, 7)", "id": "1ee18fd3c64c70ca"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 7 1", "answer": "7", "group": "arith:(1, 7)", "id": "3086c83866d5a0e5"}
+{"task": "arithmetic", "prompt": "максимум числа 7 и 1", "answer": "7", "group": "arith:(1, 7)", "id": "fdc68cc3e9638a51"}
+{"task": "arithmetic", "prompt": "минимум 7 1", "answer": "1", "group": "arith:(1, 7)", "id": "fe5ec68fb4edb9b9"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 7 1", "answer": "1", "group": "arith:(1, 7)", "id": "a4c20bdbe5c7da2e"}
+{"task": "arithmetic", "prompt": "минимум числа 7 и 1", "answer": "1", "group": "arith:(1, 7)", "id": "4bd6fab847cb2af7"}
+{"task": "arithmetic", "prompt": "сложи 2 3", "answer": "5", "group": "arith:(2, 3)", "id": "d2e82e4e52545226"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 2 3", "answer": "5", "group": "arith:(2, 3)", "id": "89f584fb02b4eb70"}
+{"task": "arithmetic", "prompt": "сложи числа 2 и 3", "answer": "5", "group": "arith:(2, 3)", "id": "fd801aa097c6de14"}
+{"task": "arithmetic", "prompt": "вычти 2 3", "answer": "-1", "group": "arith:(2, 3)", "id": "d853f492f432e18d"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 2 3", "answer": "-1", "group": "arith:(2, 3)", "id": "8554cc571562b1b8"}
+{"task": "arithmetic", "prompt": "вычти числа 2 и 3", "answer": "-1", "group": "arith:(2, 3)", "id": "8030f627f434f005"}
+{"task": "arithmetic", "prompt": "максимум 2 3", "answer": "3", "group": "arith:(2, 3)", "id": "dda7fe4b8e7916dd"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 2 3", "answer": "3", "group": "arith:(2, 3)", "id": "96b7af1deec8c786"}
+{"task": "arithmetic", "prompt": "максимум числа 2 и 3", "answer": "3", "group": "arith:(2, 3)", "id": "763e2e37dfae681a"}
+{"task": "arithmetic", "prompt": "минимум 2 3", "answer": "2", "group": "arith:(2, 3)", "id": "019484521e308737"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 2 3", "answer": "2", "group": "arith:(2, 3)", "id": "b5e62f3320b920e1"}
+{"task": "arithmetic", "prompt": "минимум числа 2 и 3", "answer": "2", "group": "arith:(2, 3)", "id": "c866080fe9a832fb"}
+{"task": "arithmetic", "prompt": "сложи 3 2", "answer": "5", "group": "arith:(2, 3)", "id": "c1c86f1ca555c85d"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 3 2", "answer": "5", "group": "arith:(2, 3)", "id": "6fa915b517680ac0"}
+{"task": "arithmetic", "prompt": "сложи числа 3 и 2", "answer": "5", "group": "arith:(2, 3)", "id": "105795c8808955b0"}
+{"task": "arithmetic", "prompt": "вычти 3 2", "answer": "1", "group": "arith:(2, 3)", "id": "5f9abc839ae803bd"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 3 2", "answer": "1", "group": "arith:(2, 3)", "id": "0ac8543554dcf4dd"}
+{"task": "arithmetic", "prompt": "вычти числа 3 и 2", "answer": "1", "group": "arith:(2, 3)", "id": "d9e3ff13132de054"}
+{"task": "arithmetic", "prompt": "максимум 3 2", "answer": "3", "group": "arith:(2, 3)", "id": "b7a15a5af22f1c5e"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 3 2", "answer": "3", "group": "arith:(2, 3)", "id": "fcaa82e74b7a8b16"}
+{"task": "arithmetic", "prompt": "максимум числа 3 и 2", "answer": "3", "group": "arith:(2, 3)", "id": "743411e9c2e4854b"}
+{"task": "arithmetic", "prompt": "минимум 3 2", "answer": "2", "group": "arith:(2, 3)", "id": "13da108c9dd76a54"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 3 2", "answer": "2", "group": "arith:(2, 3)", "id": "5c14f426fc8598fc"}
+{"task": "arithmetic", "prompt": "минимум числа 3 и 2", "answer": "2", "group": "arith:(2, 3)", "id": "cfddf77c896808ca"}
+{"task": "arithmetic", "prompt": "сложи 5 5", "answer": "10", "group": "arith:(5, 5)", "id": "913c69db5241c8ad"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 5 5", "answer": "10", "group": "arith:(5, 5)", "id": "8afc0551b954c645"}
+{"task": "arithmetic", "prompt": "сложи числа 5 и 5", "answer": "10", "group": "arith:(5, 5)", "id": "baac8944b8c17e49"}
+{"task": "arithmetic", "prompt": "вычти 5 5", "answer": "0", "group": "arith:(5, 5)", "id": "161db7907a690c39"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 5 5", "answer": "0", "group": "arith:(5, 5)", "id": "a56346d0de06f593"}
+{"task": "arithmetic", "prompt": "вычти числа 5 и 5", "answer": "0", "group": "arith:(5, 5)", "id": "7225be101fa84b99"}
+{"task": "arithmetic", "prompt": "максимум 5 5", "answer": "5", "group": "arith:(5, 5)", "id": "8567abceffa61fd0"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 5 5", "answer": "5", "group": "arith:(5, 5)", "id": "146712527299dee0"}
+{"task": "arithmetic", "prompt": "максимум числа 5 и 5", "answer": "5", "group": "arith:(5, 5)", "id": "6be4521c2c86db60"}
+{"task": "arithmetic", "prompt": "минимум 5 5", "answer": "5", "group": "arith:(5, 5)", "id": "2c12e578299736e7"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 5 5", "answer": "5", "group": "arith:(5, 5)", "id": "8b7e863e97686014"}
+{"task": "arithmetic", "prompt": "минимум числа 5 и 5", "answer": "5", "group": "arith:(5, 5)", "id": "c3ff7da811e46d06"}
+{"task": "arithmetic", "prompt": "сложи 2 4", "answer": "6", "group": "arith:(2, 4)", "id": "15d180a0742e1eb3"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 2 4", "answer": "6", "group": "arith:(2, 4)", "id": "03248a46aba5f7d0"}
+{"task": "arithmetic", "prompt": "сложи числа 2 и 4", "answer": "6", "group": "arith:(2, 4)", "id": "d9279a443c7d2281"}
+{"task": "arithmetic", "prompt": "вычти 2 4", "answer": "-2", "group": "arith:(2, 4)", "id": "3085108adc9a3aba"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 2 4", "answer": "-2", "group": "arith:(2, 4)", "id": "9388c497cc60615a"}
+{"task": "arithmetic", "prompt": "вычти числа 2 и 4", "answer": "-2", "group": "arith:(2, 4)", "id": "4ae297923c4f15e2"}
+{"task": "arithmetic", "prompt": "максимум 2 4", "answer": "4", "group": "arith:(2, 4)", "id": "58d6bdf2b56ce0c7"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 2 4", "answer": "4", "group": "arith:(2, 4)", "id": "38469278a60cc070"}
+{"task": "arithmetic", "prompt": "максимум числа 2 и 4", "answer": "4", "group": "arith:(2, 4)", "id": "e804c231764c8dc9"}
+{"task": "arithmetic", "prompt": "минимум 2 4", "answer": "2", "group": "arith:(2, 4)", "id": "00884e376ed671b4"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 2 4", "answer": "2", "group": "arith:(2, 4)", "id": "936005c96b5921d6"}
+{"task": "arithmetic", "prompt": "минимум числа 2 и 4", "answer": "2", "group": "arith:(2, 4)", "id": "e20ab50fa0456f35"}
+{"task": "arithmetic", "prompt": "сложи 4 2", "answer": "6", "group": "arith:(2, 4)", "id": "ceff67bd2d6e9ab1"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 4 2", "answer": "6", "group": "arith:(2, 4)", "id": "4199b1d89ba6bb0e"}
+{"task": "arithmetic", "prompt": "сложи числа 4 и 2", "answer": "6", "group": "arith:(2, 4)", "id": "721184708591b8e9"}
+{"task": "arithmetic", "prompt": "вычти 4 2", "answer": "2", "group": "arith:(2, 4)", "id": "30c81df18815ebb3"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 4 2", "answer": "2", "group": "arith:(2, 4)", "id": "437449a01c3b545c"}
+{"task": "arithmetic", "prompt": "вычти числа 4 и 2", "answer": "2", "group": "arith:(2, 4)", "id": "6323697cd5e9ecb6"}
+{"task": "arithmetic", "prompt": "максимум 4 2", "answer": "4", "group": "arith:(2, 4)", "id": "44f7a083fd587a74"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 4 2", "answer": "4", "group": "arith:(2, 4)", "id": "d9c6697b802ca46f"}
+{"task": "arithmetic", "prompt": "максимум числа 4 и 2", "answer": "4", "group": "arith:(2, 4)", "id": "0e955117deac7c6b"}
+{"task": "arithmetic", "prompt": "минимум 4 2", "answer": "2", "group": "arith:(2, 4)", "id": "23259b3f4cc789ed"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 4 2", "answer": "2", "group": "arith:(2, 4)", "id": "632bc5df7b8bbd05"}
+{"task": "arithmetic", "prompt": "минимум числа 4 и 2", "answer": "2", "group": "arith:(2, 4)", "id": "93a0fe6141e99a3b"}
+{"task": "arithmetic", "prompt": "сложи 3 5", "answer": "8", "group": "arith:(3, 5)", "id": "ca750ee1fb36f694"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 3 5", "answer": "8", "group": "arith:(3, 5)", "id": "ea85a421975a5f10"}
+{"task": "arithmetic", "prompt": "сложи числа 3 и 5", "answer": "8", "group": "arith:(3, 5)", "id": "5fb48dcf847f7556"}
+{"task": "arithmetic", "prompt": "вычти 3 5", "answer": "-2", "group": "arith:(3, 5)", "id": "3e26d51e5a4bb055"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 3 5", "answer": "-2", "group": "arith:(3, 5)", "id": "777ad318e9a920a4"}
+{"task": "arithmetic", "prompt": "вычти числа 3 и 5", "answer": "-2", "group": "arith:(3, 5)", "id": "692afbb722a534dc"}
+{"task": "arithmetic", "prompt": "максимум 3 5", "answer": "5", "group": "arith:(3, 5)", "id": "7e54ee15bccdbc67"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 3 5", "answer": "5", "group": "arith:(3, 5)", "id": "480ba31534590c45"}
+{"task": "arithmetic", "prompt": "максимум числа 3 и 5", "answer": "5", "group": "arith:(3, 5)", "id": "ff270ba65be13e37"}
+{"task": "arithmetic", "prompt": "минимум 3 5", "answer": "3", "group": "arith:(3, 5)", "id": "bf8e7b82a39760c3"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 3 5", "answer": "3", "group": "arith:(3, 5)", "id": "ca9bdfde50cdc7cf"}
+{"task": "arithmetic", "prompt": "минимум числа 3 и 5", "answer": "3", "group": "arith:(3, 5)", "id": "fed8e7414d8fe3b2"}
+{"task": "arithmetic", "prompt": "сложи 5 3", "answer": "8", "group": "arith:(3, 5)", "id": "a6e1eb6232758d1c"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 5 3", "answer": "8", "group": "arith:(3, 5)", "id": "c1359fb3efd45fe1"}
+{"task": "arithmetic", "prompt": "сложи числа 5 и 3", "answer": "8", "group": "arith:(3, 5)", "id": "2ec3bbe12cfd8b09"}
+{"task": "arithmetic", "prompt": "вычти 5 3", "answer": "2", "group": "arith:(3, 5)", "id": "a176e6058228c843"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 5 3", "answer": "2", "group": "arith:(3, 5)", "id": "c6f24ebabf78ecb0"}
+{"task": "arithmetic", "prompt": "вычти числа 5 и 3", "answer": "2", "group": "arith:(3, 5)", "id": "1dbd0c94f46d7381"}
+{"task": "arithmetic", "prompt": "максимум 5 3", "answer": "5", "group": "arith:(3, 5)", "id": "26bbf8928207dcf7"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 5 3", "answer": "5", "group": "arith:(3, 5)", "id": "c68e5aeb310d50db"}
+{"task": "arithmetic", "prompt": "максимум числа 5 и 3", "answer": "5", "group": "arith:(3, 5)", "id": "25f49880600b92bd"}
+{"task": "arithmetic", "prompt": "минимум 5 3", "answer": "3", "group": "arith:(3, 5)", "id": "f11be920e9105103"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 5 3", "answer": "3", "group": "arith:(3, 5)", "id": "651ec7069ebcb641"}
+{"task": "arithmetic", "prompt": "минимум числа 5 и 3", "answer": "3", "group": "arith:(3, 5)", "id": "cf76b0a75a40ad38"}
+{"task": "arithmetic", "prompt": "сложи 0 5", "answer": "5", "group": "arith:(0, 5)", "id": "9466b5f4cd08b377"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 0 5", "answer": "5", "group": "arith:(0, 5)", "id": "7bb1c1ae2d4962ee"}
+{"task": "arithmetic", "prompt": "сложи числа 0 и 5", "answer": "5", "group": "arith:(0, 5)", "id": "4199935674e132b4"}
+{"task": "arithmetic", "prompt": "вычти 0 5", "answer": "-5", "group": "arith:(0, 5)", "id": "18f99ceb1db9534c"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 0 5", "answer": "-5", "group": "arith:(0, 5)", "id": "1ea0febe06651cd0"}
+{"task": "arithmetic", "prompt": "вычти числа 0 и 5", "answer": "-5", "group": "arith:(0, 5)", "id": "a046ef62c6ca282b"}
+{"task": "arithmetic", "prompt": "максимум 0 5", "answer": "5", "group": "arith:(0, 5)", "id": "acb722b1695347d4"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 0 5", "answer": "5", "group": "arith:(0, 5)", "id": "8bbcc5b3f7232e8d"}
+{"task": "arithmetic", "prompt": "максимум числа 0 и 5", "answer": "5", "group": "arith:(0, 5)", "id": "9acf455a0c433940"}
+{"task": "arithmetic", "prompt": "минимум 0 5", "answer": "0", "group": "arith:(0, 5)", "id": "bcd06840eb3290c5"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 0 5", "answer": "0", "group": "arith:(0, 5)", "id": "d24ff730f74310de"}
+{"task": "arithmetic", "prompt": "минимум числа 0 и 5", "answer": "0", "group": "arith:(0, 5)", "id": "6da09036b33a5772"}
+{"task": "arithmetic", "prompt": "сложи 5 0", "answer": "5", "group": "arith:(0, 5)", "id": "54e204e66d94985b"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 5 0", "answer": "5", "group": "arith:(0, 5)", "id": "fd335124ab5a4600"}
+{"task": "arithmetic", "prompt": "сложи числа 5 и 0", "answer": "5", "group": "arith:(0, 5)", "id": "7e3078260a9c74a4"}
+{"task": "arithmetic", "prompt": "вычти 5 0", "answer": "5", "group": "arith:(0, 5)", "id": "656722ee01ab76f4"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 5 0", "answer": "5", "group": "arith:(0, 5)", "id": "3c8f9f696d1e9cc6"}
+{"task": "arithmetic", "prompt": "вычти числа 5 и 0", "answer": "5", "group": "arith:(0, 5)", "id": "82783f6baf503f6d"}
+{"task": "arithmetic", "prompt": "максимум 5 0", "answer": "5", "group": "arith:(0, 5)", "id": "4ad043928046a008"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 5 0", "answer": "5", "group": "arith:(0, 5)", "id": "59ffd536f04d802c"}
+{"task": "arithmetic", "prompt": "максимум числа 5 и 0", "answer": "5", "group": "arith:(0, 5)", "id": "587617f502893e4a"}
+{"task": "arithmetic", "prompt": "минимум 5 0", "answer": "0", "group": "arith:(0, 5)", "id": "a604945d8b0fd990"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 5 0", "answer": "0", "group": "arith:(0, 5)", "id": "127ceee47c29b0b1"}
+{"task": "arithmetic", "prompt": "минимум числа 5 и 0", "answer": "0", "group": "arith:(0, 5)", "id": "a1154e725429534a"}
+{"task": "arithmetic", "prompt": "сложи 2 9", "answer": "11", "group": "arith:(2, 9)", "id": "a4637a5f670eae6d"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 2 9", "answer": "11", "group": "arith:(2, 9)", "id": "83c3e158b042c3c3"}
+{"task": "arithmetic", "prompt": "сложи числа 2 и 9", "answer": "11", "group": "arith:(2, 9)", "id": "da421e8248c1dd55"}
+{"task": "arithmetic", "prompt": "вычти 2 9", "answer": "-7", "group": "arith:(2, 9)", "id": "1c569f59852237ff"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 2 9", "answer": "-7", "group": "arith:(2, 9)", "id": "6aebb9019910a395"}
+{"task": "arithmetic", "prompt": "вычти числа 2 и 9", "answer": "-7", "group": "arith:(2, 9)", "id": "374874869a27eb86"}
+{"task": "arithmetic", "prompt": "максимум 2 9", "answer": "9", "group": "arith:(2, 9)", "id": "0e6e16fde109224e"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 2 9", "answer": "9", "group": "arith:(2, 9)", "id": "5599a19e7dc0e3bf"}
+{"task": "arithmetic", "prompt": "максимум числа 2 и 9", "answer": "9", "group": "arith:(2, 9)", "id": "7439ca2e76793c0a"}
+{"task": "arithmetic", "prompt": "минимум 2 9", "answer": "2", "group": "arith:(2, 9)", "id": "1323cbc449c03d04"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 2 9", "answer": "2", "group": "arith:(2, 9)", "id": "7a9aa928e0c74e62"}
+{"task": "arithmetic", "prompt": "минимум числа 2 и 9", "answer": "2", "group": "arith:(2, 9)", "id": "60adbd282a92c80c"}
+{"task": "arithmetic", "prompt": "сложи 9 2", "answer": "11", "group": "arith:(2, 9)", "id": "6b19c36761629b68"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 9 2", "answer": "11", "group": "arith:(2, 9)", "id": "dc1adb20eb8acd10"}
+{"task": "arithmetic", "prompt": "сложи числа 9 и 2", "answer": "11", "group": "arith:(2, 9)", "id": "6a998a0994b60bdf"}
+{"task": "arithmetic", "prompt": "вычти 9 2", "answer": "7", "group": "arith:(2, 9)", "id": "bbb359102c977e97"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 9 2", "answer": "7", "group": "arith:(2, 9)", "id": "eabf988a40dcfad6"}
+{"task": "arithmetic", "prompt": "вычти числа 9 и 2", "answer": "7", "group": "arith:(2, 9)", "id": "3d734d58bd7b60e4"}
+{"task": "arithmetic", "prompt": "максимум 9 2", "answer": "9", "group": "arith:(2, 9)", "id": "89def90e67e517ec"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 9 2", "answer": "9", "group": "arith:(2, 9)", "id": "178248c58afb0bdf"}
+{"task": "arithmetic", "prompt": "максимум числа 9 и 2", "answer": "9", "group": "arith:(2, 9)", "id": "b96a7d88e21030c5"}
+{"task": "arithmetic", "prompt": "минимум 9 2", "answer": "2", "group": "arith:(2, 9)", "id": "72aca607f12bb359"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 9 2", "answer": "2", "group": "arith:(2, 9)", "id": "3839c11fda0ba104"}
+{"task": "arithmetic", "prompt": "минимум числа 9 и 2", "answer": "2", "group": "arith:(2, 9)", "id": "073cd8cc57fbd0c8"}
+{"task": "arithmetic", "prompt": "сложи 0 2", "answer": "2", "group": "arith:(0, 2)", "id": "368f0fdea7293e52"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 0 2", "answer": "2", "group": "arith:(0, 2)", "id": "ebbe2b357e8730e4"}
+{"task": "arithmetic", "prompt": "сложи числа 0 и 2", "answer": "2", "group": "arith:(0, 2)", "id": "a02103a15be38a4f"}
+{"task": "arithmetic", "prompt": "вычти 0 2", "answer": "-2", "group": "arith:(0, 2)", "id": "53878f31ea1c68a4"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 0 2", "answer": "-2", "group": "arith:(0, 2)", "id": "ff5330735cd6883a"}
+{"task": "arithmetic", "prompt": "вычти числа 0 и 2", "answer": "-2", "group": "arith:(0, 2)", "id": "481bfb354525e797"}
+{"task": "arithmetic", "prompt": "максимум 0 2", "answer": "2", "group": "arith:(0, 2)", "id": "97af3e57ab164659"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 0 2", "answer": "2", "group": "arith:(0, 2)", "id": "a64d569c542ca982"}
+{"task": "arithmetic", "prompt": "максимум числа 0 и 2", "answer": "2", "group": "arith:(0, 2)", "id": "a2233a65de53871c"}
+{"task": "arithmetic", "prompt": "минимум 0 2", "answer": "0", "group": "arith:(0, 2)", "id": "ed2157287f14c2ed"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 0 2", "answer": "0", "group": "arith:(0, 2)", "id": "4c8549dd62025e1e"}
+{"task": "arithmetic", "prompt": "минимум числа 0 и 2", "answer": "0", "group": "arith:(0, 2)", "id": "6c50b33484ac4a3f"}
+{"task": "arithmetic", "prompt": "сложи 2 0", "answer": "2", "group": "arith:(0, 2)", "id": "2c5f50851ecb69d2"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 2 0", "answer": "2", "group": "arith:(0, 2)", "id": "cabc1c82cf6d64b9"}
+{"task": "arithmetic", "prompt": "сложи числа 2 и 0", "answer": "2", "group": "arith:(0, 2)", "id": "0954fd54cead6fc7"}
+{"task": "arithmetic", "prompt": "вычти 2 0", "answer": "2", "group": "arith:(0, 2)", "id": "ccb08f1cf05242b9"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 2 0", "answer": "2", "group": "arith:(0, 2)", "id": "51a4b1dee36b47d1"}
+{"task": "arithmetic", "prompt": "вычти числа 2 и 0", "answer": "2", "group": "arith:(0, 2)", "id": "20efa63cf4f3ac0b"}
+{"task": "arithmetic", "prompt": "максимум 2 0", "answer": "2", "group": "arith:(0, 2)", "id": "2ea55b7103abac1e"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 2 0", "answer": "2", "group": "arith:(0, 2)", "id": "6354275deff88a16"}
+{"task": "arithmetic", "prompt": "максимум числа 2 и 0", "answer": "2", "group": "arith:(0, 2)", "id": "0ad59d0b911f1473"}
+{"task": "arithmetic", "prompt": "минимум 2 0", "answer": "0", "group": "arith:(0, 2)", "id": "0f7663e09fbe17fd"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 2 0", "answer": "0", "group": "arith:(0, 2)", "id": "e5fc8f0f021038bd"}
+{"task": "arithmetic", "prompt": "минимум числа 2 и 0", "answer": "0", "group": "arith:(0, 2)", "id": "7a7704bf2e0af59b"}
+{"task": "arithmetic", "prompt": "сложи 6 9", "answer": "15", "group": "arith:(6, 9)", "id": "4420037c36cfdb0a"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 6 9", "answer": "15", "group": "arith:(6, 9)", "id": "78010e7a973268f2"}
+{"task": "arithmetic", "prompt": "сложи числа 6 и 9", "answer": "15", "group": "arith:(6, 9)", "id": "6e95870716c72fdc"}
+{"task": "arithmetic", "prompt": "вычти 6 9", "answer": "-3", "group": "arith:(6, 9)", "id": "e8a1254f1537a3a2"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 6 9", "answer": "-3", "group": "arith:(6, 9)", "id": "c5bfa429fdbf3890"}
+{"task": "arithmetic", "prompt": "вычти числа 6 и 9", "answer": "-3", "group": "arith:(6, 9)", "id": "82119c490a8959eb"}
+{"task": "arithmetic", "prompt": "максимум 6 9", "answer": "9", "group": "arith:(6, 9)", "id": "25e6f9454ccb71a2"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 6 9", "answer": "9", "group": "arith:(6, 9)", "id": "6f1ff47315fd5ae2"}
+{"task": "arithmetic", "prompt": "максимум числа 6 и 9", "answer": "9", "group": "arith:(6, 9)", "id": "80602c3b2e824644"}
+{"task": "arithmetic", "prompt": "минимум 6 9", "answer": "6", "group": "arith:(6, 9)", "id": "bbcb9ff671d04cb4"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 6 9", "answer": "6", "group": "arith:(6, 9)", "id": "46f0f871a36b8710"}
+{"task": "arithmetic", "prompt": "минимум числа 6 и 9", "answer": "6", "group": "arith:(6, 9)", "id": "ef6ddda29c72b358"}
+{"task": "arithmetic", "prompt": "сложи 9 6", "answer": "15", "group": "arith:(6, 9)", "id": "07f3e9256ede2528"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 9 6", "answer": "15", "group": "arith:(6, 9)", "id": "4677341890abb166"}
+{"task": "arithmetic", "prompt": "сложи числа 9 и 6", "answer": "15", "group": "arith:(6, 9)", "id": "5963ae2b4678fd4c"}
+{"task": "arithmetic", "prompt": "вычти 9 6", "answer": "3", "group": "arith:(6, 9)", "id": "e5ed6ff6542828f6"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 9 6", "answer": "3", "group": "arith:(6, 9)", "id": "b7964da298db3847"}
+{"task": "arithmetic", "prompt": "вычти числа 9 и 6", "answer": "3", "group": "arith:(6, 9)", "id": "e9e3cc63ff7c8125"}
+{"task": "arithmetic", "prompt": "максимум 9 6", "answer": "9", "group": "arith:(6, 9)", "id": "4019939d0123d610"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 9 6", "answer": "9", "group": "arith:(6, 9)", "id": "79f3059b2715ba72"}
+{"task": "arithmetic", "prompt": "максимум числа 9 и 6", "answer": "9", "group": "arith:(6, 9)", "id": "c168c24fc16c9db7"}
+{"task": "arithmetic", "prompt": "минимум 9 6", "answer": "6", "group": "arith:(6, 9)", "id": "7fb71999bd1ca828"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 9 6", "answer": "6", "group": "arith:(6, 9)", "id": "1c34ade743c6c187"}
+{"task": "arithmetic", "prompt": "минимум числа 9 и 6", "answer": "6", "group": "arith:(6, 9)", "id": "7be60c676c522905"}
+{"task": "arithmetic", "prompt": "сложи 7 7", "answer": "14", "group": "arith:(7, 7)", "id": "37bac19efc32ae14"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 7 7", "answer": "14", "group": "arith:(7, 7)", "id": "bbe6cba070a4cc47"}
+{"task": "arithmetic", "prompt": "сложи числа 7 и 7", "answer": "14", "group": "arith:(7, 7)", "id": "9ad38794f1b5f2e7"}
+{"task": "arithmetic", "prompt": "вычти 7 7", "answer": "0", "group": "arith:(7, 7)", "id": "cf976453e6c8ac5b"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 7 7", "answer": "0", "group": "arith:(7, 7)", "id": "3b654bac3cd2c651"}
+{"task": "arithmetic", "prompt": "вычти числа 7 и 7", "answer": "0", "group": "arith:(7, 7)", "id": "6e52479838b747eb"}
+{"task": "arithmetic", "prompt": "максимум 7 7", "answer": "7", "group": "arith:(7, 7)", "id": "54acecc884082c9f"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 7 7", "answer": "7", "group": "arith:(7, 7)", "id": "9d5f232ce805ee42"}
+{"task": "arithmetic", "prompt": "максимум числа 7 и 7", "answer": "7", "group": "arith:(7, 7)", "id": "4e3b4d35f91d7d69"}
+{"task": "arithmetic", "prompt": "минимум 7 7", "answer": "7", "group": "arith:(7, 7)", "id": "8e7da8f9a88003b5"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 7 7", "answer": "7", "group": "arith:(7, 7)", "id": "73396cf0277b8f02"}
+{"task": "arithmetic", "prompt": "минимум числа 7 и 7", "answer": "7", "group": "arith:(7, 7)", "id": "b4e39302cba993b5"}
+{"task": "arithmetic", "prompt": "сложи 3 7", "answer": "10", "group": "arith:(3, 7)", "id": "e741b5a4db17214b"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 3 7", "answer": "10", "group": "arith:(3, 7)", "id": "e202c6d7640598e3"}
+{"task": "arithmetic", "prompt": "сложи числа 3 и 7", "answer": "10", "group": "arith:(3, 7)", "id": "90f1cac57e99fef7"}
+{"task": "arithmetic", "prompt": "вычти 3 7", "answer": "-4", "group": "arith:(3, 7)", "id": "c0370457af933429"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 3 7", "answer": "-4", "group": "arith:(3, 7)", "id": "193c58088eed1218"}
+{"task": "arithmetic", "prompt": "вычти числа 3 и 7", "answer": "-4", "group": "arith:(3, 7)", "id": "2d70091bd625e7e4"}
+{"task": "arithmetic", "prompt": "максимум 3 7", "answer": "7", "group": "arith:(3, 7)", "id": "2e0e24eda2c62613"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 3 7", "answer": "7", "group": "arith:(3, 7)", "id": "b7815b11a1f719f7"}
+{"task": "arithmetic", "prompt": "максимум числа 3 и 7", "answer": "7", "group": "arith:(3, 7)", "id": "d8449a2f85da5a74"}
+{"task": "arithmetic", "prompt": "минимум 3 7", "answer": "3", "group": "arith:(3, 7)", "id": "b38758cd3990f2e1"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 3 7", "answer": "3", "group": "arith:(3, 7)", "id": "83da86da3c20b9f3"}
+{"task": "arithmetic", "prompt": "минимум числа 3 и 7", "answer": "3", "group": "arith:(3, 7)", "id": "bab145a904862c44"}
+{"task": "arithmetic", "prompt": "сложи 7 3", "answer": "10", "group": "arith:(3, 7)", "id": "8772910b15595eec"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 7 3", "answer": "10", "group": "arith:(3, 7)", "id": "ef1f8725dee37334"}
+{"task": "arithmetic", "prompt": "сложи числа 7 и 3", "answer": "10", "group": "arith:(3, 7)", "id": "e2ccbc2c4be1bb94"}
+{"task": "arithmetic", "prompt": "вычти 7 3", "answer": "4", "group": "arith:(3, 7)", "id": "73e9622b9d2bc5d1"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 7 3", "answer": "4", "group": "arith:(3, 7)", "id": "0ddd1ad31f446062"}
+{"task": "arithmetic", "prompt": "вычти числа 7 и 3", "answer": "4", "group": "arith:(3, 7)", "id": "fba043146a7ca54d"}
+{"task": "arithmetic", "prompt": "максимум 7 3", "answer": "7", "group": "arith:(3, 7)", "id": "306c7f96ecd7dfd8"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 7 3", "answer": "7", "group": "arith:(3, 7)", "id": "e51f919bbef63043"}
+{"task": "arithmetic", "prompt": "максимум числа 7 и 3", "answer": "7", "group": "arith:(3, 7)", "id": "0853b2ed5f08280b"}
+{"task": "arithmetic", "prompt": "минимум 7 3", "answer": "3", "group": "arith:(3, 7)", "id": "09087c7a37fe872a"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 7 3", "answer": "3", "group": "arith:(3, 7)", "id": "9caa66f037f12360"}
+{"task": "arithmetic", "prompt": "минимум числа 7 и 3", "answer": "3", "group": "arith:(3, 7)", "id": "c907cf72ebaae3e8"}
+{"task": "arithmetic", "prompt": "сложи 1 5", "answer": "6", "group": "arith:(1, 5)", "id": "ae0c2ab47ef91a06"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 1 5", "answer": "6", "group": "arith:(1, 5)", "id": "2ff215356ff56654"}
+{"task": "arithmetic", "prompt": "сложи числа 1 и 5", "answer": "6", "group": "arith:(1, 5)", "id": "c0b45685966f0b3f"}
+{"task": "arithmetic", "prompt": "вычти 1 5", "answer": "-4", "group": "arith:(1, 5)", "id": "0bb7b6d1e477980d"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 1 5", "answer": "-4", "group": "arith:(1, 5)", "id": "b2c667ad4e815582"}
+{"task": "arithmetic", "prompt": "вычти числа 1 и 5", "answer": "-4", "group": "arith:(1, 5)", "id": "d299679c074dcddd"}
+{"task": "arithmetic", "prompt": "максимум 1 5", "answer": "5", "group": "arith:(1, 5)", "id": "6b44ff4978e9012f"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 1 5", "answer": "5", "group": "arith:(1, 5)", "id": "243c11d834a8745e"}
+{"task": "arithmetic", "prompt": "максимум числа 1 и 5", "answer": "5", "group": "arith:(1, 5)", "id": "49bc3acf808dc86c"}
+{"task": "arithmetic", "prompt": "минимум 1 5", "answer": "1", "group": "arith:(1, 5)", "id": "d67e78807642914d"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 1 5", "answer": "1", "group": "arith:(1, 5)", "id": "effea8055c0fae40"}
+{"task": "arithmetic", "prompt": "минимум числа 1 и 5", "answer": "1", "group": "arith:(1, 5)", "id": "3387c8db5738cf6f"}
+{"task": "arithmetic", "prompt": "сложи 5 1", "answer": "6", "group": "arith:(1, 5)", "id": "b807f7cb522f4744"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 5 1", "answer": "6", "group": "arith:(1, 5)", "id": "33aecb8608c8fc5f"}
+{"task": "arithmetic", "prompt": "сложи числа 5 и 1", "answer": "6", "group": "arith:(1, 5)", "id": "0ec9e395eaf887b9"}
+{"task": "arithmetic", "prompt": "вычти 5 1", "answer": "4", "group": "arith:(1, 5)", "id": "0c7a3a46e32b3191"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 5 1", "answer": "4", "group": "arith:(1, 5)", "id": "b616d5ffd9b04c4f"}
+{"task": "arithmetic", "prompt": "вычти числа 5 и 1", "answer": "4", "group": "arith:(1, 5)", "id": "8396af72b157231e"}
+{"task": "arithmetic", "prompt": "максимум 5 1", "answer": "5", "group": "arith:(1, 5)", "id": "e442849080b20469"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 5 1", "answer": "5", "group": "arith:(1, 5)", "id": "0835158f9e31e3bc"}
+{"task": "arithmetic", "prompt": "максимум числа 5 и 1", "answer": "5", "group": "arith:(1, 5)", "id": "1f148bde72432be2"}
+{"task": "arithmetic", "prompt": "минимум 5 1", "answer": "1", "group": "arith:(1, 5)", "id": "70b434759980ba02"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 5 1", "answer": "1", "group": "arith:(1, 5)", "id": "d1154d57d3e62259"}
+{"task": "arithmetic", "prompt": "минимум числа 5 и 1", "answer": "1", "group": "arith:(1, 5)", "id": "0b73320177fd7fbe"}
+{"task": "arithmetic", "prompt": "сложи 2 2", "answer": "4", "group": "arith:(2, 2)", "id": "78ccc875d68e7038"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 2 2", "answer": "4", "group": "arith:(2, 2)", "id": "b96c27f9db05c023"}
+{"task": "arithmetic", "prompt": "сложи числа 2 и 2", "answer": "4", "group": "arith:(2, 2)", "id": "4ecb412aeba388ab"}
+{"task": "arithmetic", "prompt": "вычти 2 2", "answer": "0", "group": "arith:(2, 2)", "id": "63eaa17d3da038d2"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 2 2", "answer": "0", "group": "arith:(2, 2)", "id": "afc4723bae5a1a31"}
+{"task": "arithmetic", "prompt": "вычти числа 2 и 2", "answer": "0", "group": "arith:(2, 2)", "id": "9f6eb75e6ebef2e5"}
+{"task": "arithmetic", "prompt": "максимум 2 2", "answer": "2", "group": "arith:(2, 2)", "id": "12196c46ff514605"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 2 2", "answer": "2", "group": "arith:(2, 2)", "id": "9f60ba6da4c0ff3c"}
+{"task": "arithmetic", "prompt": "максимум числа 2 и 2", "answer": "2", "group": "arith:(2, 2)", "id": "61e7123c45d6a7ce"}
+{"task": "arithmetic", "prompt": "минимум 2 2", "answer": "2", "group": "arith:(2, 2)", "id": "2045951b9781f973"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 2 2", "answer": "2", "group": "arith:(2, 2)", "id": "c873a52ebfb74f41"}
+{"task": "arithmetic", "prompt": "минимум числа 2 и 2", "answer": "2", "group": "arith:(2, 2)", "id": "d8b4531608c75a85"}
+{"task": "arithmetic", "prompt": "сложи 4 6", "answer": "10", "group": "arith:(4, 6)", "id": "2d53922e18ce14c2"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 4 6", "answer": "10", "group": "arith:(4, 6)", "id": "7b739f7d4c6f9bc3"}
+{"task": "arithmetic", "prompt": "сложи числа 4 и 6", "answer": "10", "group": "arith:(4, 6)", "id": "455995a6ec1b2109"}
+{"task": "arithmetic", "prompt": "вычти 4 6", "answer": "-2", "group": "arith:(4, 6)", "id": "a02dc2985305a0fa"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 4 6", "answer": "-2", "group": "arith:(4, 6)", "id": "f8cb0d8589af5ef9"}
+{"task": "arithmetic", "prompt": "вычти числа 4 и 6", "answer": "-2", "group": "arith:(4, 6)", "id": "189d13721020b633"}
+{"task": "arithmetic", "prompt": "максимум 4 6", "answer": "6", "group": "arith:(4, 6)", "id": "762132e653566952"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 4 6", "answer": "6", "group": "arith:(4, 6)", "id": "30b18d843adf6853"}
+{"task": "arithmetic", "prompt": "максимум числа 4 и 6", "answer": "6", "group": "arith:(4, 6)", "id": "78f6a1631a1f69ed"}
+{"task": "arithmetic", "prompt": "минимум 4 6", "answer": "4", "group": "arith:(4, 6)", "id": "8e4e336b8b1454a1"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 4 6", "answer": "4", "group": "arith:(4, 6)", "id": "48e2f7b8526cf68d"}
+{"task": "arithmetic", "prompt": "минимум числа 4 и 6", "answer": "4", "group": "arith:(4, 6)", "id": "65b7add83f4091ae"}
+{"task": "arithmetic", "prompt": "сложи 6 4", "answer": "10", "group": "arith:(4, 6)", "id": "1f2b884ff79d823b"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 6 4", "answer": "10", "group": "arith:(4, 6)", "id": "0b3de9d346412876"}
+{"task": "arithmetic", "prompt": "сложи числа 6 и 4", "answer": "10", "group": "arith:(4, 6)", "id": "053a997e9ce88fc4"}
+{"task": "arithmetic", "prompt": "вычти 6 4", "answer": "2", "group": "arith:(4, 6)", "id": "6313857211122db7"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 6 4", "answer": "2", "group": "arith:(4, 6)", "id": "d7c6a1903b239d8c"}
+{"task": "arithmetic", "prompt": "вычти числа 6 и 4", "answer": "2", "group": "arith:(4, 6)", "id": "617737821bbd106e"}
+{"task": "arithmetic", "prompt": "максимум 6 4", "answer": "6", "group": "arith:(4, 6)", "id": "01706595688e4ced"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 6 4", "answer": "6", "group": "arith:(4, 6)", "id": "a07431582c04a66f"}
+{"task": "arithmetic", "prompt": "максимум числа 6 и 4", "answer": "6", "group": "arith:(4, 6)", "id": "d288eb561c569100"}
+{"task": "arithmetic", "prompt": "минимум 6 4", "answer": "4", "group": "arith:(4, 6)", "id": "8721f4f68ba9bc5f"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 6 4", "answer": "4", "group": "arith:(4, 6)", "id": "2b2d884a10ff5831"}
+{"task": "arithmetic", "prompt": "минимум числа 6 и 4", "answer": "4", "group": "arith:(4, 6)", "id": "f3b00ecfdbdbc27d"}
+{"task": "arithmetic", "prompt": "сложи 0 8", "answer": "8", "group": "arith:(0, 8)", "id": "ebeff4b84f1108f4"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 0 8", "answer": "8", "group": "arith:(0, 8)", "id": "12aebdda6f5fc5ff"}
+{"task": "arithmetic", "prompt": "сложи числа 0 и 8", "answer": "8", "group": "arith:(0, 8)", "id": "27731236cb1feb5f"}
+{"task": "arithmetic", "prompt": "вычти 0 8", "answer": "-8", "group": "arith:(0, 8)", "id": "18955ed33fff290a"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 0 8", "answer": "-8", "group": "arith:(0, 8)", "id": "3b593a5ee1c29183"}
+{"task": "arithmetic", "prompt": "вычти числа 0 и 8", "answer": "-8", "group": "arith:(0, 8)", "id": "5b0897010af12b07"}
+{"task": "arithmetic", "prompt": "максимум 0 8", "answer": "8", "group": "arith:(0, 8)", "id": "fe91f48745ed597d"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 0 8", "answer": "8", "group": "arith:(0, 8)", "id": "da5505fc8d48464b"}
+{"task": "arithmetic", "prompt": "максимум числа 0 и 8", "answer": "8", "group": "arith:(0, 8)", "id": "4fc60a584e869fd2"}
+{"task": "arithmetic", "prompt": "минимум 0 8", "answer": "0", "group": "arith:(0, 8)", "id": "f01b0327e2a5c343"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 0 8", "answer": "0", "group": "arith:(0, 8)", "id": "d627213e535a41a1"}
+{"task": "arithmetic", "prompt": "минимум числа 0 и 8", "answer": "0", "group": "arith:(0, 8)", "id": "56a528641af2f90e"}
+{"task": "arithmetic", "prompt": "сложи 8 0", "answer": "8", "group": "arith:(0, 8)", "id": "74c428acca5fedc0"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 8 0", "answer": "8", "group": "arith:(0, 8)", "id": "278be0a3296575b3"}
+{"task": "arithmetic", "prompt": "сложи числа 8 и 0", "answer": "8", "group": "arith:(0, 8)", "id": "e65987fb672b94d5"}
+{"task": "arithmetic", "prompt": "вычти 8 0", "answer": "8", "group": "arith:(0, 8)", "id": "20ca3789c9fc2bac"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 8 0", "answer": "8", "group": "arith:(0, 8)", "id": "e9f5db74290c73ce"}
+{"task": "arithmetic", "prompt": "вычти числа 8 и 0", "answer": "8", "group": "arith:(0, 8)", "id": "1ffd270463d9aec9"}
+{"task": "arithmetic", "prompt": "максимум 8 0", "answer": "8", "group": "arith:(0, 8)", "id": "38e1702b5d6a004b"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 8 0", "answer": "8", "group": "arith:(0, 8)", "id": "dfb012e2fe6b9c0b"}
+{"task": "arithmetic", "prompt": "максимум числа 8 и 0", "answer": "8", "group": "arith:(0, 8)", "id": "43abd2f1b6864f79"}
+{"task": "arithmetic", "prompt": "минимум 8 0", "answer": "0", "group": "arith:(0, 8)", "id": "0e478391c837f1ea"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 8 0", "answer": "0", "group": "arith:(0, 8)", "id": "2738580e3ac7faf8"}
+{"task": "arithmetic", "prompt": "минимум числа 8 и 0", "answer": "0", "group": "arith:(0, 8)", "id": "90ab5a46ef38a6a9"}
+{"task": "arithmetic", "prompt": "сложи 6 6", "answer": "12", "group": "arith:(6, 6)", "id": "42a17204c2f2f6ab"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 6 6", "answer": "12", "group": "arith:(6, 6)", "id": "512e2766273e9160"}
+{"task": "arithmetic", "prompt": "сложи числа 6 и 6", "answer": "12", "group": "arith:(6, 6)", "id": "1cbf4db222c629ee"}
+{"task": "arithmetic", "prompt": "вычти 6 6", "answer": "0", "group": "arith:(6, 6)", "id": "1acf87dd162edba1"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 6 6", "answer": "0", "group": "arith:(6, 6)", "id": "8f616e260c84a236"}
+{"task": "arithmetic", "prompt": "вычти числа 6 и 6", "answer": "0", "group": "arith:(6, 6)", "id": "07dc778e91c49fb1"}
+{"task": "arithmetic", "prompt": "максимум 6 6", "answer": "6", "group": "arith:(6, 6)", "id": "52b74874dc2a6f07"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 6 6", "answer": "6", "group": "arith:(6, 6)", "id": "d8ada635bacdaa3e"}
+{"task": "arithmetic", "prompt": "максимум числа 6 и 6", "answer": "6", "group": "arith:(6, 6)", "id": "af9817988b0dff83"}
+{"task": "arithmetic", "prompt": "минимум 6 6", "answer": "6", "group": "arith:(6, 6)", "id": "853e71b702f10b0e"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 6 6", "answer": "6", "group": "arith:(6, 6)", "id": "1c6ecfddaa364c5c"}
+{"task": "arithmetic", "prompt": "минимум числа 6 и 6", "answer": "6", "group": "arith:(6, 6)", "id": "ffaf84b6af0c6ae9"}
+{"task": "arithmetic", "prompt": "сложи 6 8", "answer": "14", "group": "arith:(6, 8)", "id": "970fa7b690b0b97c"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 6 8", "answer": "14", "group": "arith:(6, 8)", "id": "35ad8fd69d706d8e"}
+{"task": "arithmetic", "prompt": "сложи числа 6 и 8", "answer": "14", "group": "arith:(6, 8)", "id": "237fc8019dd97c29"}
+{"task": "arithmetic", "prompt": "вычти 6 8", "answer": "-2", "group": "arith:(6, 8)", "id": "fd8644bdfc032728"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 6 8", "answer": "-2", "group": "arith:(6, 8)", "id": "4b4c1c5279e2f9f1"}
+{"task": "arithmetic", "prompt": "вычти числа 6 и 8", "answer": "-2", "group": "arith:(6, 8)", "id": "86d304bfba478f74"}
+{"task": "arithmetic", "prompt": "максимум 6 8", "answer": "8", "group": "arith:(6, 8)", "id": "2d3155d3f499d668"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 6 8", "answer": "8", "group": "arith:(6, 8)", "id": "47297dd49a982d6b"}
+{"task": "arithmetic", "prompt": "максимум числа 6 и 8", "answer": "8", "group": "arith:(6, 8)", "id": "7481a4cc00200ccf"}
+{"task": "arithmetic", "prompt": "минимум 6 8", "answer": "6", "group": "arith:(6, 8)", "id": "206631a933b79970"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 6 8", "answer": "6", "group": "arith:(6, 8)", "id": "4eb4bc129d5da75f"}
+{"task": "arithmetic", "prompt": "минимум числа 6 и 8", "answer": "6", "group": "arith:(6, 8)", "id": "66227883c6f8d987"}
+{"task": "arithmetic", "prompt": "сложи 8 6", "answer": "14", "group": "arith:(6, 8)", "id": "61307b5bf946b0e7"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 8 6", "answer": "14", "group": "arith:(6, 8)", "id": "d54b7587e4b9ae6d"}
+{"task": "arithmetic", "prompt": "сложи числа 8 и 6", "answer": "14", "group": "arith:(6, 8)", "id": "456843853bc33047"}
+{"task": "arithmetic", "prompt": "вычти 8 6", "answer": "2", "group": "arith:(6, 8)", "id": "8d04c2d760b953c1"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 8 6", "answer": "2", "group": "arith:(6, 8)", "id": "6f7548575c128f88"}
+{"task": "arithmetic", "prompt": "вычти числа 8 и 6", "answer": "2", "group": "arith:(6, 8)", "id": "1b83419e73bc75a2"}
+{"task": "arithmetic", "prompt": "максимум 8 6", "answer": "8", "group": "arith:(6, 8)", "id": "5a4bc9f704fc5ddd"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 8 6", "answer": "8", "group": "arith:(6, 8)", "id": "1d72172934c0bd66"}
+{"task": "arithmetic", "prompt": "максимум числа 8 и 6", "answer": "8", "group": "arith:(6, 8)", "id": "cbd326f1649fef51"}
+{"task": "arithmetic", "prompt": "минимум 8 6", "answer": "6", "group": "arith:(6, 8)", "id": "769b8ccaf4b77ff8"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 8 6", "answer": "6", "group": "arith:(6, 8)", "id": "ec6ce7724d0ae09d"}
+{"task": "arithmetic", "prompt": "минимум числа 8 и 6", "answer": "6", "group": "arith:(6, 8)", "id": "711f8d43cd669787"}
+{"task": "arithmetic", "prompt": "сложи 1 2", "answer": "3", "group": "arith:(1, 2)", "id": "93bde4f2cac3f8b5"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 1 2", "answer": "3", "group": "arith:(1, 2)", "id": "c8f2dcc1392eab74"}
+{"task": "arithmetic", "prompt": "сложи числа 1 и 2", "answer": "3", "group": "arith:(1, 2)", "id": "1805909f0b4d8190"}
+{"task": "arithmetic", "prompt": "вычти 1 2", "answer": "-1", "group": "arith:(1, 2)", "id": "ea8c0b838588704a"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 1 2", "answer": "-1", "group": "arith:(1, 2)", "id": "4792041cecb9bf9f"}
+{"task": "arithmetic", "prompt": "вычти числа 1 и 2", "answer": "-1", "group": "arith:(1, 2)", "id": "de2841fb218f466f"}
+{"task": "arithmetic", "prompt": "максимум 1 2", "answer": "2", "group": "arith:(1, 2)", "id": "b359ff7350ebd105"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 1 2", "answer": "2", "group": "arith:(1, 2)", "id": "845ac76b28ff1918"}
+{"task": "arithmetic", "prompt": "максимум числа 1 и 2", "answer": "2", "group": "arith:(1, 2)", "id": "9f3c779101852146"}
+{"task": "arithmetic", "prompt": "минимум 1 2", "answer": "1", "group": "arith:(1, 2)", "id": "6683b91ee4a322e2"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 1 2", "answer": "1", "group": "arith:(1, 2)", "id": "6f883122bcd9613c"}
+{"task": "arithmetic", "prompt": "минимум числа 1 и 2", "answer": "1", "group": "arith:(1, 2)", "id": "244bda98484e3f55"}
+{"task": "arithmetic", "prompt": "сложи 2 1", "answer": "3", "group": "arith:(1, 2)", "id": "b5ba70e5a9d3b7ab"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 2 1", "answer": "3", "group": "arith:(1, 2)", "id": "b7647337c541945b"}
+{"task": "arithmetic", "prompt": "сложи числа 2 и 1", "answer": "3", "group": "arith:(1, 2)", "id": "c6f7f77196fa97fc"}
+{"task": "arithmetic", "prompt": "вычти 2 1", "answer": "1", "group": "arith:(1, 2)", "id": "b68eca9902ef0460"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 2 1", "answer": "1", "group": "arith:(1, 2)", "id": "2578c487550303f3"}
+{"task": "arithmetic", "prompt": "вычти числа 2 и 1", "answer": "1", "group": "arith:(1, 2)", "id": "2093c6b7115a4cbd"}
+{"task": "arithmetic", "prompt": "максимум 2 1", "answer": "2", "group": "arith:(1, 2)", "id": "4d3b106cdfc35beb"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 2 1", "answer": "2", "group": "arith:(1, 2)", "id": "105fabc5aabc87f9"}
+{"task": "arithmetic", "prompt": "максимум числа 2 и 1", "answer": "2", "group": "arith:(1, 2)", "id": "0cbbfd636c30278b"}
+{"task": "arithmetic", "prompt": "минимум 2 1", "answer": "1", "group": "arith:(1, 2)", "id": "49e933f3f2b45973"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 2 1", "answer": "1", "group": "arith:(1, 2)", "id": "2528b0547c15f4f3"}
+{"task": "arithmetic", "prompt": "минимум числа 2 и 1", "answer": "1", "group": "arith:(1, 2)", "id": "fc90d2fc542d9025"}
+{"task": "arithmetic", "prompt": "сложи 4 8", "answer": "12", "group": "arith:(4, 8)", "id": "a7e9e7fe35c5d1de"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 4 8", "answer": "12", "group": "arith:(4, 8)", "id": "e956a575f455f08c"}
+{"task": "arithmetic", "prompt": "сложи числа 4 и 8", "answer": "12", "group": "arith:(4, 8)", "id": "6949a2b638700e82"}
+{"task": "arithmetic", "prompt": "вычти 4 8", "answer": "-4", "group": "arith:(4, 8)", "id": "442d6d35fbf2b5e5"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 4 8", "answer": "-4", "group": "arith:(4, 8)", "id": "531b80a070ec9688"}
+{"task": "arithmetic", "prompt": "вычти числа 4 и 8", "answer": "-4", "group": "arith:(4, 8)", "id": "b13efa260622a651"}
+{"task": "arithmetic", "prompt": "максимум 4 8", "answer": "8", "group": "arith:(4, 8)", "id": "73f4d691ec78c5c9"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 4 8", "answer": "8", "group": "arith:(4, 8)", "id": "c163fa9250c6ea86"}
+{"task": "arithmetic", "prompt": "максимум числа 4 и 8", "answer": "8", "group": "arith:(4, 8)", "id": "20b8a1adafab29a6"}
+{"task": "arithmetic", "prompt": "минимум 4 8", "answer": "4", "group": "arith:(4, 8)", "id": "8e40dd2d89b27fd2"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 4 8", "answer": "4", "group": "arith:(4, 8)", "id": "1492a0fd854a658e"}
+{"task": "arithmetic", "prompt": "минимум числа 4 и 8", "answer": "4", "group": "arith:(4, 8)", "id": "d183ff458e2566fe"}
+{"task": "arithmetic", "prompt": "сложи 8 4", "answer": "12", "group": "arith:(4, 8)", "id": "1e5fea7a9d88e3a8"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 8 4", "answer": "12", "group": "arith:(4, 8)", "id": "97f1980b17bf7f1a"}
+{"task": "arithmetic", "prompt": "сложи числа 8 и 4", "answer": "12", "group": "arith:(4, 8)", "id": "589ca9959d70f180"}
+{"task": "arithmetic", "prompt": "вычти 8 4", "answer": "4", "group": "arith:(4, 8)", "id": "9653ddc80af1f8bc"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 8 4", "answer": "4", "group": "arith:(4, 8)", "id": "bb82dabf5b1c2b4b"}
+{"task": "arithmetic", "prompt": "вычти числа 8 и 4", "answer": "4", "group": "arith:(4, 8)", "id": "f11335c7de285472"}
+{"task": "arithmetic", "prompt": "максимум 8 4", "answer": "8", "group": "arith:(4, 8)", "id": "2605ce046ed3545f"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 8 4", "answer": "8", "group": "arith:(4, 8)", "id": "35d7e3fe9d00573f"}
+{"task": "arithmetic", "prompt": "максимум числа 8 и 4", "answer": "8", "group": "arith:(4, 8)", "id": "5145af1ab59f3332"}
+{"task": "arithmetic", "prompt": "минимум 8 4", "answer": "4", "group": "arith:(4, 8)", "id": "15ad1800ab258348"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 8 4", "answer": "4", "group": "arith:(4, 8)", "id": "e0e691cf98bb2b35"}
+{"task": "arithmetic", "prompt": "минимум числа 8 и 4", "answer": "4", "group": "arith:(4, 8)", "id": "d49c06002cc353fe"}
+{"task": "arithmetic", "prompt": "сложи 8 9", "answer": "17", "group": "arith:(8, 9)", "id": "29d7f48723636c9d"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 8 9", "answer": "17", "group": "arith:(8, 9)", "id": "5f9c5817764dadff"}
+{"task": "arithmetic", "prompt": "сложи числа 8 и 9", "answer": "17", "group": "arith:(8, 9)", "id": "e2526a3b4fdfc5f7"}
+{"task": "arithmetic", "prompt": "вычти 8 9", "answer": "-1", "group": "arith:(8, 9)", "id": "5790485072db66a6"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 8 9", "answer": "-1", "group": "arith:(8, 9)", "id": "da673d4c93470ba9"}
+{"task": "arithmetic", "prompt": "вычти числа 8 и 9", "answer": "-1", "group": "arith:(8, 9)", "id": "76d094fd0daa0c08"}
+{"task": "arithmetic", "prompt": "максимум 8 9", "answer": "9", "group": "arith:(8, 9)", "id": "a925490ae2823a06"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 8 9", "answer": "9", "group": "arith:(8, 9)", "id": "96c438ec0733d57a"}
+{"task": "arithmetic", "prompt": "максимум числа 8 и 9", "answer": "9", "group": "arith:(8, 9)", "id": "f8e122dc8197b72b"}
+{"task": "arithmetic", "prompt": "минимум 8 9", "answer": "8", "group": "arith:(8, 9)", "id": "561943fa178c2925"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 8 9", "answer": "8", "group": "arith:(8, 9)", "id": "a01c144f348eb4d6"}
+{"task": "arithmetic", "prompt": "минимум числа 8 и 9", "answer": "8", "group": "arith:(8, 9)", "id": "4c3ebcd2fb305ec4"}
+{"task": "arithmetic", "prompt": "сложи 9 8", "answer": "17", "group": "arith:(8, 9)", "id": "61431e3aceb13ed9"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 9 8", "answer": "17", "group": "arith:(8, 9)", "id": "f32ad5bf94f68c99"}
+{"task": "arithmetic", "prompt": "сложи числа 9 и 8", "answer": "17", "group": "arith:(8, 9)", "id": "8f47684f18ada15f"}
+{"task": "arithmetic", "prompt": "вычти 9 8", "answer": "1", "group": "arith:(8, 9)", "id": "5f5a853572b56000"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 9 8", "answer": "1", "group": "arith:(8, 9)", "id": "000dd962e23f28f4"}
+{"task": "arithmetic", "prompt": "вычти числа 9 и 8", "answer": "1", "group": "arith:(8, 9)", "id": "0649474cc8dfec83"}
+{"task": "arithmetic", "prompt": "максимум 9 8", "answer": "9", "group": "arith:(8, 9)", "id": "1564a9bc859f35f5"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 9 8", "answer": "9", "group": "arith:(8, 9)", "id": "fb683f1625657da2"}
+{"task": "arithmetic", "prompt": "максимум числа 9 и 8", "answer": "9", "group": "arith:(8, 9)", "id": "afbbf828d7a0854e"}
+{"task": "arithmetic", "prompt": "минимум 9 8", "answer": "8", "group": "arith:(8, 9)", "id": "aaa00c714e753755"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 9 8", "answer": "8", "group": "arith:(8, 9)", "id": "d19ad887e4db705e"}
+{"task": "arithmetic", "prompt": "минимум числа 9 и 8", "answer": "8", "group": "arith:(8, 9)", "id": "0426736e2d1e569a"}
+{"task": "arithmetic", "prompt": "сложи 0 3", "answer": "3", "group": "arith:(0, 3)", "id": "d7d6dbd331d4f42f"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 0 3", "answer": "3", "group": "arith:(0, 3)", "id": "b05a7e4d1f8a7b0f"}
+{"task": "arithmetic", "prompt": "сложи числа 0 и 3", "answer": "3", "group": "arith:(0, 3)", "id": "e8da8d49147b4a5d"}
+{"task": "arithmetic", "prompt": "вычти 0 3", "answer": "-3", "group": "arith:(0, 3)", "id": "a606fe7762c3b2a6"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 0 3", "answer": "-3", "group": "arith:(0, 3)", "id": "fc9e7dd6077e55f1"}
+{"task": "arithmetic", "prompt": "вычти числа 0 и 3", "answer": "-3", "group": "arith:(0, 3)", "id": "39482d50325fe0d2"}
+{"task": "arithmetic", "prompt": "максимум 0 3", "answer": "3", "group": "arith:(0, 3)", "id": "0b35eb4dc370fe35"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 0 3", "answer": "3", "group": "arith:(0, 3)", "id": "bf50a94e800d2e14"}
+{"task": "arithmetic", "prompt": "максимум числа 0 и 3", "answer": "3", "group": "arith:(0, 3)", "id": "1abcea741739d6a9"}
+{"task": "arithmetic", "prompt": "минимум 0 3", "answer": "0", "group": "arith:(0, 3)", "id": "1790b2ec6ff16137"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 0 3", "answer": "0", "group": "arith:(0, 3)", "id": "853b83aea769c671"}
+{"task": "arithmetic", "prompt": "минимум числа 0 и 3", "answer": "0", "group": "arith:(0, 3)", "id": "5811e31111e43d57"}
+{"task": "arithmetic", "prompt": "сложи 3 0", "answer": "3", "group": "arith:(0, 3)", "id": "d4d322dd634a7095"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 3 0", "answer": "3", "group": "arith:(0, 3)", "id": "4172a472ba5ac0bc"}
+{"task": "arithmetic", "prompt": "сложи числа 3 и 0", "answer": "3", "group": "arith:(0, 3)", "id": "c5f91bd9b3f33659"}
+{"task": "arithmetic", "prompt": "вычти 3 0", "answer": "3", "group": "arith:(0, 3)", "id": "9520084078db41f3"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 3 0", "answer": "3", "group": "arith:(0, 3)", "id": "6abad4c42f8cf74f"}
+{"task": "arithmetic", "prompt": "вычти числа 3 и 0", "answer": "3", "group": "arith:(0, 3)", "id": "7c8ccc7fc3b974ce"}
+{"task": "arithmetic", "prompt": "максимум 3 0", "answer": "3", "group": "arith:(0, 3)", "id": "ae0092dd9018b376"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 3 0", "answer": "3", "group": "arith:(0, 3)", "id": "e23c4d35ef5c9dee"}
+{"task": "arithmetic", "prompt": "максимум числа 3 и 0", "answer": "3", "group": "arith:(0, 3)", "id": "adc6b17fe79ca93a"}
+{"task": "arithmetic", "prompt": "минимум 3 0", "answer": "0", "group": "arith:(0, 3)", "id": "81c3ab63e27b6a4e"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 3 0", "answer": "0", "group": "arith:(0, 3)", "id": "14157f166362879b"}
+{"task": "arithmetic", "prompt": "минимум числа 3 и 0", "answer": "0", "group": "arith:(0, 3)", "id": "e7617ee8b4c2374a"}
+{"task": "arithmetic", "prompt": "сложи 1 1", "answer": "2", "group": "arith:(1, 1)", "id": "deda5ab47a9048e1"}
+{"task": "arithmetic", "prompt": "пожалуйста сложи 1 1", "answer": "2", "group": "arith:(1, 1)", "id": "772a249980f71e18"}
+{"task": "arithmetic", "prompt": "сложи числа 1 и 1", "answer": "2", "group": "arith:(1, 1)", "id": "6195eee2571840e6"}
+{"task": "arithmetic", "prompt": "вычти 1 1", "answer": "0", "group": "arith:(1, 1)", "id": "3377f794e049a989"}
+{"task": "arithmetic", "prompt": "пожалуйста вычти 1 1", "answer": "0", "group": "arith:(1, 1)", "id": "423b0ffdcbbe42f2"}
+{"task": "arithmetic", "prompt": "вычти числа 1 и 1", "answer": "0", "group": "arith:(1, 1)", "id": "9684edbc550d9505"}
+{"task": "arithmetic", "prompt": "максимум 1 1", "answer": "1", "group": "arith:(1, 1)", "id": "4d570461eeeeebc8"}
+{"task": "arithmetic", "prompt": "пожалуйста максимум 1 1", "answer": "1", "group": "arith:(1, 1)", "id": "344a1ed43a319c2c"}
+{"task": "arithmetic", "prompt": "максимум числа 1 и 1", "answer": "1", "group": "arith:(1, 1)", "id": "58716182bc1da345"}
+{"task": "arithmetic", "prompt": "минимум 1 1", "answer": "1", "group": "arith:(1, 1)", "id": "96b745efe7eb19ee"}
+{"task": "arithmetic", "prompt": "пожалуйста минимум 1 1", "answer": "1", "group": "arith:(1, 1)", "id": "e8f17b82a08e13b0"}
+{"task": "arithmetic", "prompt": "минимум числа 1 и 1", "answer": "1", "group": "arith:(1, 1)", "id": "91ebeb9b62761edb"}
+{"task": "memory", "prompt": "повтори 9 0 0", "answer": "9 0 0", "group": "memory:(9, 0, 0)", "id": "9d30160e0250b2fb"}
+{"task": "memory", "prompt": "разверни 9 0 0", "answer": "0 0 9", "group": "memory:(9, 0, 0)", "id": "8d524922f58a53f1"}
+{"task": "memory", "prompt": "повтори 8 1 9", "answer": "8 1 9", "group": "memory:(8, 1, 9)", "id": "5bb394b85cabe8c6"}
+{"task": "memory", "prompt": "разверни 8 1 9", "answer": "9 1 8", "group": "memory:(8, 1, 9)", "id": "66af53fbf179930c"}
+{"task": "memory", "prompt": "повтори 5 7 2", "answer": "5 7 2", "group": "memory:(5, 7, 2)", "id": "2b43cc3e836c7eda"}
+{"task": "memory", "prompt": "разверни 5 7 2", "answer": "2 7 5", "group": "memory:(5, 7, 2)", "id": "1f4525d40e44da4f"}
+{"task": "memory", "prompt": "повтори 2 4 3", "answer": "2 4 3", "group": "memory:(2, 4, 3)", "id": "76d2ccb901a2f436"}
+{"task": "memory", "prompt": "разверни 2 4 3", "answer": "3 4 2", "group": "memory:(2, 4, 3)", "id": "d46b60685b77d1e3"}
+{"task": "memory", "prompt": "повтори 1 1 3", "answer": "1 1 3", "group": "memory:(1, 1, 3)", "id": "26e0bd2c979d955f"}
+{"task": "memory", "prompt": "разверни 1 1 3", "answer": "3 1 1", "group": "memory:(1, 1, 3)", "id": "9978a78bf37e43d5"}
+{"task": "memory", "prompt": "повтори 4 4 8", "answer": "4 4 8", "group": "memory:(4, 4, 8)", "id": "fd8dcb0221d37616"}
+{"task": "memory", "prompt": "разверни 4 4 8", "answer": "8 4 4", "group": "memory:(4, 4, 8)", "id": "c232b24b4bf0d8ed"}
+{"task": "memory", "prompt": "повтори 6 2 3", "answer": "6 2 3", "group": "memory:(6, 2, 3)", "id": "26ec8df4a8ac5c9c"}
+{"task": "memory", "prompt": "разверни 6 2 3", "answer": "3 2 6", "group": "memory:(6, 2, 3)", "id": "123734c72c6eb25a"}
+{"task": "memory", "prompt": "повтори 0 1 5", "answer": "0 1 5", "group": "memory:(0, 1, 5)", "id": "a0928835b59b8e0f"}
+{"task": "memory", "prompt": "разверни 0 1 5", "answer": "5 1 0", "group": "memory:(0, 1, 5)", "id": "7d5bac9e06416ed5"}
+{"task": "memory", "prompt": "повтори 1 2 9", "answer": "1 2 9", "group": "memory:(1, 2, 9)", "id": "86252b85b4325197"}
+{"task": "memory", "prompt": "разверни 1 2 9", "answer": "9 2 1", "group": "memory:(1, 2, 9)", "id": "b055ac480073e123"}
+{"task": "memory", "prompt": "повтори 6 6 0", "answer": "6 6 0", "group": "memory:(6, 6, 0)", "id": "e3112b5cd1882ac6"}
+{"task": "memory", "prompt": "разверни 6 6 0", "answer": "0 6 6", "group": "memory:(6, 6, 0)", "id": "7e0b40e95612d7e4"}
+{"task": "memory", "prompt": "повтори 6 1 5", "answer": "6 1 5", "group": "memory:(6, 1, 5)", "id": "2dc87d87055fdcd0"}
+{"task": "memory", "prompt": "разверни 6 1 5", "answer": "5 1 6", "group": "memory:(6, 1, 5)", "id": "30ab408ad839c3b9"}
+{"task": "memory", "prompt": "повтори 4 3 1", "answer": "4 3 1", "group": "memory:(4, 3, 1)", "id": "4d55e30fd78dd712"}
+{"task": "memory", "prompt": "разверни 4 3 1", "answer": "1 3 4", "group": "memory:(4, 3, 1)", "id": "4fd7b57da8e266ef"}
+{"task": "memory", "prompt": "повтори 4 1 3", "answer": "4 1 3", "group": "memory:(4, 1, 3)", "id": "f3a75a4ba52401fc"}
+{"task": "memory", "prompt": "разверни 4 1 3", "answer": "3 1 4", "group": "memory:(4, 1, 3)", "id": "4f08d47bb4a3e2f6"}
+{"task": "memory", "prompt": "повтори 0 0 1", "answer": "0 0 1", "group": "memory:(0, 0, 1)", "id": "f0f0a625e5dee60d"}
+{"task": "memory", "prompt": "разверни 0 0 1", "answer": "1 0 0", "group": "memory:(0, 0, 1)", "id": "e2e106e241c6cb6b"}
+{"task": "memory", "prompt": "повтори 3 7 4", "answer": "3 7 4", "group": "memory:(3, 7, 4)", "id": "8e9f9e0f1a17670c"}
+{"task": "memory", "prompt": "разверни 3 7 4", "answer": "4 7 3", "group": "memory:(3, 7, 4)", "id": "cce41be67c134ef6"}
+{"task": "memory", "prompt": "повтори 5 9 9", "answer": "5 9 9", "group": "memory:(5, 9, 9)", "id": "7a2721fae06880e0"}
+{"task": "memory", "prompt": "разверни 5 9 9", "answer": "9 9 5", "group": "memory:(5, 9, 9)", "id": "f3bbd8e6fd774916"}
+{"task": "memory", "prompt": "повтори 0 0 6", "answer": "0 0 6", "group": "memory:(0, 0, 6)", "id": "ea37668748c74fca"}
+{"task": "memory", "prompt": "разверни 0 0 6", "answer": "6 0 0", "group": "memory:(0, 0, 6)", "id": "ffccb100514bdf01"}
+{"task": "memory", "prompt": "повтори 3 6 9", "answer": "3 6 9", "group": "memory:(3, 6, 9)", "id": "f01aaeb5d9a02e60"}
+{"task": "memory", "prompt": "разверни 3 6 9", "answer": "9 6 3", "group": "memory:(3, 6, 9)", "id": "b1bfe7739279bcb6"}
+{"task": "memory", "prompt": "повтори 6 1 2", "answer": "6 1 2", "group": "memory:(6, 1, 2)", "id": "5c0308aafd6cd1cf"}
+{"task": "memory", "prompt": "разверни 6 1 2", "answer": "2 1 6", "group": "memory:(6, 1, 2)", "id": "5a78061eb4b18a37"}
+{"task": "memory", "prompt": "повтори 8 5 9", "answer": "8 5 9", "group": "memory:(8, 5, 9)", "id": "85be81ccdbf9c1bd"}
+{"task": "memory", "prompt": "разверни 8 5 9", "answer": "9 5 8", "group": "memory:(8, 5, 9)", "id": "a36f0ad72a790d5c"}
+{"task": "memory", "prompt": "повтори 7 5 0", "answer": "7 5 0", "group": "memory:(7, 5, 0)", "id": "f09a695efca0f4c3"}
+{"task": "memory", "prompt": "разверни 7 5 0", "answer": "0 5 7", "group": "memory:(7, 5, 0)", "id": "252726998cc462a4"}
+{"task": "memory", "prompt": "повтори 8 1 5", "answer": "8 1 5", "group": "memory:(8, 1, 5)", "id": "60d8b60fb3ca0c30"}
+{"task": "memory", "prompt": "разверни 8 1 5", "answer": "5 1 8", "group": "memory:(8, 1, 5)", "id": "5c6d37920021b86f"}
+{"task": "memory", "prompt": "повтори 2 8 4", "answer": "2 8 4", "group": "memory:(2, 8, 4)", "id": "552db7c09d610cd1"}
+{"task": "memory", "prompt": "разверни 2 8 4", "answer": "4 8 2", "group": "memory:(2, 8, 4)", "id": "fb4510cc33895d9f"}
+{"task": "memory", "prompt": "повтори 2 0 8", "answer": "2 0 8", "group": "memory:(2, 0, 8)", "id": "61187686ed0db1c4"}
+{"task": "memory", "prompt": "разверни 2 0 8", "answer": "8 0 2", "group": "memory:(2, 0, 8)", "id": "4be1dee49841dd73"}
+{"task": "memory", "prompt": "повтори 6 3 1", "answer": "6 3 1", "group": "memory:(6, 3, 1)", "id": "b2cfe1889b7d5b1d"}
+{"task": "memory", "prompt": "разверни 6 3 1", "answer": "1 3 6", "group": "memory:(6, 3, 1)", "id": "15d69f190e199243"}
+{"task": "memory", "prompt": "повтори 2 4 6", "answer": "2 4 6", "group": "memory:(2, 4, 6)", "id": "1850b5cb19ce8113"}
+{"task": "memory", "prompt": "разверни 2 4 6", "answer": "6 4 2", "group": "memory:(2, 4, 6)", "id": "64f3d7b8e215be96"}
+{"task": "memory", "prompt": "повтори 2 6 5", "answer": "2 6 5", "group": "memory:(2, 6, 5)", "id": "2f412ff5b472e269"}
+{"task": "memory", "prompt": "разверни 2 6 5", "answer": "5 6 2", "group": "memory:(2, 6, 5)", "id": "94e77d27541c19de"}
+{"task": "memory", "prompt": "повтори 6 6 8", "answer": "6 6 8", "group": "memory:(6, 6, 8)", "id": "3f963ddf746b9f01"}
+{"task": "memory", "prompt": "разверни 6 6 8", "answer": "8 6 6", "group": "memory:(6, 6, 8)", "id": "64b060f90e2e6110"}
+{"task": "memory", "prompt": "повтори 7 7 7", "answer": "7 7 7", "group": "memory:(7, 7, 7)", "id": "589d96850fd1a65e"}
+{"task": "memory", "prompt": "разверни 7 7 7", "answer": "7 7 7", "group": "memory:(7, 7, 7)", "id": "8db4d462e2c5b4dc"}
+{"task": "memory", "prompt": "повтори 9 9 3", "answer": "9 9 3", "group": "memory:(9, 9, 3)", "id": "4cfce3d7aa503892"}
+{"task": "memory", "prompt": "разверни 9 9 3", "answer": "3 9 9", "group": "memory:(9, 9, 3)", "id": "0c0f248c0930a2f7"}
+{"task": "memory", "prompt": "повтори 9 0 7", "answer": "9 0 7", "group": "memory:(9, 0, 7)", "id": "f3a4b07450b5ebb0"}
+{"task": "memory", "prompt": "разверни 9 0 7", "answer": "7 0 9", "group": "memory:(9, 0, 7)", "id": "8f50aa9e17e17ef2"}
+{"task": "memory", "prompt": "повтори 1 5 4", "answer": "1 5 4", "group": "memory:(1, 5, 4)", "id": "115fd04a4dd60a0f"}
+{"task": "memory", "prompt": "разверни 1 5 4", "answer": "4 5 1", "group": "memory:(1, 5, 4)", "id": "2e82c7832bd383f1"}
+{"task": "memory", "prompt": "повтори 8 9 0", "answer": "8 9 0", "group": "memory:(8, 9, 0)", "id": "8d25473502e3232c"}
+{"task": "memory", "prompt": "разверни 8 9 0", "answer": "0 9 8", "group": "memory:(8, 9, 0)", "id": "62ff1874fbd66e10"}
+{"task": "memory", "prompt": "повтори 8 6 5", "answer": "8 6 5", "group": "memory:(8, 6, 5)", "id": "54dbad32ab337821"}
+{"task": "memory", "prompt": "разверни 8 6 5", "answer": "5 6 8", "group": "memory:(8, 6, 5)", "id": "083947fb61fa0f79"}
+{"task": "memory", "prompt": "повтори 4 0 5", "answer": "4 0 5", "group": "memory:(4, 0, 5)", "id": "4d460100c47d0624"}
+{"task": "memory", "prompt": "разверни 4 0 5", "answer": "5 0 4", "group": "memory:(4, 0, 5)", "id": "e40b5e29107f70f2"}
+{"task": "memory", "prompt": "повтори 1 7 3", "answer": "1 7 3", "group": "memory:(1, 7, 3)", "id": "128d114f046db665"}
+{"task": "memory", "prompt": "разверни 1 7 3", "answer": "3 7 1", "group": "memory:(1, 7, 3)", "id": "236eade177fae125"}
+{"task": "memory", "prompt": "повтори 9 5 5", "answer": "9 5 5", "group": "memory:(9, 5, 5)", "id": "9fb7acca69a826c1"}
+{"task": "memory", "prompt": "разверни 9 5 5", "answer": "5 5 9", "group": "memory:(9, 5, 5)", "id": "8e7deabfc43d6b9c"}
+{"task": "memory", "prompt": "повтори 1 4 6", "answer": "1 4 6", "group": "memory:(1, 4, 6)", "id": "94daab4c55a3391b"}
+{"task": "memory", "prompt": "разверни 1 4 6", "answer": "6 4 1", "group": "memory:(1, 4, 6)", "id": "389de0429520138d"}
+{"task": "memory", "prompt": "повтори 5 2 8", "answer": "5 2 8", "group": "memory:(5, 2, 8)", "id": "18a3358f94624005"}
+{"task": "memory", "prompt": "разверни 5 2 8", "answer": "8 2 5", "group": "memory:(5, 2, 8)", "id": "b84a0bcbc6d9ce0f"}
+{"task": "memory", "prompt": "повтори 9 4 7", "answer": "9 4 7", "group": "memory:(9, 4, 7)", "id": "3c54baadfb40aa93"}
+{"task": "memory", "prompt": "разверни 9 4 7", "answer": "7 4 9", "group": "memory:(9, 4, 7)", "id": "3c704d3596dd7013"}
+{"task": "memory", "prompt": "повтори 8 5 4", "answer": "8 5 4", "group": "memory:(8, 5, 4)", "id": "c39b7692c87037f5"}
+{"task": "memory", "prompt": "разверни 8 5 4", "answer": "4 5 8", "group": "memory:(8, 5, 4)", "id": "b118e4f2ff014172"}
+{"task": "memory", "prompt": "повтори 8 5 5", "answer": "8 5 5", "group": "memory:(8, 5, 5)", "id": "5b81484e3e2eec0b"}
+{"task": "memory", "prompt": "разверни 8 5 5", "answer": "5 5 8", "group": "memory:(8, 5, 5)", "id": "1b66926567482809"}
+{"task": "memory", "prompt": "повтори 7 2 2", "answer": "7 2 2", "group": "memory:(7, 2, 2)", "id": "4be71bca5bb0354f"}
+{"task": "memory", "prompt": "разверни 7 2 2", "answer": "2 2 7", "group": "memory:(7, 2, 2)", "id": "84af1bb3f755c4ad"}
+{"task": "memory", "prompt": "повтори 5 0 0", "answer": "5 0 0", "group": "memory:(5, 0, 0)", "id": "17927adf0763ff18"}
+{"task": "memory", "prompt": "разверни 5 0 0", "answer": "0 0 5", "group": "memory:(5, 0, 0)", "id": "fe7da296118dc3ec"}
+{"task": "memory", "prompt": "повтори 7 5 8", "answer": "7 5 8", "group": "memory:(7, 5, 8)", "id": "0c4d3b68dfd01c5f"}
+{"task": "memory", "prompt": "разверни 7 5 8", "answer": "8 5 7", "group": "memory:(7, 5, 8)", "id": "fde9efbd450aa094"}
+{"task": "memory", "prompt": "повтори 5 2 4", "answer": "5 2 4", "group": "memory:(5, 2, 4)", "id": "085386ec07dadd7c"}
+{"task": "memory", "prompt": "разверни 5 2 4", "answer": "4 2 5", "group": "memory:(5, 2, 4)", "id": "7e929d8415041763"}
+{"task": "memory", "prompt": "повтори 0 0 9", "answer": "0 0 9", "group": "memory:(0, 0, 9)", "id": "2dc15631fde9f14c"}
+{"task": "memory", "prompt": "разверни 0 0 9", "answer": "9 0 0", "group": "memory:(0, 0, 9)", "id": "027eef6cb81696fa"}
+{"task": "memory", "prompt": "повтори 8 4 1", "answer": "8 4 1", "group": "memory:(8, 4, 1)", "id": "c5e5a4718ba4da96"}
+{"task": "memory", "prompt": "разверни 8 4 1", "answer": "1 4 8", "group": "memory:(8, 4, 1)", "id": "ab237eac3ed26e08"}
+{"task": "memory", "prompt": "повтори 7 1 8", "answer": "7 1 8", "group": "memory:(7, 1, 8)", "id": "b3b8e082bfe28ccb"}
+{"task": "memory", "prompt": "разверни 7 1 8", "answer": "8 1 7", "group": "memory:(7, 1, 8)", "id": "6f435aa717c24991"}
+{"task": "memory", "prompt": "повтори 4 8 4", "answer": "4 8 4", "group": "memory:(4, 8, 4)", "id": "eb1bdf1ef0314453"}
+{"task": "memory", "prompt": "разверни 4 8 4", "answer": "4 8 4", "group": "memory:(4, 8, 4)", "id": "25685a40b9c18e39"}
+{"task": "memory", "prompt": "повтори 1 2 8", "answer": "1 2 8", "group": "memory:(1, 2, 8)", "id": "fbf247dcc9d66b50"}
+{"task": "memory", "prompt": "разверни 1 2 8", "answer": "8 2 1", "group": "memory:(1, 2, 8)", "id": "124467cf7050bda7"}
+{"task": "memory", "prompt": "повтори 2 5 2", "answer": "2 5 2", "group": "memory:(2, 5, 2)", "id": "8856f29809624213"}
+{"task": "memory", "prompt": "разверни 2 5 2", "answer": "2 5 2", "group": "memory:(2, 5, 2)", "id": "ca23b937545b2d4d"}
+{"task": "memory", "prompt": "повтори 5 1 7", "answer": "5 1 7", "group": "memory:(5, 1, 7)", "id": "aee0d71bcfd01b5b"}
+{"task": "memory", "prompt": "разверни 5 1 7", "answer": "7 1 5", "group": "memory:(5, 1, 7)", "id": "dd62b70998453194"}
+{"task": "memory", "prompt": "повтори 9 3 7", "answer": "9 3 7", "group": "memory:(9, 3, 7)", "id": "a550da8e4c457d28"}
+{"task": "memory", "prompt": "разверни 9 3 7", "answer": "7 3 9", "group": "memory:(9, 3, 7)", "id": "d3484492d19ed20d"}
+{"task": "memory", "prompt": "повтори 5 9 5", "answer": "5 9 5", "group": "memory:(5, 9, 5)", "id": "6929953c33e88f24"}
+{"task": "memory", "prompt": "разверни 5 9 5", "answer": "5 9 5", "group": "memory:(5, 9, 5)", "id": "e363e15e07835ed5"}
+{"task": "memory", "prompt": "повтори 9 9 4", "answer": "9 9 4", "group": "memory:(9, 9, 4)", "id": "50a31b5e63fd1f9e"}
+{"task": "memory", "prompt": "разверни 9 9 4", "answer": "4 9 9", "group": "memory:(9, 9, 4)", "id": "40742031b8ed9744"}
+{"task": "memory", "prompt": "повтори 4 0 7", "answer": "4 0 7", "group": "memory:(4, 0, 7)", "id": "15002007b4a6b881"}
+{"task": "memory", "prompt": "разверни 4 0 7", "answer": "7 0 4", "group": "memory:(4, 0, 7)", "id": "4a7df2c30f234558"}
+{"task": "memory", "prompt": "повтори 0 5 6", "answer": "0 5 6", "group": "memory:(0, 5, 6)", "id": "131f44a7e4aaed9b"}
+{"task": "memory", "prompt": "разверни 0 5 6", "answer": "6 5 0", "group": "memory:(0, 5, 6)", "id": "b9bff969d2aac8b8"}
+{"task": "memory", "prompt": "повтори 8 4 7", "answer": "8 4 7", "group": "memory:(8, 4, 7)", "id": "7e25157341e9cb26"}
+{"task": "memory", "prompt": "разверни 8 4 7", "answer": "7 4 8", "group": "memory:(8, 4, 7)", "id": "8046d825004abaf3"}
+{"task": "memory", "prompt": "повтори 9 2 5", "answer": "9 2 5", "group": "memory:(9, 2, 5)", "id": "d0d9ed597c04ed81"}
+{"task": "memory", "prompt": "разверни 9 2 5", "answer": "5 2 9", "group": "memory:(9, 2, 5)", "id": "f3e448da28cb91c6"}
+{"task": "memory", "prompt": "повтори 1 8 6", "answer": "1 8 6", "group": "memory:(1, 8, 6)", "id": "f917a0bbd1eb1ef3"}
+{"task": "memory", "prompt": "разверни 1 8 6", "answer": "6 8 1", "group": "memory:(1, 8, 6)", "id": "d70e4738330e4f31"}
+{"task": "memory", "prompt": "повтори 9 5 2", "answer": "9 5 2", "group": "memory:(9, 5, 2)", "id": "3c3588589278d7c6"}
+{"task": "memory", "prompt": "разверни 9 5 2", "answer": "2 5 9", "group": "memory:(9, 5, 2)", "id": "aa4143a37d259a8d"}
+{"task": "memory", "prompt": "повтори 2 7 1", "answer": "2 7 1", "group": "memory:(2, 7, 1)", "id": "e7898326999743f6"}
+{"task": "memory", "prompt": "разверни 2 7 1", "answer": "1 7 2", "group": "memory:(2, 7, 1)", "id": "c953de4cbc13ad46"}
+{"task": "memory", "prompt": "повтори 3 8 3", "answer": "3 8 3", "group": "memory:(3, 8, 3)", "id": "e05129b3d4ee29f2"}
+{"task": "memory", "prompt": "разверни 3 8 3", "answer": "3 8 3", "group": "memory:(3, 8, 3)", "id": "ff9ca7af9991dcff"}
+{"task": "memory", "prompt": "повтори 2 8 8", "answer": "2 8 8", "group": "memory:(2, 8, 8)", "id": "a2545cdd5d072f7e"}
+{"task": "memory", "prompt": "разверни 2 8 8", "answer": "8 8 2", "group": "memory:(2, 8, 8)", "id": "e4216918b96acd7b"}
+{"task": "memory", "prompt": "повтори 6 0 3", "answer": "6 0 3", "group": "memory:(6, 0, 3)", "id": "4e832ae46c18a8f8"}
+{"task": "memory", "prompt": "разверни 6 0 3", "answer": "3 0 6", "group": "memory:(6, 0, 3)", "id": "8a85f8181ab2b4a9"}
+{"task": "memory", "prompt": "повтори 3 4 0", "answer": "3 4 0", "group": "memory:(3, 4, 0)", "id": "132836d89dd6f50f"}
+{"task": "memory", "prompt": "разверни 3 4 0", "answer": "0 4 3", "group": "memory:(3, 4, 0)", "id": "3bd290cb782da6cc"}
+{"task": "memory", "prompt": "повтори 0 6 5", "answer": "0 6 5", "group": "memory:(0, 6, 5)", "id": "e513c322f5ea81d5"}
+{"task": "memory", "prompt": "разверни 0 6 5", "answer": "5 6 0", "group": "memory:(0, 6, 5)", "id": "023ca8764066349c"}
+{"task": "memory", "prompt": "повтори 9 2 8", "answer": "9 2 8", "group": "memory:(9, 2, 8)", "id": "943722568d7ea4df"}
+{"task": "memory", "prompt": "разверни 9 2 8", "answer": "8 2 9", "group": "memory:(9, 2, 8)", "id": "06a370154a1235f0"}
+{"task": "memory", "prompt": "повтори 3 8 2", "answer": "3 8 2", "group": "memory:(3, 8, 2)", "id": "5e4899681a764bdc"}
+{"task": "memory", "prompt": "разверни 3 8 2", "answer": "2 8 3", "group": "memory:(3, 8, 2)", "id": "9f6076b6a93d5c7c"}
+{"task": "memory", "prompt": "повтори 0 2 2", "answer": "0 2 2", "group": "memory:(0, 2, 2)", "id": "8dde10b5516f61bd"}
+{"task": "memory", "prompt": "разверни 0 2 2", "answer": "2 2 0", "group": "memory:(0, 2, 2)", "id": "56e467e6fbbb53c5"}
+{"task": "memory", "prompt": "повтори 3 2 4", "answer": "3 2 4", "group": "memory:(3, 2, 4)", "id": "c5d15e4d14d3b236"}
+{"task": "memory", "prompt": "разверни 3 2 4", "answer": "4 2 3", "group": "memory:(3, 2, 4)", "id": "8d4b00579569d792"}
+{"task": "memory", "prompt": "повтори 1 0 0", "answer": "1 0 0", "group": "memory:(1, 0, 0)", "id": "ad230fb2cc2fb332"}
+{"task": "memory", "prompt": "разверни 1 0 0", "answer": "0 0 1", "group": "memory:(1, 0, 0)", "id": "244c2197df0119c8"}
+{"task": "memory", "prompt": "повтори 3 4 4", "answer": "3 4 4", "group": "memory:(3, 4, 4)", "id": "f0298295958ddeab"}
+{"task": "memory", "prompt": "разверни 3 4 4", "answer": "4 4 3", "group": "memory:(3, 4, 4)", "id": "456f893e750e74b8"}
+{"task": "memory", "prompt": "повтори 7 3 4", "answer": "7 3 4", "group": "memory:(7, 3, 4)", "id": "cf65cb1648880131"}
+{"task": "memory", "prompt": "разверни 7 3 4", "answer": "4 3 7", "group": "memory:(7, 3, 4)", "id": "27113cf543097990"}
+{"task": "memory", "prompt": "повтори 0 5 8", "answer": "0 5 8", "group": "memory:(0, 5, 8)", "id": "5c40920a4b2869b1"}
+{"task": "memory", "prompt": "разверни 0 5 8", "answer": "8 5 0", "group": "memory:(0, 5, 8)", "id": "79223b4abaee6113"}
+{"task": "memory", "prompt": "повтори 5 8 4", "answer": "5 8 4", "group": "memory:(5, 8, 4)", "id": "498e84a9e2c12bae"}
+{"task": "memory", "prompt": "разверни 5 8 4", "answer": "4 8 5", "group": "memory:(5, 8, 4)", "id": "804baff1cf552f3f"}
+{"task": "memory", "prompt": "повтори 3 0 9", "answer": "3 0 9", "group": "memory:(3, 0, 9)", "id": "670e7f1329416637"}
+{"task": "memory", "prompt": "разверни 3 0 9", "answer": "9 0 3", "group": "memory:(3, 0, 9)", "id": "f1a1fe5a89a8d7ab"}
+{"task": "memory", "prompt": "повтори 0 3 5", "answer": "0 3 5", "group": "memory:(0, 3, 5)", "id": "945da10a8740b3ba"}
+{"task": "memory", "prompt": "разверни 0 3 5", "answer": "5 3 0", "group": "memory:(0, 3, 5)", "id": "d945f70a71ec9326"}
+{"task": "memory", "prompt": "повтори 9 9 1", "answer": "9 9 1", "group": "memory:(9, 9, 1)", "id": "47ec4fdfd5796bfb"}
+{"task": "memory", "prompt": "разверни 9 9 1", "answer": "1 9 9", "group": "memory:(9, 9, 1)", "id": "d940f131a056b3a7"}
+{"task": "memory", "prompt": "повтори 1 8 8", "answer": "1 8 8", "group": "memory:(1, 8, 8)", "id": "f78186cb11af2431"}
+{"task": "memory", "prompt": "разверни 1 8 8", "answer": "8 8 1", "group": "memory:(1, 8, 8)", "id": "ad438512f53d6563"}
+{"task": "memory", "prompt": "повтори 9 4 0", "answer": "9 4 0", "group": "memory:(9, 4, 0)", "id": "3bec494c2c237a3c"}
+{"task": "memory", "prompt": "разверни 9 4 0", "answer": "0 4 9", "group": "memory:(9, 4, 0)", "id": "28aa2b9209dbd658"}
+{"task": "memory", "prompt": "повтори 0 8 8", "answer": "0 8 8", "group": "memory:(0, 8, 8)", "id": "c0ffc0ee6a4e9869"}
+{"task": "memory", "prompt": "разверни 0 8 8", "answer": "8 8 0", "group": "memory:(0, 8, 8)", "id": "2179baced59c8ce6"}
+{"task": "memory", "prompt": "повтори 0 8 9", "answer": "0 8 9", "group": "memory:(0, 8, 9)", "id": "b4be537977787a1f"}
+{"task": "memory", "prompt": "разверни 0 8 9", "answer": "9 8 0", "group": "memory:(0, 8, 9)", "id": "57f5b15ae6a8f4e4"}
+{"task": "memory", "prompt": "повтори 0 0 0", "answer": "0 0 0", "group": "memory:(0, 0, 0)", "id": "a6b063728fb4d8cc"}
+{"task": "memory", "prompt": "разверни 0 0 0", "answer": "0 0 0", "group": "memory:(0, 0, 0)", "id": "5d920eb62f500c0f"}
+{"task": "memory", "prompt": "повтори 1 7 5", "answer": "1 7 5", "group": "memory:(1, 7, 5)", "id": "b73d631cb6149657"}
+{"task": "memory", "prompt": "разверни 1 7 5", "answer": "5 7 1", "group": "memory:(1, 7, 5)", "id": "5431783b9b0c7887"}
+{"task": "memory", "prompt": "повтори 6 6 9", "answer": "6 6 9", "group": "memory:(6, 6, 9)", "id": "74e2c1d5ed159200"}
+{"task": "memory", "prompt": "разверни 6 6 9", "answer": "9 6 6", "group": "memory:(6, 6, 9)", "id": "fb83039239c43219"}
+{"task": "memory", "prompt": "повтори 4 1 7", "answer": "4 1 7", "group": "memory:(4, 1, 7)", "id": "66fa67d8c2ff5391"}
+{"task": "memory", "prompt": "разверни 4 1 7", "answer": "7 1 4", "group": "memory:(4, 1, 7)", "id": "feb901ed323489b4"}
+{"task": "memory", "prompt": "повтори 9 7 9", "answer": "9 7 9", "group": "memory:(9, 7, 9)", "id": "97321a39278e195b"}
+{"task": "memory", "prompt": "разверни 9 7 9", "answer": "9 7 9", "group": "memory:(9, 7, 9)", "id": "8726902102c5869b"}
+{"task": "memory", "prompt": "повтори 0 4 3", "answer": "0 4 3", "group": "memory:(0, 4, 3)", "id": "6c4aa143d5d0045f"}
+{"task": "memory", "prompt": "разверни 0 4 3", "answer": "3 4 0", "group": "memory:(0, 4, 3)", "id": "baca0bd2f95fcb27"}
+{"task": "memory", "prompt": "повтори 9 2 3", "answer": "9 2 3", "group": "memory:(9, 2, 3)", "id": "9934b22a6cf8bfb2"}
+{"task": "memory", "prompt": "разверни 9 2 3", "answer": "3 2 9", "group": "memory:(9, 2, 3)", "id": "3b9660de40d740c5"}
+{"task": "memory", "prompt": "повтори 4 9 9", "answer": "4 9 9", "group": "memory:(4, 9, 9)", "id": "71a13d88d0b1df4d"}
+{"task": "memory", "prompt": "разверни 4 9 9", "answer": "9 9 4", "group": "memory:(4, 9, 9)", "id": "e97afb877e5272f0"}
+{"task": "memory", "prompt": "повтори 9 2 1", "answer": "9 2 1", "group": "memory:(9, 2, 1)", "id": "e0f33b08aa926b29"}
+{"task": "memory", "prompt": "разверни 9 2 1", "answer": "1 2 9", "group": "memory:(9, 2, 1)", "id": "9a2d5f68393e9a52"}
+{"task": "memory", "prompt": "повтори 4 3 5", "answer": "4 3 5", "group": "memory:(4, 3, 5)", "id": "0b8d45b4062acf69"}
+{"task": "memory", "prompt": "разверни 4 3 5", "answer": "5 3 4", "group": "memory:(4, 3, 5)", "id": "a5c3881cc4782cac"}
+{"task": "memory", "prompt": "повтори 8 7 8", "answer": "8 7 8", "group": "memory:(8, 7, 8)", "id": "962d499b5ccc0228"}
+{"task": "memory", "prompt": "разверни 8 7 8", "answer": "8 7 8", "group": "memory:(8, 7, 8)", "id": "ad6b83aa76b385f1"}
+{"task": "memory", "prompt": "повтори 2 5 7", "answer": "2 5 7", "group": "memory:(2, 5, 7)", "id": "86d4d86663afbbac"}
+{"task": "memory", "prompt": "разверни 2 5 7", "answer": "7 5 2", "group": "memory:(2, 5, 7)", "id": "310dda61bd04655d"}
+{"task": "memory", "prompt": "повтори 6 4 1", "answer": "6 4 1", "group": "memory:(6, 4, 1)", "id": "ee47f496d889c401"}
+{"task": "memory", "prompt": "разверни 6 4 1", "answer": "1 4 6", "group": "memory:(6, 4, 1)", "id": "3b8e5e6de27f4d69"}
+{"task": "memory", "prompt": "повтори 4 6 7", "answer": "4 6 7", "group": "memory:(4, 6, 7)", "id": "233eb99f25e83e75"}
+{"task": "memory", "prompt": "разверни 4 6 7", "answer": "7 6 4", "group": "memory:(4, 6, 7)", "id": "10ada89e85e6a217"}
+{"task": "memory", "prompt": "повтори 2 5 3", "answer": "2 5 3", "group": "memory:(2, 5, 3)", "id": "7deca45fd38bdd0b"}
+{"task": "memory", "prompt": "разверни 2 5 3", "answer": "3 5 2", "group": "memory:(2, 5, 3)", "id": "091cd08c6c5b05c5"}
+{"task": "memory", "prompt": "повтори 1 6 8", "answer": "1 6 8", "group": "memory:(1, 6, 8)", "id": "96832b2acade510a"}
+{"task": "memory", "prompt": "разверни 1 6 8", "answer": "8 6 1", "group": "memory:(1, 6, 8)", "id": "61c2ac7685d927ef"}
+{"task": "memory", "prompt": "повтори 4 9 6", "answer": "4 9 6", "group": "memory:(4, 9, 6)", "id": "2df2b7e1b3e0cdaa"}
+{"task": "memory", "prompt": "разверни 4 9 6", "answer": "6 9 4", "group": "memory:(4, 9, 6)", "id": "f62ab49c60ecd5bb"}
+{"task": "memory", "prompt": "повтори 0 3 8", "answer": "0 3 8", "group": "memory:(0, 3, 8)", "id": "94265f33c61dd072"}
+{"task": "memory", "prompt": "разверни 0 3 8", "answer": "8 3 0", "group": "memory:(0, 3, 8)", "id": "c7074318060c3320"}
+{"task": "memory", "prompt": "повтори 5 1 8", "answer": "5 1 8", "group": "memory:(5, 1, 8)", "id": "00e8cdfac52cb8cf"}
+{"task": "memory", "prompt": "разверни 5 1 8", "answer": "8 1 5", "group": "memory:(5, 1, 8)", "id": "61d71ed401b25f22"}
+{"task": "memory", "prompt": "повтори 5 2 0", "answer": "5 2 0", "group": "memory:(5, 2, 0)", "id": "4554eba5a4d2b80f"}
+{"task": "memory", "prompt": "разверни 5 2 0", "answer": "0 2 5", "group": "memory:(5, 2, 0)", "id": "0ebe74ee122c5db6"}
+{"task": "memory", "prompt": "повтори 8 8 6", "answer": "8 8 6", "group": "memory:(8, 8, 6)", "id": "e13c285fc3344379"}
+{"task": "memory", "prompt": "разверни 8 8 6", "answer": "6 8 8", "group": "memory:(8, 8, 6)", "id": "780b3360d62b4bfc"}
+{"task": "memory", "prompt": "повтори 9 6 1", "answer": "9 6 1", "group": "memory:(9, 6, 1)", "id": "3d86967cd2e14366"}
+{"task": "memory", "prompt": "разверни 9 6 1", "answer": "1 6 9", "group": "memory:(9, 6, 1)", "id": "31ac409fd40d99b5"}
+{"task": "memory", "prompt": "повтори 9 6 6", "answer": "9 6 6", "group": "memory:(9, 6, 6)", "id": "07315fe6ab1b3260"}
+{"task": "memory", "prompt": "разверни 9 6 6", "answer": "6 6 9", "group": "memory:(9, 6, 6)", "id": "7212056a314ebe92"}
+{"task": "memory", "prompt": "повтори 0 3 9", "answer": "0 3 9", "group": "memory:(0, 3, 9)", "id": "e603f77df2adae85"}
+{"task": "memory", "prompt": "разверни 0 3 9", "answer": "9 3 0", "group": "memory:(0, 3, 9)", "id": "32c8c13a57736e0b"}
+{"task": "memory", "prompt": "повтори 8 3 1", "answer": "8 3 1", "group": "memory:(8, 3, 1)", "id": "44dd7101fd5821b2"}
+{"task": "memory", "prompt": "разверни 8 3 1", "answer": "1 3 8", "group": "memory:(8, 3, 1)", "id": "24fa1a6278684bf0"}
+{"task": "memory", "prompt": "повтори 4 0 2", "answer": "4 0 2", "group": "memory:(4, 0, 2)", "id": "766f08e9dd5a7da6"}
+{"task": "memory", "prompt": "разверни 4 0 2", "answer": "2 0 4", "group": "memory:(4, 0, 2)", "id": "3e296b20663447a7"}
+{"task": "memory", "prompt": "повтори 3 4 2", "answer": "3 4 2", "group": "memory:(3, 4, 2)", "id": "53d91faf855b9060"}
+{"task": "memory", "prompt": "разверни 3 4 2", "answer": "2 4 3", "group": "memory:(3, 4, 2)", "id": "d16ce762c763b27f"}
+{"task": "memory", "prompt": "повтори 8 2 5", "answer": "8 2 5", "group": "memory:(8, 2, 5)", "id": "0a45c5f6b3a362db"}
+{"task": "memory", "prompt": "разверни 8 2 5", "answer": "5 2 8", "group": "memory:(8, 2, 5)", "id": "71fbd69296d14388"}
+{"task": "memory", "prompt": "повтори 0 1 8", "answer": "0 1 8", "group": "memory:(0, 1, 8)", "id": "ac9d5a95c4117ff8"}
+{"task": "memory", "prompt": "разверни 0 1 8", "answer": "8 1 0", "group": "memory:(0, 1, 8)", "id": "359f1a4dea0d6cdb"}
+{"task": "memory", "prompt": "повтори 9 1 1", "answer": "9 1 1", "group": "memory:(9, 1, 1)", "id": "1302c83478636655"}
+{"task": "memory", "prompt": "разверни 9 1 1", "answer": "1 1 9", "group": "memory:(9, 1, 1)", "id": "0ba13e2a474cba7a"}
+{"task": "memory", "prompt": "повтори 2 1 9", "answer": "2 1 9", "group": "memory:(2, 1, 9)", "id": "3d4d3305ad4325a5"}
+{"task": "memory", "prompt": "разверни 2 1 9", "answer": "9 1 2", "group": "memory:(2, 1, 9)", "id": "9ce1049591834236"}
+{"task": "memory", "prompt": "повтори 3 8 4", "answer": "3 8 4", "group": "memory:(3, 8, 4)", "id": "e9c0479832e69841"}
+{"task": "memory", "prompt": "разверни 3 8 4", "answer": "4 8 3", "group": "memory:(3, 8, 4)", "id": "9c4b1ef2e63b3a35"}
+{"task": "memory", "prompt": "повтори 1 6 7", "answer": "1 6 7", "group": "memory:(1, 6, 7)", "id": "e56f027b09f60915"}
+{"task": "memory", "prompt": "разверни 1 6 7", "answer": "7 6 1", "group": "memory:(1, 6, 7)", "id": "157898641ce10520"}
+{"task": "memory", "prompt": "повтори 8 4 0", "answer": "8 4 0", "group": "memory:(8, 4, 0)", "id": "e4f3246ad83b7a5e"}
+{"task": "memory", "prompt": "разверни 8 4 0", "answer": "0 4 8", "group": "memory:(8, 4, 0)", "id": "f7669c65fe1cb6ee"}
+{"task": "memory", "prompt": "повтори 7 9 0", "answer": "7 9 0", "group": "memory:(7, 9, 0)", "id": "c49096dcf7b488ce"}
+{"task": "memory", "prompt": "разверни 7 9 0", "answer": "0 9 7", "group": "memory:(7, 9, 0)", "id": "fa5ae83e79dfba1d"}
+{"task": "memory", "prompt": "повтори 7 1 7", "answer": "7 1 7", "group": "memory:(7, 1, 7)", "id": "235c6c66b32b8b6f"}
+{"task": "memory", "prompt": "разверни 7 1 7", "answer": "7 1 7", "group": "memory:(7, 1, 7)", "id": "0ecccdc8a4a0a6c0"}
+{"task": "memory", "prompt": "повтори 7 2 3", "answer": "7 2 3", "group": "memory:(7, 2, 3)", "id": "917217e3e2898b12"}
+{"task": "memory", "prompt": "разверни 7 2 3", "answer": "3 2 7", "group": "memory:(7, 2, 3)", "id": "e663cdd53fc40464"}
+{"task": "memory", "prompt": "повтори 5 6 5", "answer": "5 6 5", "group": "memory:(5, 6, 5)", "id": "09946916d6ae1d5e"}
+{"task": "memory", "prompt": "разверни 5 6 5", "answer": "5 6 5", "group": "memory:(5, 6, 5)", "id": "536c11d74d84ecf3"}
+{"task": "memory", "prompt": "повтори 0 2 1", "answer": "0 2 1", "group": "memory:(0, 2, 1)", "id": "c52fe28f10d07c9b"}
+{"task": "memory", "prompt": "разверни 0 2 1", "answer": "1 2 0", "group": "memory:(0, 2, 1)", "id": "6014af38cfff11e4"}
+{"task": "memory", "prompt": "повтори 2 7 7", "answer": "2 7 7", "group": "memory:(2, 7, 7)", "id": "c3b42b87cbf719ba"}
+{"task": "memory", "prompt": "разверни 2 7 7", "answer": "7 7 2", "group": "memory:(2, 7, 7)", "id": "bbde318c030777b4"}
+{"task": "memory", "prompt": "повтори 0 0 2", "answer": "0 0 2", "group": "memory:(0, 0, 2)", "id": "f92f613e72d4c91f"}
+{"task": "memory", "prompt": "разверни 0 0 2", "answer": "2 0 0", "group": "memory:(0, 0, 2)", "id": "9f8bfdc0683f74b0"}
+{"task": "memory", "prompt": "повтори 2 0 3", "answer": "2 0 3", "group": "memory:(2, 0, 3)", "id": "5448096de24e0e7c"}
+{"task": "memory", "prompt": "разверни 2 0 3", "answer": "3 0 2", "group": "memory:(2, 0, 3)", "id": "a358fe23929beb46"}
+{"task": "memory", "prompt": "повтори 1 3 9", "answer": "1 3 9", "group": "memory:(1, 3, 9)", "id": "11a5173a78c338bc"}
+{"task": "memory", "prompt": "разверни 1 3 9", "answer": "9 3 1", "group": "memory:(1, 3, 9)", "id": "966da47da099d357"}
+{"task": "memory", "prompt": "повтори 0 4 1", "answer": "0 4 1", "group": "memory:(0, 4, 1)", "id": "8281ee235a842fc0"}
+{"task": "memory", "prompt": "разверни 0 4 1", "answer": "1 4 0", "group": "memory:(0, 4, 1)", "id": "a1c2cd4b06206cbb"}
+{"task": "memory", "prompt": "повтори 8 4 4", "answer": "8 4 4", "group": "memory:(8, 4, 4)", "id": "e80ea925a13a6040"}
+{"task": "memory", "prompt": "разверни 8 4 4", "answer": "4 4 8", "group": "memory:(8, 4, 4)", "id": "05ba8b162d690e29"}
+{"task": "memory", "prompt": "повтори 6 0 4", "answer": "6 0 4", "group": "memory:(6, 0, 4)", "id": "0079bcf00f0b860a"}
+{"task": "memory", "prompt": "разверни 6 0 4", "answer": "4 0 6", "group": "memory:(6, 0, 4)", "id": "e89822577efb5ebe"}
+{"task": "memory", "prompt": "повтори 8 0 8", "answer": "8 0 8", "group": "memory:(8, 0, 8)", "id": "e4487fff7536f0b8"}
+{"task": "memory", "prompt": "разверни 8 0 8", "answer": "8 0 8", "group": "memory:(8, 0, 8)", "id": "6dde3020b2d220e7"}
+{"task": "memory", "prompt": "повтори 6 5 0", "answer": "6 5 0", "group": "memory:(6, 5, 0)", "id": "425ac36cb80e5b9d"}
+{"task": "memory", "prompt": "разверни 6 5 0", "answer": "0 5 6", "group": "memory:(6, 5, 0)", "id": "4f6cbcd2ed32946a"}
+{"task": "memory", "prompt": "повтори 3 4 8", "answer": "3 4 8", "group": "memory:(3, 4, 8)", "id": "b076cb26538fc975"}
+{"task": "memory", "prompt": "разверни 3 4 8", "answer": "8 4 3", "group": "memory:(3, 4, 8)", "id": "df826e84d5713c6a"}
+{"task": "memory", "prompt": "повтори 5 7 0", "answer": "5 7 0", "group": "memory:(5, 7, 0)", "id": "1070a00371eb1e37"}
+{"task": "memory", "prompt": "разверни 5 7 0", "answer": "0 7 5", "group": "memory:(5, 7, 0)", "id": "20528c92653ea15e"}
+{"task": "memory", "prompt": "повтори 1 4 8", "answer": "1 4 8", "group": "memory:(1, 4, 8)", "id": "322aecf54c3945fb"}
+{"task": "memory", "prompt": "разверни 1 4 8", "answer": "8 4 1", "group": "memory:(1, 4, 8)", "id": "6e79f4dbbb873d9e"}
+{"task": "memory", "prompt": "повтори 0 5 9", "answer": "0 5 9", "group": "memory:(0, 5, 9)", "id": "c0f09808ddd238a7"}
+{"task": "memory", "prompt": "разверни 0 5 9", "answer": "9 5 0", "group": "memory:(0, 5, 9)", "id": "ffcb98e8e82fdee5"}
+{"task": "memory", "prompt": "повтори 1 6 9", "answer": "1 6 9", "group": "memory:(1, 6, 9)", "id": "d230e33df0247c17"}
+{"task": "memory", "prompt": "разверни 1 6 9", "answer": "9 6 1", "group": "memory:(1, 6, 9)", "id": "a44df34910557668"}
+{"task": "memory", "prompt": "повтори 4 5 0", "answer": "4 5 0", "group": "memory:(4, 5, 0)", "id": "6db55c923d016cc3"}
+{"task": "memory", "prompt": "разверни 4 5 0", "answer": "0 5 4", "group": "memory:(4, 5, 0)", "id": "c318b5a3f5ddd6f6"}
+{"task": "memory", "prompt": "повтори 5 5 1", "answer": "5 5 1", "group": "memory:(5, 5, 1)", "id": "d20dd96cd6747148"}
+{"task": "memory", "prompt": "разверни 5 5 1", "answer": "1 5 5", "group": "memory:(5, 5, 1)", "id": "975511376744b16c"}
+{"task": "memory", "prompt": "повтори 5 0 5", "answer": "5 0 5", "group": "memory:(5, 0, 5)", "id": "521e74b61efe4ed0"}
+{"task": "memory", "prompt": "разверни 5 0 5", "answer": "5 0 5", "group": "memory:(5, 0, 5)", "id": "1a73d992ab301f3c"}
+{"task": "memory", "prompt": "повтори 1 1 4", "answer": "1 1 4", "group": "memory:(1, 1, 4)", "id": "080183c2826c0be2"}
+{"task": "memory", "prompt": "разверни 1 1 4", "answer": "4 1 1", "group": "memory:(1, 1, 4)", "id": "d0438f4b32acfae8"}
+{"task": "memory", "prompt": "повтори 4 6 6", "answer": "4 6 6", "group": "memory:(4, 6, 6)", "id": "6285e8662752a3bc"}
+{"task": "memory", "prompt": "разверни 4 6 6", "answer": "6 6 4", "group": "memory:(4, 6, 6)", "id": "0748ed702fbf66b0"}
+{"task": "memory", "prompt": "повтори 7 6 0", "answer": "7 6 0", "group": "memory:(7, 6, 0)", "id": "df6cdb5cf12b9229"}
+{"task": "memory", "prompt": "разверни 7 6 0", "answer": "0 6 7", "group": "memory:(7, 6, 0)", "id": "3c729ddc8f03847b"}
+{"task": "memory", "prompt": "повтори 1 3 6", "answer": "1 3 6", "group": "memory:(1, 3, 6)", "id": "2a6888c64fd4df11"}
+{"task": "memory", "prompt": "разверни 1 3 6", "answer": "6 3 1", "group": "memory:(1, 3, 6)", "id": "7e132b0d57dfa1ce"}
+{"task": "memory", "prompt": "повтори 7 4 3", "answer": "7 4 3", "group": "memory:(7, 4, 3)", "id": "ea2a8ce10813904e"}
+{"task": "memory", "prompt": "разверни 7 4 3", "answer": "3 4 7", "group": "memory:(7, 4, 3)", "id": "b8359e0ef574d501"}
+{"task": "memory", "prompt": "повтори 2 6 9", "answer": "2 6 9", "group": "memory:(2, 6, 9)", "id": "0d8e6ec69e2d97e0"}
+{"task": "memory", "prompt": "разверни 2 6 9", "answer": "9 6 2", "group": "memory:(2, 6, 9)", "id": "7adbbecdd27c003a"}
+{"task": "memory", "prompt": "повтори 6 8 3", "answer": "6 8 3", "group": "memory:(6, 8, 3)", "id": "35259ef50f030fc4"}
+{"task": "memory", "prompt": "разверни 6 8 3", "answer": "3 8 6", "group": "memory:(6, 8, 3)", "id": "cca537db0a482b7c"}
+{"task": "memory", "prompt": "повтори 3 2 9", "answer": "3 2 9", "group": "memory:(3, 2, 9)", "id": "87444a201bf11a59"}
+{"task": "memory", "prompt": "разверни 3 2 9", "answer": "9 2 3", "group": "memory:(3, 2, 9)", "id": "8a4abdf9f6f0f97f"}
+{"task": "memory", "prompt": "повтори 5 6 9", "answer": "5 6 9", "group": "memory:(5, 6, 9)", "id": "0d344fea5423aef1"}
+{"task": "memory", "prompt": "разверни 5 6 9", "answer": "9 6 5", "group": "memory:(5, 6, 9)", "id": "c95508ffd5475e4f"}
+{"task": "memory", "prompt": "повтори 7 5 9", "answer": "7 5 9", "group": "memory:(7, 5, 9)", "id": "39358aba73f1b897"}
+{"task": "memory", "prompt": "разверни 7 5 9", "answer": "9 5 7", "group": "memory:(7, 5, 9)", "id": "83e39ee4f78819dd"}
+{"task": "memory", "prompt": "повтори 1 9 9", "answer": "1 9 9", "group": "memory:(1, 9, 9)", "id": "809b9cb3aaf3788e"}
+{"task": "memory", "prompt": "разверни 1 9 9", "answer": "9 9 1", "group": "memory:(1, 9, 9)", "id": "e019ab76c40331f2"}
+{"task": "memory", "prompt": "повтори 3 9 3", "answer": "3 9 3", "group": "memory:(3, 9, 3)", "id": "7983bd8d57e84c0d"}
+{"task": "memory", "prompt": "разверни 3 9 3", "answer": "3 9 3", "group": "memory:(3, 9, 3)", "id": "7caf5f432973d65e"}
+{"task": "memory", "prompt": "повтори 8 9 5", "answer": "8 9 5", "group": "memory:(8, 9, 5)", "id": "e0df373c8599d516"}
+{"task": "memory", "prompt": "разверни 8 9 5", "answer": "5 9 8", "group": "memory:(8, 9, 5)", "id": "b85bd3fd040c94ea"}
+{"task": "memory", "prompt": "повтори 0 5 7", "answer": "0 5 7", "group": "memory:(0, 5, 7)", "id": "d5e460b1305f3791"}
+{"task": "memory", "prompt": "разверни 0 5 7", "answer": "7 5 0", "group": "memory:(0, 5, 7)", "id": "06c95f90940090ae"}
+{"task": "memory", "prompt": "повтори 4 8 3", "answer": "4 8 3", "group": "memory:(4, 8, 3)", "id": "b3df8aa701933bc1"}
+{"task": "memory", "prompt": "разверни 4 8 3", "answer": "3 8 4", "group": "memory:(4, 8, 3)", "id": "e693019690a7a886"}
+{"task": "memory", "prompt": "повтори 1 0 8", "answer": "1 0 8", "group": "memory:(1, 0, 8)", "id": "6a4a72028ae3824d"}
+{"task": "memory", "prompt": "разверни 1 0 8", "answer": "8 0 1", "group": "memory:(1, 0, 8)", "id": "be3c7a76046d79ee"}
+{"task": "memory", "prompt": "повтори 0 2 4", "answer": "0 2 4", "group": "memory:(0, 2, 4)", "id": "3eb69c6d9903b3f0"}
+{"task": "memory", "prompt": "разверни 0 2 4", "answer": "4 2 0", "group": "memory:(0, 2, 4)", "id": "5823157f0b2bcea4"}
+{"task": "memory", "prompt": "повтори 3 9 6", "answer": "3 9 6", "group": "memory:(3, 9, 6)", "id": "4a77fe6cbfb25131"}
+{"task": "memory", "prompt": "разверни 3 9 6", "answer": "6 9 3", "group": "memory:(3, 9, 6)", "id": "30f8ecab2088756b"}
+{"task": "memory", "prompt": "повтори 6 9 4", "answer": "6 9 4", "group": "memory:(6, 9, 4)", "id": "2ea8dd5c53f2ebd5"}
+{"task": "memory", "prompt": "разверни 6 9 4", "answer": "4 9 6", "group": "memory:(6, 9, 4)", "id": "9692fad0266ab7a9"}
+{"task": "memory", "prompt": "повтори 6 5 1", "answer": "6 5 1", "group": "memory:(6, 5, 1)", "id": "79b50982474311f7"}
+{"task": "memory", "prompt": "разверни 6 5 1", "answer": "1 5 6", "group": "memory:(6, 5, 1)", "id": "3da4e2c113abee25"}
+{"task": "memory", "prompt": "повтори 6 2 4", "answer": "6 2 4", "group": "memory:(6, 2, 4)", "id": "b566a24935da01c8"}
+{"task": "memory", "prompt": "разверни 6 2 4", "answer": "4 2 6", "group": "memory:(6, 2, 4)", "id": "ea939bebad6fd4dc"}
+{"task": "memory", "prompt": "повтори 9 5 9", "answer": "9 5 9", "group": "memory:(9, 5, 9)", "id": "35c90168db753666"}
+{"task": "memory", "prompt": "разверни 9 5 9", "answer": "9 5 9", "group": "memory:(9, 5, 9)", "id": "b7c2bfa8f8338e81"}
+{"task": "memory", "prompt": "повтори 2 3 1", "answer": "2 3 1", "group": "memory:(2, 3, 1)", "id": "91120cabcb2110c0"}
+{"task": "memory", "prompt": "разверни 2 3 1", "answer": "1 3 2", "group": "memory:(2, 3, 1)", "id": "653842bf666a2b49"}
+{"task": "memory", "prompt": "повтори 1 2 7", "answer": "1 2 7", "group": "memory:(1, 2, 7)", "id": "36e23584d8cd5685"}
+{"task": "memory", "prompt": "разверни 1 2 7", "answer": "7 2 1", "group": "memory:(1, 2, 7)", "id": "8f778a3527c0509a"}
+{"task": "memory", "prompt": "повтори 7 2 9", "answer": "7 2 9", "group": "memory:(7, 2, 9)", "id": "2e21be9f17e41585"}
+{"task": "memory", "prompt": "разверни 7 2 9", "answer": "9 2 7", "group": "memory:(7, 2, 9)", "id": "7a4fa9125f9ed2a4"}
+{"task": "memory", "prompt": "повтори 3 8 0", "answer": "3 8 0", "group": "memory:(3, 8, 0)", "id": "5d6cbbae514eac3d"}
+{"task": "memory", "prompt": "разверни 3 8 0", "answer": "0 8 3", "group": "memory:(3, 8, 0)", "id": "027aae9bd18a9f0c"}
+{"task": "memory", "prompt": "повтори 5 5 4", "answer": "5 5 4", "group": "memory:(5, 5, 4)", "id": "a74800845a1effc4"}
+{"task": "memory", "prompt": "разверни 5 5 4", "answer": "4 5 5", "group": "memory:(5, 5, 4)", "id": "781b20d36da18dca"}
+{"task": "memory", "prompt": "повтори 3 9 1", "answer": "3 9 1", "group": "memory:(3, 9, 1)", "id": "39b19b02c78161b4"}
+{"task": "memory", "prompt": "разверни 3 9 1", "answer": "1 9 3", "group": "memory:(3, 9, 1)", "id": "286ffb5a41b5f494"}
+{"task": "memory", "prompt": "повтори 2 8 9", "answer": "2 8 9", "group": "memory:(2, 8, 9)", "id": "17fe272cb24524d0"}
+{"task": "memory", "prompt": "разверни 2 8 9", "answer": "9 8 2", "group": "memory:(2, 8, 9)", "id": "9835076931fe8cf8"}
+{"task": "memory", "prompt": "повтори 5 8 8", "answer": "5 8 8", "group": "memory:(5, 8, 8)", "id": "a42452c9246fcd80"}
+{"task": "memory", "prompt": "разверни 5 8 8", "answer": "8 8 5", "group": "memory:(5, 8, 8)", "id": "3d8a5b8b922d59aa"}
+{"task": "memory", "prompt": "повтори 7 2 6", "answer": "7 2 6", "group": "memory:(7, 2, 6)", "id": "bf471c7a4e54ab15"}
+{"task": "memory", "prompt": "разверни 7 2 6", "answer": "6 2 7", "group": "memory:(7, 2, 6)", "id": "ac376935e741ab99"}
+{"task": "memory", "prompt": "повтори 2 5 6", "answer": "2 5 6", "group": "memory:(2, 5, 6)", "id": "dac36c660abad907"}
+{"task": "memory", "prompt": "разверни 2 5 6", "answer": "6 5 2", "group": "memory:(2, 5, 6)", "id": "d45dd50ee606a547"}
+{"task": "memory", "prompt": "повтори 4 0 6", "answer": "4 0 6", "group": "memory:(4, 0, 6)", "id": "4c08da00a66f4cf0"}
+{"task": "memory", "prompt": "разверни 4 0 6", "answer": "6 0 4", "group": "memory:(4, 0, 6)", "id": "40605ecb22911995"}
+{"task": "memory", "prompt": "повтори 7 4 8", "answer": "7 4 8", "group": "memory:(7, 4, 8)", "id": "9201248d2f997290"}
+{"task": "memory", "prompt": "разверни 7 4 8", "answer": "8 4 7", "group": "memory:(7, 4, 8)", "id": "d989c26cc41c14cd"}
+{"task": "memory", "prompt": "повтори 0 8 4", "answer": "0 8 4", "group": "memory:(0, 8, 4)", "id": "8f8fca48c6591186"}
+{"task": "memory", "prompt": "разверни 0 8 4", "answer": "4 8 0", "group": "memory:(0, 8, 4)", "id": "e1255fdb0f40a180"}
+{"task": "memory", "prompt": "повтори 8 6 1", "answer": "8 6 1", "group": "memory:(8, 6, 1)", "id": "7b248e903caf3a36"}
+{"task": "memory", "prompt": "разверни 8 6 1", "answer": "1 6 8", "group": "memory:(8, 6, 1)", "id": "4bc74a2be410ad24"}
+{"task": "memory", "prompt": "повтори 0 3 4", "answer": "0 3 4", "group": "memory:(0, 3, 4)", "id": "1922debce1903485"}
+{"task": "memory", "prompt": "разверни 0 3 4", "answer": "4 3 0", "group": "memory:(0, 3, 4)", "id": "ac4c2e0928ce77b3"}
+{"task": "memory", "prompt": "повтори 7 1 3", "answer": "7 1 3", "group": "memory:(7, 1, 3)", "id": "0e6851bfdc8145c8"}
+{"task": "memory", "prompt": "разверни 7 1 3", "answer": "3 1 7", "group": "memory:(7, 1, 3)", "id": "0525756cfab94623"}
+{"task": "memory", "prompt": "повтори 5 6 0", "answer": "5 6 0", "group": "memory:(5, 6, 0)", "id": "9ab965781d09142b"}
+{"task": "memory", "prompt": "разверни 5 6 0", "answer": "0 6 5", "group": "memory:(5, 6, 0)", "id": "bbf795c655927ac5"}
+{"task": "memory", "prompt": "повтори 1 1 1", "answer": "1 1 1", "group": "memory:(1, 1, 1)", "id": "39d2e8b155893b9a"}
+{"task": "memory", "prompt": "разверни 1 1 1", "answer": "1 1 1", "group": "memory:(1, 1, 1)", "id": "aea448185282ec82"}
+{"task": "memory", "prompt": "повтори 3 5 2", "answer": "3 5 2", "group": "memory:(3, 5, 2)", "id": "1467d96bbe14d5d6"}
+{"task": "memory", "prompt": "разверни 3 5 2", "answer": "2 5 3", "group": "memory:(3, 5, 2)", "id": "159c90877f4c0dfc"}
+{"task": "memory", "prompt": "повтори 1 3 5", "answer": "1 3 5", "group": "memory:(1, 3, 5)", "id": "ff78564267fb2535"}
+{"task": "memory", "prompt": "разверни 1 3 5", "answer": "5 3 1", "group": "memory:(1, 3, 5)", "id": "57583026d079d3fd"}
+{"task": "memory", "prompt": "повтори 7 1 1", "answer": "7 1 1", "group": "memory:(7, 1, 1)", "id": "76680ce00fe4caf7"}
+{"task": "memory", "prompt": "разверни 7 1 1", "answer": "1 1 7", "group": "memory:(7, 1, 1)", "id": "60e4c2825d8c217d"}
+{"task": "memory", "prompt": "повтори 7 8 0", "answer": "7 8 0", "group": "memory:(7, 8, 0)", "id": "160a7c2fd9e09926"}
+{"task": "memory", "prompt": "разверни 7 8 0", "answer": "0 8 7", "group": "memory:(7, 8, 0)", "id": "14d84ebf6deec984"}
+{"task": "memory", "prompt": "повтори 8 4 9", "answer": "8 4 9", "group": "memory:(8, 4, 9)", "id": "605989073fce858a"}
+{"task": "memory", "prompt": "разверни 8 4 9", "answer": "9 4 8", "group": "memory:(8, 4, 9)", "id": "ae5b533b1e3127dd"}
+{"task": "memory", "prompt": "повтори 7 6 6", "answer": "7 6 6", "group": "memory:(7, 6, 6)", "id": "a1d9ed686eb9e596"}
+{"task": "memory", "prompt": "разверни 7 6 6", "answer": "6 6 7", "group": "memory:(7, 6, 6)", "id": "cf42ac045b4a0aee"}
+{"task": "memory", "prompt": "повтори 7 4 1", "answer": "7 4 1", "group": "memory:(7, 4, 1)", "id": "1ca279f3981ca474"}
+{"task": "memory", "prompt": "разверни 7 4 1", "answer": "1 4 7", "group": "memory:(7, 4, 1)", "id": "4e9d67958c282cea"}
+{"task": "memory", "prompt": "повтори 4 2 0", "answer": "4 2 0", "group": "memory:(4, 2, 0)", "id": "ea8b7b4c22e290bb"}
+{"task": "memory", "prompt": "разверни 4 2 0", "answer": "0 2 4", "group": "memory:(4, 2, 0)", "id": "e81de539ac8f1378"}
+{"task": "memory", "prompt": "повтори 9 4 9", "answer": "9 4 9", "group": "memory:(9, 4, 9)", "id": "99b3ff37e9e6f42a"}
+{"task": "memory", "prompt": "разверни 9 4 9", "answer": "9 4 9", "group": "memory:(9, 4, 9)", "id": "2d2d8f582dca3f33"}
+{"task": "memory", "prompt": "повтори 4 9 1", "answer": "4 9 1", "group": "memory:(4, 9, 1)", "id": "40966fcc740090a4"}
+{"task": "memory", "prompt": "разверни 4 9 1", "answer": "1 9 4", "group": "memory:(4, 9, 1)", "id": "93cf998c1698b274"}
+{"task": "memory", "prompt": "повтори 4 4 1", "answer": "4 4 1", "group": "memory:(4, 4, 1)", "id": "7f2a7ade363fe228"}
+{"task": "memory", "prompt": "разверни 4 4 1", "answer": "1 4 4", "group": "memory:(4, 4, 1)", "id": "1d3baf52a720b916"}
+{"task": "memory", "prompt": "повтори 4 7 1", "answer": "4 7 1", "group": "memory:(4, 7, 1)", "id": "555c185eb9ea453a"}
+{"task": "memory", "prompt": "разверни 4 7 1", "answer": "1 7 4", "group": "memory:(4, 7, 1)", "id": "22cd60a9c0a510c5"}
+{"task": "memory", "prompt": "повтори 4 0 1", "answer": "4 0 1", "group": "memory:(4, 0, 1)", "id": "89d7176063cbb86d"}
+{"task": "memory", "prompt": "разверни 4 0 1", "answer": "1 0 4", "group": "memory:(4, 0, 1)", "id": "20881c0bed1ef5c0"}
+{"task": "memory", "prompt": "повтори 0 7 2", "answer": "0 7 2", "group": "memory:(0, 7, 2)", "id": "c24f7dbe2fa62591"}
+{"task": "memory", "prompt": "разверни 0 7 2", "answer": "2 7 0", "group": "memory:(0, 7, 2)", "id": "b8c0e351e438792b"}
+{"task": "memory", "prompt": "повтори 0 2 5", "answer": "0 2 5", "group": "memory:(0, 2, 5)", "id": "543a8d217ad8b026"}
+{"task": "memory", "prompt": "разверни 0 2 5", "answer": "5 2 0", "group": "memory:(0, 2, 5)", "id": "c3657fbed8755bb3"}
+{"task": "memory", "prompt": "повтори 1 7 2", "answer": "1 7 2", "group": "memory:(1, 7, 2)", "id": "da007bf443ff4e49"}
+{"task": "memory", "prompt": "разверни 1 7 2", "answer": "2 7 1", "group": "memory:(1, 7, 2)", "id": "876e4a675e4a757a"}
+{"task": "memory", "prompt": "повтори 3 0 0", "answer": "3 0 0", "group": "memory:(3, 0, 0)", "id": "98b97bf66fa45271"}
+{"task": "memory", "prompt": "разверни 3 0 0", "answer": "0 0 3", "group": "memory:(3, 0, 0)", "id": "66f08d92f7b2abd8"}
+{"task": "memory", "prompt": "повтори 3 1 7", "answer": "3 1 7", "group": "memory:(3, 1, 7)", "id": "713618dcbfefdbbb"}
+{"task": "memory", "prompt": "разверни 3 1 7", "answer": "7 1 3", "group": "memory:(3, 1, 7)", "id": "b2ebda8f3b20b3c3"}
+{"task": "memory", "prompt": "повтори 4 1 2", "answer": "4 1 2", "group": "memory:(4, 1, 2)", "id": "f067c3b6bbe51ba7"}
+{"task": "memory", "prompt": "разверни 4 1 2", "answer": "2 1 4", "group": "memory:(4, 1, 2)", "id": "20564d1187899965"}
+{"task": "memory", "prompt": "повтори 5 8 2", "answer": "5 8 2", "group": "memory:(5, 8, 2)", "id": "1d9276311516b32c"}
+{"task": "memory", "prompt": "разверни 5 8 2", "answer": "2 8 5", "group": "memory:(5, 8, 2)", "id": "a0d030345a68f5f3"}
+{"task": "memory", "prompt": "повтори 3 4 6", "answer": "3 4 6", "group": "memory:(3, 4, 6)", "id": "471a6a83f3a5f479"}
+{"task": "memory", "prompt": "разверни 3 4 6", "answer": "6 4 3", "group": "memory:(3, 4, 6)", "id": "bb219e60ed7c04f0"}
+{"task": "memory", "prompt": "повтори 2 7 0", "answer": "2 7 0", "group": "memory:(2, 7, 0)", "id": "cdb09aab229afb7f"}
+{"task": "memory", "prompt": "разверни 2 7 0", "answer": "0 7 2", "group": "memory:(2, 7, 0)", "id": "20e2632deca5d66f"}
+{"task": "memory", "prompt": "повтори 5 1 5", "answer": "5 1 5", "group": "memory:(5, 1, 5)", "id": "fb94a3015950669b"}
+{"task": "memory", "prompt": "разверни 5 1 5", "answer": "5 1 5", "group": "memory:(5, 1, 5)", "id": "6274e3228887c01c"}
+{"task": "memory", "prompt": "повтори 6 4 6", "answer": "6 4 6", "group": "memory:(6, 4, 6)", "id": "bd34d4b0f479373a"}
+{"task": "memory", "prompt": "разверни 6 4 6", "answer": "6 4 6", "group": "memory:(6, 4, 6)", "id": "5ce9ec9eedad6f4d"}
+{"task": "memory", "prompt": "повтори 0 9 1", "answer": "0 9 1", "group": "memory:(0, 9, 1)", "id": "b3e69b7fdea1093a"}
+{"task": "memory", "prompt": "разверни 0 9 1", "answer": "1 9 0", "group": "memory:(0, 9, 1)", "id": "6acdb993a841eb8a"}
+{"task": "memory", "prompt": "повтори 3 7 8", "answer": "3 7 8", "group": "memory:(3, 7, 8)", "id": "bc4b535a08ac83cd"}
+{"task": "memory", "prompt": "разверни 3 7 8", "answer": "8 7 3", "group": "memory:(3, 7, 8)", "id": "0ec0c240efeead18"}
+{"task": "memory", "prompt": "повтори 6 7 9", "answer": "6 7 9", "group": "memory:(6, 7, 9)", "id": "1e018eb9dd5e0604"}
+{"task": "memory", "prompt": "разверни 6 7 9", "answer": "9 7 6", "group": "memory:(6, 7, 9)", "id": "0f5889a279679826"}
+{"task": "memory", "prompt": "повтори 7 3 2", "answer": "7 3 2", "group": "memory:(7, 3, 2)", "id": "5d9ebc46e6be7dec"}
+{"task": "memory", "prompt": "разверни 7 3 2", "answer": "2 3 7", "group": "memory:(7, 3, 2)", "id": "b2c9a321dc56b8ca"}
+{"task": "memory", "prompt": "повтори 0 8 0", "answer": "0 8 0", "group": "memory:(0, 8, 0)", "id": "02e024e8b2a94164"}
+{"task": "memory", "prompt": "разверни 0 8 0", "answer": "0 8 0", "group": "memory:(0, 8, 0)", "id": "300d615300c4ed29"}
+{"task": "memory", "prompt": "повтори 1 9 0", "answer": "1 9 0", "group": "memory:(1, 9, 0)", "id": "2998a426491cfa91"}
+{"task": "memory", "prompt": "разверни 1 9 0", "answer": "0 9 1", "group": "memory:(1, 9, 0)", "id": "c81528430ce04d81"}
+{"task": "memory", "prompt": "повтори 1 8 7", "answer": "1 8 7", "group": "memory:(1, 8, 7)", "id": "73607b5e0d045ad2"}
+{"task": "memory", "prompt": "разверни 1 8 7", "answer": "7 8 1", "group": "memory:(1, 8, 7)", "id": "fada1a5b0f899fb7"}
+{"task": "memory", "prompt": "повтори 8 8 0", "answer": "8 8 0", "group": "memory:(8, 8, 0)", "id": "c03365a53f4be2fe"}
+{"task": "memory", "prompt": "разверни 8 8 0", "answer": "0 8 8", "group": "memory:(8, 8, 0)", "id": "3aa33c7501f626e0"}
+{"task": "memory", "prompt": "повтори 2 8 0", "answer": "2 8 0", "group": "memory:(2, 8, 0)", "id": "1fc8105fc9f754cf"}
+{"task": "memory", "prompt": "разверни 2 8 0", "answer": "0 8 2", "group": "memory:(2, 8, 0)", "id": "280eb1ac000ed834"}
+{"task": "memory", "prompt": "повтори 2 4 4", "answer": "2 4 4", "group": "memory:(2, 4, 4)", "id": "e1ecee71f6eabb80"}
+{"task": "memory", "prompt": "разверни 2 4 4", "answer": "4 4 2", "group": "memory:(2, 4, 4)", "id": "0be3b8e5e664b0ad"}
+{"task": "memory", "prompt": "повтори 9 1 8", "answer": "9 1 8", "group": "memory:(9, 1, 8)", "id": "1fa6d0ba5ebc86c0"}
+{"task": "memory", "prompt": "разверни 9 1 8", "answer": "8 1 9", "group": "memory:(9, 1, 8)", "id": "9aff83bc89cac41a"}
+{"task": "memory", "prompt": "повтори 7 5 2", "answer": "7 5 2", "group": "memory:(7, 5, 2)", "id": "3a5acc4bc16da79f"}
+{"task": "memory", "prompt": "разверни 7 5 2", "answer": "2 5 7", "group": "memory:(7, 5, 2)", "id": "d26e0d69aeb0d493"}
+{"task": "memory", "prompt": "повтори 5 3 7", "answer": "5 3 7", "group": "memory:(5, 3, 7)", "id": "e2999593b3f298b3"}
+{"task": "memory", "prompt": "разверни 5 3 7", "answer": "7 3 5", "group": "memory:(5, 3, 7)", "id": "d300874cdb7d1804"}
+{"task": "memory", "prompt": "повтори 3 5 6", "answer": "3 5 6", "group": "memory:(3, 5, 6)", "id": "07cb40f1f6595af1"}
+{"task": "memory", "prompt": "разверни 3 5 6", "answer": "6 5 3", "group": "memory:(3, 5, 6)", "id": "5e3f670cbd37e75e"}
+{"task": "memory", "prompt": "повтори 6 5 8", "answer": "6 5 8", "group": "memory:(6, 5, 8)", "id": "7bec366947f657c9"}
+{"task": "memory", "prompt": "разверни 6 5 8", "answer": "8 5 6", "group": "memory:(6, 5, 8)", "id": "bc57aa8aa700689a"}
+{"task": "memory", "prompt": "повтори 6 2 7", "answer": "6 2 7", "group": "memory:(6, 2, 7)", "id": "f70158bf3e103494"}
+{"task": "memory", "prompt": "разверни 6 2 7", "answer": "7 2 6", "group": "memory:(6, 2, 7)", "id": "9210ae4750a23605"}
+{"task": "memory", "prompt": "повтори 2 3 3", "answer": "2 3 3", "group": "memory:(2, 3, 3)", "id": "03a8b809aaf182b6"}
+{"task": "memory", "prompt": "разверни 2 3 3", "answer": "3 3 2", "group": "memory:(2, 3, 3)", "id": "f95fb3eda10d46a5"}
+{"task": "memory", "prompt": "повтори 5 5 6", "answer": "5 5 6", "group": "memory:(5, 5, 6)", "id": "473413b820980d7e"}
+{"task": "memory", "prompt": "разверни 5 5 6", "answer": "6 5 5", "group": "memory:(5, 5, 6)", "id": "7e7912a420f18f1a"}
+{"task": "memory", "prompt": "повтори 5 4 6", "answer": "5 4 6", "group": "memory:(5, 4, 6)", "id": "29424b066358b172"}
+{"task": "memory", "prompt": "разверни 5 4 6", "answer": "6 4 5", "group": "memory:(5, 4, 6)", "id": "de3845934aed8e21"}
+{"task": "memory", "prompt": "повтори 6 3 4", "answer": "6 3 4", "group": "memory:(6, 3, 4)", "id": "37c1ee6d1f062d88"}
+{"task": "memory", "prompt": "разверни 6 3 4", "answer": "4 3 6", "group": "memory:(6, 3, 4)", "id": "c81f01af60d5cd36"}
+{"task": "memory", "prompt": "повтори 3 5 9", "answer": "3 5 9", "group": "memory:(3, 5, 9)", "id": "be0110aea81515ef"}
+{"task": "memory", "prompt": "разверни 3 5 9", "answer": "9 5 3", "group": "memory:(3, 5, 9)", "id": "d48165e833e4cb7a"}
+{"task": "memory", "prompt": "повтори 3 0 1", "answer": "3 0 1", "group": "memory:(3, 0, 1)", "id": "c703a8baaba130e3"}
+{"task": "memory", "prompt": "разверни 3 0 1", "answer": "1 0 3", "group": "memory:(3, 0, 1)", "id": "a913a3136d648d68"}
+{"task": "memory", "prompt": "повтори 7 4 4", "answer": "7 4 4", "group": "memory:(7, 4, 4)", "id": "5690b236679905a9"}
+{"task": "memory", "prompt": "разверни 7 4 4", "answer": "4 4 7", "group": "memory:(7, 4, 4)", "id": "18b244f81e1de75c"}
+{"task": "memory", "prompt": "повтори 7 8 3", "answer": "7 8 3", "group": "memory:(7, 8, 3)", "id": "877a88f6663ec16e"}
+{"task": "memory", "prompt": "разверни 7 8 3", "answer": "3 8 7", "group": "memory:(7, 8, 3)", "id": "d36e4db0372dd1cf"}
+{"task": "memory", "prompt": "повтори 7 0 0", "answer": "7 0 0", "group": "memory:(7, 0, 0)", "id": "b8ba6c57be24f6da"}
+{"task": "memory", "prompt": "разверни 7 0 0", "answer": "0 0 7", "group": "memory:(7, 0, 0)", "id": "c13176460b95d6eb"}
+{"task": "memory", "prompt": "повтори 1 5 0", "answer": "1 5 0", "group": "memory:(1, 5, 0)", "id": "b989fefbbe829015"}
+{"task": "memory", "prompt": "разверни 1 5 0", "answer": "0 5 1", "group": "memory:(1, 5, 0)", "id": "da417f03c92fb7ed"}
+{"task": "memory", "prompt": "повтори 4 1 5", "answer": "4 1 5", "group": "memory:(4, 1, 5)", "id": "bb4088c243b6fa0d"}
+{"task": "memory", "prompt": "разверни 4 1 5", "answer": "5 1 4", "group": "memory:(4, 1, 5)", "id": "571eccb626662b7b"}
+{"task": "memory", "prompt": "повтори 1 4 9", "answer": "1 4 9", "group": "memory:(1, 4, 9)", "id": "2487fa9eb09d98e6"}
+{"task": "memory", "prompt": "разверни 1 4 9", "answer": "9 4 1", "group": "memory:(1, 4, 9)", "id": "6392c44976af22f8"}
+{"task": "memory", "prompt": "повтори 1 6 2", "answer": "1 6 2", "group": "memory:(1, 6, 2)", "id": "f3b02347e8b0311c"}
+{"task": "memory", "prompt": "разверни 1 6 2", "answer": "2 6 1", "group": "memory:(1, 6, 2)", "id": "95f1fb67f94ca99e"}
+{"task": "memory", "prompt": "повтори 1 1 6", "answer": "1 1 6", "group": "memory:(1, 1, 6)", "id": "ed5cffbc6abd0a3e"}
+{"task": "memory", "prompt": "разверни 1 1 6", "answer": "6 1 1", "group": "memory:(1, 1, 6)", "id": "3a4fd69e87b18cb4"}
+{"task": "memory", "prompt": "повтори 4 1 8", "answer": "4 1 8", "group": "memory:(4, 1, 8)", "id": "d9c22070a8ca9b23"}
+{"task": "memory", "prompt": "разверни 4 1 8", "answer": "8 1 4", "group": "memory:(4, 1, 8)", "id": "db82ccf2e5ea2b72"}
+{"task": "memory", "prompt": "повтори 9 1 0", "answer": "9 1 0", "group": "memory:(9, 1, 0)", "id": "7e2f2bf9e8bbc370"}
+{"task": "memory", "prompt": "разверни 9 1 0", "answer": "0 1 9", "group": "memory:(9, 1, 0)", "id": "fc2a0ca4ec3a729f"}
+{"task": "memory", "prompt": "повтори 7 4 7", "answer": "7 4 7", "group": "memory:(7, 4, 7)", "id": "a4112d7218463e2b"}
+{"task": "memory", "prompt": "разверни 7 4 7", "answer": "7 4 7", "group": "memory:(7, 4, 7)", "id": "4e255a51d8eb8fac"}
+{"task": "memory", "prompt": "повтори 7 5 7", "answer": "7 5 7", "group": "memory:(7, 5, 7)", "id": "8165f4af8e9c4437"}
+{"task": "memory", "prompt": "разверни 7 5 7", "answer": "7 5 7", "group": "memory:(7, 5, 7)", "id": "142b4868d9946f3b"}
+{"task": "memory", "prompt": "повтори 1 0 2", "answer": "1 0 2", "group": "memory:(1, 0, 2)", "id": "15c802d1cb145efe"}
+{"task": "memory", "prompt": "разверни 1 0 2", "answer": "2 0 1", "group": "memory:(1, 0, 2)", "id": "b21f5d1c3f9af246"}
+{"task": "memory", "prompt": "повтори 8 4 8", "answer": "8 4 8", "group": "memory:(8, 4, 8)", "id": "304eb73eaf2bc562"}
+{"task": "memory", "prompt": "разверни 8 4 8", "answer": "8 4 8", "group": "memory:(8, 4, 8)", "id": "d8f5c35ccb0a0c1f"}
+{"task": "memory", "prompt": "повтори 2 8 1", "answer": "2 8 1", "group": "memory:(2, 8, 1)", "id": "b42af19f4eb0ad34"}
+{"task": "memory", "prompt": "разверни 2 8 1", "answer": "1 8 2", "group": "memory:(2, 8, 1)", "id": "712e219e08f1fdea"}
+{"task": "memory", "prompt": "повтори 3 0 3", "answer": "3 0 3", "group": "memory:(3, 0, 3)", "id": "7a2ba49682d7776d"}
+{"task": "memory", "prompt": "разверни 3 0 3", "answer": "3 0 3", "group": "memory:(3, 0, 3)", "id": "67ccd52ca4169b3e"}
+{"task": "memory", "prompt": "повтори 1 7 6", "answer": "1 7 6", "group": "memory:(1, 7, 6)", "id": "240c9b2c29fc7257"}
+{"task": "memory", "prompt": "разверни 1 7 6", "answer": "6 7 1", "group": "memory:(1, 7, 6)", "id": "805f372813d47a35"}
+{"task": "memory", "prompt": "повтори 9 4 8", "answer": "9 4 8", "group": "memory:(9, 4, 8)", "id": "d1a3fe15bb9e54a3"}
+{"task": "memory", "prompt": "разверни 9 4 8", "answer": "8 4 9", "group": "memory:(9, 4, 8)", "id": "446c20cb05357d50"}
+{"task": "memory", "prompt": "повтори 5 0 1", "answer": "5 0 1", "group": "memory:(5, 0, 1)", "id": "6608f84939bd99ac"}
+{"task": "memory", "prompt": "разверни 5 0 1", "answer": "1 0 5", "group": "memory:(5, 0, 1)", "id": "e6ae9b73f5b3d254"}
+{"task": "memory", "prompt": "повтори 5 8 3", "answer": "5 8 3", "group": "memory:(5, 8, 3)", "id": "0b95af4b095fb03c"}
+{"task": "memory", "prompt": "разверни 5 8 3", "answer": "3 8 5", "group": "memory:(5, 8, 3)", "id": "65f290329052b45e"}
+{"task": "memory", "prompt": "повтори 5 6 4", "answer": "5 6 4", "group": "memory:(5, 6, 4)", "id": "bec6e9dbb37d6b8c"}
+{"task": "memory", "prompt": "разверни 5 6 4", "answer": "4 6 5", "group": "memory:(5, 6, 4)", "id": "dfecc8a42995325c"}
+{"task": "memory", "prompt": "повтори 8 8 2", "answer": "8 8 2", "group": "memory:(8, 8, 2)", "id": "d6ebc430e15fe91a"}
+{"task": "memory", "prompt": "разверни 8 8 2", "answer": "2 8 8", "group": "memory:(8, 8, 2)", "id": "7e7aa2f3273ec938"}
+{"task": "memory", "prompt": "повтори 3 6 7", "answer": "3 6 7", "group": "memory:(3, 6, 7)", "id": "35272f6abbc4fdf9"}
+{"task": "memory", "prompt": "разверни 3 6 7", "answer": "7 6 3", "group": "memory:(3, 6, 7)", "id": "8a964d4530b50f30"}
+{"task": "memory", "prompt": "повтори 6 1 6", "answer": "6 1 6", "group": "memory:(6, 1, 6)", "id": "ba300d75f95d1b66"}
+{"task": "memory", "prompt": "разверни 6 1 6", "answer": "6 1 6", "group": "memory:(6, 1, 6)", "id": "ff2b8e6ace437022"}
+{"task": "memory", "prompt": "повтори 7 7 8", "answer": "7 7 8", "group": "memory:(7, 7, 8)", "id": "3f8ed28f82d56cea"}
+{"task": "memory", "prompt": "разверни 7 7 8", "answer": "8 7 7", "group": "memory:(7, 7, 8)", "id": "46f567c914060065"}
+{"task": "memory", "prompt": "повтори 1 4 4", "answer": "1 4 4", "group": "memory:(1, 4, 4)", "id": "157b40e6f1003318"}
+{"task": "memory", "prompt": "разверни 1 4 4", "answer": "4 4 1", "group": "memory:(1, 4, 4)", "id": "10ab0682f6366c90"}
+{"task": "memory", "prompt": "повтори 9 3 9", "answer": "9 3 9", "group": "memory:(9, 3, 9)", "id": "16484db12aee7b0e"}
+{"task": "memory", "prompt": "разверни 9 3 9", "answer": "9 3 9", "group": "memory:(9, 3, 9)", "id": "0e0592c129496043"}
+{"task": "memory", "prompt": "повтори 0 1 0", "answer": "0 1 0", "group": "memory:(0, 1, 0)", "id": "3fd851580e3b223d"}
+{"task": "memory", "prompt": "разверни 0 1 0", "answer": "0 1 0", "group": "memory:(0, 1, 0)", "id": "5f296bf5fff62bf4"}
+{"task": "memory", "prompt": "повтори 8 5 7", "answer": "8 5 7", "group": "memory:(8, 5, 7)", "id": "479211786b1a9cdc"}
+{"task": "memory", "prompt": "разверни 8 5 7", "answer": "7 5 8", "group": "memory:(8, 5, 7)", "id": "4aed2f6040565500"}
+{"task": "memory", "prompt": "повтори 6 4 7", "answer": "6 4 7", "group": "memory:(6, 4, 7)", "id": "7b40dcf36885684a"}
+{"task": "memory", "prompt": "разверни 6 4 7", "answer": "7 4 6", "group": "memory:(6, 4, 7)", "id": "c9173eef091fba53"}
+{"task": "memory", "prompt": "повтори 4 3 2", "answer": "4 3 2", "group": "memory:(4, 3, 2)", "id": "32dfdaffefc8ee43"}
+{"task": "memory", "prompt": "разверни 4 3 2", "answer": "2 3 4", "group": "memory:(4, 3, 2)", "id": "b8c536812af687eb"}
+{"task": "memory", "prompt": "повтори 2 2 3", "answer": "2 2 3", "group": "memory:(2, 2, 3)", "id": "4e7ca830486470a1"}
+{"task": "memory", "prompt": "разверни 2 2 3", "answer": "3 2 2", "group": "memory:(2, 2, 3)", "id": "7f55b797dbdce381"}
+{"task": "memory", "prompt": "повтори 0 7 6", "answer": "0 7 6", "group": "memory:(0, 7, 6)", "id": "8883a55b5fe0d9d8"}
+{"task": "memory", "prompt": "разверни 0 7 6", "answer": "6 7 0", "group": "memory:(0, 7, 6)", "id": "5edf0d45cd9daeef"}
+{"task": "memory", "prompt": "повтори 6 7 5", "answer": "6 7 5", "group": "memory:(6, 7, 5)", "id": "1149667c6e6a1f5f"}
+{"task": "memory", "prompt": "разверни 6 7 5", "answer": "5 7 6", "group": "memory:(6, 7, 5)", "id": "ddaccae13cba629b"}
+{"task": "memory", "prompt": "повтори 5 8 1", "answer": "5 8 1", "group": "memory:(5, 8, 1)", "id": "0c773232c95cb593"}
+{"task": "memory", "prompt": "разверни 5 8 1", "answer": "1 8 5", "group": "memory:(5, 8, 1)", "id": "aee47479f60b1c9f"}
+{"task": "memory", "prompt": "повтори 9 5 1", "answer": "9 5 1", "group": "memory:(9, 5, 1)", "id": "77e3b7469f9d0a7d"}
+{"task": "memory", "prompt": "разверни 9 5 1", "answer": "1 5 9", "group": "memory:(9, 5, 1)", "id": "438d3916dd0c6665"}
+{"task": "memory", "prompt": "повтори 1 7 4", "answer": "1 7 4", "group": "memory:(1, 7, 4)", "id": "b2ae95338cfd1c4b"}
+{"task": "memory", "prompt": "разверни 1 7 4", "answer": "4 7 1", "group": "memory:(1, 7, 4)", "id": "5f1f530cf2515377"}
+{"task": "memory", "prompt": "повтори 4 6 9", "answer": "4 6 9", "group": "memory:(4, 6, 9)", "id": "4a280505b58b6d1a"}
+{"task": "memory", "prompt": "разверни 4 6 9", "answer": "9 6 4", "group": "memory:(4, 6, 9)", "id": "8a73dc53e7af05e5"}
+{"task": "memory", "prompt": "повтори 9 3 1", "answer": "9 3 1", "group": "memory:(9, 3, 1)", "id": "7539291a475e5b2e"}
+{"task": "memory", "prompt": "разверни 9 3 1", "answer": "1 3 9", "group": "memory:(9, 3, 1)", "id": "50a74ed8cd2d82ec"}
+{"task": "memory", "prompt": "повтори 0 6 6", "answer": "0 6 6", "group": "memory:(0, 6, 6)", "id": "748985d8b3c5d7f4"}
+{"task": "memory", "prompt": "разверни 0 6 6", "answer": "6 6 0", "group": "memory:(0, 6, 6)", "id": "cbc51681336c80b8"}
+{"task": "memory", "prompt": "повтори 2 2 8", "answer": "2 2 8", "group": "memory:(2, 2, 8)", "id": "d1a0d28025a6f887"}
+{"task": "memory", "prompt": "разверни 2 2 8", "answer": "8 2 2", "group": "memory:(2, 2, 8)", "id": "3b5c471a0e28c9df"}
+{"task": "memory", "prompt": "повтори 4 6 2", "answer": "4 6 2", "group": "memory:(4, 6, 2)", "id": "438d3e4e8900cd83"}
+{"task": "memory", "prompt": "разверни 4 6 2", "answer": "2 6 4", "group": "memory:(4, 6, 2)", "id": "54623f8b629e69be"}
+{"task": "memory", "prompt": "повтори 7 5 3", "answer": "7 5 3", "group": "memory:(7, 5, 3)", "id": "229b91cd83bd5632"}
+{"task": "memory", "prompt": "разверни 7 5 3", "answer": "3 5 7", "group": "memory:(7, 5, 3)", "id": "82391fe9a000abe3"}
+{"task": "memory", "prompt": "повтори 3 1 3", "answer": "3 1 3", "group": "memory:(3, 1, 3)", "id": "92b5b5bbabf85af2"}
+{"task": "memory", "prompt": "разверни 3 1 3", "answer": "3 1 3", "group": "memory:(3, 1, 3)", "id": "24b4239725384a26"}
+{"task": "memory", "prompt": "повтори 9 7 8", "answer": "9 7 8", "group": "memory:(9, 7, 8)", "id": "021d4efc4bd63796"}
+{"task": "memory", "prompt": "разверни 9 7 8", "answer": "8 7 9", "group": "memory:(9, 7, 8)", "id": "bb2839fda0f703ee"}
+{"task": "memory", "prompt": "повтори 9 0 5", "answer": "9 0 5", "group": "memory:(9, 0, 5)", "id": "0d5899057c7ba85d"}
+{"task": "memory", "prompt": "разверни 9 0 5", "answer": "5 0 9", "group": "memory:(9, 0, 5)", "id": "9a8c640d8b8ac579"}
+{"task": "memory", "prompt": "повтори 7 5 4", "answer": "7 5 4", "group": "memory:(7, 5, 4)", "id": "77f2965c8d37e44d"}
+{"task": "memory", "prompt": "разверни 7 5 4", "answer": "4 5 7", "group": "memory:(7, 5, 4)", "id": "b6e61cf0718e82f0"}
+{"task": "memory", "prompt": "повтори 6 2 8", "answer": "6 2 8", "group": "memory:(6, 2, 8)", "id": "ac6f953e34bada46"}
+{"task": "memory", "prompt": "разверни 6 2 8", "answer": "8 2 6", "group": "memory:(6, 2, 8)", "id": "f1b0b6590991e7a0"}
+{"task": "memory", "prompt": "повтори 0 9 9", "answer": "0 9 9", "group": "memory:(0, 9, 9)", "id": "05ee15ecd7cc453c"}
+{"task": "memory", "prompt": "разверни 0 9 9", "answer": "9 9 0", "group": "memory:(0, 9, 9)", "id": "f0944bb4d37e430d"}
+{"task": "memory", "prompt": "повтори 9 1 2", "answer": "9 1 2", "group": "memory:(9, 1, 2)", "id": "8ad4ecc30c57ac86"}
+{"task": "memory", "prompt": "разверни 9 1 2", "answer": "2 1 9", "group": "memory:(9, 1, 2)", "id": "c6929f8b132c5acc"}
+{"task": "memory", "prompt": "повтори 1 3 3", "answer": "1 3 3", "group": "memory:(1, 3, 3)", "id": "92d541fc1a1f9dd3"}
+{"task": "memory", "prompt": "разверни 1 3 3", "answer": "3 3 1", "group": "memory:(1, 3, 3)", "id": "e1b05e5c04d6e3d5"}
+{"task": "memory", "prompt": "повтори 6 1 8", "answer": "6 1 8", "group": "memory:(6, 1, 8)", "id": "65e2ef178abe17f8"}
+{"task": "memory", "prompt": "разверни 6 1 8", "answer": "8 1 6", "group": "memory:(6, 1, 8)", "id": "b9fedf01a2c6cf5b"}
+{"task": "memory", "prompt": "повтори 8 8 1", "answer": "8 8 1", "group": "memory:(8, 8, 1)", "id": "1265ad1235358e8b"}
+{"task": "memory", "prompt": "разверни 8 8 1", "answer": "1 8 8", "group": "memory:(8, 8, 1)", "id": "704db460f0fb9c89"}
+{"task": "memory", "prompt": "повтори 1 2 6", "answer": "1 2 6", "group": "memory:(1, 2, 6)", "id": "8a017bdb7583c41a"}
+{"task": "memory", "prompt": "разверни 1 2 6", "answer": "6 2 1", "group": "memory:(1, 2, 6)", "id": "d96ad5504fcd35bf"}
+{"task": "memory", "prompt": "повтори 4 3 7", "answer": "4 3 7", "group": "memory:(4, 3, 7)", "id": "5753ae33a810b56a"}
+{"task": "memory", "prompt": "разверни 4 3 7", "answer": "7 3 4", "group": "memory:(4, 3, 7)", "id": "a53bb28844ed3cd2"}
+{"task": "memory", "prompt": "повтори 6 7 0", "answer": "6 7 0", "group": "memory:(6, 7, 0)", "id": "aef94b5ccb968cc0"}
+{"task": "memory", "prompt": "разверни 6 7 0", "answer": "0 7 6", "group": "memory:(6, 7, 0)", "id": "0d88bd99930625e5"}
+{"task": "memory", "prompt": "повтори 5 6 3", "answer": "5 6 3", "group": "memory:(5, 6, 3)", "id": "c69694b62d340e89"}
+{"task": "memory", "prompt": "разверни 5 6 3", "answer": "3 6 5", "group": "memory:(5, 6, 3)", "id": "c4874ffa40fab01b"}
+{"task": "memory", "prompt": "повтори 7 8 2", "answer": "7 8 2", "group": "memory:(7, 8, 2)", "id": "ee29ef9a671520ef"}
+{"task": "memory", "prompt": "разверни 7 8 2", "answer": "2 8 7", "group": "memory:(7, 8, 2)", "id": "3dfcd7e0a856c3fb"}
+{"task": "memory", "prompt": "повтори 8 2 3", "answer": "8 2 3", "group": "memory:(8, 2, 3)", "id": "3a01da6e10646c6b"}
+{"task": "memory", "prompt": "разверни 8 2 3", "answer": "3 2 8", "group": "memory:(8, 2, 3)", "id": "2091119f3664f1be"}
+{"task": "memory", "prompt": "повтори 8 6 8", "answer": "8 6 8", "group": "memory:(8, 6, 8)", "id": "2ec353f3a9b2fa43"}
+{"task": "memory", "prompt": "разверни 8 6 8", "answer": "8 6 8", "group": "memory:(8, 6, 8)", "id": "bccd8bccbc2d1006"}
+{"task": "memory", "prompt": "повтори 5 0 4", "answer": "5 0 4", "group": "memory:(5, 0, 4)", "id": "615051dbb9086097"}
+{"task": "memory", "prompt": "разверни 5 0 4", "answer": "4 0 5", "group": "memory:(5, 0, 4)", "id": "663968a294c019fc"}
+{"task": "memory", "prompt": "повтори 0 5 5", "answer": "0 5 5", "group": "memory:(0, 5, 5)", "id": "cdf53ae434b042ec"}
+{"task": "memory", "prompt": "разверни 0 5 5", "answer": "5 5 0", "group": "memory:(0, 5, 5)", "id": "a3a82807df8488b5"}
+{"task": "memory", "prompt": "повтори 3 1 6", "answer": "3 1 6", "group": "memory:(3, 1, 6)", "id": "2813dee825ed6a2b"}
+{"task": "memory", "prompt": "разверни 3 1 6", "answer": "6 1 3", "group": "memory:(3, 1, 6)", "id": "1b49cfa82bc36029"}
+{"task": "memory", "prompt": "повтори 7 9 5", "answer": "7 9 5", "group": "memory:(7, 9, 5)", "id": "449e3789460e8cfe"}
+{"task": "memory", "prompt": "разверни 7 9 5", "answer": "5 9 7", "group": "memory:(7, 9, 5)", "id": "0f6aaf5cd8bf6e08"}
+{"task": "memory", "prompt": "повтори 2 4 5", "answer": "2 4 5", "group": "memory:(2, 4, 5)", "id": "d9c1165606c7b12e"}
+{"task": "memory", "prompt": "разверни 2 4 5", "answer": "5 4 2", "group": "memory:(2, 4, 5)", "id": "d915f8dacd130eb4"}
+{"task": "memory", "prompt": "повтори 4 0 8", "answer": "4 0 8", "group": "memory:(4, 0, 8)", "id": "76adde268dd5d8ca"}
+{"task": "memory", "prompt": "разверни 4 0 8", "answer": "8 0 4", "group": "memory:(4, 0, 8)", "id": "7266178bf30cbafa"}
+{"task": "memory", "prompt": "повтори 1 4 3", "answer": "1 4 3", "group": "memory:(1, 4, 3)", "id": "c754cf3e7e15b366"}
+{"task": "memory", "prompt": "разверни 1 4 3", "answer": "3 4 1", "group": "memory:(1, 4, 3)", "id": "7cfd32884a4e0f61"}
+{"task": "memory", "prompt": "повтори 7 3 8", "answer": "7 3 8", "group": "memory:(7, 3, 8)", "id": "3e0a679082601d6c"}
+{"task": "memory", "prompt": "разверни 7 3 8", "answer": "8 3 7", "group": "memory:(7, 3, 8)", "id": "81d8fe2f464823bd"}
+{"task": "memory", "prompt": "повтори 6 8 0", "answer": "6 8 0", "group": "memory:(6, 8, 0)", "id": "d6d3d643543e0a16"}
+{"task": "memory", "prompt": "разверни 6 8 0", "answer": "0 8 6", "group": "memory:(6, 8, 0)", "id": "5953d7a9ddb4380b"}
+{"task": "memory", "prompt": "повтори 3 0 6", "answer": "3 0 6", "group": "memory:(3, 0, 6)", "id": "d2e6bfe15ff2c250"}
+{"task": "memory", "prompt": "разверни 3 0 6", "answer": "6 0 3", "group": "memory:(3, 0, 6)", "id": "b6fc48258259f77c"}
+{"task": "memory", "prompt": "повтори 5 3 8", "answer": "5 3 8", "group": "memory:(5, 3, 8)", "id": "fc8dc6c466b654c7"}
+{"task": "memory", "prompt": "разверни 5 3 8", "answer": "8 3 5", "group": "memory:(5, 3, 8)", "id": "64821ca262336488"}
+{"task": "memory", "prompt": "повтори 5 2 1", "answer": "5 2 1", "group": "memory:(5, 2, 1)", "id": "b70af46d6459869a"}
+{"task": "memory", "prompt": "разверни 5 2 1", "answer": "1 2 5", "group": "memory:(5, 2, 1)", "id": "ceb27c26a380bd41"}
+{"task": "memory", "prompt": "повтори 8 7 5", "answer": "8 7 5", "group": "memory:(8, 7, 5)", "id": "0a5255d39b91f84a"}
+{"task": "memory", "prompt": "разверни 8 7 5", "answer": "5 7 8", "group": "memory:(8, 7, 5)", "id": "995a5e47959df2e8"}
+{"task": "memory", "prompt": "повтори 4 5 6", "answer": "4 5 6", "group": "memory:(4, 5, 6)", "id": "3aa89da0428022d7"}
+{"task": "memory", "prompt": "разверни 4 5 6", "answer": "6 5 4", "group": "memory:(4, 5, 6)", "id": "ac85e2e04bd8770c"}
+{"task": "memory", "prompt": "повтори 4 8 7", "answer": "4 8 7", "group": "memory:(4, 8, 7)", "id": "f5cb790abe00fa0c"}
+{"task": "memory", "prompt": "разверни 4 8 7", "answer": "7 8 4", "group": "memory:(4, 8, 7)", "id": "ddf5504c0b103e4e"}
+{"task": "memory", "prompt": "повтори 8 0 3", "answer": "8 0 3", "group": "memory:(8, 0, 3)", "id": "886ba51004112627"}
+{"task": "memory", "prompt": "разверни 8 0 3", "answer": "3 0 8", "group": "memory:(8, 0, 3)", "id": "c4b41cbbe9b115bf"}
+{"task": "memory", "prompt": "повтори 2 9 5", "answer": "2 9 5", "group": "memory:(2, 9, 5)", "id": "b1b7ed8e8083e465"}
+{"task": "memory", "prompt": "разверни 2 9 5", "answer": "5 9 2", "group": "memory:(2, 9, 5)", "id": "2be68d44d34969a2"}
+{"task": "memory", "prompt": "повтори 2 5 8", "answer": "2 5 8", "group": "memory:(2, 5, 8)", "id": "97b32db30440be05"}
+{"task": "memory", "prompt": "разверни 2 5 8", "answer": "8 5 2", "group": "memory:(2, 5, 8)", "id": "a3472fa68c8ee8de"}
+{"task": "memory", "prompt": "повтори 0 5 3", "answer": "0 5 3", "group": "memory:(0, 5, 3)", "id": "a4ec0c6f95a44538"}
+{"task": "memory", "prompt": "разверни 0 5 3", "answer": "3 5 0", "group": "memory:(0, 5, 3)", "id": "2c6b60ccfc8fa743"}
+{"task": "memory", "prompt": "повтори 6 8 5", "answer": "6 8 5", "group": "memory:(6, 8, 5)", "id": "7a9136228fc1d131"}
+{"task": "memory", "prompt": "разверни 6 8 5", "answer": "5 8 6", "group": "memory:(6, 8, 5)", "id": "b8ba37ca69d1e64f"}
+{"task": "memory", "prompt": "повтори 0 4 5", "answer": "0 4 5", "group": "memory:(0, 4, 5)", "id": "d8166f2094888a37"}
+{"task": "memory", "prompt": "разверни 0 4 5", "answer": "5 4 0", "group": "memory:(0, 4, 5)", "id": "26cfd7361e03e03a"}
+{"task": "memory", "prompt": "повтори 9 9 7", "answer": "9 9 7", "group": "memory:(9, 9, 7)", "id": "7e52e094e571a7e3"}
+{"task": "memory", "prompt": "разверни 9 9 7", "answer": "7 9 9", "group": "memory:(9, 9, 7)", "id": "8f9adc4b899fa0ad"}
+{"task": "memory", "prompt": "повтори 2 2 1", "answer": "2 2 1", "group": "memory:(2, 2, 1)", "id": "acd06d9fff1e8d28"}
+{"task": "memory", "prompt": "разверни 2 2 1", "answer": "1 2 2", "group": "memory:(2, 2, 1)", "id": "45d16bb9d5fd1f42"}
+{"task": "memory", "prompt": "повтори 0 6 2", "answer": "0 6 2", "group": "memory:(0, 6, 2)", "id": "0a40de09cfb49a5f"}
+{"task": "memory", "prompt": "разверни 0 6 2", "answer": "2 6 0", "group": "memory:(0, 6, 2)", "id": "99efe3adf51766cc"}
+{"task": "memory", "prompt": "повтори 1 5 7", "answer": "1 5 7", "group": "memory:(1, 5, 7)", "id": "d667752b6c1aa9f4"}
+{"task": "memory", "prompt": "разверни 1 5 7", "answer": "7 5 1", "group": "memory:(1, 5, 7)", "id": "4b840ad87615dc02"}
+{"task": "memory", "prompt": "повтори 6 9 1", "answer": "6 9 1", "group": "memory:(6, 9, 1)", "id": "95ba5ac6b60d95c6"}
+{"task": "memory", "prompt": "разверни 6 9 1", "answer": "1 9 6", "group": "memory:(6, 9, 1)", "id": "1ba4be03a961c886"}
+{"task": "memory", "prompt": "повтори 0 4 9", "answer": "0 4 9", "group": "memory:(0, 4, 9)", "id": "0c94bca38f875ccd"}
+{"task": "memory", "prompt": "разверни 0 4 9", "answer": "9 4 0", "group": "memory:(0, 4, 9)", "id": "4c424bb73a6cc049"}
+{"task": "memory", "prompt": "повтори 2 7 6", "answer": "2 7 6", "group": "memory:(2, 7, 6)", "id": "c5a67890220c6b9d"}
+{"task": "memory", "prompt": "разверни 2 7 6", "answer": "6 7 2", "group": "memory:(2, 7, 6)", "id": "77c922aca264d097"}
+{"task": "memory", "prompt": "повтори 6 2 6", "answer": "6 2 6", "group": "memory:(6, 2, 6)", "id": "8c65cb7e8d5feba4"}
+{"task": "memory", "prompt": "разверни 6 2 6", "answer": "6 2 6", "group": "memory:(6, 2, 6)", "id": "d5cbea4a87d8348f"}
+{"task": "memory", "prompt": "повтори 8 6 2", "answer": "8 6 2", "group": "memory:(8, 6, 2)", "id": "5cf15b5571913069"}
+{"task": "memory", "prompt": "разверни 8 6 2", "answer": "2 6 8", "group": "memory:(8, 6, 2)", "id": "043cad450826cea7"}
+{"task": "memory", "prompt": "повтори 9 8 9", "answer": "9 8 9", "group": "memory:(9, 8, 9)", "id": "4f3efc8bcb091bcd"}
+{"task": "memory", "prompt": "разверни 9 8 9", "answer": "9 8 9", "group": "memory:(9, 8, 9)", "id": "a99705e5ec056a0e"}
+{"task": "memory", "prompt": "повтори 2 0 5", "answer": "2 0 5", "group": "memory:(2, 0, 5)", "id": "e8f5a8d09c63e808"}
+{"task": "memory", "prompt": "разверни 2 0 5", "answer": "5 0 2", "group": "memory:(2, 0, 5)", "id": "5688485bb5392a53"}
+{"task": "memory", "prompt": "повтори 6 7 2", "answer": "6 7 2", "group": "memory:(6, 7, 2)", "id": "e702c4cf35e256a1"}
+{"task": "memory", "prompt": "разверни 6 7 2", "answer": "2 7 6", "group": "memory:(6, 7, 2)", "id": "c137643afcd9083a"}
+{"task": "memory", "prompt": "повтори 9 6 3", "answer": "9 6 3", "group": "memory:(9, 6, 3)", "id": "569d50ebd3a5c7cf"}
+{"task": "memory", "prompt": "разверни 9 6 3", "answer": "3 6 9", "group": "memory:(9, 6, 3)", "id": "8b68877c61df1be3"}
+{"task": "code", "prompt": "код сложи x y", "answer": "def f ( x , y ) : return x + y", "group": "code:x:y", "id": "352387a5defd5978"}
+{"task": "code", "prompt": "напиши код сложи x y", "answer": "def f ( x , y ) : return x + y", "group": "code:x:y", "id": "83c50949d6fc84ba"}
+{"task": "code", "prompt": "пожалуйста напиши код сложи x y", "answer": "def f ( x , y ) : return x + y", "group": "code:x:y", "id": "f9272bda487777b4"}
+{"task": "code", "prompt": "код вычти x y", "answer": "def f ( x , y ) : return x - y", "group": "code:x:y", "id": "782a2d19dd86d1b5"}
+{"task": "code", "prompt": "напиши код вычти x y", "answer": "def f ( x , y ) : return x - y", "group": "code:x:y", "id": "fab2c93d491ec487"}
+{"task": "code", "prompt": "пожалуйста напиши код вычти x y", "answer": "def f ( x , y ) : return x - y", "group": "code:x:y", "id": "7f795ee76166444f"}
+{"task": "code", "prompt": "код максимум x y", "answer": "def f ( x , y ) : return max ( x , y )", "group": "code:x:y", "id": "c5a9245c50d86723"}
+{"task": "code", "prompt": "напиши код максимум x y", "answer": "def f ( x , y ) : return max ( x , y )", "group": "code:x:y", "id": "38ef372f01d393c4"}
+{"task": "code", "prompt": "пожалуйста напиши код максимум x y", "answer": "def f ( x , y ) : return max ( x , y )", "group": "code:x:y", "id": "9134a42ec351cb45"}
+{"task": "code", "prompt": "код минимум x y", "answer": "def f ( x , y ) : return min ( x , y )", "group": "code:x:y", "id": "7e395fcb44424a32"}
+{"task": "code", "prompt": "напиши код минимум x y", "answer": "def f ( x , y ) : return min ( x , y )", "group": "code:x:y", "id": "da82ef4fe72e9a7f"}
+{"task": "code", "prompt": "пожалуйста напиши код минимум x y", "answer": "def f ( x , y ) : return min ( x , y )", "group": "code:x:y", "id": "f6c0f6d556dfefa4"}
+{"task": "code", "prompt": "код сложи a b", "answer": "def f ( a , b ) : return a + b", "group": "code:a:b", "id": "5b62f311ad19d020"}
+{"task": "code", "prompt": "напиши код сложи a b", "answer": "def f ( a , b ) : return a + b", "group": "code:a:b", "id": "23544680dd097ee9"}
+{"task": "code", "prompt": "пожалуйста напиши код сложи a b", "answer": "def f ( a , b ) : return a + b", "group": "code:a:b", "id": "c4f0f684fec26af8"}
+{"task": "code", "prompt": "код вычти a b", "answer": "def f ( a , b ) : return a - b", "group": "code:a:b", "id": "6d106df137d063d6"}
+{"task": "code", "prompt": "напиши код вычти a b", "answer": "def f ( a , b ) : return a - b", "group": "code:a:b", "id": "2db1e165e187292a"}
+{"task": "code", "prompt": "пожалуйста напиши код вычти a b", "answer": "def f ( a , b ) : return a - b", "group": "code:a:b", "id": "3cdfe17792cb19ba"}
+{"task": "code", "prompt": "код максимум a b", "answer": "def f ( a , b ) : return max ( a , b )", "group": "code:a:b", "id": "f2be00d1a44f942a"}
+{"task": "code", "prompt": "напиши код максимум a b", "answer": "def f ( a , b ) : return max ( a , b )", "group": "code:a:b", "id": "4437beac58b99386"}
+{"task": "code", "prompt": "пожалуйста напиши код максимум a b", "answer": "def f ( a , b ) : return max ( a , b )", "group": "code:a:b", "id": "7cdbc5974f167935"}
+{"task": "code", "prompt": "код минимум a b", "answer": "def f ( a , b ) : return min ( a , b )", "group": "code:a:b", "id": "5877c18497a7c8fa"}
+{"task": "code", "prompt": "напиши код минимум a b", "answer": "def f ( a , b ) : return min ( a , b )", "group": "code:a:b", "id": "2e04832b2c7e610c"}
+{"task": "code", "prompt": "пожалуйста напиши код минимум a b", "answer": "def f ( a , b ) : return min ( a , b )", "group": "code:a:b", "id": "36b8a05b194963ef"}
+{"task": "code", "prompt": "код сложи y x", "answer": "def f ( y , x ) : return y + x", "group": "code:y:x", "id": "40b564c0dacefbd5"}
+{"task": "code", "prompt": "напиши код сложи y x", "answer": "def f ( y , x ) : return y + x", "group": "code:y:x", "id": "22acfef056efa241"}
+{"task": "code", "prompt": "пожалуйста напиши код сложи y x", "answer": "def f ( y , x ) : return y + x", "group": "code:y:x", "id": "7e3f3cdcb6b5f4d6"}
+{"task": "code", "prompt": "код вычти y x", "answer": "def f ( y , x ) : return y - x", "group": "code:y:x", "id": "ef906093f0e34469"}
+{"task": "code", "prompt": "напиши код вычти y x", "answer": "def f ( y , x ) : return y - x", "group": "code:y:x", "id": "d1dc029204a2c19a"}
+{"task": "code", "prompt": "пожалуйста напиши код вычти y x", "answer": "def f ( y , x ) : return y - x", "group": "code:y:x", "id": "b6101a6b444a06c1"}
+{"task": "code", "prompt": "код максимум y x", "answer": "def f ( y , x ) : return max ( y , x )", "group": "code:y:x", "id": "bc7498caa03486a1"}
+{"task": "code", "prompt": "напиши код максимум y x", "answer": "def f ( y , x ) : return max ( y , x )", "group": "code:y:x", "id": "a7f662fb88f45e58"}
+{"task": "code", "prompt": "пожалуйста напиши код максимум y x", "answer": "def f ( y , x ) : return max ( y , x )", "group": "code:y:x", "id": "ed962a8cf75140f8"}
+{"task": "code", "prompt": "код минимум y x", "answer": "def f ( y , x ) : return min ( y , x )", "group": "code:y:x", "id": "abfd940758ea3dac"}
+{"task": "code", "prompt": "напиши код минимум y x", "answer": "def f ( y , x ) : return min ( y , x )", "group": "code:y:x", "id": "1d606b0b4b1d710e"}
+{"task": "code", "prompt": "пожалуйста напиши код минимум y x", "answer": "def f ( y , x ) : return min ( y , x )", "group": "code:y:x", "id": "0cd87d275f78a38d"}
+{"task": "code", "prompt": "код сложи b a", "answer": "def f ( b , a ) : return b + a", "group": "code:b:a", "id": "284eae743bde2819"}
+{"task": "code", "prompt": "напиши код сложи b a", "answer": "def f ( b , a ) : return b + a", "group": "code:b:a", "id": "7f8c37e9c40ba4d9"}
+{"task": "code", "prompt": "пожалуйста напиши код сложи b a", "answer": "def f ( b , a ) : return b + a", "group": "code:b:a", "id": "f7dc5c53ed27526b"}
+{"task": "code", "prompt": "код вычти b a", "answer": "def f ( b , a ) : return b - a", "group": "code:b:a", "id": "1e74222b1f917e72"}
+{"task": "code", "prompt": "напиши код вычти b a", "answer": "def f ( b , a ) : return b - a", "group": "code:b:a", "id": "d33d98287c5a7097"}
+{"task": "code", "prompt": "пожалуйста напиши код вычти b a", "answer": "def f ( b , a ) : return b - a", "group": "code:b:a", "id": "76871a4fc92e055e"}
+{"task": "code", "prompt": "код максимум b a", "answer": "def f ( b , a ) : return max ( b , a )", "group": "code:b:a", "id": "bedfb62a74a09d61"}
+{"task": "code", "prompt": "напиши код максимум b a", "answer": "def f ( b , a ) : return max ( b , a )", "group": "code:b:a", "id": "78bcdd563f05b2ec"}
+{"task": "code", "prompt": "пожалуйста напиши код максимум b a", "answer": "def f ( b , a ) : return max ( b , a )", "group": "code:b:a", "id": "b2862d5a29f64097"}
+{"task": "code", "prompt": "код минимум b a", "answer": "def f ( b , a ) : return min ( b , a )", "group": "code:b:a", "id": "216e23414be5631f"}
+{"task": "code", "prompt": "напиши код минимум b a", "answer": "def f ( b , a ) : return min ( b , a )", "group": "code:b:a", "id": "1ce009d0a57b682f"}
+{"task": "code", "prompt": "пожалуйста напиши код минимум b a", "answer": "def f ( b , a ) : return min ( b , a )", "group": "code:b:a", "id": "83bc5efdc97e93f8"}
+{"task": "code", "prompt": "код сложи y b", "answer": "def f ( y , b ) : return y + b", "group": "code:y:b", "id": "d96a48e953ac5fba"}
+{"task": "code", "prompt": "напиши код сложи y b", "answer": "def f ( y , b ) : return y + b", "group": "code:y:b", "id": "6823e0b775208a74"}
+{"task": "code", "prompt": "пожалуйста напиши код сложи y b", "answer": "def f ( y , b ) : return y + b", "group": "code:y:b", "id": "40fdfd8bbd2c4e28"}
+{"task": "code", "prompt": "код вычти y b", "answer": "def f ( y , b ) : return y - b", "group": "code:y:b", "id": "e2e8db9a23859692"}
+{"task": "code", "prompt": "напиши код вычти y b", "answer": "def f ( y , b ) : return y - b", "group": "code:y:b", "id": "49e4036f054fb058"}
+{"task": "code", "prompt": "пожалуйста напиши код вычти y b", "answer": "def f ( y , b ) : return y - b", "group": "code:y:b", "id": "27e2c9bb2703e465"}
+{"task": "code", "prompt": "код максимум y b", "answer": "def f ( y , b ) : return max ( y , b )", "group": "code:y:b", "id": "71c3ea9da86998ff"}
+{"task": "code", "prompt": "напиши код максимум y b", "answer": "def f ( y , b ) : return max ( y , b )", "group": "code:y:b", "id": "71422327f7f8451e"}
+{"task": "code", "prompt": "пожалуйста напиши код максимум y b", "answer": "def f ( y , b ) : return max ( y , b )", "group": "code:y:b", "id": "95fa39ec8fa777a6"}
+{"task": "code", "prompt": "код минимум y b", "answer": "def f ( y , b ) : return min ( y , b )", "group": "code:y:b", "id": "615c76f0d8df03f5"}
+{"task": "code", "prompt": "напиши код минимум y b", "answer": "def f ( y , b ) : return min ( y , b )", "group": "code:y:b", "id": "b39ac7b8c9c16f2b"}
+{"task": "code", "prompt": "пожалуйста напиши код минимум y b", "answer": "def f ( y , b ) : return min ( y , b )", "group": "code:y:b", "id": "297ef935e5d53f63"}
+{"task": "code", "prompt": "код сложи x b", "answer": "def f ( x , b ) : return x + b", "group": "code:x:b", "id": "39a288d57d9d4dae"}
+{"task": "code", "prompt": "напиши код сложи x b", "answer": "def f ( x , b ) : return x + b", "group": "code:x:b", "id": "5aa5a743630a3255"}
+{"task": "code", "prompt": "пожалуйста напиши код сложи x b", "answer": "def f ( x , b ) : return x + b", "group": "code:x:b", "id": "e74ce6766b21c20c"}
+{"task": "code", "prompt": "код вычти x b", "answer": "def f ( x , b ) : return x - b", "group": "code:x:b", "id": "709137e16eb154d6"}
+{"task": "code", "prompt": "напиши код вычти x b", "answer": "def f ( x , b ) : return x - b", "group": "code:x:b", "id": "00282f87dc16c39f"}
+{"task": "code", "prompt": "пожалуйста напиши код вычти x b", "answer": "def f ( x , b ) : return x - b", "group": "code:x:b", "id": "9d2fcdb925ae67dd"}
+{"task": "code", "prompt": "код максимум x b", "answer": "def f ( x , b ) : return max ( x , b )", "group": "code:x:b", "id": "03f61cade6688028"}
+{"task": "code", "prompt": "напиши код максимум x b", "answer": "def f ( x , b ) : return max ( x , b )", "group": "code:x:b", "id": "4a139fa2937b289c"}
+{"task": "code", "prompt": "пожалуйста напиши код максимум x b", "answer": "def f ( x , b ) : return max ( x , b )", "group": "code:x:b", "id": "ee84f57c9116482f"}
+{"task": "code", "prompt": "код минимум x b", "answer": "def f ( x , b ) : return min ( x , b )", "group": "code:x:b", "id": "b0db00e8f136cc02"}
+{"task": "code", "prompt": "напиши код минимум x b", "answer": "def f ( x , b ) : return min ( x , b )", "group": "code:x:b", "id": "89b51975ecb5b27d"}
+{"task": "code", "prompt": "пожалуйста напиши код минимум x b", "answer": "def f ( x , b ) : return min ( x , b )", "group": "code:x:b", "id": "c2f2cff926fe7d9f"}
+{"task": "code", "prompt": "код сложи b y", "answer": "def f ( b , y ) : return b + y", "group": "code:b:y", "id": "963cdf09e9698192"}
+{"task": "code", "prompt": "напиши код сложи b y", "answer": "def f ( b , y ) : return b + y", "group": "code:b:y", "id": "9cce3ad65df77dd8"}
+{"task": "code", "prompt": "пожалуйста напиши код сложи b y", "answer": "def f ( b , y ) : return b + y", "group": "code:b:y", "id": "703d62fae2a7edb8"}
+{"task": "code", "prompt": "код вычти b y", "answer": "def f ( b , y ) : return b - y", "group": "code:b:y", "id": "db36b5aa0d92d30b"}
+{"task": "code", "prompt": "напиши код вычти b y", "answer": "def f ( b , y ) : return b - y", "group": "code:b:y", "id": "9d99fc9c81f016f5"}
+{"task": "code", "prompt": "пожалуйста напиши код вычти b y", "answer": "def f ( b , y ) : return b - y", "group": "code:b:y", "id": "f695bc87a19af1e4"}
+{"task": "code", "prompt": "код максимум b y", "answer": "def f ( b , y ) : return max ( b , y )", "group": "code:b:y", "id": "f892f2c2e2704d26"}
+{"task": "code", "prompt": "напиши код максимум b y", "answer": "def f ( b , y ) : return max ( b , y )", "group": "code:b:y", "id": "72a3f35ab973c97d"}
+{"task": "code", "prompt": "пожалуйста напиши код максимум b y", "answer": "def f ( b , y ) : return max ( b , y )", "group": "code:b:y", "id": "6b6f4452556283bb"}
+{"task": "code", "prompt": "код минимум b y", "answer": "def f ( b , y ) : return min ( b , y )", "group": "code:b:y", "id": "aecc561967171018"}
+{"task": "code", "prompt": "напиши код минимум b y", "answer": "def f ( b , y ) : return min ( b , y )", "group": "code:b:y", "id": "3987dbb282a1adc0"}
+{"task": "code", "prompt": "пожалуйста напиши код минимум b y", "answer": "def f ( b , y ) : return min ( b , y )", "group": "code:b:y", "id": "0909af8928cefa19"}
+{"task": "code", "prompt": "код сложи b x", "answer": "def f ( b , x ) : return b + x", "group": "code:b:x", "id": "3990818945645506"}
+{"task": "code", "prompt": "напиши код сложи b x", "answer": "def f ( b , x ) : return b + x", "group": "code:b:x", "id": "2e8513de59462d81"}
+{"task": "code", "prompt": "пожалуйста напиши код сложи b x", "answer": "def f ( b , x ) : return b + x", "group": "code:b:x", "id": "8ff0ace01c647e7e"}
+{"task": "code", "prompt": "код вычти b x", "answer": "def f ( b , x ) : return b - x", "group": "code:b:x", "id": "c8a9267d2428e27b"}
+{"task": "code", "prompt": "напиши код вычти b x", "answer": "def f ( b , x ) : return b - x", "group": "code:b:x", "id": "d4aa9fcef9c3a8cc"}
+{"task": "code", "prompt": "пожалуйста напиши код вычти b x", "answer": "def f ( b , x ) : return b - x", "group": "code:b:x", "id": "313c0612b91911e2"}
+{"task": "code", "prompt": "код максимум b x", "answer": "def f ( b , x ) : return max ( b , x )", "group": "code:b:x", "id": "d4ebffd600ae69d8"}
+{"task": "code", "prompt": "напиши код максимум b x", "answer": "def f ( b , x ) : return max ( b , x )", "group": "code:b:x", "id": "aca97a076cc3252d"}
+{"task": "code", "prompt": "пожалуйста напиши код максимум b x", "answer": "def f ( b , x ) : return max ( b , x )", "group": "code:b:x", "id": "cdbb2bf6582278da"}
+{"task": "code", "prompt": "код минимум b x", "answer": "def f ( b , x ) : return min ( b , x )", "group": "code:b:x", "id": "0a7f4abe9ccb228d"}
+{"task": "code", "prompt": "напиши код минимум b x", "answer": "def f ( b , x ) : return min ( b , x )", "group": "code:b:x", "id": "d9a9a4672720d61f"}
+{"task": "code", "prompt": "пожалуйста напиши код минимум b x", "answer": "def f ( b , x ) : return min ( b , x )", "group": "code:b:x", "id": "9f77a1b0fa03af8f"}

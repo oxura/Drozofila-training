@@ -1,0 +1,71 @@
+{
+  "config": {
+    "mode": "continuous",
+    "condition": "fly",
+    "seed": 1,
+    "ticks": 4,
+    "steps": 6000,
+    "batch_size": 96,
+    "lr": 0.003,
+    "threads": 2,
+    "eval_every": 500
+  },
+  "best_step": 6000,
+  "lengths": {
+    "4": {
+      "by_op": {
+        "add": 0.96875,
+        "sub": 0.90625,
+        "mul_digit": 0.796875
+      },
+      "macro_exact": 0.890625
+    },
+    "8": {
+      "by_op": {
+        "add": 0.90625,
+        "sub": 0.71875,
+        "mul_digit": 0.609375
+      },
+      "macro_exact": 0.7447916666666666
+    },
+    "32": {
+      "by_op": {
+        "add": 0.46875,
+        "sub": 0.109375,
+        "mul_digit": 0.34375
+      },
+      "macro_exact": 0.3072916666666667
+    },
+    "128": {
+      "by_op": {
+        "add": 0.0,
+        "sub": 0.0,
+        "mul_digit": 0.1875
+      },
+      "macro_exact": 0.0625
+    },
+    "1000": {
+      "by_op": {
+        "add": 0.0,
+        "sub": 0.0,
+        "mul_digit": 0.21875
+      },
+      "macro_exact": 0.07291666666666667
+    }
+  },
+  "stress": {
+    "by_op": {
+      "add": 1.0,
+      "sub": 0.5,
+      "mul_digit": 1.0
+    },
+    "macro_exact": 0.8333333333333334
+  },
+  "programs_exact": 0.15833333333333333,
+  "program_count": 120,
+  "local_training_table": null,
+  "ablations_32_digits": null,
+  "direct_cache_parity": null,
+  "seconds": 8.397039765011868,
+  "checkpoint_sha256": "192878bd6110c679b6691f572c19f42001042a3120c70ef7fd6c426c64e43b46"
+}

@@ -1,0 +1,97 @@
+{
+  "config": {
+    "nodes": 256,
+    "seed": 0,
+    "cell": "lif",
+    "condition": "fly",
+    "lr": 0.003,
+    "batch_size": 63,
+    "steps_per_epoch": 16,
+    "epochs": 40,
+    "device": "cpu",
+    "threads": 2
+  },
+  "initial_val": {
+    "arithmetic": {
+      "n": 168,
+      "exact_match": 0.0
+    },
+    "memory": {
+      "n": 160,
+      "exact_match": 0.0
+    },
+    "code": {
+      "n": 24,
+      "exact_match": 0.0,
+      "valid_code": 0.0,
+      "execution_pass": 0.0
+    },
+    "macro_exact": 0.0
+  },
+  "best_epoch": 13,
+  "train_seconds": 42.202824369000155,
+  "edge_count": 7514,
+  "trainable_parameters": 28547,
+  "trainable_edge_parameters": 7514,
+  "max_observed_edge_gradient": 0.027188574895262718,
+  "selected_mean_abs_edge_log_change": 0.2000674158334732,
+  "rewiring_swaps": 0,
+  "val": {
+    "arithmetic": {
+      "n": 168,
+      "exact_match": 0.35714285714285715
+    },
+    "memory": {
+      "n": 160,
+      "exact_match": 0.0125
+    },
+    "code": {
+      "n": 24,
+      "exact_match": 0.0,
+      "valid_code": 0.9166666666666666,
+      "execution_pass": 0.5833333333333334
+    },
+    "macro_exact": 0.12321428571428572
+  },
+  "test": {
+    "arithmetic": {
+      "n": 180,
+      "exact_match": 0.3888888888888889
+    },
+    "memory": {
+      "n": 160,
+      "exact_match": 0.025
+    },
+    "code": {
+      "n": 24,
+      "exact_match": 0.0,
+      "valid_code": 0.9583333333333334,
+      "execution_pass": 0.625
+    },
+    "macro_exact": 0.13796296296296298
+  },
+  "phrasing": {
+    "arithmetic": {
+      "n": 60,
+      "exact_match": 0.36666666666666664
+    },
+    "macro_exact": 0.36666666666666664
+  },
+  "test_without_recurrent_edges": {
+    "arithmetic": {
+      "n": 180,
+      "exact_match": 0.32222222222222224
+    },
+    "memory": {
+      "n": 160,
+      "exact_match": 0.025
+    },
+    "code": {
+      "n": 24,
+      "exact_match": 0.0,
+      "valid_code": 0.75,
+      "execution_pass": 0.20833333333333334
+    },
+    "macro_exact": 0.11574074074074076
+  }
+}

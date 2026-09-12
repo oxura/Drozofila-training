@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "neurons": 138639,
+  "directed_connections": 15091983,
+  "biological_time_ms": 10,
+  "injected_neuron_source_index": 90883,
+  "total_spikes": 1,
+  "neurons_that_spiked": 1,
+  "voltage_finite": true,
+  "original_reset": "v = v_rst; w = 0; g = 0 * mV",
+  "wrapper_reset": "v = v_rst; g = 0 * mV",
+  "elapsed_seconds": 5.187014436000027,
+  "interpretation": "Numerical smoke only. No training, language, body, or validation of behaviour."
+}

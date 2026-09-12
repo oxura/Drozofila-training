@@ -1,0 +1,97 @@
+{
+  "config": {
+    "nodes": 256,
+    "seed": 1,
+    "cell": "rate",
+    "condition": "fly",
+    "lr": 0.003,
+    "batch_size": 63,
+    "steps_per_epoch": 16,
+    "epochs": 40,
+    "device": "cpu",
+    "threads": 2
+  },
+  "initial_val": {
+    "arithmetic": {
+      "n": 168,
+      "exact_match": 0.0
+    },
+    "memory": {
+      "n": 160,
+      "exact_match": 0.0
+    },
+    "code": {
+      "n": 24,
+      "exact_match": 0.0,
+      "valid_code": 0.0,
+      "execution_pass": 0.0
+    },
+    "macro_exact": 0.0
+  },
+  "best_epoch": 40,
+  "train_seconds": 14.576688343993737,
+  "edge_count": 7514,
+  "trainable_parameters": 28547,
+  "trainable_edge_parameters": 7514,
+  "max_observed_edge_gradient": 0.03486698493361473,
+  "selected_mean_abs_edge_log_change": 0.2536693811416626,
+  "rewiring_swaps": 0,
+  "val": {
+    "arithmetic": {
+      "n": 168,
+      "exact_match": 0.34523809523809523
+    },
+    "memory": {
+      "n": 160,
+      "exact_match": 0.5375
+    },
+    "code": {
+      "n": 24,
+      "exact_match": 0.0,
+      "valid_code": 0.2916666666666667,
+      "execution_pass": 0.20833333333333334
+    },
+    "macro_exact": 0.29424603174603176
+  },
+  "test": {
+    "arithmetic": {
+      "n": 180,
+      "exact_match": 0.37777777777777777
+    },
+    "memory": {
+      "n": 160,
+      "exact_match": 0.53125
+    },
+    "code": {
+      "n": 24,
+      "exact_match": 0.0,
+      "valid_code": 0.375,
+      "execution_pass": 0.2916666666666667
+    },
+    "macro_exact": 0.30300925925925926
+  },
+  "phrasing": {
+    "arithmetic": {
+      "n": 60,
+      "exact_match": 0.36666666666666664
+    },
+    "macro_exact": 0.36666666666666664
+  },
+  "test_without_recurrent_edges": {
+    "arithmetic": {
+      "n": 180,
+      "exact_match": 0.0
+    },
+    "memory": {
+      "n": 160,
+      "exact_match": 0.0
+    },
+    "code": {
+      "n": 24,
+      "exact_match": 0.0,
+      "valid_code": 0.0,
+      "execution_pass": 0.0
+    },
+    "macro_exact": 0.0
+  }
+}

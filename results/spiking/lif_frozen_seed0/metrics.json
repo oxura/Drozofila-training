@@ -1,0 +1,97 @@
+{
+  "config": {
+    "nodes": 256,
+    "seed": 0,
+    "cell": "lif",
+    "condition": "frozen",
+    "lr": 0.003,
+    "batch_size": 63,
+    "steps_per_epoch": 16,
+    "epochs": 40,
+    "device": "cpu",
+    "threads": 2
+  },
+  "initial_val": {
+    "arithmetic": {
+      "n": 168,
+      "exact_match": 0.0
+    },
+    "memory": {
+      "n": 160,
+      "exact_match": 0.0
+    },
+    "code": {
+      "n": 24,
+      "exact_match": 0.0,
+      "valid_code": 0.0,
+      "execution_pass": 0.0
+    },
+    "macro_exact": 0.0
+  },
+  "best_epoch": 15,
+  "train_seconds": 13.43897568101238,
+  "edge_count": 7514,
+  "trainable_parameters": 21033,
+  "trainable_edge_parameters": 0,
+  "max_observed_edge_gradient": 0.0,
+  "selected_mean_abs_edge_log_change": 0.0,
+  "rewiring_swaps": 0,
+  "val": {
+    "arithmetic": {
+      "n": 168,
+      "exact_match": 0.36904761904761907
+    },
+    "memory": {
+      "n": 160,
+      "exact_match": 0.0125
+    },
+    "code": {
+      "n": 24,
+      "exact_match": 0.0,
+      "valid_code": 0.9166666666666666,
+      "execution_pass": 0.3333333333333333
+    },
+    "macro_exact": 0.1271825396825397
+  },
+  "test": {
+    "arithmetic": {
+      "n": 180,
+      "exact_match": 0.40555555555555556
+    },
+    "memory": {
+      "n": 160,
+      "exact_match": 0.025
+    },
+    "code": {
+      "n": 24,
+      "exact_match": 0.0,
+      "valid_code": 0.8333333333333334,
+      "execution_pass": 0.2916666666666667
+    },
+    "macro_exact": 0.14351851851851852
+  },
+  "phrasing": {
+    "arithmetic": {
+      "n": 60,
+      "exact_match": 0.36666666666666664
+    },
+    "macro_exact": 0.36666666666666664
+  },
+  "test_without_recurrent_edges": {
+    "arithmetic": {
+      "n": 180,
+      "exact_match": 0.3111111111111111
+    },
+    "memory": {
+      "n": 160,
+      "exact_match": 0.0125
+    },
+    "code": {
+      "n": 24,
+      "exact_match": 0.0,
+      "valid_code": 0.8333333333333334,
+      "execution_pass": 0.25
+    },
+    "macro_exact": 0.10787037037037038
+  }
+}

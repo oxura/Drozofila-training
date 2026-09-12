@@ -1,0 +1,1 @@
+{"epoch": 41, "training_loss": 0.34520516358315945, "val": {"arithmetic": {"n": 168, "exact_match": 0.3273809523809524}, "memory": {"n": 160, "exact_match": 0.525}, "code": {"n": 24, "exact_match": 0.0, "valid_code": 0.3333333333333333, "execution_pass": 0.2916666666666667}, "macro_exact": 0.2841269841269842}, "elapsed_seconds": 0.3724681390012847}

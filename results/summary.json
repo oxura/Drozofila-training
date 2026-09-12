@@ -1,0 +1,436 @@
+{
+  "runs": 18,
+  "groups": [
+    {
+      "cell": "lif",
+      "condition": "fly",
+      "seeds": 3,
+      "arithmetic": {
+        "mean": 0.3574074074074074,
+        "std": 0.03059761415158946
+      },
+      "memory": {
+        "mean": 0.06666666666666667,
+        "std": 0.0616610357789531
+      },
+      "code_exact": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "code_execution": {
+        "mean": 0.8194444444444444,
+        "std": 0.1878854063676206
+      },
+      "phrasing": {
+        "mean": 0.37222222222222223,
+        "std": 0.009622504486493792
+      },
+      "edges_removed_macro": {
+        "mean": 0.05709876543209877,
+        "std": 0.051986707350994914
+      },
+      "parameters": 28547,
+      "edge_parameters": 7514
+    },
+    {
+      "cell": "lif",
+      "condition": "frozen",
+      "seeds": 3,
+      "arithmetic": {
+        "mean": 0.37037037037037035,
+        "std": 0.030597614151589462
+      },
+      "memory": {
+        "mean": 0.035416666666666666,
+        "std": 0.009547032697824665
+      },
+      "code_exact": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "code_execution": {
+        "mean": 0.6111111111111112,
+        "std": 0.2956082868582328
+      },
+      "phrasing": {
+        "mean": 0.3333333333333333,
+        "std": 0.05773502691896256
+      },
+      "edges_removed_macro": {
+        "mean": 0.06628086419753088,
+        "std": 0.03613360924669028
+      },
+      "parameters": 21033,
+      "edge_parameters": 0
+    },
+    {
+      "cell": "lif",
+      "condition": "rewired",
+      "seeds": 3,
+      "arithmetic": {
+        "mean": 0.32037037037037036,
+        "std": 0.04456003487228133
+      },
+      "memory": {
+        "mean": 0.08541666666666667,
+        "std": 0.02525907427704613
+      },
+      "code_exact": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "code_execution": {
+        "mean": 0.875,
+        "std": 0.08333333333333337
+      },
+      "phrasing": {
+        "mean": 0.2833333333333333,
+        "std": 0.04999999999999999
+      },
+      "edges_removed_macro": {
+        "mean": 0.009259259259259259,
+        "std": 0.0037037037037037034
+      },
+      "parameters": 28547,
+      "edge_parameters": 7514
+    },
+    {
+      "cell": "rate",
+      "condition": "fly",
+      "seeds": 3,
+      "arithmetic": {
+        "mean": 0.37222222222222223,
+        "std": 0.01469861839480328
+      },
+      "memory": {
+        "mean": 0.50625,
+        "std": 0.028641098093474007
+      },
+      "code_exact": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "code_execution": {
+        "mean": 0.4583333333333333,
+        "std": 0.16666666666666666
+      },
+      "phrasing": {
+        "mean": 0.3555555555555555,
+        "std": 0.00962250448649376
+      },
+      "edges_removed_macro": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "parameters": 28547,
+      "edge_parameters": 7514
+    },
+    {
+      "cell": "rate",
+      "condition": "frozen",
+      "seeds": 3,
+      "arithmetic": {
+        "mean": 0.36666666666666664,
+        "std": 0.0111111111111111
+      },
+      "memory": {
+        "mean": 0.22083333333333333,
+        "std": 0.0355390043942333
+      },
+      "code_exact": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "code_execution": {
+        "mean": 0.2222222222222222,
+        "std": 0.04811252243246882
+      },
+      "phrasing": {
+        "mean": 0.3222222222222222,
+        "std": 0.02545875386086577
+      },
+      "edges_removed_macro": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "parameters": 21033,
+      "edge_parameters": 0
+    },
+    {
+      "cell": "rate",
+      "condition": "rewired",
+      "seeds": 3,
+      "arithmetic": {
+        "mean": 0.3907407407407408,
+        "std": 0.023129622216290367
+      },
+      "memory": {
+        "mean": 0.32708333333333334,
+        "std": 0.06260408000548634
+      },
+      "code_exact": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "code_execution": {
+        "mean": 0.2638888888888889,
+        "std": 0.10485881160098263
+      },
+      "phrasing": {
+        "mean": 0.3333333333333333,
+        "std": 0.0
+      },
+      "edges_removed_macro": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "parameters": 28547,
+      "edge_parameters": 7514
+    }
+  ],
+  "source": {
+    "source_neurons": 138639,
+    "source_rows": 15091983,
+    "source_synapse_count": 54492922,
+    "source_zero_weight_rows": 0,
+    "source_self_loop_rows": 0,
+    "aggregate_pairs_before_zero_removal": 15091983,
+    "active_directed_pairs": 15091983,
+    "source_positive_rows": 9059302,
+    "source_negative_rows": 6032681,
+    "source_sha": "91bdd1e7dcf193f3e7ca5a8933497fcef63b7960",
+    "full_graph_rate_smoke": [
+      {
+        "step": 1,
+        "active_neurons": 1,
+        "l2_norm": 0.7615941762924194
+      },
+      {
+        "step": 2,
+        "active_neurons": 9784,
+        "l2_norm": 6.266812801361084
+      },
+      {
+        "step": 3,
+        "active_neurons": 47247,
+        "l2_norm": 7.309030532836914
+      },
+      {
+        "step": 4,
+        "active_neurons": 117993,
+        "l2_norm": 7.051988124847412
+      },
+      {
+        "step": 5,
+        "active_neurons": 132510,
+        "l2_norm": 1.2879923582077026
+      },
+      {
+        "step": 6,
+        "active_neurons": 135310,
+        "l2_norm": 0.6414780020713806
+      },
+      {
+        "step": 7,
+        "active_neurons": 135632,
+        "l2_norm": 0.1664552092552185
+      },
+      {
+        "step": 8,
+        "active_neurons": 135334,
+        "l2_norm": 0.05733325704932213
+      },
+      {
+        "step": 9,
+        "active_neurons": 134502,
+        "l2_norm": 0.0212465338408947
+      },
+      {
+        "step": 10,
+        "active_neurons": 132035,
+        "l2_norm": 0.005985118914395571
+      },
+      {
+        "step": 11,
+        "active_neurons": 125926,
+        "l2_norm": 0.0032234136015176773
+      },
+      {
+        "step": 12,
+        "active_neurons": 118597,
+        "l2_norm": 0.0011091438354924321
+      }
+    ],
+    "pilot": {
+      "nodes": 256,
+      "edges": 7514,
+      "positive_edges": 4056,
+      "negative_edges": 3458,
+      "removed_self_edges": 0,
+      "selection": "strong-neighbor traversal from maximum outgoing absolute strength",
+      "center_source_index": 90883,
+      "center_root_id": "720575940628908548",
+      "selected_fraction": 0.0018465222628553293,
+      "graph_sha256": "66a7d9946ffa699bcb6d6647d7a7bc4c802b72d1bb3fc47b5700d8cd2d806cde"
+    },
+    "prepare_seconds": 4.025755365000805
+  },
+  "sum_training_process_seconds": 353.8359607459861,
+  "optimizer_steps_per_run": 640,
+  "training_sample_draws_per_run": 40320,
+  "memory_breakdown": {
+    "rate/fly/повтори": {
+      "mean": 0.7041666666666666,
+      "std": 0.03608439182435161
+    },
+    "rate/fly/разверни": {
+      "mean": 0.30833333333333335,
+      "std": 0.026020824993326683
+    },
+    "rate/frozen/повтори": {
+      "mean": 0.35833333333333334,
+      "std": 0.06414501799308606
+    },
+    "rate/frozen/разверни": {
+      "mean": 0.08333333333333333,
+      "std": 0.00721687836487032
+    },
+    "rate/rewired/повтори": {
+      "mean": 0.4875,
+      "std": 0.09762812094883319
+    },
+    "rate/rewired/разверни": {
+      "mean": 0.16666666666666666,
+      "std": 0.04018187817080397
+    },
+    "lif/fly/повтори": {
+      "mean": 0.06666666666666667,
+      "std": 0.0616610357789531
+    },
+    "lif/fly/разверни": {
+      "mean": 0.06666666666666667,
+      "std": 0.0616610357789531
+    },
+    "lif/frozen/повтори": {
+      "mean": 0.04166666666666667,
+      "std": 0.014433756729740645
+    },
+    "lif/frozen/разверни": {
+      "mean": 0.029166666666666667,
+      "std": 0.00721687836487032
+    },
+    "lif/rewired/повтори": {
+      "mean": 0.11666666666666667,
+      "std": 0.026020824993326665
+    },
+    "lif/rewired/разверни": {
+      "mean": 0.05416666666666667,
+      "std": 0.02602082499332666
+    }
+  },
+  "arithmetic_breakdown": {
+    "rate/fly/сложи": {
+      "mean": 0.02962962962962963,
+      "std": 0.033945005147821034
+    },
+    "rate/fly/вычти": {
+      "mean": 0.014814814814814815,
+      "std": 0.012830005981991684
+    },
+    "rate/fly/максимум": {
+      "mean": 0.7333333333333333,
+      "std": 0.08888888888888885
+    },
+    "rate/fly/минимум": {
+      "mean": 0.7111111111111111,
+      "std": 0.0222222222222222
+    },
+    "rate/frozen/сложи": {
+      "mean": 0.05925925925925926,
+      "std": 0.012830005981991683
+    },
+    "rate/frozen/вычти": {
+      "mean": 0.007407407407407408,
+      "std": 0.012830005981991684
+    },
+    "rate/frozen/максимум": {
+      "mean": 0.6666666666666666,
+      "std": 0.05879447357921315
+    },
+    "rate/frozen/минимум": {
+      "mean": 0.7333333333333333,
+      "std": 0.08012336167697753
+    },
+    "rate/rewired/сложи": {
+      "mean": 0.059259259259259255,
+      "std": 0.05592469952052407
+    },
+    "rate/rewired/вычти": {
+      "mean": 0,
+      "std": 0.0
+    },
+    "rate/rewired/максимум": {
+      "mean": 0.7925925925925926,
+      "std": 0.08981004187394175
+    },
+    "rate/rewired/минимум": {
+      "mean": 0.7111111111111111,
+      "std": 0.04444444444444445
+    },
+    "lif/fly/сложи": {
+      "mean": 0.014814814814814815,
+      "std": 0.012830005981991684
+    },
+    "lif/fly/вычти": {
+      "mean": 0.022222222222222223,
+      "std": 0.03849001794597505
+    },
+    "lif/fly/максимум": {
+      "mean": 0.6592592592592592,
+      "std": 0.05592469952052409
+    },
+    "lif/fly/минимум": {
+      "mean": 0.7333333333333333,
+      "std": 0.07698003589195009
+    },
+    "lif/frozen/сложи": {
+      "mean": 0.044444444444444446,
+      "std": 0.044444444444444446
+    },
+    "lif/frozen/вычти": {
+      "mean": 0.007407407407407408,
+      "std": 0.012830005981991684
+    },
+    "lif/frozen/максимум": {
+      "mean": 0.6666666666666666,
+      "std": 0.05879447357921308
+    },
+    "lif/frozen/минимум": {
+      "mean": 0.762962962962963,
+      "std": 0.13394919496314905
+    },
+    "lif/rewired/сложи": {
+      "mean": 0.014814814814814815,
+      "std": 0.012830005981991684
+    },
+    "lif/rewired/вычти": {
+      "mean": 0.007407407407407408,
+      "std": 0.012830005981991684
+    },
+    "lif/rewired/максимум": {
+      "mean": 0.5925925925925926,
+      "std": 0.10961961916258327
+    },
+    "lif/rewired/минимум": {
+      "mean": 0.6666666666666666,
+      "std": 0.11547005383792519
+    }
+  },
+  "lif_activity_probe": {
+    "prompt": "пожалуйста сложи числа 3 и 4",
+    "steps": 8,
+    "spikes": 23,
+    "neurons_that_spiked": 22,
+    "seed": 0
+  }
+}

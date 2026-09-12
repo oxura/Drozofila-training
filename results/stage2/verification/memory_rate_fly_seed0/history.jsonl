@@ -1,0 +1,1 @@
+{"step": 2401, "loss": 0.189106747508049, "validation": {"arithmetic": {"n": 120, "exact_match": 0.5083333333333333}, "code": {"n": 120, "exact_match": 1.0, "valid_code": 1.0, "execution_pass": 1.0}, "memory": {"n": 120, "exact_match": 0.975}, "macro_exact": 0.8277777777777778}, "seconds": 0.11873143499542493, "learning_rate": 0.00045}

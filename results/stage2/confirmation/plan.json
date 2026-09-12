@@ -1,0 +1,34 @@
+{
+  "frozen_before_final_test": true,
+  "selected_variant": "memory_rate",
+  "selection": "Highest full-validation macro exact among four development variants at 1200 steps, seed0.",
+  "steps": 2400,
+  "runs": [
+    "legacy_fly_seed0",
+    "legacy_fly_seed1",
+    "legacy_fly_seed2",
+    "memory_rate_fly_seed0",
+    "memory_rate_fly_seed1",
+    "memory_rate_fly_seed2",
+    "memory_rate_rewired_seed0",
+    "memory_rate_rewired_seed1",
+    "memory_rate_rewired_seed2",
+    "memory_rate_frozen_seed0",
+    "memory_rate_frozen_seed1",
+    "memory_rate_frozen_seed2",
+    "memory_rate_no_edges_seed0",
+    "memory_rate_no_edges_seed1",
+    "memory_rate_no_edges_seed2",
+    "memory_rate_gru_seed0",
+    "memory_rate_gru_seed1",
+    "memory_rate_gru_seed2"
+  ],
+  "code_sha256": {
+    "stage2_tasks.py": "efb1bf47f2c90d2c9f132274687125348c380852397b160926117e5272262c09",
+    "stage2_model.py": "950a041fd3391aef6d4821c0314d509138194dd683eaa33d9e07c8680279e574",
+    "stage2_train.py": "f79abfb923dd73038c912e9c07dda589d4cd3f0d35f6ef2e80681b4ae350b58c",
+    "stage2_evaluate.py": "44929a05ef6d73161c538019afd0d6f1ecb3dcc876ddb49db6b5dca9ed8c57b2",
+    "model.py": "5e0f41d93d33630ead06f01e8fc4abb784188e52c449d2af4b27281199658426"
+  },
+  "created_at": "2026-09-12T05:36:42Z"
+}

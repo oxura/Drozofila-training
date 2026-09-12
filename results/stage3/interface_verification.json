@@ -1,0 +1,87 @@
+[
+  {
+    "query": "сложи 99999999999999999999 1",
+    "answer": "100000000000000000000",
+    "kind": "learned_arithmetic",
+    "checkpoint": "/workspace/scratch/f69c8da825ec/flybrain_lab/results/stage3/confirmation/discrete_fly_seed0/best.pt",
+    "compiled": true,
+    "parser": "hand_written",
+    "trained_during_query": false,
+    "consistency_checks": {
+      "reversed_operands": true,
+      "inverse_subtraction": true
+    },
+    "consistency_is_proof": false
+  },
+  {
+    "query": "вычти 5 12",
+    "answer": "-7",
+    "kind": "learned_arithmetic",
+    "checkpoint": "/workspace/scratch/f69c8da825ec/flybrain_lab/results/stage3/confirmation/discrete_fly_seed0/best.pt",
+    "compiled": true,
+    "parser": "hand_written",
+    "trained_during_query": false,
+    "consistency_checks": {
+      "inverse_addition": true
+    },
+    "consistency_is_proof": false
+  },
+  {
+    "query": "умножь -123456789 37",
+    "answer": "-4567901193",
+    "kind": "learned_arithmetic",
+    "checkpoint": "/workspace/scratch/f69c8da825ec/flybrain_lab/results/stage3/confirmation/discrete_fly_seed0/best.pt",
+    "compiled": true,
+    "parser": "hand_written",
+    "trained_during_query": false,
+    "consistency_checks": {
+      "reversed_operands": true,
+      "adjacent_product": true
+    },
+    "consistency_is_proof": false
+  },
+  {
+    "query": "(12345+67890)*(73-12)",
+    "answer": "4894335",
+    "kind": "learned_arithmetic",
+    "checkpoint": "/workspace/scratch/f69c8da825ec/flybrain_lab/results/stage3/confirmation/discrete_fly_seed0/best.pt",
+    "compiled": true,
+    "parser": "hand_written",
+    "trained_during_query": false,
+    "consistency_checks": {},
+    "consistency_is_proof": false
+  },
+  {
+    "query": "код сложи u x",
+    "answer": "def f ( u , x ) : return u + x",
+    "kind": "stage2_sequence_model",
+    "checkpoint": "/workspace/scratch/f69c8da825ec/flybrain_lab/results/stage2/confirmation/memory_rate_fly_seed0/best.pt",
+    "compiled": false,
+    "parser": "hand_written",
+    "trained_during_query": false,
+    "consistency_checks": {},
+    "consistency_is_proof": false
+  },
+  {
+    "query": "повтори 1 2 3",
+    "answer": "1 2 3",
+    "kind": "stage2_sequence_model",
+    "checkpoint": "/workspace/scratch/f69c8da825ec/flybrain_lab/results/stage2/confirmation/memory_rate_fly_seed0/best.pt",
+    "compiled": false,
+    "parser": "hand_written",
+    "trained_during_query": false,
+    "consistency_checks": {},
+    "consistency_is_proof": false
+  },
+  {
+    "query": "разверни 1 2 3",
+    "answer": "3 2 1",
+    "kind": "stage2_sequence_model",
+    "checkpoint": "/workspace/scratch/f69c8da825ec/flybrain_lab/results/stage2/confirmation/memory_rate_fly_seed0/best.pt",
+    "compiled": false,
+    "parser": "hand_written",
+    "trained_during_query": false,
+    "consistency_checks": {},
+    "consistency_is_proof": false
+  }
+]

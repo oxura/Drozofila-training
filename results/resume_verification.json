@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "original_epoch": 40,
+  "resumed_epoch": 41,
+  "parameters_changed": true,
+  "original_main_run_preserved": true
+}

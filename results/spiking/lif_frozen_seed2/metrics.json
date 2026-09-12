@@ -1,0 +1,97 @@
+{
+  "config": {
+    "nodes": 256,
+    "seed": 2,
+    "cell": "lif",
+    "condition": "frozen",
+    "lr": 0.003,
+    "batch_size": 63,
+    "steps_per_epoch": 16,
+    "epochs": 40,
+    "device": "cpu",
+    "threads": 2
+  },
+  "initial_val": {
+    "arithmetic": {
+      "n": 168,
+      "exact_match": 0.0
+    },
+    "memory": {
+      "n": 160,
+      "exact_match": 0.0
+    },
+    "code": {
+      "n": 24,
+      "exact_match": 0.0,
+      "valid_code": 0.0,
+      "execution_pass": 0.0
+    },
+    "macro_exact": 0.0
+  },
+  "best_epoch": 31,
+  "train_seconds": 11.90104823000729,
+  "edge_count": 7514,
+  "trainable_parameters": 21033,
+  "trainable_edge_parameters": 0,
+  "max_observed_edge_gradient": 0.0,
+  "selected_mean_abs_edge_log_change": 0.0,
+  "rewiring_swaps": 0,
+  "val": {
+    "arithmetic": {
+      "n": 168,
+      "exact_match": 0.3333333333333333
+    },
+    "memory": {
+      "n": 160,
+      "exact_match": 0.0375
+    },
+    "code": {
+      "n": 24,
+      "exact_match": 0.0,
+      "valid_code": 1.0,
+      "execution_pass": 0.75
+    },
+    "macro_exact": 0.1236111111111111
+  },
+  "test": {
+    "arithmetic": {
+      "n": 180,
+      "exact_match": 0.35
+    },
+    "memory": {
+      "n": 160,
+      "exact_match": 0.04375
+    },
+    "code": {
+      "n": 24,
+      "exact_match": 0.0,
+      "valid_code": 0.9583333333333334,
+      "execution_pass": 0.6666666666666666
+    },
+    "macro_exact": 0.13125
+  },
+  "phrasing": {
+    "arithmetic": {
+      "n": 60,
+      "exact_match": 0.36666666666666664
+    },
+    "macro_exact": 0.36666666666666664
+  },
+  "test_without_recurrent_edges": {
+    "arithmetic": {
+      "n": 180,
+      "exact_match": 0.12777777777777777
+    },
+    "memory": {
+      "n": 160,
+      "exact_match": 0.0
+    },
+    "code": {
+      "n": 24,
+      "exact_match": 0.0,
+      "valid_code": 0.9166666666666666,
+      "execution_pass": 0.5416666666666666
+    },
+    "macro_exact": 0.04259259259259259
+  }
+}

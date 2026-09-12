@@ -1,0 +1,97 @@
+{
+  "config": {
+    "nodes": 256,
+    "seed": 2,
+    "cell": "lif",
+    "condition": "rewired",
+    "lr": 0.003,
+    "batch_size": 63,
+    "steps_per_epoch": 16,
+    "epochs": 40,
+    "device": "cpu",
+    "threads": 2
+  },
+  "initial_val": {
+    "arithmetic": {
+      "n": 168,
+      "exact_match": 0.0
+    },
+    "memory": {
+      "n": 160,
+      "exact_match": 0.0
+    },
+    "code": {
+      "n": 24,
+      "exact_match": 0.0,
+      "valid_code": 0.0,
+      "execution_pass": 0.0
+    },
+    "macro_exact": 0.0
+  },
+  "best_epoch": 37,
+  "train_seconds": 13.381961892999243,
+  "edge_count": 7514,
+  "trainable_parameters": 28547,
+  "trainable_edge_parameters": 7514,
+  "max_observed_edge_gradient": 0.05120004713535309,
+  "selected_mean_abs_edge_log_change": 0.3692210018634796,
+  "rewiring_swaps": 75140,
+  "val": {
+    "arithmetic": {
+      "n": 168,
+      "exact_match": 0.34523809523809523
+    },
+    "memory": {
+      "n": 160,
+      "exact_match": 0.125
+    },
+    "code": {
+      "n": 24,
+      "exact_match": 0.0,
+      "valid_code": 0.9166666666666666,
+      "execution_pass": 0.8333333333333334
+    },
+    "macro_exact": 0.15674603174603174
+  },
+  "test": {
+    "arithmetic": {
+      "n": 180,
+      "exact_match": 0.31666666666666665
+    },
+    "memory": {
+      "n": 160,
+      "exact_match": 0.05625
+    },
+    "code": {
+      "n": 24,
+      "exact_match": 0.0,
+      "valid_code": 0.9583333333333334,
+      "execution_pass": 0.7916666666666666
+    },
+    "macro_exact": 0.12430555555555556
+  },
+  "phrasing": {
+    "arithmetic": {
+      "n": 60,
+      "exact_match": 0.2833333333333333
+    },
+    "macro_exact": 0.2833333333333333
+  },
+  "test_without_recurrent_edges": {
+    "arithmetic": {
+      "n": 180,
+      "exact_match": 0.03888888888888889
+    },
+    "memory": {
+      "n": 160,
+      "exact_match": 0.0
+    },
+    "code": {
+      "n": 24,
+      "exact_match": 0.0,
+      "valid_code": 0.9583333333333334,
+      "execution_pass": 0.25
+    },
+    "macro_exact": 0.012962962962962963
+  }
+}

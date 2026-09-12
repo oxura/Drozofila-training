@@ -1,0 +1,48 @@
+{
+  "name": "FlyBrain Lab stage 2",
+  "test_policy": "Development uses only train and a fixed validation panel. Freeze confirmation plan before first final-test evaluation.",
+  "diagnosis": "Stage-1 rate seed0: code training exact 1.0, validation exact 0.0; memory training and validation both about 0.5.",
+  "development": {
+    "variants": [
+      "legacy",
+      "gated",
+      "memory_rate",
+      "memory_lif"
+    ],
+    "condition": "fly",
+    "seed": 0,
+    "steps": 1200,
+    "selection_metric": "full validation macro exact"
+  },
+  "confirmation_budget": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "steps": 2400,
+    "batch_size": 48,
+    "lr": 0.003,
+    "eval_every": 200
+  },
+  "required_controls": [
+    "legacy/fly",
+    "selected_memory/fly",
+    "selected_memory/rewired",
+    "selected_memory/frozen",
+    "selected_memory/no_edges",
+    "memory_rate/gru"
+  ],
+  "primary_outcomes": [
+    "arithmetic exact",
+    "memory exact",
+    "code exact",
+    "code execution with requested argument names"
+  ],
+  "secondary_outcomes": [
+    "longer unseen sequence lengths",
+    "new phrasing",
+    "post-training memory/edge ablations"
+  ],
+  "scope": "One unchanged 256-neuron induced subgraph; artificial input-history memory; no claim of general language or general programming."
+}

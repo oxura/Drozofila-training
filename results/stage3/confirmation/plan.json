@@ -1,0 +1,44 @@
+{
+  "created_at": "2026-09-12T06:00:48.965722+00:00",
+  "frozen_before_final_test": true,
+  "steps": 6000,
+  "ticks": 4,
+  "batch_size": 96,
+  "learning_rate": 0.003,
+  "runs": [
+    "discrete_fly_seed0",
+    "discrete_fly_seed1",
+    "discrete_fly_seed2",
+    "discrete_rewired_seed0",
+    "discrete_rewired_seed1",
+    "discrete_rewired_seed2",
+    "discrete_frozen_seed0",
+    "discrete_frozen_seed1",
+    "discrete_frozen_seed2",
+    "discrete_no_edges_seed0",
+    "discrete_no_edges_seed1",
+    "discrete_no_edges_seed2",
+    "discrete_mlp_seed0",
+    "discrete_mlp_seed1",
+    "discrete_mlp_seed2",
+    "continuous_fly_seed0",
+    "continuous_fly_seed1",
+    "continuous_fly_seed2"
+  ],
+  "default_checkpoint": "discrete_fly_seed0/best.pt",
+  "selection": "600-step development underfit; 6000-step discrete fly and MLP both reached perfect local training and short validation. Fixed 6000 for all conditions; choose each checkpoint by short validation macro, then lower recent training loss. No final results read.",
+  "code_sha256": {
+    "stage3_model.py": "9c1f8199fde147769d6083a7b7e1d7f4588f6fe5380eefd64d35d23867c27656",
+    "stage3_tasks.py": "e2fd6b8737c5ded8c91e85b9ac69157ecd474b63d8935bc0d8df48fa8549edc2",
+    "stage3_engine.py": "b70e95cefe408acc3ff7259bd18935ab4ef2e67bdfcdc6e62da239093eff6c0b",
+    "stage3_train.py": "920585b4b46fac9c092e8343c58a53c33433e3636ed43a17db5557d322c4acf7",
+    "stage3_evaluate.py": "f00989c4449864aa26e773a48acb166ce9380a562c37bc99fb677477f43eff08",
+    "model.py": "5e0f41d93d33630ead06f01e8fc4abb784188e52c449d2af4b27281199658426"
+  },
+  "limitations": [
+    "Complete 860-row local table is training, not held-out testing.",
+    "Only continuous controller sees 4800 short sequence examples; carry-supervised and continuous comparisons differ in architecture and supervision.",
+    "All task scheduling, input traversal, signed routing and expression syntax are engineered.",
+    "No training of the full 138639-neuron brain."
+  ]
+}

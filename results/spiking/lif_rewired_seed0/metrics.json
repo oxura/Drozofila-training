@@ -1,0 +1,97 @@
+{
+  "config": {
+    "nodes": 256,
+    "seed": 0,
+    "cell": "lif",
+    "condition": "rewired",
+    "lr": 0.003,
+    "batch_size": 63,
+    "steps_per_epoch": 16,
+    "epochs": 40,
+    "device": "cpu",
+    "threads": 2
+  },
+  "initial_val": {
+    "arithmetic": {
+      "n": 168,
+      "exact_match": 0.0
+    },
+    "memory": {
+      "n": 160,
+      "exact_match": 0.0
+    },
+    "code": {
+      "n": 24,
+      "exact_match": 0.0,
+      "valid_code": 0.0,
+      "execution_pass": 0.0
+    },
+    "macro_exact": 0.0
+  },
+  "best_epoch": 37,
+  "train_seconds": 36.19275392800046,
+  "edge_count": 7514,
+  "trainable_parameters": 28547,
+  "trainable_edge_parameters": 7514,
+  "max_observed_edge_gradient": 0.03216800093650818,
+  "selected_mean_abs_edge_log_change": 0.35305851697921753,
+  "rewiring_swaps": 75140,
+  "val": {
+    "arithmetic": {
+      "n": 168,
+      "exact_match": 0.31547619047619047
+    },
+    "memory": {
+      "n": 160,
+      "exact_match": 0.08125
+    },
+    "code": {
+      "n": 24,
+      "exact_match": 0.0,
+      "valid_code": 1.0,
+      "execution_pass": 0.9583333333333334
+    },
+    "macro_exact": 0.1322420634920635
+  },
+  "test": {
+    "arithmetic": {
+      "n": 180,
+      "exact_match": 0.36666666666666664
+    },
+    "memory": {
+      "n": 160,
+      "exact_match": 0.1
+    },
+    "code": {
+      "n": 24,
+      "exact_match": 0.0,
+      "valid_code": 1.0,
+      "execution_pass": 0.9583333333333334
+    },
+    "macro_exact": 0.15555555555555556
+  },
+  "phrasing": {
+    "arithmetic": {
+      "n": 60,
+      "exact_match": 0.3333333333333333
+    },
+    "macro_exact": 0.3333333333333333
+  },
+  "test_without_recurrent_edges": {
+    "arithmetic": {
+      "n": 180,
+      "exact_match": 0.027777777777777776
+    },
+    "memory": {
+      "n": 160,
+      "exact_match": 0.0
+    },
+    "code": {
+      "n": 24,
+      "exact_match": 0.0,
+      "valid_code": 0.4166666666666667,
+      "execution_pass": 0.125
+    },
+    "macro_exact": 0.009259259259259259
+  }
+}

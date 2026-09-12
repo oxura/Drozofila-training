@@ -1,0 +1,98 @@
+{
+  "config": {
+    "mode": "discrete",
+    "condition": "no_edges",
+    "seed": 2,
+    "ticks": 4,
+    "steps": 6000,
+    "batch_size": 96,
+    "lr": 0.003,
+    "threads": 2,
+    "eval_every": 500
+  },
+  "best_step": 6000,
+  "lengths": {
+    "4": {
+      "by_op": {
+        "add": 1.0,
+        "sub": 1.0,
+        "mul_digit": 1.0
+      },
+      "macro_exact": 1.0
+    },
+    "8": {
+      "by_op": {
+        "add": 1.0,
+        "sub": 1.0,
+        "mul_digit": 1.0
+      },
+      "macro_exact": 1.0
+    },
+    "32": {
+      "by_op": {
+        "add": 1.0,
+        "sub": 1.0,
+        "mul_digit": 1.0
+      },
+      "macro_exact": 1.0
+    },
+    "128": {
+      "by_op": {
+        "add": 1.0,
+        "sub": 1.0,
+        "mul_digit": 1.0
+      },
+      "macro_exact": 1.0
+    },
+    "1000": {
+      "by_op": {
+        "add": 1.0,
+        "sub": 1.0,
+        "mul_digit": 1.0
+      },
+      "macro_exact": 1.0
+    }
+  },
+  "stress": {
+    "by_op": {
+      "add": 1.0,
+      "sub": 1.0,
+      "mul_digit": 1.0
+    },
+    "macro_exact": 1.0
+  },
+  "programs_exact": 1.0,
+  "program_count": 120,
+  "local_training_table": {
+    "add": {
+      "correct": 200,
+      "total": 200,
+      "joint_exact": 1.0,
+      "minimum_target_margin": 3.4255619049072266
+    },
+    "sub": {
+      "correct": 200,
+      "total": 200,
+      "joint_exact": 1.0,
+      "minimum_target_margin": 3.302361011505127
+    },
+    "mul_digit": {
+      "correct": 460,
+      "total": 460,
+      "joint_exact": 1.0,
+      "minimum_target_margin": 1.602628231048584
+    }
+  },
+  "ablations_32_digits": {
+    "zero_carry_exact": 0.078125
+  },
+  "direct_cache_parity": {
+    "length": 1000,
+    "cases": 3,
+    "identical": true,
+    "direct_batch_seconds": 0.2826561170077184,
+    "compiled_batch_seconds": 0.024354769993806258
+  },
+  "seconds": 1.2648640540137421,
+  "checkpoint_sha256": "5c1bc89b34b4d057d73973b678439f180c0de5ba464ed070c9159f09540ab508"
+}
