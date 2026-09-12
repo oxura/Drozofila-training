@@ -1,0 +1,58 @@
+{
+  "frozen_utc": "2026-09-12T15:33:10.642293+00:00",
+  "source_commit": "35473ec53b53cbabccf30804dd61e300a562ae92",
+  "source_hashes": {
+    "stage8_stream.py": "6ca394c46e49a71aa1c98439fb98da37a5c17888ca0e86d969ce33f49e8596f3",
+    "stage8_data.py": "db08fc066724282a45431bb0081836124ff85d0d887d66b595b2100c068c91cd",
+    "stage8_pilot.py": "480d16edfc88907379d08baa31561f2488e39faddb6a8dd085cc3aac6e7ae6ef",
+    "stage8_checks.py": "92bfe5ec3a0cbedbbd5033a11d822a3a39f29ebcc41bb9013826cc697d47e3f3",
+    "STAGE8_PILOT_PROTOCOL.md": "851a9f2e1bc50734b68c0af8b2969c9a9e08bf4f4e7637177d7e9b2f4ebc88bb"
+  },
+  "data_hashes": {
+    "train": "43cd38be85dad138849b014bcf6fe7e900558820e43c47c55aad624657f95a3b",
+    "dev": "a3c893999987d35372e0dd85fbe78316e00df7e81a7ada19154d8cb5c19c2caa",
+    "dev_renamed": "a6649faae89603c72ecf6c82d63408df4b17151629b716504a1c89d455766640",
+    "dev_unseen": "1bcae13a661b1dbc5a32efac06be117c10491b9bdafb8fc5b63b9461030b8748"
+  },
+  "runs": {
+    "gru_seed0": {
+      "mode": "gru",
+      "width": 64,
+      "seed": 0,
+      "steps": 1500,
+      "batch_size": 64,
+      "eval_every": 300,
+      "lr": 0.002,
+      "threads": 1
+    },
+    "slots_seed0": {
+      "mode": "slots",
+      "width": 64,
+      "seed": 0,
+      "steps": 1500,
+      "batch_size": 64,
+      "eval_every": 300,
+      "lr": 0.002,
+      "threads": 1
+    },
+    "wider_seed0": {
+      "mode": "gru",
+      "width": 68,
+      "seed": 0,
+      "steps": 1500,
+      "batch_size": 64,
+      "eval_every": 300,
+      "lr": 0.002,
+      "threads": 1
+    }
+  },
+  "data_checks": {
+    "labels_checked": 6360,
+    "disjoint_binding_structures": true,
+    "balanced_answers_within_length_and_role": true,
+    "final_test_created": false
+  },
+  "final_test_created": false,
+  "selection": "Only development macro accuracy over query roles, then lower cross-entropy. Rename/character diagnostics do not select checkpoints.",
+  "note": "Three exploratory pilots, one seed each. Fresh weights and a structured event interface; no independent confirmation, no biological comparison, no replacement of stage7 default."
+}

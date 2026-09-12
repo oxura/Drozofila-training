@@ -1,0 +1,28 @@
+{
+  "data": {
+    "labels_checked": 6360,
+    "disjoint_binding_structures": true,
+    "balanced_answers_within_length_and_role": true,
+    "final_test_created": false
+  },
+  "initial_function_preserved": true,
+  "memory_parameter_gradient_sums_after_three_smoke_updates": {
+    "address_write.weight": 0.0006533261039294302,
+    "address_write.bias": 9.539080201648176e-05,
+    "gate_write.weight": 0.007168156560510397,
+    "gate_write.bias": 0.0015892055816948414,
+    "value.weight": 0.13592849671840668,
+    "value.bias": 0.026577012613415718,
+    "address_read.weight": 0.0011494893115013838,
+    "address_read.bias": 0.0001570916356286034,
+    "output.weight": 0.9875354766845703,
+    "output.bias": 1.396098256111145
+  },
+  "streaming_max_logit_difference": 1.4901161193847656e-08,
+  "causal_prefix_unchanged": true,
+  "persistent_state_floats_per_example": 192,
+  "inference_with_teacher_imports_blocked": true,
+  "smoke_updates": 3,
+  "smoke_example_presentations": 12,
+  "note": "Random-input numerical checks, not training/evaluation evidence; these smoke weights are discarded."
+}

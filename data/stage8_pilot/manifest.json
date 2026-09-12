@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "purpose": "Open pilot train/dev only; no independent final test generated or evaluated.",
+  "counts": {
+    "train": 4200,
+    "dev": 720,
+    "dev_renamed": 720,
+    "dev_unseen": 720
+  },
+  "hashes": {
+    "train": "43cd38be85dad138849b014bcf6fe7e900558820e43c47c55aad624657f95a3b",
+    "dev": "a3c893999987d35372e0dd85fbe78316e00df7e81a7ada19154d8cb5c19c2caa",
+    "dev_renamed": "a6649faae89603c72ecf6c82d63408df4b17151629b716504a1c89d455766640",
+    "dev_unseen": "1bcae13a661b1dbc5a32efac06be117c10491b9bdafb8fc5b63b9461030b8748"
+  },
+  "excluded_historical_prompts": 80188,
+  "exact_historical_overlap": 0,
+  "split": "Name/value-independent binding hash: 0..7 train, 8 dev, 9 reserved for a later frozen confirmation.",
+  "fixed_features": "WRITE/QUERY type, two character one-hot positions, literal digit one-hot. No dictionary lookup or correct memory state in inference.",
+  "labels": "Procedural dictionary updates during generation; separately checked with a reverse scan.",
+  "train_lengths": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "dev_lengths": [
+    2,
+    5,
+    8,
+    12
+  ],
+  "deferred_final_lengths": [
+    16,
+    32,
+    64
+  ],
+  "final_test_created": false
+}

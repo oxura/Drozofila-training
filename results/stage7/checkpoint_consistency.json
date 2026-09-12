@@ -1,0 +1,343 @@
+{
+  "verified_utc": "2026-09-12T15:30:11.832094+00:00",
+  "runs": {
+    "prompt_seed0": {
+      "best_step": 8000,
+      "validation_score": [
+        0.675,
+        0.6083333333333334,
+        -0.07031279768343188
+      ],
+      "last_step": 8000,
+      "optimizer_steps": [
+        8000
+      ],
+      "summary_matches_checkpoint": true,
+      "selection_matches_validation_history": true
+    },
+    "prompt_seed1": {
+      "best_step": 8000,
+      "validation_score": [
+        0.8020833333333333,
+        0.7208333333333334,
+        -0.037832530734486974
+      ],
+      "last_step": 8000,
+      "optimizer_steps": [
+        8000
+      ],
+      "summary_matches_checkpoint": true,
+      "selection_matches_validation_history": true
+    },
+    "prompt_seed2": {
+      "best_step": 8000,
+      "validation_score": [
+        0.7437499999999999,
+        0.6875,
+        -0.048416115025416415
+      ],
+      "last_step": 8000,
+      "optimizer_steps": [
+        8000
+      ],
+      "summary_matches_checkpoint": true,
+      "selection_matches_validation_history": true
+    },
+    "history_seed0": {
+      "best_step": 8000,
+      "validation_score": [
+        0.75,
+        0.65,
+        -0.04719323323108156
+      ],
+      "last_step": 8000,
+      "optimizer_steps": [
+        8000
+      ],
+      "summary_matches_checkpoint": true,
+      "selection_matches_validation_history": true
+    },
+    "history_seed1": {
+      "best_step": 8000,
+      "validation_score": [
+        0.8916666666666667,
+        0.8041666666666667,
+        -0.020285721169859796
+      ],
+      "last_step": 8000,
+      "optimizer_steps": [
+        8000
+      ],
+      "summary_matches_checkpoint": true,
+      "selection_matches_validation_history": true
+    },
+    "history_seed2": {
+      "best_step": 8000,
+      "validation_score": [
+        0.8020833333333333,
+        0.725,
+        -0.02895465178734335
+      ],
+      "last_step": 8000,
+      "optimizer_steps": [
+        8000
+      ],
+      "summary_matches_checkpoint": true,
+      "selection_matches_validation_history": true
+    },
+    "slots_seed0": {
+      "best_step": 8000,
+      "validation_score": [
+        0.7833333333333333,
+        0.6770833333333334,
+        -0.04743888894370695
+      ],
+      "last_step": 8000,
+      "optimizer_steps": [
+        8000
+      ],
+      "summary_matches_checkpoint": true,
+      "selection_matches_validation_history": true
+    },
+    "slots_seed1": {
+      "best_step": 8000,
+      "validation_score": [
+        0.8625,
+        0.7854166666666667,
+        -0.021887482783352546
+      ],
+      "last_step": 8000,
+      "optimizer_steps": [
+        8000
+      ],
+      "summary_matches_checkpoint": true,
+      "selection_matches_validation_history": true
+    },
+    "slots_seed2": {
+      "best_step": 8000,
+      "validation_score": [
+        0.79375,
+        0.7104166666666667,
+        -0.030301539041642876
+      ],
+      "last_step": 8000,
+      "optimizer_steps": [
+        8000
+      ],
+      "summary_matches_checkpoint": true,
+      "selection_matches_validation_history": true
+    },
+    "wider_seed0": {
+      "best_step": 8000,
+      "validation_score": [
+        0.8020833333333333,
+        0.7,
+        -0.03684994122206787
+      ],
+      "last_step": 8000,
+      "optimizer_steps": [
+        8000
+      ],
+      "summary_matches_checkpoint": true,
+      "selection_matches_validation_history": true
+    },
+    "wider_seed1": {
+      "best_step": 8000,
+      "validation_score": [
+        0.8770833333333332,
+        0.7791666666666666,
+        -0.021741332117429252
+      ],
+      "last_step": 8000,
+      "optimizer_steps": [
+        8000
+      ],
+      "summary_matches_checkpoint": true,
+      "selection_matches_validation_history": true
+    },
+    "wider_seed2": {
+      "best_step": 8000,
+      "validation_score": [
+        0.8208333333333333,
+        0.74375,
+        -0.02818595038519965
+      ],
+      "last_step": 8000,
+      "optimizer_steps": [
+        8000
+      ],
+      "summary_matches_checkpoint": true,
+      "selection_matches_validation_history": true
+    },
+    "no_memory_curriculum_seed0": {
+      "best_step": 8000,
+      "validation_score": [
+        0.5270833333333333,
+        0.4270833333333333,
+        -1.1762550356465795
+      ],
+      "last_step": 8000,
+      "optimizer_steps": [
+        8000
+      ],
+      "summary_matches_checkpoint": true,
+      "selection_matches_validation_history": true
+    },
+    "no_memory_curriculum_seed1": {
+      "best_step": 8000,
+      "validation_score": [
+        0.6645833333333333,
+        0.5395833333333333,
+        -1.6704778877447866
+      ],
+      "last_step": 8000,
+      "optimizer_steps": [
+        8000
+      ],
+      "summary_matches_checkpoint": true,
+      "selection_matches_validation_history": true
+    },
+    "no_memory_curriculum_seed2": {
+      "best_step": 8000,
+      "validation_score": [
+        0.6229166666666667,
+        0.46458333333333335,
+        -1.6195433244174868
+      ],
+      "last_step": 8000,
+      "optimizer_steps": [
+        8000
+      ],
+      "summary_matches_checkpoint": true,
+      "selection_matches_validation_history": true
+    },
+    "fly_seed0": {
+      "best_step": 8000,
+      "validation_score": [
+        0.6,
+        0.44375,
+        -0.107794313696465
+      ],
+      "last_step": 8000,
+      "optimizer_steps": [
+        8000
+      ],
+      "summary_matches_checkpoint": true,
+      "selection_matches_validation_history": true
+    },
+    "fly_seed1": {
+      "best_step": 8000,
+      "validation_score": [
+        0.68125,
+        0.54375,
+        -0.05742839999105054
+      ],
+      "last_step": 8000,
+      "optimizer_steps": [
+        8000
+      ],
+      "summary_matches_checkpoint": true,
+      "selection_matches_validation_history": true
+    },
+    "fly_seed2": {
+      "best_step": 8000,
+      "validation_score": [
+        0.6083333333333334,
+        0.45833333333333337,
+        -0.10506884318545927
+      ],
+      "last_step": 8000,
+      "optimizer_steps": [
+        8000
+      ],
+      "summary_matches_checkpoint": true,
+      "selection_matches_validation_history": true
+    },
+    "rewired_seed0": {
+      "best_step": 8000,
+      "validation_score": [
+        0.6770833333333334,
+        0.54375,
+        -0.053682759332056774
+      ],
+      "last_step": 8000,
+      "optimizer_steps": [
+        8000
+      ],
+      "summary_matches_checkpoint": true,
+      "selection_matches_validation_history": true
+    },
+    "rewired_seed1": {
+      "best_step": 6000,
+      "validation_score": [
+        0.65,
+        0.42708333333333337,
+        -0.09083685188174466
+      ],
+      "last_step": 8000,
+      "optimizer_steps": [
+        8000
+      ],
+      "summary_matches_checkpoint": true,
+      "selection_matches_validation_history": true
+    },
+    "rewired_seed2": {
+      "best_step": 8000,
+      "validation_score": [
+        0.4729166666666667,
+        0.36458333333333337,
+        -0.12819852456618755
+      ],
+      "last_step": 8000,
+      "optimizer_steps": [
+        8000
+      ],
+      "summary_matches_checkpoint": true,
+      "selection_matches_validation_history": true
+    },
+    "no_edges_seed0": {
+      "best_step": 8000,
+      "validation_score": [
+        0.4854166666666666,
+        0.36666666666666664,
+        -0.12996216657354817
+      ],
+      "last_step": 8000,
+      "optimizer_steps": [
+        8000
+      ],
+      "summary_matches_checkpoint": true,
+      "selection_matches_validation_history": true
+    },
+    "no_edges_seed1": {
+      "best_step": 8000,
+      "validation_score": [
+        0.6229166666666667,
+        0.48958333333333337,
+        -0.0931130986040839
+      ],
+      "last_step": 8000,
+      "optimizer_steps": [
+        8000
+      ],
+      "summary_matches_checkpoint": true,
+      "selection_matches_validation_history": true
+    },
+    "no_edges_seed2": {
+      "best_step": 8000,
+      "validation_score": [
+        0.45833333333333337,
+        0.3666666666666667,
+        -0.1384399810426656
+      ],
+      "last_step": 8000,
+      "optimizer_steps": [
+        8000
+      ],
+      "summary_matches_checkpoint": true,
+      "selection_matches_validation_history": true
+    }
+  },
+  "final_test_open": true,
+  "note": "Read-only consistency audit during archive recovery; no inference, training or checkpoint changes."
+}
