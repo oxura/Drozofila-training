@@ -1,0 +1,12 @@
+{
+  "style": "direct",
+  "condition": "mlp",
+  "seed": 0,
+  "formal_only": false,
+  "steps": 1200,
+  "batch_size": 16,
+  "eval_every": 400,
+  "lr": 0.0005,
+  "threads": 1,
+  "sampling_seed": 91900
+}

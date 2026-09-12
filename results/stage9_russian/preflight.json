@@ -1,0 +1,23 @@
+{
+  "data": {
+    "independent_label_checks": 20140,
+    "disjoint_bindings": true,
+    "no_heldout_copy_chains_in_train": true,
+    "heldout_phrases_use_known_words": true,
+    "contrasts_have_different_correct_answers": true,
+    "novel_words": {
+      "dev_phrases": [],
+      "test_phrases": []
+    }
+  },
+  "legacy_examples_with_identical_tokenization": 8240,
+  "initial_legacy_probability_max_error": 0.0,
+  "cached_full_max_error": 3.4570693969726562e-06,
+  "causal_max_error": 0.0,
+  "left_padding_generation_matches": true,
+  "new_embedding_gradient_max": 0.005822122097015381,
+  "discarded_smoke_updates": 8,
+  "smoke_seconds_per_update": 0.1414373425004669,
+  "input_vocabulary": 149,
+  "output_vocabulary": 63
+}
