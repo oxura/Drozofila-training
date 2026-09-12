@@ -1,0 +1,129 @@
+{
+  "compared_utc": "2026-09-12T15:51:20.869309+00:00",
+  "unit": "percent, rounded to 2 decimals",
+  "group_metric_comparisons": 40,
+  "all_observed_rounded_means_match": false,
+  "differences": [
+    {
+      "variant": "no_memory_curriculum",
+      "family": "memory",
+      "previously_observed": 22.08,
+      "reproduced": 20.69
+    },
+    {
+      "variant": "no_memory_curriculum",
+      "family": "code",
+      "previously_observed": 47.64,
+      "reproduced": 49.44
+    },
+    {
+      "variant": "no_memory_curriculum",
+      "family": "sum",
+      "previously_observed": 71.53,
+      "reproduced": 73.06
+    },
+    {
+      "variant": "no_memory_curriculum",
+      "family": "logic",
+      "previously_observed": 89.86,
+      "reproduced": 90.69
+    },
+    {
+      "variant": "no_memory_curriculum",
+      "family": "macro",
+      "previously_observed": 57.78,
+      "reproduced": 58.47
+    },
+    {
+      "variant": "fly",
+      "family": "memory",
+      "previously_observed": 84.86,
+      "reproduced": 85.97
+    },
+    {
+      "variant": "fly",
+      "family": "code",
+      "previously_observed": 63.06,
+      "reproduced": 63.61
+    },
+    {
+      "variant": "fly",
+      "family": "sum",
+      "previously_observed": 10.56,
+      "reproduced": 10.97
+    },
+    {
+      "variant": "fly",
+      "family": "logic",
+      "previously_observed": 84.72,
+      "reproduced": 84.86
+    },
+    {
+      "variant": "fly",
+      "family": "macro",
+      "previously_observed": 60.8,
+      "reproduced": 61.35
+    },
+    {
+      "variant": "rewired",
+      "family": "memory",
+      "previously_observed": 70.42,
+      "reproduced": 69.72
+    },
+    {
+      "variant": "rewired",
+      "family": "code",
+      "previously_observed": 39.31,
+      "reproduced": 38.61
+    },
+    {
+      "variant": "rewired",
+      "family": "sum",
+      "previously_observed": 25.97,
+      "reproduced": 23.19
+    },
+    {
+      "variant": "rewired",
+      "family": "logic",
+      "previously_observed": 85,
+      "reproduced": 84.58
+    },
+    {
+      "variant": "rewired",
+      "family": "macro",
+      "previously_observed": 55.17,
+      "reproduced": 54.03
+    },
+    {
+      "variant": "no_edges",
+      "family": "memory",
+      "previously_observed": 71.67,
+      "reproduced": 65.69
+    },
+    {
+      "variant": "no_edges",
+      "family": "code",
+      "previously_observed": 47.92,
+      "reproduced": 42.64
+    },
+    {
+      "variant": "no_edges",
+      "family": "sum",
+      "previously_observed": 5.14,
+      "reproduced": 5.56
+    },
+    {
+      "variant": "no_edges",
+      "family": "logic",
+      "previously_observed": 83.89,
+      "reproduced": 82.78
+    },
+    {
+      "variant": "no_edges",
+      "family": "macro",
+      "previously_observed": 52.15,
+      "reproduced": 49.17
+    }
+  ],
+  "note": "Consistency with previous observations, not additional independent evidence."
+}

@@ -1,0 +1,1166 @@
+{
+  "verified_utc": "2026-09-12T15:51:16.720000+00:00",
+  "main_predictions": 72960,
+  "historical_predictions": 17280,
+  "source_predictions": 11520,
+  "ablation_predictions": 6120,
+  "files": {
+    "results/stage7/confirmation/prompt_seed0/predictions_test.jsonl": {
+      "count": 960,
+      "sha256": "9ac2742b3ddcc8f22d583c9176d4f62043c1a509027e78cd6a30e882c84e6e1e",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/prompt_seed0/predictions_long.jsonl": {
+      "count": 320,
+      "sha256": "09a0fbcf01da1a32078c9a1aae0037bec0a79315ead295509ad8fdb480afe728",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/prompt_seed0/predictions_very_long.jsonl": {
+      "count": 320,
+      "sha256": "d9c9c44b3c88a0bf852b5e39183f8c60aaa0924fb09107d014669c671cbbf25c",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/prompt_seed0/predictions_renamed.jsonl": {
+      "count": 480,
+      "sha256": "3af7f074214d6bfc6253142850ce9a1e9d7c8a4bb34652da9265c5e91ba328fe",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/prompt_seed0/predictions_unseen_chars.jsonl": {
+      "count": 480,
+      "sha256": "67b0ae21151c45c8e1652bbb2cd29b4da0f6ba62cf35da0056b877f4923b7258",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/prompt_seed0/predictions_counterfactual.jsonl": {
+      "count": 480,
+      "sha256": "a8f25992af09be972ec0fcda8c832ae8dbe990f4f070d361f5c2acbb2d941467",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/prompt_seed0/predictions_historical_retention.jsonl": {
+      "count": 720,
+      "sha256": "7f24b36f572e950174f847b6a938e9f404d8454d893248cc5e2916eb08b1505f",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/prompt_seed0/ablation_normal.jsonl": {
+      "count": 120,
+      "sha256": "a0b2d1d83f24157c45f2b180799336bec0c86d6b7ecb7f277f21233f5df6820d",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/prompt_seed1/predictions_test.jsonl": {
+      "count": 960,
+      "sha256": "e4cc22e57eb5aa34fa98e77ff9c3de8d5d512c855b2d93b6ac02c448c4e4a33f",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/prompt_seed1/predictions_long.jsonl": {
+      "count": 320,
+      "sha256": "37c4d468ff17eee58ce37d86bf7d1ed2ef6373fe388a7f49c640fc943369de9e",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/prompt_seed1/predictions_very_long.jsonl": {
+      "count": 320,
+      "sha256": "433e24627331f7fe4043b7a6451d4b54aebb53a64f577bf9cd2c9e38aabbee15",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/prompt_seed1/predictions_renamed.jsonl": {
+      "count": 480,
+      "sha256": "b68b268738cea35a6dc589c96cfa946d96122e3ea70cc1a2c294c4e6282b805c",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/prompt_seed1/predictions_unseen_chars.jsonl": {
+      "count": 480,
+      "sha256": "8a5efa1a9ae5bdcf07574b4ec40524ddcb95cfee1346c4df38a63c7bf181b214",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/prompt_seed1/predictions_counterfactual.jsonl": {
+      "count": 480,
+      "sha256": "45ddc534f03f52917d15d5b185ca668b1f96df1ba99d6653ab161d66f2f5675e",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/prompt_seed1/predictions_historical_retention.jsonl": {
+      "count": 720,
+      "sha256": "162fab9fa5f7d50b55f9b1f99a585c317a2413bd6fa8a768b72c2f7be38fbffe",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/prompt_seed1/ablation_normal.jsonl": {
+      "count": 120,
+      "sha256": "529b501f52c7d0b9af24be65826d71021b90d3b975859e4fa7cd4f10bc52b162",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/prompt_seed2/predictions_test.jsonl": {
+      "count": 960,
+      "sha256": "e26996f2781ae13293fdf8f2b5c20843b23c6df50a772768f2737f2c90cd7191",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/prompt_seed2/predictions_long.jsonl": {
+      "count": 320,
+      "sha256": "2af600890306a647c87ba39b773fa5f026af96c19fd52f991831fe89cf164df0",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/prompt_seed2/predictions_very_long.jsonl": {
+      "count": 320,
+      "sha256": "373fd231aa1b79cd5e14173a85090c7b6dc96339a6a6791df4cd61e399ff5086",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/prompt_seed2/predictions_renamed.jsonl": {
+      "count": 480,
+      "sha256": "192bdbaa5a7f98dc287d4f2d88690e3ba2c0e95e9813115ca32998d2dd0a97ac",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/prompt_seed2/predictions_unseen_chars.jsonl": {
+      "count": 480,
+      "sha256": "466db5bb0342f9d0c7ed031b4f7f527c81227b87ec04ac2c260b5b151d967d85",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/prompt_seed2/predictions_counterfactual.jsonl": {
+      "count": 480,
+      "sha256": "78a3ef1593bb9dfc9516a4a0326c5ee48b40c9eeab1600d82fa4a06c0e32ccf5",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/prompt_seed2/predictions_historical_retention.jsonl": {
+      "count": 720,
+      "sha256": "490db7c128371494c801e6603c354adc3b06c79d2ab8d7dd94909462070948a3",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/prompt_seed2/ablation_normal.jsonl": {
+      "count": 120,
+      "sha256": "d3e2ea81b976307df1a08cc577724cdf072bfa414ffc0d3c2be1782cccf54b4e",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/history_seed0/predictions_test.jsonl": {
+      "count": 960,
+      "sha256": "2b398a0e21df2167a1af08f1e242c6f1df7382d13c446af5a5eeeed38ac1f575",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/history_seed0/predictions_long.jsonl": {
+      "count": 320,
+      "sha256": "46b31f6a3a454a15b3ba1096314f78ad9c4b2ae02f5e454b8f55bfdcb7667227",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/history_seed0/predictions_very_long.jsonl": {
+      "count": 320,
+      "sha256": "7424befe1c20c4a0e29129457503277811840e07357f31f8119dbb618debce71",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/history_seed0/predictions_renamed.jsonl": {
+      "count": 480,
+      "sha256": "92bc70749d355d3ef1a9f6914a9657559f2a41b464889b731b19ef8484a53d92",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/history_seed0/predictions_unseen_chars.jsonl": {
+      "count": 480,
+      "sha256": "68b5bb9706733015d03a3383a1ba6f741b9bab213610d13aee52d8ad47f551e4",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/history_seed0/predictions_counterfactual.jsonl": {
+      "count": 480,
+      "sha256": "4fc8e847aa9050ec1b7fc3b8e3284453c5b62de99da5a3bb9f909e02b2dd9107",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/history_seed0/predictions_historical_retention.jsonl": {
+      "count": 720,
+      "sha256": "6cb79da1a15bc2935c610f72fa8a7bf53ef1d39407fa0a1b3c0480be5188e161",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/history_seed0/ablation_normal.jsonl": {
+      "count": 120,
+      "sha256": "e83d10f3f47a27a2e2f8372374e6a2d04b68942458bb0ddea23aaab189443b57",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/history_seed0/ablation_history_disabled.jsonl": {
+      "count": 120,
+      "sha256": "0dbee8f40e240df9c361219545c7590cd64958a7493ee294887746db2bbcd615",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/history_seed1/predictions_test.jsonl": {
+      "count": 960,
+      "sha256": "b26ee585befbd3de49ed27ae76e1a896cbec3395f13c404336fd2ff543c7c0a6",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/history_seed1/predictions_long.jsonl": {
+      "count": 320,
+      "sha256": "add0afa6bffdef72688335bb02716d7e21a9389a4b42663b39292fa48d0ab521",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/history_seed1/predictions_very_long.jsonl": {
+      "count": 320,
+      "sha256": "9b3652a7dfdb82460c34a22636bb8257633599383f29fbd4de919dfea0fbc01c",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/history_seed1/predictions_renamed.jsonl": {
+      "count": 480,
+      "sha256": "73cab73814f1a1844bb3868db75b0c08bcb0da974f97b3b2ae439f78a5856495",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/history_seed1/predictions_unseen_chars.jsonl": {
+      "count": 480,
+      "sha256": "eb1ff3d7e8e9937de50441b815b1635a3e46a0c414fa182f277157c3932fd384",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/history_seed1/predictions_counterfactual.jsonl": {
+      "count": 480,
+      "sha256": "ce43803408fb3f3949b168899596b8227eb6fb435e817c03032602e22ce36016",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/history_seed1/predictions_historical_retention.jsonl": {
+      "count": 720,
+      "sha256": "145ab531fddf0d12e6884aa3d55fd29d457d0eca7f655cf336f254c1d8f5632a",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/history_seed1/ablation_normal.jsonl": {
+      "count": 120,
+      "sha256": "a3b1bae8b902f1afc04b5f80235ae3f7c8f82a0befcb765c17fbf6f8d829d1d3",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/history_seed1/ablation_history_disabled.jsonl": {
+      "count": 120,
+      "sha256": "2beb666bf8ea934e2b665e3f97d4c761d33267ad364d5d13125e4e9154ceefc5",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/history_seed2/predictions_test.jsonl": {
+      "count": 960,
+      "sha256": "e7056f62b99b984f8ccdc8b8b9fcf8216d1043f576a16d9741063576f6b41c29",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/history_seed2/predictions_long.jsonl": {
+      "count": 320,
+      "sha256": "9259768d9a94e2a4145f9ea643915314489f91412d05b8c4e2fa9b61f0b84b30",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/history_seed2/predictions_very_long.jsonl": {
+      "count": 320,
+      "sha256": "2631d23deaa5474ef02723a8f653bb26a4a7fe3abbcb91793e0dbb96f1e3b8ba",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/history_seed2/predictions_renamed.jsonl": {
+      "count": 480,
+      "sha256": "f0179734fc7fb1fb45e64a4b90efb276f8fcb3f4ccb0362a7df98b5f4973a1a2",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/history_seed2/predictions_unseen_chars.jsonl": {
+      "count": 480,
+      "sha256": "367cf0c37e555b855a0c141e709e52d134ecc48e3521d59e53b25b2cb36c4654",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/history_seed2/predictions_counterfactual.jsonl": {
+      "count": 480,
+      "sha256": "1f6cf9fbb3166bffaa70f8dd7ee150c68973e35086519b96698cc1ecc8ef8289",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/history_seed2/predictions_historical_retention.jsonl": {
+      "count": 720,
+      "sha256": "1d770354b63c5f580b23ff4c4239403699da4da4c811f8229bf3636aacc503d7",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/history_seed2/ablation_normal.jsonl": {
+      "count": 120,
+      "sha256": "2eeed6f9d0e97694559dd2b16c378f6c459f3812c53250183feeaeb8ed8f4f5b",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/history_seed2/ablation_history_disabled.jsonl": {
+      "count": 120,
+      "sha256": "81e28bcc75d785b5f70cbaf971f8a5e133f4c897adbf6dcabc0b6588ed99eb4c",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/slots_seed0/predictions_test.jsonl": {
+      "count": 960,
+      "sha256": "03f4c125380cf6459e31d4633bab3ed33fc649c216715e5dc21abbbd3a914259",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/slots_seed0/predictions_long.jsonl": {
+      "count": 320,
+      "sha256": "bf964451b0fab9beb118f813715766e156c0510bd3003432407fec4afa859fc2",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/slots_seed0/predictions_very_long.jsonl": {
+      "count": 320,
+      "sha256": "a5f6907e598d555fd6f6b448ba0d98e0d93f93b6fa42668001e6ba14930f49dc",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/slots_seed0/predictions_renamed.jsonl": {
+      "count": 480,
+      "sha256": "1ed5f9219a6864f9c56b285dcc8543a9915887f203809460b47042b0c1ff69df",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/slots_seed0/predictions_unseen_chars.jsonl": {
+      "count": 480,
+      "sha256": "bc403bc4dcefb5d15836db503403d65ba240143e5ea6f36add092352f4e837e2",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/slots_seed0/predictions_counterfactual.jsonl": {
+      "count": 480,
+      "sha256": "695298dc07277a73af3447cdea352a3c598336b8defb64667a58308b1b5ef5be",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/slots_seed0/predictions_historical_retention.jsonl": {
+      "count": 720,
+      "sha256": "f1dd78abeca768a32e59acff96c43d43b3885e4e4cdd258be22628d6488662ec",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/slots_seed0/ablation_normal.jsonl": {
+      "count": 120,
+      "sha256": "f3e45e666eb28b991068f3c1b00651fa5c325a6cc043e7bfbf72f8b5880deaf3",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/slots_seed0/ablation_history_disabled.jsonl": {
+      "count": 120,
+      "sha256": "e4f6a9742510f2365b8f468b51a47f51575f36bb81c7489f763095ee5cbb92d2",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/slots_seed0/ablation_slots_disabled.jsonl": {
+      "count": 120,
+      "sha256": "d22dbd14d2f16a8050b462ffb2c4802fb9608080cc3e710923a4b770588ab375",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/slots_seed1/predictions_test.jsonl": {
+      "count": 960,
+      "sha256": "8c825b2a8759061a4490759296f75f87395f8073d4ee11b6498071ad3db63464",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/slots_seed1/predictions_long.jsonl": {
+      "count": 320,
+      "sha256": "1d8729d69f2cb2858f5f3dec6771fffe0d094ff4eb53d4c6230f668e68899138",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/slots_seed1/predictions_very_long.jsonl": {
+      "count": 320,
+      "sha256": "ada955ed46a28582e142193661b8f94ccdeab5f8ef0fcaf43d5ac09750076b5d",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/slots_seed1/predictions_renamed.jsonl": {
+      "count": 480,
+      "sha256": "3a68479166cc0ec6e13d3b9cbb872326ba95ac1cfb8bddaa73d812002095cc9b",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/slots_seed1/predictions_unseen_chars.jsonl": {
+      "count": 480,
+      "sha256": "3a2b7e29d8e40dec362261135581c15e71664226abf90e184c2198286807c36c",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/slots_seed1/predictions_counterfactual.jsonl": {
+      "count": 480,
+      "sha256": "6eda2487c130ced93175ace85028794c37ec391fa3e76d210d71168bd634a136",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/slots_seed1/predictions_historical_retention.jsonl": {
+      "count": 720,
+      "sha256": "1034843c082b098fe5777e7cd7c96e49ea58c32cd6804b035b089b96e2dfd3d3",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/slots_seed1/ablation_normal.jsonl": {
+      "count": 120,
+      "sha256": "aac1d17022e6054790e20778d08c4139260c1605394e76fdfc599358fa33ff0e",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/slots_seed1/ablation_history_disabled.jsonl": {
+      "count": 120,
+      "sha256": "234c4d669d81b23c6cb32f84f76ded286a8a24025ac009d667b1bebef6681f03",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/slots_seed1/ablation_slots_disabled.jsonl": {
+      "count": 120,
+      "sha256": "bf5c41fd2edf48bc59335e99becb3880c8f007f1417d1347d716276d260098d3",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/slots_seed2/predictions_test.jsonl": {
+      "count": 960,
+      "sha256": "c83f267b3d1d585f23fc6a132ca9269bd6072f5391c316f470dd1027f7e3f601",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/slots_seed2/predictions_long.jsonl": {
+      "count": 320,
+      "sha256": "c8f1f80915b4c3d84c58a139857f20adc14015a0abe49204fa9753c80da62240",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/slots_seed2/predictions_very_long.jsonl": {
+      "count": 320,
+      "sha256": "211ca8e95c4c3dbbdf5db1a05524695c5f58a6334a70cb28c10de0c097c4c563",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/slots_seed2/predictions_renamed.jsonl": {
+      "count": 480,
+      "sha256": "cd20191b662c5458d2913b2849caa4a5ebf0f85c86d9b49b22e7eb6280809440",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/slots_seed2/predictions_unseen_chars.jsonl": {
+      "count": 480,
+      "sha256": "34495c1067283b9eb828866000149a8d7fd681ca76d255b3931037fc668931a2",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/slots_seed2/predictions_counterfactual.jsonl": {
+      "count": 480,
+      "sha256": "631c1c7882bc62ac45a97aee5a699bedc9784d36f3d07d7209d0c808b3cd82ac",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/slots_seed2/predictions_historical_retention.jsonl": {
+      "count": 720,
+      "sha256": "a59ca7995dbcd1593d497ce30ccdc2dbdd2c62dfbb43d1115c966cdaed42f456",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/slots_seed2/ablation_normal.jsonl": {
+      "count": 120,
+      "sha256": "9a1e72966fa20708089988825ff5a4f9e200f4ea7971f93f272d72d0f4bbb132",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/slots_seed2/ablation_history_disabled.jsonl": {
+      "count": 120,
+      "sha256": "83a23190c90da93487902611704f3210239121214938224ac2038c2a8c0bd72f",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/slots_seed2/ablation_slots_disabled.jsonl": {
+      "count": 120,
+      "sha256": "e817fe1227903aeadac44ce2e9771a1a16cc8e7ac25d5446c2dff98666a77918",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/wider_seed0/predictions_test.jsonl": {
+      "count": 960,
+      "sha256": "c68382b1a9d39ffc7e01a03dcd47b023bbfe28867c879d28a6af9c9664e2360e",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/wider_seed0/predictions_long.jsonl": {
+      "count": 320,
+      "sha256": "3a4a6c9f2341be81b1164b39cbd087400b01dbb7e2f8037616140d12e2f1250a",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/wider_seed0/predictions_very_long.jsonl": {
+      "count": 320,
+      "sha256": "5542346014db09f164e0d3ef771e8a76c12c736134ee7a8c3b299fc3b8d1e469",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/wider_seed0/predictions_renamed.jsonl": {
+      "count": 480,
+      "sha256": "a5826ed1a1a0fc2922000cd11ea9198245c8dfcffa902f481cedbd064f78e297",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/wider_seed0/predictions_unseen_chars.jsonl": {
+      "count": 480,
+      "sha256": "d689558a60e4002f4dc29c89cb3e5c79d20737ed6c762032ddc3f993422a4a98",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/wider_seed0/predictions_counterfactual.jsonl": {
+      "count": 480,
+      "sha256": "e247a6243ac4978313df1f0c8eeeed0b9f8536ce74698e5c9484819b4db332df",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/wider_seed0/predictions_historical_retention.jsonl": {
+      "count": 720,
+      "sha256": "eff492934d21d2126a800e349f0381240d5289a008caa55c021c42abf9049c98",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/wider_seed0/ablation_normal.jsonl": {
+      "count": 120,
+      "sha256": "819dc82f3635f54fbca4b1236eb846fd1818be36aaaa170e35d56fd94457dff8",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/wider_seed0/ablation_history_disabled.jsonl": {
+      "count": 120,
+      "sha256": "cd7965f989490c08aee551f2acd5ce1bf893a945cd18c739b7d27aa4de78d036",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/wider_seed1/predictions_test.jsonl": {
+      "count": 960,
+      "sha256": "d05209c4055167c1caca9a09f6c35584166f0eea2897da6ab9a2ec4c8a5600ba",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/wider_seed1/predictions_long.jsonl": {
+      "count": 320,
+      "sha256": "3dd275fe740245aacdd69c3e115fc1aad91e894570bcd4861ccec5d6cec359f0",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/wider_seed1/predictions_very_long.jsonl": {
+      "count": 320,
+      "sha256": "2c07d32a54504b509477c8a627dc6169d5a30fd9555805105eb33b66fac37aec",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/wider_seed1/predictions_renamed.jsonl": {
+      "count": 480,
+      "sha256": "cd64a851af0a491e97864db5438b45832e2afa51bf6c955fddcdce5b64f84080",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/wider_seed1/predictions_unseen_chars.jsonl": {
+      "count": 480,
+      "sha256": "1de7e2d5d465ad9602b60f05c4c570afc2537e911cf6097670f8461f97da95ca",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/wider_seed1/predictions_counterfactual.jsonl": {
+      "count": 480,
+      "sha256": "189892abe935b1b0a8ac011d99a2e6c8a261c9ccc4460dfb7feee9903d5e4d1f",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/wider_seed1/predictions_historical_retention.jsonl": {
+      "count": 720,
+      "sha256": "2543a328e702af9f5a1c81dc758f0454b9f435349aa1dedb9f72397af3b57351",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/wider_seed1/ablation_normal.jsonl": {
+      "count": 120,
+      "sha256": "5246350fdac5bebbd75f8ff135c5ba408f8e751bb879f2de0c6e74ffe39255b7",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/wider_seed1/ablation_history_disabled.jsonl": {
+      "count": 120,
+      "sha256": "794413041011eff83c2c9c43db2f0d64da0a1f3917031649941cbd33f9167298",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/wider_seed2/predictions_test.jsonl": {
+      "count": 960,
+      "sha256": "c9273f1f0796fe9ac6e438b92494477b115f5db9024a27fde87194c63f51f10e",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/wider_seed2/predictions_long.jsonl": {
+      "count": 320,
+      "sha256": "f7e8d32499720cd25dc00af6c500a97485e3775e6e5523f9cfa3615f72e9200a",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/wider_seed2/predictions_very_long.jsonl": {
+      "count": 320,
+      "sha256": "a4949fc5dd52a2b3ba68b6d1ee426474a28eb854605c427a4df79e9a1787573e",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/wider_seed2/predictions_renamed.jsonl": {
+      "count": 480,
+      "sha256": "e462149d2c883ef62d17ce39a1f7c0d29ccf6997ab04a6b98ddc6ca5ef3fef8f",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/wider_seed2/predictions_unseen_chars.jsonl": {
+      "count": 480,
+      "sha256": "5ef764adb325433768c97d8543569bd015d28acb9c98e4650324187b49447b52",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/wider_seed2/predictions_counterfactual.jsonl": {
+      "count": 480,
+      "sha256": "def8995f8b753a9254b4964593233b93f5ab905c1e273b1c2bf0c1bc330f53c9",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/wider_seed2/predictions_historical_retention.jsonl": {
+      "count": 720,
+      "sha256": "117e222234385ff56560e095ad306797d60487c1d9a715d29c96ff94e7777119",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/wider_seed2/ablation_normal.jsonl": {
+      "count": 120,
+      "sha256": "b3dba683696a47675cb35ca119ceeadddec35b40a12d001d78effe6ad0fe2202",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/wider_seed2/ablation_history_disabled.jsonl": {
+      "count": 120,
+      "sha256": "7130d5349536383b513ddfb7916895d65acda908f1f2c68bbecc4cf8fee62faf",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_memory_curriculum_seed0/predictions_test.jsonl": {
+      "count": 960,
+      "sha256": "4982effd7223025f13cc53334b3476b48859c89cc3391fabf87f7c08854df19f",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_memory_curriculum_seed0/predictions_long.jsonl": {
+      "count": 320,
+      "sha256": "45355525f535197903febbd736f38b67409aa835ed0e6bde686625dc69aeee0a",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_memory_curriculum_seed0/predictions_very_long.jsonl": {
+      "count": 320,
+      "sha256": "3d260e8dc769800edb4eda778448e46ae342aaf2ca1943937d33377acc3113ab",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_memory_curriculum_seed0/predictions_renamed.jsonl": {
+      "count": 480,
+      "sha256": "7f926fd1116c5f255efdf9a504be0ae174ab67b44bb227f3c79f4eae099e551b",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_memory_curriculum_seed0/predictions_unseen_chars.jsonl": {
+      "count": 480,
+      "sha256": "bcf177015e6779709546b5683d3bf76b80021d5cddf9b8e8fd6ded75a039a449",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_memory_curriculum_seed0/predictions_counterfactual.jsonl": {
+      "count": 480,
+      "sha256": "30f9bb2f04e343ae51dfe0ec3d345d896c40c853f114ca6b5583b6addc7a9137",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_memory_curriculum_seed0/predictions_historical_retention.jsonl": {
+      "count": 720,
+      "sha256": "37e6204cf4d9451df012659a4e406a2312b3e7f9ec2a2dc5b4e9b2bac4a1775d",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_memory_curriculum_seed0/ablation_normal.jsonl": {
+      "count": 120,
+      "sha256": "437f62653943c1f04082624d1fbf94980b84bd308af832b3a86a1f756047b0f5",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_memory_curriculum_seed1/predictions_test.jsonl": {
+      "count": 960,
+      "sha256": "d4d3dc67cd409b8ec5d4f74218cbfa4012f5b47eec271c047980338392ca1682",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_memory_curriculum_seed1/predictions_long.jsonl": {
+      "count": 320,
+      "sha256": "929608255b3b97ee4f02e63d022d3b055073f062a39a27610cbc825e285432f5",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_memory_curriculum_seed1/predictions_very_long.jsonl": {
+      "count": 320,
+      "sha256": "fefb8944ce809e48644e63817c17b7dafe0a43d34dffc5e2ef9d7798e45dc1fe",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_memory_curriculum_seed1/predictions_renamed.jsonl": {
+      "count": 480,
+      "sha256": "09d155a74d55a0df30ddf345c2cbcad06866b260e00fe93558b2ed31a664bf3f",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_memory_curriculum_seed1/predictions_unseen_chars.jsonl": {
+      "count": 480,
+      "sha256": "5f244597b5c82bae99cefd5aae596fe7eed57a32f4797cbde3c9aa4c861ea9aa",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_memory_curriculum_seed1/predictions_counterfactual.jsonl": {
+      "count": 480,
+      "sha256": "628013486f979c2b0a462adcec0e5bc0777766eb9506d1ca4aa8d73fec63d47d",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_memory_curriculum_seed1/predictions_historical_retention.jsonl": {
+      "count": 720,
+      "sha256": "3649807a7bb6cc7d89770a8d1649b7d561858fea3518f8d69b440a690c0cb4ab",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_memory_curriculum_seed1/ablation_normal.jsonl": {
+      "count": 120,
+      "sha256": "683be3f1e45d5c7eddbeced8a54be6098aa1fe982ec6e9b90043f51460fc779f",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_memory_curriculum_seed2/predictions_test.jsonl": {
+      "count": 960,
+      "sha256": "5a9e05ab449bbd4385b5cd54cc027f7f93adbb961bdeefba280405b554d00a8f",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_memory_curriculum_seed2/predictions_long.jsonl": {
+      "count": 320,
+      "sha256": "127b16df93dc8612e9a7c9d2b641b3a50a57cdedc84215aa53ddc09de078e945",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_memory_curriculum_seed2/predictions_very_long.jsonl": {
+      "count": 320,
+      "sha256": "ec19c199f0b17c4b0254d9217739e68886c341a03744ae634a032f7d13e16610",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_memory_curriculum_seed2/predictions_renamed.jsonl": {
+      "count": 480,
+      "sha256": "cb9367508a4a229f9971480fbe65e3ec449109fe9f24ca2966c25018802ccb67",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_memory_curriculum_seed2/predictions_unseen_chars.jsonl": {
+      "count": 480,
+      "sha256": "0d17948e659c8d1b042a2c8c428661a032e867e10a41e836c6a6ce21bc0615d1",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_memory_curriculum_seed2/predictions_counterfactual.jsonl": {
+      "count": 480,
+      "sha256": "171286795836bf6fac1024b05d8fced2197c3d53f10c420a3a02ad5a0ac4b9ad",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_memory_curriculum_seed2/predictions_historical_retention.jsonl": {
+      "count": 720,
+      "sha256": "fa4bb7c93c79da8a52603571908af2873b97dfb85e701c0c352eb256abcb12f9",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_memory_curriculum_seed2/ablation_normal.jsonl": {
+      "count": 120,
+      "sha256": "48a6549f3623c64a621385eea4ca77a32529a2338eba95c1059d8736c959b863",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/fly_seed0/predictions_test.jsonl": {
+      "count": 960,
+      "sha256": "83e7f231fa187b2f2b05d863fc1ea9b53765850e05958be4c945ce900a37b9ce",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/fly_seed0/predictions_long.jsonl": {
+      "count": 320,
+      "sha256": "b821a9427b7b54be916f8b9d4a6c565a8b6d05421eeda14c95186437e3c340a4",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/fly_seed0/predictions_very_long.jsonl": {
+      "count": 320,
+      "sha256": "5c813d23b7f7fd4a404c5515f7cf9fd844090d134059c76a6fb07216f3991eca",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/fly_seed0/predictions_renamed.jsonl": {
+      "count": 480,
+      "sha256": "ea5233a94298f7638a41716b128cd7dbf275ed5860a38f7fdd97afca722f3fab",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/fly_seed0/predictions_unseen_chars.jsonl": {
+      "count": 480,
+      "sha256": "8367f8485f57702b3264984c2d3332f0aa2fc8050b22f5a3f1d1673829d4e597",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/fly_seed0/predictions_counterfactual.jsonl": {
+      "count": 480,
+      "sha256": "bc9c1a7522739d30662c77579a3c55216251c2250b0ee98fffefc5210d25ce19",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/fly_seed0/predictions_historical_retention.jsonl": {
+      "count": 720,
+      "sha256": "8934f764cb751d748f0e7918d02b960267c649adc4edf5a9a287a2a6f7641e91",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/fly_seed0/ablation_normal.jsonl": {
+      "count": 120,
+      "sha256": "85b8c62fa5eb9a6f5bb14e65844e34ac1bcdc7aba492a52b6161f1b43a54cada",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/fly_seed0/ablation_history_disabled.jsonl": {
+      "count": 120,
+      "sha256": "01f2fd07042a5daf76dda803ba5ee28c961cffbc0c6cb5eee851936038a38a24",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/fly_seed0/ablation_edges_disabled.jsonl": {
+      "count": 120,
+      "sha256": "da8da1c0fdd6c30575d30c813a01fad56d5fbced646d23e3367aad348140d09d",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/fly_seed1/predictions_test.jsonl": {
+      "count": 960,
+      "sha256": "7cc5eedb39b0d5830a8ee48b3b8f85d27041488d143c3e38e8dc55cd6ef77728",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/fly_seed1/predictions_long.jsonl": {
+      "count": 320,
+      "sha256": "1c624a17fa2a74921493c2d3ebe8580bd4f257ab014f1cee593373393901110b",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/fly_seed1/predictions_very_long.jsonl": {
+      "count": 320,
+      "sha256": "92cda9f5b85aeb89b9ae6ff88639e61eaae96620df4fc2c2302d3311550b0537",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/fly_seed1/predictions_renamed.jsonl": {
+      "count": 480,
+      "sha256": "9d414e56f77b6becb16a755126099c5d979d4d0bcf906468b92741ce528f7f64",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/fly_seed1/predictions_unseen_chars.jsonl": {
+      "count": 480,
+      "sha256": "e2f105fc72efb03e825d61110e8affdd3d69900b30ca0803e9413f22209b109b",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/fly_seed1/predictions_counterfactual.jsonl": {
+      "count": 480,
+      "sha256": "fe5f06eb4e01dd94b04f6039c186a0da2198d571746f282c356419fce2d635d7",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/fly_seed1/predictions_historical_retention.jsonl": {
+      "count": 720,
+      "sha256": "5e42fbcc0e42256e4e40f5ff6dc1526e9778387127ff47b17936884def043a82",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/fly_seed1/ablation_normal.jsonl": {
+      "count": 120,
+      "sha256": "84903f2994e4ba666d847b2fe8af7e8380c469fd3f3700213dfa24270fda22d0",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/fly_seed1/ablation_history_disabled.jsonl": {
+      "count": 120,
+      "sha256": "16f26a7240c0445e49866f5ff5fffbe6974b5a3dd4bc207214332c8a24e51e7a",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/fly_seed1/ablation_edges_disabled.jsonl": {
+      "count": 120,
+      "sha256": "108d00666cfe3625284896b30435856ee76a679bfcb23942ed60405fc4182276",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/fly_seed2/predictions_test.jsonl": {
+      "count": 960,
+      "sha256": "ab9352b0ac79486417c791bcdb34f7e036c7680bb40d5bee8e73112cf475d814",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/fly_seed2/predictions_long.jsonl": {
+      "count": 320,
+      "sha256": "7523f393f928226c0c83abd527fd8d5ce6bc4e728f386c6b8a05406cb0e587cb",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/fly_seed2/predictions_very_long.jsonl": {
+      "count": 320,
+      "sha256": "3c7c6c3fc5220de7c88640c201d7a79bf3e23b925f9c04af1e8e8f9d20a7029c",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/fly_seed2/predictions_renamed.jsonl": {
+      "count": 480,
+      "sha256": "90257f6f072b52b7c22a54018d9745066f563d851ac34d528b707fe7f2a66fc9",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/fly_seed2/predictions_unseen_chars.jsonl": {
+      "count": 480,
+      "sha256": "92fa2c0a0b56056e114b200bfc0dbbe18227f9d05448c5b8ad470c68b6e3625f",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/fly_seed2/predictions_counterfactual.jsonl": {
+      "count": 480,
+      "sha256": "f9737e9f6e67b673d9e39cb5bbbe94384f6204e20c9572a5af31acaf16ec598b",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/fly_seed2/predictions_historical_retention.jsonl": {
+      "count": 720,
+      "sha256": "be68360f1ebc0328b4816e529a57d45e67fea863c6a17a69c5043a11cdf42925",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/fly_seed2/ablation_normal.jsonl": {
+      "count": 120,
+      "sha256": "210d32a3405287b74006f52211748e89fbb69a877fa6a9c026b75456ed291e28",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/fly_seed2/ablation_history_disabled.jsonl": {
+      "count": 120,
+      "sha256": "52af397d7b1732e36d40cc997ac52087e8678efd1de32884939d35a4a5b3b5fd",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/fly_seed2/ablation_edges_disabled.jsonl": {
+      "count": 120,
+      "sha256": "1ef1096b05e9ecf9959b1ad07f43ecc71c7977f7a2f5a5bc6a5648f7e29ee99b",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/rewired_seed0/predictions_test.jsonl": {
+      "count": 960,
+      "sha256": "2f7db632dce38870867ae3bcd43a7472a77acfba1f6fb84529711185b1635889",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/rewired_seed0/predictions_long.jsonl": {
+      "count": 320,
+      "sha256": "fab0ff28bb14c2786b7deec6eeedaf34dbe7b4400f6fb89b3dbe32014928a8fc",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/rewired_seed0/predictions_very_long.jsonl": {
+      "count": 320,
+      "sha256": "7a8641b032205c75fc38803954eca98935113c63b46bf85f3fc54b1a4c755cf4",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/rewired_seed0/predictions_renamed.jsonl": {
+      "count": 480,
+      "sha256": "848648128244c9e9268fae1c31cd287b5b5b1d8666b969f729b630e5444b6129",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/rewired_seed0/predictions_unseen_chars.jsonl": {
+      "count": 480,
+      "sha256": "9e7ceac01f73020efe6e24085ea039791744e5ea367294bfbc506c90ea4fef17",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/rewired_seed0/predictions_counterfactual.jsonl": {
+      "count": 480,
+      "sha256": "27bc3549f6a8cc3c2958af4a8ec12054db2a560a10a6f7e8d8a5acfa32d3f596",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/rewired_seed0/predictions_historical_retention.jsonl": {
+      "count": 720,
+      "sha256": "35c25cf5a78a26f0c03ddcf31e68347b2cc148daa9513d8d793050b8117a923d",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/rewired_seed0/ablation_normal.jsonl": {
+      "count": 120,
+      "sha256": "2e7c44b2b1ed04c0cb70645212841bb8215c0b71357467a2599a7cf8365708fb",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/rewired_seed0/ablation_history_disabled.jsonl": {
+      "count": 120,
+      "sha256": "bcc7730e5bae17df779861d72050886f5e4c07f725ea3457e3a12cb0c704a37e",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/rewired_seed0/ablation_edges_disabled.jsonl": {
+      "count": 120,
+      "sha256": "3484a4b1cafb3f0ddbcb13c2e88bd18792ce9e025f7452b3a0905b2b469d2bd2",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/rewired_seed1/predictions_test.jsonl": {
+      "count": 960,
+      "sha256": "c9e8931493675301120a2f04ddd6021cc162a306e14a1263110d8268ac80d29c",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/rewired_seed1/predictions_long.jsonl": {
+      "count": 320,
+      "sha256": "2849f80379f424d3a1d689527d4fa6b208575363d756dbb9fe188a8a676d8a63",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/rewired_seed1/predictions_very_long.jsonl": {
+      "count": 320,
+      "sha256": "4339f9054d659a6368585277e80cee5978ddad068aadf4c3350139ce4733a83b",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/rewired_seed1/predictions_renamed.jsonl": {
+      "count": 480,
+      "sha256": "757c02bf7ea57cbf029d8d161ce29f4f4afaaa4f995e457d119cef28b33f139c",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/rewired_seed1/predictions_unseen_chars.jsonl": {
+      "count": 480,
+      "sha256": "e66dd111a66bc6633d21aa919b3a59746dee774c168376390d44ffca622a50ed",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/rewired_seed1/predictions_counterfactual.jsonl": {
+      "count": 480,
+      "sha256": "bc9276c1602205db7dbdbd456676003ed06057bb36717907b6575c192ed51506",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/rewired_seed1/predictions_historical_retention.jsonl": {
+      "count": 720,
+      "sha256": "1ebc0e3b33a177d883b940671b3e545d4496fd37aafa1d33c1571511f0291115",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/rewired_seed1/ablation_normal.jsonl": {
+      "count": 120,
+      "sha256": "b764a617b29813d3f51eb6e082f7213d3095017ae74060261076fc75174c4e06",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/rewired_seed1/ablation_history_disabled.jsonl": {
+      "count": 120,
+      "sha256": "6d7182edad03d98b2e27934416fb22f6a900ddb5e79bb82a204d5d289c502570",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/rewired_seed1/ablation_edges_disabled.jsonl": {
+      "count": 120,
+      "sha256": "fe8b718aecc0bcf2c4a35259a8c0c6e7957e4eb496376acda29c6600698a08ad",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/rewired_seed2/predictions_test.jsonl": {
+      "count": 960,
+      "sha256": "1aa33e736d862d7fdf0ce680b3179827df141cddc17f337940487635e1c307d0",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/rewired_seed2/predictions_long.jsonl": {
+      "count": 320,
+      "sha256": "f6c1d573b8a8e5da4d21f8dd16ab62d9e9880232c8f550fcc8f599ce5aa910c3",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/rewired_seed2/predictions_very_long.jsonl": {
+      "count": 320,
+      "sha256": "1c17a63bb5e24eb7c28ed5fc2738f3761abcf3e90e5a4fbf1d27da39ed595788",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/rewired_seed2/predictions_renamed.jsonl": {
+      "count": 480,
+      "sha256": "c00383e34e0b7a7fceb7501e2fa30ce79ab070987c4cb0efd5c9bc8d6a6285b5",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/rewired_seed2/predictions_unseen_chars.jsonl": {
+      "count": 480,
+      "sha256": "950eed724084e21ebf2488d38fc623093d5297738e17fba6ee44ec5d5905954f",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/rewired_seed2/predictions_counterfactual.jsonl": {
+      "count": 480,
+      "sha256": "3100ddbe4a60b791a7935e2ea0a45dc7d23b916e1fc209b4ba1b670ce7d1bb93",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/rewired_seed2/predictions_historical_retention.jsonl": {
+      "count": 720,
+      "sha256": "b31eb80eac29c7de7d270549bccb08bed1bd860994c6ceb30bda4ec65d15cb14",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/rewired_seed2/ablation_normal.jsonl": {
+      "count": 120,
+      "sha256": "b856743b1e5492f5bf130eb7ee4b9563d7431a62682ef3a6fae15806eccbe922",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/rewired_seed2/ablation_history_disabled.jsonl": {
+      "count": 120,
+      "sha256": "4673c672f779f5f3b4c98093a4ed1c019c42a428f06aebe0e76ced10024e3e1e",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/rewired_seed2/ablation_edges_disabled.jsonl": {
+      "count": 120,
+      "sha256": "69706b3b2133e26b7b24b76386608c71392cf65f60617bd673bc24fbb6edc159",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_edges_seed0/predictions_test.jsonl": {
+      "count": 960,
+      "sha256": "c6ea787c8366b99cb70605150332b2201847903b8cc278016715047c89c8d438",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_edges_seed0/predictions_long.jsonl": {
+      "count": 320,
+      "sha256": "0521a86ba8d2e26ec952f8ec494a59b3a7fd2b2106629c880537f28acc0eee71",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_edges_seed0/predictions_very_long.jsonl": {
+      "count": 320,
+      "sha256": "17da358fce0c1e49d4979c7c4351326bcf1d1830b5e55c41a092a667d0b29f65",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_edges_seed0/predictions_renamed.jsonl": {
+      "count": 480,
+      "sha256": "2464a3af5f164fec208cb449eb12592934fa94b6bd3c870689aac458fa0e4af2",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_edges_seed0/predictions_unseen_chars.jsonl": {
+      "count": 480,
+      "sha256": "a3b595ba8af40a81cdc4c6ea8fea138a5c450b900d9479fe02072e9faab52211",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_edges_seed0/predictions_counterfactual.jsonl": {
+      "count": 480,
+      "sha256": "000fe4040ceb532c333ccb0ed40871d85397a48139ab9883f9cdad7df5c7fee9",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_edges_seed0/predictions_historical_retention.jsonl": {
+      "count": 720,
+      "sha256": "46a2d1e25caffa014e171aaa4864716f22d1c20c07f0791d2a2e1bccb3fe3d25",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_edges_seed0/ablation_normal.jsonl": {
+      "count": 120,
+      "sha256": "c0c9b919bcc1f0103b431662e8c04cced151c7cace7fc0ed08b9a016460a8f72",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_edges_seed0/ablation_history_disabled.jsonl": {
+      "count": 120,
+      "sha256": "70d167d1f7951828b20f9dd26d336b7e7a1d6c18c3f11529af68e63e884e05a4",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_edges_seed1/predictions_test.jsonl": {
+      "count": 960,
+      "sha256": "2538f285193a1905ce68426c204de5878997f20aba9a42eb3546714f7213af94",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_edges_seed1/predictions_long.jsonl": {
+      "count": 320,
+      "sha256": "13f9f1cd2a019fad3e149bb0d615b44afed89c97aa1b014fa18738ccfb79d34f",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_edges_seed1/predictions_very_long.jsonl": {
+      "count": 320,
+      "sha256": "cb6f72af58ddf53fe33a07eee535b446c46d71f340d57c0b4823c6d8868fa2d1",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_edges_seed1/predictions_renamed.jsonl": {
+      "count": 480,
+      "sha256": "f9376f5d0077ad22ceceb4db2eca2e62c3ef587a84c47151f08af2fb9e438fb3",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_edges_seed1/predictions_unseen_chars.jsonl": {
+      "count": 480,
+      "sha256": "7e741e8e0f5958b54e3292f93105b19fde1fcebcf8f90733afb03b262a534c1b",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_edges_seed1/predictions_counterfactual.jsonl": {
+      "count": 480,
+      "sha256": "44199690ee4baa287a2d37672aeb4638018596383bbc4e337d01447a091f45e7",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_edges_seed1/predictions_historical_retention.jsonl": {
+      "count": 720,
+      "sha256": "142a9b4ae5cbe976204992762256441be31ad591b9b93b85769136907488f6af",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_edges_seed1/ablation_normal.jsonl": {
+      "count": 120,
+      "sha256": "fab26840215d3ff6fb2c192d3759bc08c2ed6df37c3d040a3334762ac1fb775c",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_edges_seed1/ablation_history_disabled.jsonl": {
+      "count": 120,
+      "sha256": "f2ae0ded1bd22a29cd09f6a17044b3ecf7d6fed0142a52f3dd2e3bd2beaffee1",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_edges_seed2/predictions_test.jsonl": {
+      "count": 960,
+      "sha256": "1e3a58384dabca8d7062604bc9b36179077d51d03dff34eba6e49421aabbce81",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_edges_seed2/predictions_long.jsonl": {
+      "count": 320,
+      "sha256": "0059805a8ee8a5f0417a3b5b18172af6d692e0c1799014e3376df02de25a452d",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_edges_seed2/predictions_very_long.jsonl": {
+      "count": 320,
+      "sha256": "f27a509c56874a06ccad806ef913c5d5e54db10d13325e71204915c977cfc507",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_edges_seed2/predictions_renamed.jsonl": {
+      "count": 480,
+      "sha256": "369c9e3bb17f93bbb5db79b34a2beabc2c0d255f6a1de81424ebca7a5b9c6a89",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_edges_seed2/predictions_unseen_chars.jsonl": {
+      "count": 480,
+      "sha256": "e9bf5bcc97151556d3480f5234f3948a57b57c184c16528e0fe2ce5db180a767",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_edges_seed2/predictions_counterfactual.jsonl": {
+      "count": 480,
+      "sha256": "7ca640c61f333a79eb67fe08ac6d15686c287b232a8a4a8bd5da13c0e37ac19c",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_edges_seed2/predictions_historical_retention.jsonl": {
+      "count": 720,
+      "sha256": "f8ac5949dc7a6486e07d8dfa859763f240d21376b3ab551c12c4381c33069741",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_edges_seed2/ablation_normal.jsonl": {
+      "count": 120,
+      "sha256": "ca13fe0dd10e7f2c9a52ecbe1c15348764e805f27c4963db4d7aae8014c85157",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/confirmation/no_edges_seed2/ablation_history_disabled.jsonl": {
+      "count": 120,
+      "sha256": "219733d5742e86244cb8be984a2904d876c4d73f5ef299419cde8898e5df8fb3",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/source_baselines/mlp_seed0.jsonl": {
+      "count": 960,
+      "sha256": "26070b9ef7005ddf8b2cdc7c9282743c1059159e9b0e9480d275b7c427467759",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/source_baselines/mlp_seed1.jsonl": {
+      "count": 960,
+      "sha256": "e0b477fd7e43a6d326acf09ffdfbacaf8c1a134a1dc5c6837c6e9c10a8f1a36a",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/source_baselines/mlp_seed2.jsonl": {
+      "count": 960,
+      "sha256": "383edfeb0d9b039b23a5c84c3cd983433f60c3a0638c2bc0387aa84432d04cd4",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/source_baselines/fly_seed0.jsonl": {
+      "count": 960,
+      "sha256": "b2fd454c47f432d1dda4105e160f00b8b82d10f628f81de718128fde837ff964",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/source_baselines/fly_seed1.jsonl": {
+      "count": 960,
+      "sha256": "1bf7b7cfab7042f55b2d11be1d4a96264c053a94e65500918abd3699d42ea62a",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/source_baselines/fly_seed2.jsonl": {
+      "count": 960,
+      "sha256": "fc1e8d8b919cf51e72ab627bd2b51375208a283ea991c7acaefa909dd87b5b98",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/source_baselines/rewired_seed0.jsonl": {
+      "count": 960,
+      "sha256": "8f39180c5ee375dab40c8fa9cf96a9a2e2dcf3d9870a961979be5a05e656dd73",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/source_baselines/rewired_seed1.jsonl": {
+      "count": 960,
+      "sha256": "ce1de175e7dab840c8250989f879ffef78b01af8290ef5d4c451a3ffd36ca021",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/source_baselines/rewired_seed2.jsonl": {
+      "count": 960,
+      "sha256": "a71fd0f3721ffce606a9ebcbb46e4d0e0270d9135e6953000df2789255df5de0",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/source_baselines/no_edges_seed0.jsonl": {
+      "count": 960,
+      "sha256": "5e5dafd1fd0a73e550c77e8e1d0f2ed337abf060c1e3c01e09dbae267d33f1bf",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/source_baselines/no_edges_seed1.jsonl": {
+      "count": 960,
+      "sha256": "7c835ac54a849fc1606987f01b52c078d3d74bddb8fc99955a688b4301ee2201",
+      "all_ids_inputs_labels_and_scores_match": true
+    },
+    "results/stage7/source_baselines/no_edges_seed2.jsonl": {
+      "count": 960,
+      "sha256": "5ac213e36e5f0103322275f4f8040cfb442a3c5f74ede9f631c3fac293a2823a",
+      "all_ids_inputs_labels_and_scores_match": true
+    }
+  },
+  "frozen_checkpoints_unchanged": true,
+  "note": "Archive consistency verification, no additional inference. Forced-prefix and altered-history teacher diagnostics are separate; this audit covers free output and component ablations."
+}

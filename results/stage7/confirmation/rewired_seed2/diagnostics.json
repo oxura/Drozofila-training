@@ -1,0 +1,196 @@
+{
+  "forced_true_steps": {
+    "count": 120,
+    "accuracy": 0.5666666666666667,
+    "note": "Diagnostic teacher assistance; excluded from free-inference accuracy."
+  },
+  "history_interventions": {
+    "count": 120,
+    "baseline_correct_count": 84,
+    "follows_changed_value_on_baseline_correct": 0.9404761904761905,
+    "irrelevant_stable_on_baseline_correct": 0.9285714285714286,
+    "note": "Forced altered traces conflict with the original program. Measures sensitivity to supplied history, not semantic correctness or spontaneous memory use. Every prefix is recomputed with an empty cache."
+  },
+  "ablations": {
+    "normal": {
+      "count": 120,
+      "answer_accuracy": 0.4583333333333333,
+      "completion_exact": 0.375,
+      "halted_fraction": 1.0,
+      "by_family": {
+        "sum": {
+          "count": 32,
+          "answer_accuracy": 0.0,
+          "completion_exact": 0.0,
+          "halted_fraction": 1.0
+        },
+        "memory": {
+          "count": 30,
+          "answer_accuracy": 0.6333333333333333,
+          "completion_exact": 0.6333333333333333,
+          "halted_fraction": 1.0
+        },
+        "code": {
+          "count": 21,
+          "answer_accuracy": 0.14285714285714285,
+          "completion_exact": 0.0,
+          "halted_fraction": 1.0
+        },
+        "logic": {
+          "count": 37,
+          "answer_accuracy": 0.8918918918918919,
+          "completion_exact": 0.7027027027027027,
+          "halted_fraction": 1.0
+        }
+      },
+      "macro_answer_accuracy": 0.417020592020592,
+      "macro_completion_exact": 0.334009009009009,
+      "query_position": {
+        "memory_earlier": {
+          "count": 11,
+          "answer_accuracy": 0.0,
+          "completion_exact": 0.0,
+          "halted_fraction": 1.0
+        },
+        "memory_last": {
+          "count": 19,
+          "answer_accuracy": 1.0,
+          "completion_exact": 1.0,
+          "halted_fraction": 1.0
+        },
+        "code_earlier": {
+          "count": 10,
+          "answer_accuracy": 0.2,
+          "completion_exact": 0.0,
+          "halted_fraction": 1.0
+        },
+        "code_last": {
+          "count": 11,
+          "answer_accuracy": 0.09090909090909091,
+          "completion_exact": 0.0,
+          "halted_fraction": 1.0
+        }
+      }
+    },
+    "history_disabled": {
+      "count": 120,
+      "answer_accuracy": 0.43333333333333335,
+      "completion_exact": 0.3333333333333333,
+      "halted_fraction": 1.0,
+      "by_family": {
+        "sum": {
+          "count": 32,
+          "answer_accuracy": 0.0,
+          "completion_exact": 0.0,
+          "halted_fraction": 1.0
+        },
+        "memory": {
+          "count": 30,
+          "answer_accuracy": 0.6333333333333333,
+          "completion_exact": 0.5666666666666667,
+          "halted_fraction": 1.0
+        },
+        "code": {
+          "count": 21,
+          "answer_accuracy": 0.14285714285714285,
+          "completion_exact": 0.0,
+          "halted_fraction": 1.0
+        },
+        "logic": {
+          "count": 37,
+          "answer_accuracy": 0.8108108108108109,
+          "completion_exact": 0.6216216216216216,
+          "halted_fraction": 1.0
+        }
+      },
+      "macro_answer_accuracy": 0.39675032175032177,
+      "macro_completion_exact": 0.2970720720720721,
+      "query_position": {
+        "memory_earlier": {
+          "count": 11,
+          "answer_accuracy": 0.0,
+          "completion_exact": 0.0,
+          "halted_fraction": 1.0
+        },
+        "memory_last": {
+          "count": 19,
+          "answer_accuracy": 1.0,
+          "completion_exact": 0.8947368421052632,
+          "halted_fraction": 1.0
+        },
+        "code_earlier": {
+          "count": 10,
+          "answer_accuracy": 0.1,
+          "completion_exact": 0.0,
+          "halted_fraction": 1.0
+        },
+        "code_last": {
+          "count": 11,
+          "answer_accuracy": 0.18181818181818182,
+          "completion_exact": 0.0,
+          "halted_fraction": 1.0
+        }
+      }
+    },
+    "edges_disabled": {
+      "count": 120,
+      "answer_accuracy": 0.475,
+      "completion_exact": 0.35833333333333334,
+      "halted_fraction": 1.0,
+      "by_family": {
+        "sum": {
+          "count": 32,
+          "answer_accuracy": 0.09375,
+          "completion_exact": 0.0,
+          "halted_fraction": 1.0
+        },
+        "memory": {
+          "count": 30,
+          "answer_accuracy": 0.6666666666666666,
+          "completion_exact": 0.6333333333333333,
+          "halted_fraction": 1.0
+        },
+        "code": {
+          "count": 21,
+          "answer_accuracy": 0.14285714285714285,
+          "completion_exact": 0.0,
+          "halted_fraction": 1.0
+        },
+        "logic": {
+          "count": 37,
+          "answer_accuracy": 0.8378378378378378,
+          "completion_exact": 0.6486486486486487,
+          "halted_fraction": 1.0
+        }
+      },
+      "macro_answer_accuracy": 0.43527791184041187,
+      "macro_completion_exact": 0.3204954954954955,
+      "query_position": {
+        "memory_earlier": {
+          "count": 11,
+          "answer_accuracy": 0.09090909090909091,
+          "completion_exact": 0.09090909090909091,
+          "halted_fraction": 1.0
+        },
+        "memory_last": {
+          "count": 19,
+          "answer_accuracy": 1.0,
+          "completion_exact": 0.9473684210526315,
+          "halted_fraction": 1.0
+        },
+        "code_earlier": {
+          "count": 10,
+          "answer_accuracy": 0.1,
+          "completion_exact": 0.0,
+          "halted_fraction": 1.0
+        },
+        "code_last": {
+          "count": 11,
+          "answer_accuracy": 0.18181818181818182,
+          "completion_exact": 0.0,
+          "halted_fraction": 1.0
+        }
+      }
+    }
+  }
+}

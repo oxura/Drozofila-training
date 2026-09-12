@@ -1,0 +1,15 @@
+{
+  "run": "history_seed1",
+  "memory": {
+    "count": 240,
+    "correct_trace": 238,
+    "correct_trace_wrong_answer": 30,
+    "of_these_last_written_value": 13
+  },
+  "code": {
+    "count": 240,
+    "correct_trace": 115,
+    "correct_trace_wrong_answer": 16,
+    "of_these_last_written_value": 5
+  }
+}
