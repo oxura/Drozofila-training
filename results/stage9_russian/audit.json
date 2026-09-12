@@ -1,0 +1,20 @@
+{
+  "phase": "pilot",
+  "frozen_training_files_verified": true,
+  "completed_runs": {
+    "direct": {
+      "step": 1200,
+      "selected_step": 1200,
+      "examples": 19200
+    },
+    "trace": {
+      "step": 1200,
+      "selected_step": 1200,
+      "examples": 19200
+    }
+  },
+  "validation_prediction_scores_recomputed": true,
+  "matched_sampling_rng_seeds": [],
+  "final_predictions_recomputed": 0,
+  "no_inference_teacher": "fly_russian imports only model/tokenizer/neural generator; separately checked by blocked-import smoke."
+}

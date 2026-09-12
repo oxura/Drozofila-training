@@ -1,0 +1,48 @@
+{
+  "frozen_at": "2026-09-12T21:17:03.789320+00:00",
+  "runs": {
+    "pilot": {
+      "condition": "mlp",
+      "seed": 0,
+      "steps": 1200,
+      "eval_every": 400,
+      "sampling_seed": 101000
+    }
+  },
+  "source_hashes": {
+    "stage9_russian_data.py": "ee9cbd422783a3d898095f0677a0556e9f54f73872104eea919f495cc84a117f",
+    "stage9_russian_tokens.py": "c2c11bcc91271d27786e00d7f471cb04ed4917e3f6406a093062944b25b7a0a2",
+    "stage9_russian_model.py": "3901007465668a0a3132a88bbc6b849abf5bc88fddcd7fca9cb2e387bc158ba8",
+    "stage9_russian_engine.py": "f75a2168e8498db96a4769539451e1267b660b6521c695a2fc247af631ff19a9",
+    "stage9_russian_train.py": "442059708687fbd8451d7a8d02b27d74796149a3d2fe46460c648ca3657483b2",
+    "stage9_russian_preflight.py": "23f0d2988e690a579b2b290c8d6d4612eab44c2d2055a4494e3fed61d4dafab1",
+    "stage9_russian_experiment.py": "7a2b882278d361723d565149cb1bed897a55732f9ec3d788b2f4327c8b03b673",
+    "STAGE9_RUSSIAN_PROTOCOL.md": "ac28decf4a4d0d860b4541bf9bd43fc3a2784fafc6e0950f979af04b13c09091",
+    "stage6_tokens.py": "e6c2a5e9734821720731ddfb3386e7dfcb79f120a70b9987e63319d2184f3aa4",
+    "stage6_train.py": "47f91e0bcd4b61f5a980ac42a4a01940b274a97d8625c57d4215883c2dc628df",
+    "stage6_model.py": "46bd3b06847db91b1ec9d84b335a0e1c6a42557a53a36fb21e54e7dd0f4291cc",
+    "stage7_model.py": "d2f8a720c887b890c93bd984aaf21b48b58c5644f2501ceb298001a62f251ba1",
+    "model.py": "5e0f41d93d33630ead06f01e8fc4abb784188e52c449d2af4b27281199658426",
+    "stage10_russian_data.py": "ab60be7bc4391e1e2eee3f91a30af71bcb800caf57018f7f660a6efc84ebfcf0",
+    "stage10_russian_pipeline.py": "dc445e14eced5d97764cd4c1759eeb406be5d2debb65e1093becc8664444901f",
+    "stage10_russian_train.py": "f8f2243e276d485a559a125aba048034f101e5a187036d7b1463947a5dff4b16",
+    "stage10_russian_experiment.py": "0326ed998008ea5a74bde622909146e9669b75272a0d83351ef712d3321b8115",
+    "STAGE10_RUSSIAN_PROTOCOL.md": "7c483e888c65d315e5a31252e1de7c978ece51d6508b5e5964d2c98373610ae4"
+  },
+  "checkpoint_hashes": {
+    "results/stage7/confirmation/history_seed0/best.pt": "f24df2589335d0714fdf87c6779355393f0c55c1ac51485e48a3468c55d19947",
+    "results/stage7/confirmation/history_seed1/best.pt": "fc7004b5319c1d30575b0bfef6133558155539ae2c3981beb6b44a61f0ad349e",
+    "results/stage7/confirmation/history_seed2/best.pt": "db5896fbf281bd00ec237184d0d567166d334f44f23b0f70e5933a067a81af5c",
+    "results/stage7/confirmation/fly_seed0/best.pt": "26f281a5c5e8e2d68d46e8106657f7d5b17351556c6caebfa18435ae495b7a9f",
+    "results/stage7/confirmation/fly_seed1/best.pt": "06cd3eb6b5f7b693af49d8524483d5fd3bcff8adda83556ac303e47c33336d70",
+    "results/stage7/confirmation/fly_seed2/best.pt": "f90f4855306fc296e2e2ac9f6d7ab93c4565ec761da7f9634b0799a540de246e",
+    "results/stage7/confirmation/rewired_seed0/best.pt": "c9233e8043a2ead29353e98b3b2ad05bb5e6b9a7fcff111af1ad1064018b1ca4",
+    "results/stage7/confirmation/rewired_seed1/best.pt": "6e0ded00a9d0601bbfc80032b0b28d078d7b761ef2009344917f1f060a990c99",
+    "results/stage7/confirmation/rewired_seed2/best.pt": "27c799fcbb79c87f7d1b5681c5658d9dacd29b822545a108eb6deef53a2b1d8e",
+    "results/stage7/confirmation/no_edges_seed0/best.pt": "c4c1fd278735854df3a72ad3b9e05a1ae630d6abaa37d40709398277015a86c2",
+    "results/stage7/confirmation/no_edges_seed1/best.pt": "25023a9f2cf092fbd54247a1497ee0a8fdc2cb4e262a03e216e7338f00ad449a",
+    "results/stage7/confirmation/no_edges_seed2/best.pt": "75538df82e971a7fadb325967e7b533679ac929fc65e7f8261213f9e0a9c6449"
+  },
+  "data_manifest_sha256": "2a02dec52bfcb881014cbde75085c699ffd2769d8f3c7ab90e4becc6efb35214",
+  "final_test_open": false
+}

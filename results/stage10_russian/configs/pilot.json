@@ -1,0 +1,7 @@
+{
+  "condition": "mlp",
+  "seed": 0,
+  "steps": 1200,
+  "eval_every": 400,
+  "sampling_seed": 101000
+}

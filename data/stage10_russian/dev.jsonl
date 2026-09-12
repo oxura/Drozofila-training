@@ -1,0 +1,1392 @@
+{"id": "dev-00214-clause0", "prompt": "В начале в памяти: dd=девять, c=1, d=один, a=семь.", "target": "dd=9;c=1;d=1;a=7", "kind": "initial"}
+{"id": "dev-00214-clause1", "prompt": "Пусть dd хранит значение c.", "target": "dd=(c+0)%10", "kind": "copy"}
+{"id": "dev-00214-clause2", "prompt": "Пусть c равно пять.", "target": "c=5", "kind": "set"}
+{"id": "dev-00214-clause3", "prompt": "Чему равно dd?", "target": "?dd", "kind": "query"}
+{"id": "dev-00233-clause0", "prompt": "В начале в памяти: aa=9, c=1, bb=девять, a=7.", "target": "aa=9;c=1;bb=9;a=7", "kind": "initial"}
+{"id": "dev-00233-clause1", "prompt": "Пусть aa равно семь.", "target": "aa=7", "kind": "set"}
+{"id": "dev-00233-clause2", "prompt": "Теперь aa хранит семь.", "target": "aa=7", "kind": "set"}
+{"id": "dev-00233-clause3", "prompt": "Теперь aa хранит 7.", "target": "aa=7", "kind": "set"}
+{"id": "dev-00233-clause4", "prompt": "Не меняй значение aa.", "target": "aa=(aa+0)%10", "kind": "keep"}
+{"id": "dev-00233-clause5", "prompt": "Какое число хранит aa?", "target": "?aa", "kind": "query"}
+{"id": "dev-00133-clause0", "prompt": "Сначала запомни: cc=девять, dd=пять, c=семь, a=четыре.", "target": "cc=9;dd=5;c=7;a=4", "kind": "initial"}
+{"id": "dev-00133-clause1", "prompt": "Перепиши значение cc в a.", "target": "a=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00133-clause2", "prompt": "Пусть cc равно четыре.", "target": "cc=4", "kind": "set"}
+{"id": "dev-00133-clause3", "prompt": "Скопируй cc в a.", "target": "a=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00133-clause4", "prompt": "Значение dd теперь ноль, не 8.", "target": "dd=0", "kind": "choose"}
+{"id": "dev-00133-clause5", "prompt": "Оставь a без изменений.", "target": "a=(a+0)%10", "kind": "keep"}
+{"id": "dev-00133-clause6", "prompt": "Какое значение у cc?", "target": "?cc", "kind": "query"}
+{"id": "dev-00118-clause0", "prompt": "Сначала запомни: dd=5, cc=четыре, d=девять, a=6.", "target": "dd=5;cc=4;d=9;a=6", "kind": "initial"}
+{"id": "dev-00118-clause1", "prompt": "Присвой dd значение девять.", "target": "dd=9", "kind": "set"}
+{"id": "dev-00118-clause2", "prompt": "Для a возьми значение из dd.", "target": "a=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00118-clause3", "prompt": "Не меняй значение a.", "target": "a=(a+0)%10", "kind": "keep"}
+{"id": "dev-00118-clause4", "prompt": "Теперь dd хранит четыре.", "target": "dd=4", "kind": "set"}
+{"id": "dev-00118-clause5", "prompt": "Для dd возьми значение из cc.", "target": "dd=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00118-clause6", "prompt": "Что сейчас хранится в a?", "target": "?a", "kind": "query"}
+{"id": "dev-00164-clause0", "prompt": "Дано: d=два, dd=7, aa=девять, a=0.", "target": "d=2;dd=7;aa=9;a=0", "kind": "initial"}
+{"id": "dev-00164-clause1", "prompt": "Для dd возьми значение из aa.", "target": "dd=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00164-clause2", "prompt": "Запиши четыре в aa.", "target": "aa=4", "kind": "set"}
+{"id": "dev-00164-clause3", "prompt": "Что сейчас хранится в aa?", "target": "?aa", "kind": "query"}
+{"id": "dev-00190-clause0", "prompt": "В начале в памяти: cc=два, bb=3, b=четыре, c=три.", "target": "cc=2;bb=3;b=4;c=3", "kind": "initial"}
+{"id": "dev-00190-clause1", "prompt": "Пусть cc хранит значение bb.", "target": "cc=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00190-clause2", "prompt": "Для bb выбери 9 вместо ноль.", "target": "bb=9", "kind": "choose"}
+{"id": "dev-00190-clause3", "prompt": "Скопируй cc в c.", "target": "c=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00190-clause4", "prompt": "Что сейчас хранится в cc?", "target": "?cc", "kind": "query"}
+{"id": "dev-00165-clause0", "prompt": "В начале в памяти: dd=пять, d=4, b=четыре, cc=3.", "target": "dd=5;d=4;b=4;cc=3", "kind": "initial"}
+{"id": "dev-00165-clause1", "prompt": "Скопируй dd в b.", "target": "b=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00165-clause2", "prompt": "Пусть d хранит значение cc.", "target": "d=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00165-clause3", "prompt": "Теперь cc хранит 6.", "target": "cc=6", "kind": "set"}
+{"id": "dev-00165-clause4", "prompt": "Пусть cc равно восемь.", "target": "cc=8", "kind": "set"}
+{"id": "dev-00165-clause5", "prompt": "Значение d теперь ноль, не четыре.", "target": "d=0", "kind": "choose"}
+{"id": "dev-00165-clause6", "prompt": "Чему равно dd?", "target": "?dd", "kind": "query"}
+{"id": "dev-00139-clause0", "prompt": "Начальные значения: b=4, a=9, d=пять, bb=четыре.", "target": "b=4;a=9;d=5;bb=4", "kind": "initial"}
+{"id": "dev-00139-clause1", "prompt": "bb должно хранить 4, а не восемь.", "target": "bb=4", "kind": "choose"}
+{"id": "dev-00139-clause2", "prompt": "Пусть a равно четыре.", "target": "a=4", "kind": "set"}
+{"id": "dev-00139-clause3", "prompt": "Запиши 6 в bb.", "target": "bb=6", "kind": "set"}
+{"id": "dev-00139-clause4", "prompt": "Теперь a хранит 6.", "target": "a=6", "kind": "set"}
+{"id": "dev-00139-clause5", "prompt": "Назови значение bb.", "target": "?bb", "kind": "query"}
+{"id": "dev-00032-clause0", "prompt": "Начальные значения: b=четыре, cc=0, c=четыре, aa=5.", "target": "b=4;cc=0;c=4;aa=5", "kind": "initial"}
+{"id": "dev-00032-clause1", "prompt": "Скопируй cc в c.", "target": "c=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00032-clause2", "prompt": "Скопируй cc в aa.", "target": "aa=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00032-clause3", "prompt": "Перепиши значение c в cc.", "target": "cc=(c+0)%10", "kind": "copy"}
+{"id": "dev-00032-clause4", "prompt": "Скопируй c в b.", "target": "b=(c+0)%10", "kind": "copy"}
+{"id": "dev-00032-clause5", "prompt": "Какое число хранит b?", "target": "?b", "kind": "query"}
+{"id": "dev-00034-clause0", "prompt": "Начальные значения: b=два, a=три, aa=четыре, d=4.", "target": "b=2;a=3;aa=4;d=4", "kind": "initial"}
+{"id": "dev-00034-clause1", "prompt": "Теперь d хранит один.", "target": "d=1", "kind": "set"}
+{"id": "dev-00034-clause2", "prompt": "Для a выбери 3 вместо семь.", "target": "a=3", "kind": "choose"}
+{"id": "dev-00034-clause3", "prompt": "Чему равно d?", "target": "?d", "kind": "query"}
+{"id": "dev-00187-clause0", "prompt": "Начальные значения: dd=1, bb=2, d=четыре, aa=один.", "target": "dd=1;bb=2;d=4;aa=1", "kind": "initial"}
+{"id": "dev-00187-clause1", "prompt": "Запиши два в aa.", "target": "aa=2", "kind": "set"}
+{"id": "dev-00187-clause2", "prompt": "Запиши 6 в bb.", "target": "bb=6", "kind": "set"}
+{"id": "dev-00187-clause3", "prompt": "Для dd выбери 5 вместо три.", "target": "dd=5", "kind": "choose"}
+{"id": "dev-00187-clause4", "prompt": "Скопируй bb в dd.", "target": "dd=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00187-clause5", "prompt": "Что сейчас хранится в aa?", "target": "?aa", "kind": "query"}
+{"id": "dev-00003-clause0", "prompt": "Начальные значения: b=пять, cc=9, d=три, bb=1.", "target": "b=5;cc=9;d=3;bb=1", "kind": "initial"}
+{"id": "dev-00003-clause1", "prompt": "Замени значение b на 4.", "target": "b=4", "kind": "set"}
+{"id": "dev-00003-clause2", "prompt": "Присвой b значение семь.", "target": "b=7", "kind": "set"}
+{"id": "dev-00003-clause3", "prompt": "Какое значение у bb?", "target": "?bb", "kind": "query"}
+{"id": "dev-00064-clause0", "prompt": "Сначала запомни: b=четыре, bb=три, dd=восемь, a=два.", "target": "b=4;bb=3;dd=8;a=2", "kind": "initial"}
+{"id": "dev-00064-clause1", "prompt": "Сохрани прежнее значение a.", "target": "a=(a+0)%10", "kind": "keep"}
+{"id": "dev-00064-clause2", "prompt": "Пусть bb хранит значение b.", "target": "bb=(b+0)%10", "kind": "copy"}
+{"id": "dev-00064-clause3", "prompt": "Присвой b значение пять.", "target": "b=5", "kind": "set"}
+{"id": "dev-00064-clause4", "prompt": "Теперь bb хранит один.", "target": "bb=1", "kind": "set"}
+{"id": "dev-00064-clause5", "prompt": "Перепиши значение bb в a.", "target": "a=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00064-clause6", "prompt": "Назови значение bb.", "target": "?bb", "kind": "query"}
+{"id": "dev-00037-clause0", "prompt": "В начале в памяти: cc=0, d=три, a=восемь, b=семь.", "target": "cc=0;d=3;a=8;b=7", "kind": "initial"}
+{"id": "dev-00037-clause1", "prompt": "Теперь a хранит ноль.", "target": "a=0", "kind": "set"}
+{"id": "dev-00037-clause2", "prompt": "Присвой d значение два.", "target": "d=2", "kind": "set"}
+{"id": "dev-00037-clause3", "prompt": "Для a возьми значение из cc.", "target": "a=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00037-clause4", "prompt": "Сохрани прежнее значение d.", "target": "d=(d+0)%10", "kind": "keep"}
+{"id": "dev-00037-clause5", "prompt": "Оставь a без изменений.", "target": "a=(a+0)%10", "kind": "keep"}
+{"id": "dev-00037-clause6", "prompt": "Теперь b хранит два.", "target": "b=2", "kind": "set"}
+{"id": "dev-00037-clause7", "prompt": "Чему равно d?", "target": "?d", "kind": "query"}
+{"id": "dev-00013-clause0", "prompt": "В начале в памяти: a=ноль, aa=9, d=девять, b=5.", "target": "a=0;aa=9;d=9;b=5", "kind": "initial"}
+{"id": "dev-00013-clause1", "prompt": "Запиши 4 в aa.", "target": "aa=4", "kind": "set"}
+{"id": "dev-00013-clause2", "prompt": "Оставь a без изменений.", "target": "a=(a+0)%10", "kind": "keep"}
+{"id": "dev-00013-clause3", "prompt": "Пусть a хранит значение aa.", "target": "a=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00013-clause4", "prompt": "Не меняй значение a.", "target": "a=(a+0)%10", "kind": "keep"}
+{"id": "dev-00013-clause5", "prompt": "Для b возьми значение из d.", "target": "b=(d+0)%10", "kind": "copy"}
+{"id": "dev-00013-clause6", "prompt": "Какое число хранит a?", "target": "?a", "kind": "query"}
+{"id": "dev-00071-clause0", "prompt": "Сначала запомни: cc=девять, c=3, b=5, d=4.", "target": "cc=9;c=3;b=5;d=4", "kind": "initial"}
+{"id": "dev-00071-clause1", "prompt": "Пусть cc хранит значение c.", "target": "cc=(c+0)%10", "kind": "copy"}
+{"id": "dev-00071-clause2", "prompt": "Не записывай один в cc.", "target": "cc=(cc+0)%10", "kind": "keep"}
+{"id": "dev-00071-clause3", "prompt": "Для cc возьми значение из c.", "target": "cc=(c+0)%10", "kind": "copy"}
+{"id": "dev-00071-clause4", "prompt": "Какое число хранит cc?", "target": "?cc", "kind": "query"}
+{"id": "dev-00061-clause0", "prompt": "В начале в памяти: cc=три, dd=четыре, bb=четыре, b=1.", "target": "cc=3;dd=4;bb=4;b=1", "kind": "initial"}
+{"id": "dev-00061-clause1", "prompt": "Возьми число из cc и запиши его в dd.", "target": "dd=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00061-clause2", "prompt": "Замени значение cc на ноль.", "target": "cc=0", "kind": "set"}
+{"id": "dev-00061-clause3", "prompt": "Присвой b значение семь.", "target": "b=7", "kind": "set"}
+{"id": "dev-00061-clause4", "prompt": "Назови значение cc.", "target": "?cc", "kind": "query"}
+{"id": "dev-00006-clause0", "prompt": "В начале в памяти: dd=семь, a=два, aa=7, cc=шесть.", "target": "dd=7;a=2;aa=7;cc=6", "kind": "initial"}
+{"id": "dev-00006-clause1", "prompt": "Теперь aa хранит восемь.", "target": "aa=8", "kind": "set"}
+{"id": "dev-00006-clause2", "prompt": "dd должно хранить пять, а не два.", "target": "dd=5", "kind": "choose"}
+{"id": "dev-00006-clause3", "prompt": "Для dd возьми значение из a.", "target": "dd=(a+0)%10", "kind": "copy"}
+{"id": "dev-00006-clause4", "prompt": "Какое значение у a?", "target": "?a", "kind": "query"}
+{"id": "dev-00085-clause0", "prompt": "Начальные значения: d=9, bb=ноль, b=восемь, cc=3.", "target": "d=9;bb=0;b=8;cc=3", "kind": "initial"}
+{"id": "dev-00085-clause1", "prompt": "Скопируй b в bb.", "target": "bb=(b+0)%10", "kind": "copy"}
+{"id": "dev-00085-clause2", "prompt": "Пусть b равно три.", "target": "b=3", "kind": "set"}
+{"id": "dev-00085-clause3", "prompt": "Что сейчас хранится в bb?", "target": "?bb", "kind": "query"}
+{"id": "dev-00045-clause0", "prompt": "Дано: cc=пять, d=восемь, b=четыре, bb=четыре.", "target": "cc=5;d=8;b=4;bb=4", "kind": "initial"}
+{"id": "dev-00045-clause1", "prompt": "Пусть bb равно восемь.", "target": "bb=8", "kind": "set"}
+{"id": "dev-00045-clause2", "prompt": "Теперь b хранит ноль.", "target": "b=0", "kind": "set"}
+{"id": "dev-00045-clause3", "prompt": "Сохрани прежнее значение b.", "target": "b=(b+0)%10", "kind": "keep"}
+{"id": "dev-00045-clause4", "prompt": "Для bb возьми значение из cc.", "target": "bb=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00045-clause5", "prompt": "Назови значение cc.", "target": "?cc", "kind": "query"}
+{"id": "dev-00086-clause0", "prompt": "В начале в памяти: b=ноль, c=три, aa=пять, d=четыре.", "target": "b=0;c=3;aa=5;d=4", "kind": "initial"}
+{"id": "dev-00086-clause1", "prompt": "Теперь c хранит пять.", "target": "c=5", "kind": "set"}
+{"id": "dev-00086-clause2", "prompt": "Перепиши значение b в aa.", "target": "aa=(b+0)%10", "kind": "copy"}
+{"id": "dev-00086-clause3", "prompt": "Скопируй c в b.", "target": "b=(c+0)%10", "kind": "copy"}
+{"id": "dev-00086-clause4", "prompt": "Возьми число из aa и запиши его в b.", "target": "b=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00086-clause5", "prompt": "b должно хранить восемь, а не ноль.", "target": "b=8", "kind": "choose"}
+{"id": "dev-00086-clause6", "prompt": "Назови значение b.", "target": "?b", "kind": "query"}
+{"id": "dev-00178-clause0", "prompt": "Дано: cc=девять, a=ноль, d=9, c=три.", "target": "cc=9;a=0;d=9;c=3", "kind": "initial"}
+{"id": "dev-00178-clause1", "prompt": "Пусть cc хранит значение a.", "target": "cc=(a+0)%10", "kind": "copy"}
+{"id": "dev-00178-clause2", "prompt": "Для d выбери два вместо ноль.", "target": "d=2", "kind": "choose"}
+{"id": "dev-00178-clause3", "prompt": "Теперь d хранит девять.", "target": "d=9", "kind": "set"}
+{"id": "dev-00178-clause4", "prompt": "Пусть c равно пять.", "target": "c=5", "kind": "set"}
+{"id": "dev-00178-clause5", "prompt": "Не заменяй c на четыре.", "target": "c=(c+0)%10", "kind": "keep"}
+{"id": "dev-00178-clause6", "prompt": "Чему равно d?", "target": "?d", "kind": "query"}
+{"id": "dev-00020-clause0", "prompt": "Сначала запомни: b=1, aa=один, d=1, cc=4.", "target": "b=1;aa=1;d=1;cc=4", "kind": "initial"}
+{"id": "dev-00020-clause1", "prompt": "Возьми число из b и запиши его в d.", "target": "d=(b+0)%10", "kind": "copy"}
+{"id": "dev-00020-clause2", "prompt": "Замени значение cc на шесть.", "target": "cc=6", "kind": "set"}
+{"id": "dev-00020-clause3", "prompt": "Возьми число из cc и запиши его в b.", "target": "b=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00020-clause4", "prompt": "Что сейчас хранится в b?", "target": "?b", "kind": "query"}
+{"id": "dev-00018-clause0", "prompt": "Сначала запомни: bb=6, b=восемь, c=восемь, cc=шесть.", "target": "bb=6;b=8;c=8;cc=6", "kind": "initial"}
+{"id": "dev-00018-clause1", "prompt": "Запиши шесть в b.", "target": "b=6", "kind": "set"}
+{"id": "dev-00018-clause2", "prompt": "c должно хранить восемь, а не один.", "target": "c=8", "kind": "choose"}
+{"id": "dev-00018-clause3", "prompt": "Сохрани прежнее значение b.", "target": "b=(b+0)%10", "kind": "keep"}
+{"id": "dev-00018-clause4", "prompt": "Какое число хранит cc?", "target": "?cc", "kind": "query"}
+{"id": "dev-00077-clause0", "prompt": "Сначала запомни: bb=два, dd=три, b=пять, cc=5.", "target": "bb=2;dd=3;b=5;cc=5", "kind": "initial"}
+{"id": "dev-00077-clause1", "prompt": "Пусть dd хранит значение b.", "target": "dd=(b+0)%10", "kind": "copy"}
+{"id": "dev-00077-clause2", "prompt": "Перепиши значение cc в bb.", "target": "bb=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00077-clause3", "prompt": "Назови значение bb.", "target": "?bb", "kind": "query"}
+{"id": "dev-00060-clause0", "prompt": "Дано: b=ноль, a=5, bb=2, cc=восемь.", "target": "b=0;a=5;bb=2;cc=8", "kind": "initial"}
+{"id": "dev-00060-clause1", "prompt": "Замени значение a на 0.", "target": "a=0", "kind": "set"}
+{"id": "dev-00060-clause2", "prompt": "Запиши три в cc.", "target": "cc=3", "kind": "set"}
+{"id": "dev-00060-clause3", "prompt": "Оставь a без изменений.", "target": "a=(a+0)%10", "kind": "keep"}
+{"id": "dev-00060-clause4", "prompt": "Какое число хранит b?", "target": "?b", "kind": "query"}
+{"id": "dev-00049-clause0", "prompt": "В начале в памяти: b=четыре, aa=6, bb=шесть, d=пять.", "target": "b=4;aa=6;bb=6;d=5", "kind": "initial"}
+{"id": "dev-00049-clause1", "prompt": "Возьми число из bb и запиши его в d.", "target": "d=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00049-clause2", "prompt": "b должно хранить ноль, а не два.", "target": "b=0", "kind": "choose"}
+{"id": "dev-00049-clause3", "prompt": "Скопируй bb в aa.", "target": "aa=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00049-clause4", "prompt": "Назови значение d.", "target": "?d", "kind": "query"}
+{"id": "dev-00217-clause0", "prompt": "В начале в памяти: b=4, a=три, bb=семь, d=девять.", "target": "b=4;a=3;bb=7;d=9", "kind": "initial"}
+{"id": "dev-00217-clause1", "prompt": "Возьми число из d и запиши его в b.", "target": "b=(d+0)%10", "kind": "copy"}
+{"id": "dev-00217-clause2", "prompt": "Значение bb теперь 4, не два.", "target": "bb=4", "kind": "choose"}
+{"id": "dev-00217-clause3", "prompt": "Для a возьми значение из d.", "target": "a=(d+0)%10", "kind": "copy"}
+{"id": "dev-00217-clause4", "prompt": "Оставь bb без изменений.", "target": "bb=(bb+0)%10", "kind": "keep"}
+{"id": "dev-00217-clause5", "prompt": "Запиши 2 в a.", "target": "a=2", "kind": "set"}
+{"id": "dev-00217-clause6", "prompt": "Скопируй a в b.", "target": "b=(a+0)%10", "kind": "copy"}
+{"id": "dev-00217-clause7", "prompt": "Какое значение у a?", "target": "?a", "kind": "query"}
+{"id": "dev-00095-clause0", "prompt": "Сначала запомни: c=один, aa=семь, b=два, d=0.", "target": "c=1;aa=7;b=2;d=0", "kind": "initial"}
+{"id": "dev-00095-clause1", "prompt": "Возьми число из aa и запиши его в b.", "target": "b=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00095-clause2", "prompt": "Пусть c хранит значение aa.", "target": "c=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00095-clause3", "prompt": "Запиши 1 в b.", "target": "b=1", "kind": "set"}
+{"id": "dev-00095-clause4", "prompt": "Сохрани прежнее значение b.", "target": "b=(b+0)%10", "kind": "keep"}
+{"id": "dev-00095-clause5", "prompt": "Возьми число из b и запиши его в d.", "target": "d=(b+0)%10", "kind": "copy"}
+{"id": "dev-00095-clause6", "prompt": "Пусть aa хранит значение b.", "target": "aa=(b+0)%10", "kind": "copy"}
+{"id": "dev-00095-clause7", "prompt": "Чему равно aa?", "target": "?aa", "kind": "query"}
+{"id": "dev-00151-clause0", "prompt": "Сначала запомни: c=пять, b=семь, d=один, bb=один.", "target": "c=5;b=7;d=1;bb=1", "kind": "initial"}
+{"id": "dev-00151-clause1", "prompt": "Возьми число из c и запиши его в d.", "target": "d=(c+0)%10", "kind": "copy"}
+{"id": "dev-00151-clause2", "prompt": "Запиши 0 в bb.", "target": "bb=0", "kind": "set"}
+{"id": "dev-00151-clause3", "prompt": "Значение b теперь три, не 1.", "target": "b=3", "kind": "choose"}
+{"id": "dev-00151-clause4", "prompt": "Присвой d значение два.", "target": "d=2", "kind": "set"}
+{"id": "dev-00151-clause5", "prompt": "Какое число хранит bb?", "target": "?bb", "kind": "query"}
+{"id": "dev-00097-clause0", "prompt": "Дано: d=ноль, c=1, aa=пять, bb=восемь.", "target": "d=0;c=1;aa=5;bb=8", "kind": "initial"}
+{"id": "dev-00097-clause1", "prompt": "Теперь aa хранит два.", "target": "aa=2", "kind": "set"}
+{"id": "dev-00097-clause2", "prompt": "Пусть c равно шесть.", "target": "c=6", "kind": "set"}
+{"id": "dev-00097-clause3", "prompt": "Для d возьми значение из aa.", "target": "d=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00097-clause4", "prompt": "Пусть bb хранит значение c.", "target": "bb=(c+0)%10", "kind": "copy"}
+{"id": "dev-00097-clause5", "prompt": "Запиши 1 в d.", "target": "d=1", "kind": "set"}
+{"id": "dev-00097-clause6", "prompt": "Назови значение aa.", "target": "?aa", "kind": "query"}
+{"id": "dev-00191-clause0", "prompt": "В начале в памяти: d=семь, c=шесть, cc=шесть, aa=6.", "target": "d=7;c=6;cc=6;aa=6", "kind": "initial"}
+{"id": "dev-00191-clause1", "prompt": "Для c выбери 4 вместо пять.", "target": "c=4", "kind": "choose"}
+{"id": "dev-00191-clause2", "prompt": "Сохрани прежнее значение cc.", "target": "cc=(cc+0)%10", "kind": "keep"}
+{"id": "dev-00191-clause3", "prompt": "Теперь d хранит три.", "target": "d=3", "kind": "set"}
+{"id": "dev-00191-clause4", "prompt": "Назови значение d.", "target": "?d", "kind": "query"}
+{"id": "dev-00221-clause0", "prompt": "Дано: dd=два, d=4, bb=3, aa=3.", "target": "dd=2;d=4;bb=3;aa=3", "kind": "initial"}
+{"id": "dev-00221-clause1", "prompt": "aa должно хранить один, а не пять.", "target": "aa=1", "kind": "choose"}
+{"id": "dev-00221-clause2", "prompt": "Скопируй aa в d.", "target": "d=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00221-clause3", "prompt": "Возьми число из aa и запиши его в d.", "target": "d=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00221-clause4", "prompt": "Перепиши значение bb в aa.", "target": "aa=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00221-clause5", "prompt": "Чему равно aa?", "target": "?aa", "kind": "query"}
+{"id": "dev-00225-clause0", "prompt": "В начале в памяти: cc=пять, dd=ноль, a=один, aa=шесть.", "target": "cc=5;dd=0;a=1;aa=6", "kind": "initial"}
+{"id": "dev-00225-clause1", "prompt": "Не записывай ноль в a.", "target": "a=(a+0)%10", "kind": "keep"}
+{"id": "dev-00225-clause2", "prompt": "Значение dd теперь 4, не семь.", "target": "dd=4", "kind": "choose"}
+{"id": "dev-00225-clause3", "prompt": "Пусть aa равно 0.", "target": "aa=0", "kind": "set"}
+{"id": "dev-00225-clause4", "prompt": "Какое число хранит cc?", "target": "?cc", "kind": "query"}
+{"id": "dev-00063-clause0", "prompt": "Начальные значения: bb=один, aa=четыре, dd=семь, a=девять.", "target": "bb=1;aa=4;dd=7;a=9", "kind": "initial"}
+{"id": "dev-00063-clause1", "prompt": "Скопируй bb в aa.", "target": "aa=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00063-clause2", "prompt": "Возьми число из bb и запиши его в aa.", "target": "aa=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00063-clause3", "prompt": "Возьми число из bb и запиши его в dd.", "target": "dd=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00063-clause4", "prompt": "Не записывай три в a.", "target": "a=(a+0)%10", "kind": "keep"}
+{"id": "dev-00063-clause5", "prompt": "Назови значение bb.", "target": "?bb", "kind": "query"}
+{"id": "dev-00171-clause0", "prompt": "В начале в памяти: d=5, dd=восемь, aa=7, c=ноль.", "target": "d=5;dd=8;aa=7;c=0", "kind": "initial"}
+{"id": "dev-00171-clause1", "prompt": "Теперь c хранит 9.", "target": "c=9", "kind": "set"}
+{"id": "dev-00171-clause2", "prompt": "Не 3, а пять присвой dd.", "target": "dd=5", "kind": "choose"}
+{"id": "dev-00171-clause3", "prompt": "Замени значение c на 7.", "target": "c=7", "kind": "set"}
+{"id": "dev-00171-clause4", "prompt": "Что сейчас хранится в aa?", "target": "?aa", "kind": "query"}
+{"id": "dev-00211-clause0", "prompt": "Сначала запомни: b=три, d=шесть, dd=0, bb=один.", "target": "b=3;d=6;dd=0;bb=1", "kind": "initial"}
+{"id": "dev-00211-clause1", "prompt": "Пусть b хранит значение bb.", "target": "b=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00211-clause2", "prompt": "Скопируй dd в bb.", "target": "bb=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00211-clause3", "prompt": "Перепиши значение d в dd.", "target": "dd=(d+0)%10", "kind": "copy"}
+{"id": "dev-00211-clause4", "prompt": "Что сейчас хранится в bb?", "target": "?bb", "kind": "query"}
+{"id": "dev-00227-clause0", "prompt": "Дано: aa=четыре, d=один, b=три, dd=пять.", "target": "aa=4;d=1;b=3;dd=5", "kind": "initial"}
+{"id": "dev-00227-clause1", "prompt": "Скопируй b в aa.", "target": "aa=(b+0)%10", "kind": "copy"}
+{"id": "dev-00227-clause2", "prompt": "Теперь aa хранит пять.", "target": "aa=5", "kind": "set"}
+{"id": "dev-00227-clause3", "prompt": "Что сейчас хранится в aa?", "target": "?aa", "kind": "query"}
+{"id": "dev-00232-clause0", "prompt": "Сначала запомни: b=пять, bb=четыре, d=семь, dd=6.", "target": "b=5;bb=4;d=7;dd=6", "kind": "initial"}
+{"id": "dev-00232-clause1", "prompt": "Присвой bb значение 6.", "target": "bb=6", "kind": "set"}
+{"id": "dev-00232-clause2", "prompt": "Для b возьми значение из d.", "target": "b=(d+0)%10", "kind": "copy"}
+{"id": "dev-00232-clause3", "prompt": "Возьми число из dd и запиши его в bb.", "target": "bb=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00232-clause4", "prompt": "Не 8, а четыре присвой d.", "target": "d=4", "kind": "choose"}
+{"id": "dev-00232-clause5", "prompt": "Возьми число из d и запиши его в bb.", "target": "bb=(d+0)%10", "kind": "copy"}
+{"id": "dev-00232-clause6", "prompt": "Назови значение b.", "target": "?b", "kind": "query"}
+{"id": "dev-00207-clause0", "prompt": "Дано: c=9, cc=два, dd=ноль, bb=4.", "target": "c=9;cc=2;dd=0;bb=4", "kind": "initial"}
+{"id": "dev-00207-clause1", "prompt": "Скопируй c в bb.", "target": "bb=(c+0)%10", "kind": "copy"}
+{"id": "dev-00207-clause2", "prompt": "Не записывай 2 в c.", "target": "c=(c+0)%10", "kind": "keep"}
+{"id": "dev-00207-clause3", "prompt": "Пусть bb хранит значение dd.", "target": "bb=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00207-clause4", "prompt": "Назови значение c.", "target": "?c", "kind": "query"}
+{"id": "dev-00087-clause0", "prompt": "В начале в памяти: b=три, a=8, c=девять, cc=один.", "target": "b=3;a=8;c=9;cc=1", "kind": "initial"}
+{"id": "dev-00087-clause1", "prompt": "Пусть b равно 2.", "target": "b=2", "kind": "set"}
+{"id": "dev-00087-clause2", "prompt": "Сохрани прежнее значение a.", "target": "a=(a+0)%10", "kind": "keep"}
+{"id": "dev-00087-clause3", "prompt": "Возьми число из b и запиши его в a.", "target": "a=(b+0)%10", "kind": "copy"}
+{"id": "dev-00087-clause4", "prompt": "Теперь a хранит один.", "target": "a=1", "kind": "set"}
+{"id": "dev-00087-clause5", "prompt": "Пусть cc равно два.", "target": "cc=2", "kind": "set"}
+{"id": "dev-00087-clause6", "prompt": "Какое число хранит c?", "target": "?c", "kind": "query"}
+{"id": "dev-00066-clause0", "prompt": "Дано: cc=восемь, c=ноль, bb=два, b=восемь.", "target": "cc=8;c=0;bb=2;b=8", "kind": "initial"}
+{"id": "dev-00066-clause1", "prompt": "Не записывай 8 в c.", "target": "c=(c+0)%10", "kind": "keep"}
+{"id": "dev-00066-clause2", "prompt": "Пусть cc хранит значение bb.", "target": "cc=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00066-clause3", "prompt": "Теперь cc хранит три.", "target": "cc=3", "kind": "set"}
+{"id": "dev-00066-clause4", "prompt": "Присвой c значение 8.", "target": "c=8", "kind": "set"}
+{"id": "dev-00066-clause5", "prompt": "Не восемь, а 5 присвой c.", "target": "c=5", "kind": "choose"}
+{"id": "dev-00066-clause6", "prompt": "Возьми число из bb и запиши его в b.", "target": "b=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00066-clause7", "prompt": "Чему равно bb?", "target": "?bb", "kind": "query"}
+{"id": "dev-00015-clause0", "prompt": "Начальные значения: d=девять, bb=пять, a=семь, aa=ноль.", "target": "d=9;bb=5;a=7;aa=0", "kind": "initial"}
+{"id": "dev-00015-clause1", "prompt": "Возьми число из bb и запиши его в a.", "target": "a=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00015-clause2", "prompt": "Возьми число из bb и запиши его в a.", "target": "a=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00015-clause3", "prompt": "Пусть a равно 7.", "target": "a=7", "kind": "set"}
+{"id": "dev-00015-clause4", "prompt": "Пусть aa хранит значение d.", "target": "aa=(d+0)%10", "kind": "copy"}
+{"id": "dev-00015-clause5", "prompt": "Пусть a равно три.", "target": "a=3", "kind": "set"}
+{"id": "dev-00015-clause6", "prompt": "Назови значение bb.", "target": "?bb", "kind": "query"}
+{"id": "dev-00056-clause0", "prompt": "Начальные значения: a=8, b=восемь, aa=3, bb=8.", "target": "a=8;b=8;aa=3;bb=8", "kind": "initial"}
+{"id": "dev-00056-clause1", "prompt": "Замени значение aa на 2.", "target": "aa=2", "kind": "set"}
+{"id": "dev-00056-clause2", "prompt": "Теперь bb хранит 2.", "target": "bb=2", "kind": "set"}
+{"id": "dev-00056-clause3", "prompt": "Теперь aa хранит восемь.", "target": "aa=8", "kind": "set"}
+{"id": "dev-00056-clause4", "prompt": "Назови значение aa.", "target": "?aa", "kind": "query"}
+{"id": "dev-00042-clause0", "prompt": "Сначала запомни: a=6, b=четыре, aa=семь, bb=девять.", "target": "a=6;b=4;aa=7;bb=9", "kind": "initial"}
+{"id": "dev-00042-clause1", "prompt": "Для a возьми значение из b.", "target": "a=(b+0)%10", "kind": "copy"}
+{"id": "dev-00042-clause2", "prompt": "Возьми число из b и запиши его в a.", "target": "a=(b+0)%10", "kind": "copy"}
+{"id": "dev-00042-clause3", "prompt": "Не меняй значение a.", "target": "a=(a+0)%10", "kind": "keep"}
+{"id": "dev-00042-clause4", "prompt": "Чему равно b?", "target": "?b", "kind": "query"}
+{"id": "dev-00218-clause0", "prompt": "Начальные значения: bb=девять, c=пять, cc=три, d=четыре.", "target": "bb=9;c=5;cc=3;d=4", "kind": "initial"}
+{"id": "dev-00218-clause1", "prompt": "Возьми число из cc и запиши его в bb.", "target": "bb=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00218-clause2", "prompt": "Замени значение d на пять.", "target": "d=5", "kind": "set"}
+{"id": "dev-00218-clause3", "prompt": "Запиши два в d.", "target": "d=2", "kind": "set"}
+{"id": "dev-00218-clause4", "prompt": "Замени значение cc на два.", "target": "cc=2", "kind": "set"}
+{"id": "dev-00218-clause5", "prompt": "Что сейчас хранится в cc?", "target": "?cc", "kind": "query"}
+{"id": "dev-00199-clause0", "prompt": "Сначала запомни: c=один, b=семь, d=пять, bb=шесть.", "target": "c=1;b=7;d=5;bb=6", "kind": "initial"}
+{"id": "dev-00199-clause1", "prompt": "Пусть b хранит значение bb.", "target": "b=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00199-clause2", "prompt": "Сохрани прежнее значение c.", "target": "c=(c+0)%10", "kind": "keep"}
+{"id": "dev-00199-clause3", "prompt": "Значение bb теперь один, не девять.", "target": "bb=1", "kind": "choose"}
+{"id": "dev-00199-clause4", "prompt": "Какое значение у b?", "target": "?b", "kind": "query"}
+{"id": "dev-00213-clause0", "prompt": "Сначала запомни: c=семь, cc=один, d=семь, a=семь.", "target": "c=7;cc=1;d=7;a=7", "kind": "initial"}
+{"id": "dev-00213-clause1", "prompt": "Пусть d равно один.", "target": "d=1", "kind": "set"}
+{"id": "dev-00213-clause2", "prompt": "Сохрани прежнее значение c.", "target": "c=(c+0)%10", "kind": "keep"}
+{"id": "dev-00213-clause3", "prompt": "Замени значение c на восемь.", "target": "c=8", "kind": "set"}
+{"id": "dev-00213-clause4", "prompt": "Чему равно cc?", "target": "?cc", "kind": "query"}
+{"id": "dev-00052-clause0", "prompt": "Дано: aa=три, bb=девять, cc=6, c=3.", "target": "aa=3;bb=9;cc=6;c=3", "kind": "initial"}
+{"id": "dev-00052-clause1", "prompt": "Замени значение aa на ноль.", "target": "aa=0", "kind": "set"}
+{"id": "dev-00052-clause2", "prompt": "bb должно хранить семь, а не три.", "target": "bb=7", "kind": "choose"}
+{"id": "dev-00052-clause3", "prompt": "Присвой aa значение один.", "target": "aa=1", "kind": "set"}
+{"id": "dev-00052-clause4", "prompt": "Для aa возьми значение из bb.", "target": "aa=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00052-clause5", "prompt": "Что сейчас хранится в bb?", "target": "?bb", "kind": "query"}
+{"id": "dev-00145-clause0", "prompt": "Начальные значения: aa=1, bb=один, c=6, dd=три.", "target": "aa=1;bb=1;c=6;dd=3", "kind": "initial"}
+{"id": "dev-00145-clause1", "prompt": "Пусть aa равно восемь.", "target": "aa=8", "kind": "set"}
+{"id": "dev-00145-clause2", "prompt": "Запиши девять в bb.", "target": "bb=9", "kind": "set"}
+{"id": "dev-00145-clause3", "prompt": "Для c возьми значение из bb.", "target": "c=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00145-clause4", "prompt": "Перепиши значение bb в c.", "target": "c=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00145-clause5", "prompt": "Запиши в bb не два, а 3.", "target": "bb=3", "kind": "choose"}
+{"id": "dev-00145-clause6", "prompt": "Теперь bb хранит восемь.", "target": "bb=8", "kind": "set"}
+{"id": "dev-00145-clause7", "prompt": "Назови значение aa.", "target": "?aa", "kind": "query"}
+{"id": "dev-00074-clause0", "prompt": "В начале в памяти: b=0, cc=четыре, dd=2, aa=два.", "target": "b=0;cc=4;dd=2;aa=2", "kind": "initial"}
+{"id": "dev-00074-clause1", "prompt": "Замени значение dd на 4.", "target": "dd=4", "kind": "set"}
+{"id": "dev-00074-clause2", "prompt": "Сохрани прежнее значение aa.", "target": "aa=(aa+0)%10", "kind": "keep"}
+{"id": "dev-00074-clause3", "prompt": "Не заменяй b на 0.", "target": "b=(b+0)%10", "kind": "keep"}
+{"id": "dev-00074-clause4", "prompt": "Назови значение dd.", "target": "?dd", "kind": "query"}
+{"id": "dev-00027-clause0", "prompt": "Дано: cc=девять, aa=один, bb=семь, dd=четыре.", "target": "cc=9;aa=1;bb=7;dd=4", "kind": "initial"}
+{"id": "dev-00027-clause1", "prompt": "Не записывай девять в bb.", "target": "bb=(bb+0)%10", "kind": "keep"}
+{"id": "dev-00027-clause2", "prompt": "Скопируй cc в bb.", "target": "bb=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00027-clause3", "prompt": "Присвой aa значение пять.", "target": "aa=5", "kind": "set"}
+{"id": "dev-00027-clause4", "prompt": "Возьми число из aa и запиши его в dd.", "target": "dd=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00027-clause5", "prompt": "Чему равно cc?", "target": "?cc", "kind": "query"}
+{"id": "dev-00238-clause0", "prompt": "Сначала запомни: a=9, b=шесть, cc=3, c=1.", "target": "a=9;b=6;cc=3;c=1", "kind": "initial"}
+{"id": "dev-00238-clause1", "prompt": "Для cc возьми значение из a.", "target": "cc=(a+0)%10", "kind": "copy"}
+{"id": "dev-00238-clause2", "prompt": "Перепиши значение a в cc.", "target": "cc=(a+0)%10", "kind": "copy"}
+{"id": "dev-00238-clause3", "prompt": "Для b возьми значение из a.", "target": "b=(a+0)%10", "kind": "copy"}
+{"id": "dev-00238-clause4", "prompt": "Запиши пять в c.", "target": "c=5", "kind": "set"}
+{"id": "dev-00238-clause5", "prompt": "Какое значение у b?", "target": "?b", "kind": "query"}
+{"id": "dev-00114-clause0", "prompt": "В начале в памяти: a=9, c=8, d=шесть, aa=1.", "target": "a=9;c=8;d=6;aa=1", "kind": "initial"}
+{"id": "dev-00114-clause1", "prompt": "Не девять, а восемь присвой a.", "target": "a=8", "kind": "choose"}
+{"id": "dev-00114-clause2", "prompt": "Не заменяй c на три.", "target": "c=(c+0)%10", "kind": "keep"}
+{"id": "dev-00114-clause3", "prompt": "Для aa выбери 4 вместо ноль.", "target": "aa=4", "kind": "choose"}
+{"id": "dev-00114-clause4", "prompt": "Скопируй aa в d.", "target": "d=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00114-clause5", "prompt": "Чему равно c?", "target": "?c", "kind": "query"}
+{"id": "dev-00176-clause0", "prompt": "Начальные значения: aa=один, c=шесть, dd=шесть, bb=четыре.", "target": "aa=1;c=6;dd=6;bb=4", "kind": "initial"}
+{"id": "dev-00176-clause1", "prompt": "Для aa возьми значение из dd.", "target": "aa=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00176-clause2", "prompt": "Перепиши значение bb в c.", "target": "c=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00176-clause3", "prompt": "Оставь c без изменений.", "target": "c=(c+0)%10", "kind": "keep"}
+{"id": "dev-00176-clause4", "prompt": "Скопируй dd в c.", "target": "c=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00176-clause5", "prompt": "Присвой aa значение 8.", "target": "aa=8", "kind": "set"}
+{"id": "dev-00176-clause6", "prompt": "Какое значение у aa?", "target": "?aa", "kind": "query"}
+{"id": "dev-00121-clause0", "prompt": "Начальные значения: a=семь, dd=0, d=8, bb=4.", "target": "a=7;dd=0;d=8;bb=4", "kind": "initial"}
+{"id": "dev-00121-clause1", "prompt": "Запиши ноль в a.", "target": "a=0", "kind": "set"}
+{"id": "dev-00121-clause2", "prompt": "Не записывай семь в d.", "target": "d=(d+0)%10", "kind": "keep"}
+{"id": "dev-00121-clause3", "prompt": "Не заменяй d на девять.", "target": "d=(d+0)%10", "kind": "keep"}
+{"id": "dev-00121-clause4", "prompt": "Не заменяй a на ноль.", "target": "a=(a+0)%10", "kind": "keep"}
+{"id": "dev-00121-clause5", "prompt": "Возьми число из d и запиши его в bb.", "target": "bb=(d+0)%10", "kind": "copy"}
+{"id": "dev-00121-clause6", "prompt": "Сохрани прежнее значение bb.", "target": "bb=(bb+0)%10", "kind": "keep"}
+{"id": "dev-00121-clause7", "prompt": "Чему равно a?", "target": "?a", "kind": "query"}
+{"id": "dev-00143-clause0", "prompt": "Начальные значения: a=пять, b=7, bb=ноль, c=пять.", "target": "a=5;b=7;bb=0;c=5", "kind": "initial"}
+{"id": "dev-00143-clause1", "prompt": "Теперь b хранит семь.", "target": "b=7", "kind": "set"}
+{"id": "dev-00143-clause2", "prompt": "Перепиши значение b в bb.", "target": "bb=(b+0)%10", "kind": "copy"}
+{"id": "dev-00143-clause3", "prompt": "Чему равно bb?", "target": "?bb", "kind": "query"}
+{"id": "dev-00228-clause0", "prompt": "В начале в памяти: cc=шесть, dd=один, bb=три, a=8.", "target": "cc=6;dd=1;bb=3;a=8", "kind": "initial"}
+{"id": "dev-00228-clause1", "prompt": "Пусть dd хранит значение cc.", "target": "dd=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00228-clause2", "prompt": "Не заменяй bb на один.", "target": "bb=(bb+0)%10", "kind": "keep"}
+{"id": "dev-00228-clause3", "prompt": "Для bb возьми значение из dd.", "target": "bb=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00228-clause4", "prompt": "Что сейчас хранится в cc?", "target": "?cc", "kind": "query"}
+{"id": "dev-00172-clause0", "prompt": "Начальные значения: b=четыре, c=8, d=два, dd=семь.", "target": "b=4;c=8;d=2;dd=7", "kind": "initial"}
+{"id": "dev-00172-clause1", "prompt": "Для dd возьми значение из d.", "target": "dd=(d+0)%10", "kind": "copy"}
+{"id": "dev-00172-clause2", "prompt": "Замени значение b на ноль.", "target": "b=0", "kind": "set"}
+{"id": "dev-00172-clause3", "prompt": "Замени значение dd на 7.", "target": "dd=7", "kind": "set"}
+{"id": "dev-00172-clause4", "prompt": "Запиши ноль в c.", "target": "c=0", "kind": "set"}
+{"id": "dev-00172-clause5", "prompt": "Пусть c хранит значение dd.", "target": "c=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00172-clause6", "prompt": "Что сейчас хранится в dd?", "target": "?dd", "kind": "query"}
+{"id": "dev-00216-clause0", "prompt": "Сначала запомни: dd=два, cc=два, d=семь, bb=два.", "target": "dd=2;cc=2;d=7;bb=2", "kind": "initial"}
+{"id": "dev-00216-clause1", "prompt": "Присвой d значение восемь.", "target": "d=8", "kind": "set"}
+{"id": "dev-00216-clause2", "prompt": "Для d возьми значение из dd.", "target": "d=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00216-clause3", "prompt": "Что сейчас хранится в cc?", "target": "?cc", "kind": "query"}
+{"id": "dev-00220-clause0", "prompt": "Дано: d=шесть, bb=0, cc=пять, b=пять.", "target": "d=6;bb=0;cc=5;b=5", "kind": "initial"}
+{"id": "dev-00220-clause1", "prompt": "Возьми число из b и запиши его в cc.", "target": "cc=(b+0)%10", "kind": "copy"}
+{"id": "dev-00220-clause2", "prompt": "Пусть b равно 5.", "target": "b=5", "kind": "set"}
+{"id": "dev-00220-clause3", "prompt": "Замени значение d на три.", "target": "d=3", "kind": "set"}
+{"id": "dev-00220-clause4", "prompt": "Теперь cc хранит три.", "target": "cc=3", "kind": "set"}
+{"id": "dev-00220-clause5", "prompt": "Пусть bb хранит значение cc.", "target": "bb=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00220-clause6", "prompt": "Чему равно cc?", "target": "?cc", "kind": "query"}
+{"id": "dev-00117-clause0", "prompt": "Дано: c=шесть, a=девять, b=4, bb=ноль.", "target": "c=6;a=9;b=4;bb=0", "kind": "initial"}
+{"id": "dev-00117-clause1", "prompt": "Сохрани прежнее значение b.", "target": "b=(b+0)%10", "kind": "keep"}
+{"id": "dev-00117-clause2", "prompt": "Не заменяй bb на три.", "target": "bb=(bb+0)%10", "kind": "keep"}
+{"id": "dev-00117-clause3", "prompt": "Чему равно a?", "target": "?a", "kind": "query"}
+{"id": "dev-00070-clause0", "prompt": "Начальные значения: cc=девять, c=девять, d=шесть, aa=2.", "target": "cc=9;c=9;d=6;aa=2", "kind": "initial"}
+{"id": "dev-00070-clause1", "prompt": "Пусть c равно три.", "target": "c=3", "kind": "set"}
+{"id": "dev-00070-clause2", "prompt": "Не меняй значение cc.", "target": "cc=(cc+0)%10", "kind": "keep"}
+{"id": "dev-00070-clause3", "prompt": "Замени значение cc на ноль.", "target": "cc=0", "kind": "set"}
+{"id": "dev-00070-clause4", "prompt": "Присвой d значение шесть.", "target": "d=6", "kind": "set"}
+{"id": "dev-00070-clause5", "prompt": "Значение aa теперь девять, не 7.", "target": "aa=9", "kind": "choose"}
+{"id": "dev-00070-clause6", "prompt": "Какое значение у c?", "target": "?c", "kind": "query"}
+{"id": "dev-00079-clause0", "prompt": "Сначала запомни: aa=девять, c=шесть, b=восемь, cc=ноль.", "target": "aa=9;c=6;b=8;cc=0", "kind": "initial"}
+{"id": "dev-00079-clause1", "prompt": "Теперь cc хранит 5.", "target": "cc=5", "kind": "set"}
+{"id": "dev-00079-clause2", "prompt": "Не заменяй cc на шесть.", "target": "cc=(cc+0)%10", "kind": "keep"}
+{"id": "dev-00079-clause3", "prompt": "Запиши в c не 2, а 4.", "target": "c=4", "kind": "choose"}
+{"id": "dev-00079-clause4", "prompt": "Теперь aa хранит шесть.", "target": "aa=6", "kind": "set"}
+{"id": "dev-00079-clause5", "prompt": "Пусть b хранит значение c.", "target": "b=(c+0)%10", "kind": "copy"}
+{"id": "dev-00079-clause6", "prompt": "Сохрани прежнее значение aa.", "target": "aa=(aa+0)%10", "kind": "keep"}
+{"id": "dev-00079-clause7", "prompt": "Что сейчас хранится в aa?", "target": "?aa", "kind": "query"}
+{"id": "dev-00098-clause0", "prompt": "Сначала запомни: dd=0, c=девять, d=два, cc=два.", "target": "dd=0;c=9;d=2;cc=2", "kind": "initial"}
+{"id": "dev-00098-clause1", "prompt": "Перепиши значение cc в c.", "target": "c=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00098-clause2", "prompt": "Перепиши значение dd в cc.", "target": "cc=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00098-clause3", "prompt": "Возьми число из c и запиши его в dd.", "target": "dd=(c+0)%10", "kind": "copy"}
+{"id": "dev-00098-clause4", "prompt": "Что сейчас хранится в dd?", "target": "?dd", "kind": "query"}
+{"id": "dev-00168-clause0", "prompt": "Дано: d=2, bb=восемь, dd=пять, cc=6.", "target": "d=2;bb=8;dd=5;cc=6", "kind": "initial"}
+{"id": "dev-00168-clause1", "prompt": "Теперь dd хранит ноль.", "target": "dd=0", "kind": "set"}
+{"id": "dev-00168-clause2", "prompt": "Для bb возьми значение из dd.", "target": "bb=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00168-clause3", "prompt": "Какое значение у cc?", "target": "?cc", "kind": "query"}
+{"id": "dev-00075-clause0", "prompt": "Начальные значения: aa=пять, d=восемь, cc=пять, a=2.", "target": "aa=5;d=8;cc=5;a=2", "kind": "initial"}
+{"id": "dev-00075-clause1", "prompt": "Присвой cc значение ноль.", "target": "cc=0", "kind": "set"}
+{"id": "dev-00075-clause2", "prompt": "Скопируй aa в cc.", "target": "cc=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00075-clause3", "prompt": "Присвой a значение четыре.", "target": "a=4", "kind": "set"}
+{"id": "dev-00075-clause4", "prompt": "Не меняй значение cc.", "target": "cc=(cc+0)%10", "kind": "keep"}
+{"id": "dev-00075-clause5", "prompt": "Что сейчас хранится в aa?", "target": "?aa", "kind": "query"}
+{"id": "dev-00055-clause0", "prompt": "В начале в памяти: dd=семь, a=5, bb=восемь, b=семь.", "target": "dd=7;a=5;bb=8;b=7", "kind": "initial"}
+{"id": "dev-00055-clause1", "prompt": "Присвой a значение 8.", "target": "a=8", "kind": "set"}
+{"id": "dev-00055-clause2", "prompt": "Скопируй dd в b.", "target": "b=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00055-clause3", "prompt": "Чему равно a?", "target": "?a", "kind": "query"}
+{"id": "dev-00082-clause0", "prompt": "Дано: dd=шесть, c=4, a=2, d=1.", "target": "dd=6;c=4;a=2;d=1", "kind": "initial"}
+{"id": "dev-00082-clause1", "prompt": "Пусть a равно семь.", "target": "a=7", "kind": "set"}
+{"id": "dev-00082-clause2", "prompt": "Перепиши значение a в dd.", "target": "dd=(a+0)%10", "kind": "copy"}
+{"id": "dev-00082-clause3", "prompt": "Запиши в c не два, а три.", "target": "c=3", "kind": "choose"}
+{"id": "dev-00082-clause4", "prompt": "Замени значение a на 2.", "target": "a=2", "kind": "set"}
+{"id": "dev-00082-clause5", "prompt": "Какое число хранит dd?", "target": "?dd", "kind": "query"}
+{"id": "dev-00198-clause0", "prompt": "Сначала запомни: a=четыре, dd=девять, c=ноль, b=шесть.", "target": "a=4;dd=9;c=0;b=6", "kind": "initial"}
+{"id": "dev-00198-clause1", "prompt": "Возьми число из b и запиши его в dd.", "target": "dd=(b+0)%10", "kind": "copy"}
+{"id": "dev-00198-clause2", "prompt": "Оставь dd без изменений.", "target": "dd=(dd+0)%10", "kind": "keep"}
+{"id": "dev-00198-clause3", "prompt": "Назови значение b.", "target": "?b", "kind": "query"}
+{"id": "dev-00229-clause0", "prompt": "Дано: bb=три, d=девять, cc=два, b=девять.", "target": "bb=3;d=9;cc=2;b=9", "kind": "initial"}
+{"id": "dev-00229-clause1", "prompt": "Запиши 2 в cc.", "target": "cc=2", "kind": "set"}
+{"id": "dev-00229-clause2", "prompt": "Возьми число из d и запиши его в b.", "target": "b=(d+0)%10", "kind": "copy"}
+{"id": "dev-00229-clause3", "prompt": "Теперь cc хранит пять.", "target": "cc=5", "kind": "set"}
+{"id": "dev-00229-clause4", "prompt": "Запиши 6 в b.", "target": "b=6", "kind": "set"}
+{"id": "dev-00229-clause5", "prompt": "Не 2, а 7 присвой d.", "target": "d=7", "kind": "choose"}
+{"id": "dev-00229-clause6", "prompt": "Что сейчас хранится в b?", "target": "?b", "kind": "query"}
+{"id": "dev-00040-clause0", "prompt": "Сначала запомни: cc=три, d=шесть, b=ноль, bb=9.", "target": "cc=3;d=6;b=0;bb=9", "kind": "initial"}
+{"id": "dev-00040-clause1", "prompt": "Перепиши значение b в bb.", "target": "bb=(b+0)%10", "kind": "copy"}
+{"id": "dev-00040-clause2", "prompt": "Перепиши значение cc в bb.", "target": "bb=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00040-clause3", "prompt": "Для d возьми значение из b.", "target": "d=(b+0)%10", "kind": "copy"}
+{"id": "dev-00040-clause4", "prompt": "Перепиши значение bb в d.", "target": "d=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00040-clause5", "prompt": "Оставь b без изменений.", "target": "b=(b+0)%10", "kind": "keep"}
+{"id": "dev-00040-clause6", "prompt": "Замени значение b на два.", "target": "b=2", "kind": "set"}
+{"id": "dev-00040-clause7", "prompt": "Чему равно d?", "target": "?d", "kind": "query"}
+{"id": "dev-00205-clause0", "prompt": "Сначала запомни: c=девять, aa=восемь, dd=ноль, cc=4.", "target": "c=9;aa=8;dd=0;cc=4", "kind": "initial"}
+{"id": "dev-00205-clause1", "prompt": "Перепиши значение aa в cc.", "target": "cc=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00205-clause2", "prompt": "Сохрани прежнее значение cc.", "target": "cc=(cc+0)%10", "kind": "keep"}
+{"id": "dev-00205-clause3", "prompt": "aa должно хранить 8, а не 4.", "target": "aa=8", "kind": "choose"}
+{"id": "dev-00205-clause4", "prompt": "Пусть c хранит значение aa.", "target": "c=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00205-clause5", "prompt": "Для cc выбери три вместо восемь.", "target": "cc=3", "kind": "choose"}
+{"id": "dev-00205-clause6", "prompt": "Назови значение c.", "target": "?c", "kind": "query"}
+{"id": "dev-00093-clause0", "prompt": "В начале в памяти: aa=девять, c=восемь, a=8, d=один.", "target": "aa=9;c=8;a=8;d=1", "kind": "initial"}
+{"id": "dev-00093-clause1", "prompt": "Перепиши значение a в c.", "target": "c=(a+0)%10", "kind": "copy"}
+{"id": "dev-00093-clause2", "prompt": "Присвой aa значение 6.", "target": "aa=6", "kind": "set"}
+{"id": "dev-00093-clause3", "prompt": "Какое значение у d?", "target": "?d", "kind": "query"}
+{"id": "dev-00209-clause0", "prompt": "В начале в памяти: b=семь, dd=7, a=шесть, aa=2.", "target": "b=7;dd=7;a=6;aa=2", "kind": "initial"}
+{"id": "dev-00209-clause1", "prompt": "Присвой dd значение 7.", "target": "dd=7", "kind": "set"}
+{"id": "dev-00209-clause2", "prompt": "Перепиши значение a в b.", "target": "b=(a+0)%10", "kind": "copy"}
+{"id": "dev-00209-clause3", "prompt": "aa должно хранить девять, а не четыре.", "target": "aa=9", "kind": "choose"}
+{"id": "dev-00209-clause4", "prompt": "Назови значение aa.", "target": "?aa", "kind": "query"}
+{"id": "dev-00076-clause0", "prompt": "Начальные значения: a=три, dd=7, b=4, d=семь.", "target": "a=3;dd=7;b=4;d=7", "kind": "initial"}
+{"id": "dev-00076-clause1", "prompt": "Не восемь, а пять присвой dd.", "target": "dd=5", "kind": "choose"}
+{"id": "dev-00076-clause2", "prompt": "Запиши пять в b.", "target": "b=5", "kind": "set"}
+{"id": "dev-00076-clause3", "prompt": "Запиши пять в dd.", "target": "dd=5", "kind": "set"}
+{"id": "dev-00076-clause4", "prompt": "Возьми число из a и запиши его в d.", "target": "d=(a+0)%10", "kind": "copy"}
+{"id": "dev-00076-clause5", "prompt": "Присвой a значение 2.", "target": "a=2", "kind": "set"}
+{"id": "dev-00076-clause6", "prompt": "Перепиши значение a в dd.", "target": "dd=(a+0)%10", "kind": "copy"}
+{"id": "dev-00076-clause7", "prompt": "Что сейчас хранится в b?", "target": "?b", "kind": "query"}
+{"id": "dev-00237-clause0", "prompt": "Начальные значения: cc=девять, bb=9, d=пять, dd=один.", "target": "cc=9;bb=9;d=5;dd=1", "kind": "initial"}
+{"id": "dev-00237-clause1", "prompt": "Скопируй dd в d.", "target": "d=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00237-clause2", "prompt": "Скопируй cc в dd.", "target": "dd=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00237-clause3", "prompt": "Чему равно cc?", "target": "?cc", "kind": "query"}
+{"id": "dev-00038-clause0", "prompt": "Сначала запомни: cc=три, c=6, aa=2, dd=пять.", "target": "cc=3;c=6;aa=2;dd=5", "kind": "initial"}
+{"id": "dev-00038-clause1", "prompt": "Скопируй aa в cc.", "target": "cc=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00038-clause2", "prompt": "Замени значение aa на девять.", "target": "aa=9", "kind": "set"}
+{"id": "dev-00038-clause3", "prompt": "Присвой aa значение восемь.", "target": "aa=8", "kind": "set"}
+{"id": "dev-00038-clause4", "prompt": "Запиши в dd не шесть, а 2.", "target": "dd=2", "kind": "choose"}
+{"id": "dev-00038-clause5", "prompt": "Какое число хранит dd?", "target": "?dd", "kind": "query"}
+{"id": "dev-00184-clause0", "prompt": "В начале в памяти: b=0, cc=2, aa=один, d=семь.", "target": "b=0;cc=2;aa=1;d=7", "kind": "initial"}
+{"id": "dev-00184-clause1", "prompt": "Перепиши значение b в aa.", "target": "aa=(b+0)%10", "kind": "copy"}
+{"id": "dev-00184-clause2", "prompt": "Присвой cc значение 1.", "target": "cc=1", "kind": "set"}
+{"id": "dev-00184-clause3", "prompt": "Оставь aa без изменений.", "target": "aa=(aa+0)%10", "kind": "keep"}
+{"id": "dev-00184-clause4", "prompt": "Присвой aa значение ноль.", "target": "aa=0", "kind": "set"}
+{"id": "dev-00184-clause5", "prompt": "Какое значение у cc?", "target": "?cc", "kind": "query"}
+{"id": "dev-00154-clause0", "prompt": "Дано: c=шесть, cc=три, d=один, dd=девять.", "target": "c=6;cc=3;d=1;dd=9", "kind": "initial"}
+{"id": "dev-00154-clause1", "prompt": "Присвой c значение три.", "target": "c=3", "kind": "set"}
+{"id": "dev-00154-clause2", "prompt": "Не заменяй dd на пять.", "target": "dd=(dd+0)%10", "kind": "keep"}
+{"id": "dev-00154-clause3", "prompt": "Замени значение dd на три.", "target": "dd=3", "kind": "set"}
+{"id": "dev-00154-clause4", "prompt": "Запиши в dd не 3, а 1.", "target": "dd=1", "kind": "choose"}
+{"id": "dev-00154-clause5", "prompt": "Пусть c равно 5.", "target": "c=5", "kind": "set"}
+{"id": "dev-00154-clause6", "prompt": "Какое число хранит dd?", "target": "?dd", "kind": "query"}
+{"id": "dev-00124-clause0", "prompt": "Дано: a=два, aa=три, bb=один, cc=5.", "target": "a=2;aa=3;bb=1;cc=5", "kind": "initial"}
+{"id": "dev-00124-clause1", "prompt": "Для cc возьми значение из aa.", "target": "cc=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00124-clause2", "prompt": "Пусть bb равно 1.", "target": "bb=1", "kind": "set"}
+{"id": "dev-00124-clause3", "prompt": "Для aa возьми значение из bb.", "target": "aa=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00124-clause4", "prompt": "Теперь bb хранит два.", "target": "bb=2", "kind": "set"}
+{"id": "dev-00124-clause5", "prompt": "Не заменяй aa на 4.", "target": "aa=(aa+0)%10", "kind": "keep"}
+{"id": "dev-00124-clause6", "prompt": "Оставь cc без изменений.", "target": "cc=(cc+0)%10", "kind": "keep"}
+{"id": "dev-00124-clause7", "prompt": "Назови значение aa.", "target": "?aa", "kind": "query"}
+{"id": "dev-00002-clause0", "prompt": "Сначала запомни: dd=два, a=4, b=семь, aa=девять.", "target": "dd=2;a=4;b=7;aa=9", "kind": "initial"}
+{"id": "dev-00002-clause1", "prompt": "Замени значение aa на пять.", "target": "aa=5", "kind": "set"}
+{"id": "dev-00002-clause2", "prompt": "Возьми число из a и запиши его в b.", "target": "b=(a+0)%10", "kind": "copy"}
+{"id": "dev-00002-clause3", "prompt": "Присвой a значение ноль.", "target": "a=0", "kind": "set"}
+{"id": "dev-00002-clause4", "prompt": "Что сейчас хранится в a?", "target": "?a", "kind": "query"}
+{"id": "dev-00088-clause0", "prompt": "Начальные значения: a=9, aa=3, b=три, cc=пять.", "target": "a=9;aa=3;b=3;cc=5", "kind": "initial"}
+{"id": "dev-00088-clause1", "prompt": "Для b возьми значение из a.", "target": "b=(a+0)%10", "kind": "copy"}
+{"id": "dev-00088-clause2", "prompt": "Пусть aa равно 9.", "target": "aa=9", "kind": "set"}
+{"id": "dev-00088-clause3", "prompt": "Теперь cc хранит три.", "target": "cc=3", "kind": "set"}
+{"id": "dev-00088-clause4", "prompt": "Назови значение aa.", "target": "?aa", "kind": "query"}
+{"id": "dev-00222-clause0", "prompt": "В начале в памяти: bb=ноль, d=четыре, c=5, a=четыре.", "target": "bb=0;d=4;c=5;a=4", "kind": "initial"}
+{"id": "dev-00222-clause1", "prompt": "Для bb возьми значение из c.", "target": "bb=(c+0)%10", "kind": "copy"}
+{"id": "dev-00222-clause2", "prompt": "Замени значение d на три.", "target": "d=3", "kind": "set"}
+{"id": "dev-00222-clause3", "prompt": "bb должно хранить шесть, а не 8.", "target": "bb=6", "kind": "choose"}
+{"id": "dev-00222-clause4", "prompt": "Не заменяй d на пять.", "target": "d=(d+0)%10", "kind": "keep"}
+{"id": "dev-00222-clause5", "prompt": "Чему равно a?", "target": "?a", "kind": "query"}
+{"id": "dev-00111-clause0", "prompt": "В начале в памяти: c=7, d=четыре, a=5, bb=пять.", "target": "c=7;d=4;a=5;bb=5", "kind": "initial"}
+{"id": "dev-00111-clause1", "prompt": "Сохрани прежнее значение c.", "target": "c=(c+0)%10", "kind": "keep"}
+{"id": "dev-00111-clause2", "prompt": "Оставь d без изменений.", "target": "d=(d+0)%10", "kind": "keep"}
+{"id": "dev-00111-clause3", "prompt": "Назови значение c.", "target": "?c", "kind": "query"}
+{"id": "dev-00208-clause0", "prompt": "Сначала запомни: aa=2, bb=ноль, dd=девять, d=два.", "target": "aa=2;bb=0;dd=9;d=2", "kind": "initial"}
+{"id": "dev-00208-clause1", "prompt": "Перепиши значение dd в aa.", "target": "aa=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00208-clause2", "prompt": "Замени значение bb на шесть.", "target": "bb=6", "kind": "set"}
+{"id": "dev-00208-clause3", "prompt": "Запиши 7 в dd.", "target": "dd=7", "kind": "set"}
+{"id": "dev-00208-clause4", "prompt": "Значение bb теперь 3, не 1.", "target": "bb=3", "kind": "choose"}
+{"id": "dev-00208-clause5", "prompt": "Чему равно aa?", "target": "?aa", "kind": "query"}
+{"id": "dev-00157-clause0", "prompt": "Сначала запомни: bb=2, d=3, dd=восемь, aa=два.", "target": "bb=2;d=3;dd=8;aa=2", "kind": "initial"}
+{"id": "dev-00157-clause1", "prompt": "Пусть aa хранит значение bb.", "target": "aa=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00157-clause2", "prompt": "Не один, а ноль присвой d.", "target": "d=0", "kind": "choose"}
+{"id": "dev-00157-clause3", "prompt": "Возьми число из aa и запиши его в bb.", "target": "bb=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00157-clause4", "prompt": "Скопируй dd в d.", "target": "d=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00157-clause5", "prompt": "Пусть dd равно три.", "target": "dd=3", "kind": "set"}
+{"id": "dev-00157-clause6", "prompt": "Не записывай семь в d.", "target": "d=(d+0)%10", "kind": "keep"}
+{"id": "dev-00157-clause7", "prompt": "Чему равно aa?", "target": "?aa", "kind": "query"}
+{"id": "dev-00080-clause0", "prompt": "В начале в памяти: dd=два, d=восемь, cc=восемь, a=4.", "target": "dd=2;d=8;cc=8;a=4", "kind": "initial"}
+{"id": "dev-00080-clause1", "prompt": "Не заменяй d на три.", "target": "d=(d+0)%10", "kind": "keep"}
+{"id": "dev-00080-clause2", "prompt": "Присвой dd значение пять.", "target": "dd=5", "kind": "set"}
+{"id": "dev-00080-clause3", "prompt": "Теперь a хранит шесть.", "target": "a=6", "kind": "set"}
+{"id": "dev-00080-clause4", "prompt": "Назови значение a.", "target": "?a", "kind": "query"}
+{"id": "dev-00106-clause0", "prompt": "Сначала запомни: bb=два, cc=девять, dd=пять, d=пять.", "target": "bb=2;cc=9;dd=5;d=5", "kind": "initial"}
+{"id": "dev-00106-clause1", "prompt": "Скопируй d в cc.", "target": "cc=(d+0)%10", "kind": "copy"}
+{"id": "dev-00106-clause2", "prompt": "Не 4, а три присвой dd.", "target": "dd=3", "kind": "choose"}
+{"id": "dev-00106-clause3", "prompt": "Для bb возьми значение из cc.", "target": "bb=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00106-clause4", "prompt": "Оставь d без изменений.", "target": "d=(d+0)%10", "kind": "keep"}
+{"id": "dev-00106-clause5", "prompt": "Возьми число из dd и запиши его в d.", "target": "d=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00106-clause6", "prompt": "Какое значение у cc?", "target": "?cc", "kind": "query"}
+{"id": "dev-00115-clause0", "prompt": "Дано: b=9, dd=один, aa=три, d=семь.", "target": "b=9;dd=1;aa=3;d=7", "kind": "initial"}
+{"id": "dev-00115-clause1", "prompt": "Пусть b равно восемь.", "target": "b=8", "kind": "set"}
+{"id": "dev-00115-clause2", "prompt": "Сохрани прежнее значение b.", "target": "b=(b+0)%10", "kind": "keep"}
+{"id": "dev-00115-clause3", "prompt": "Не меняй значение b.", "target": "b=(b+0)%10", "kind": "keep"}
+{"id": "dev-00115-clause4", "prompt": "Не записывай шесть в d.", "target": "d=(d+0)%10", "kind": "keep"}
+{"id": "dev-00115-clause5", "prompt": "Замени значение aa на 3.", "target": "aa=3", "kind": "set"}
+{"id": "dev-00115-clause6", "prompt": "Какое значение у b?", "target": "?b", "kind": "query"}
+{"id": "dev-00068-clause0", "prompt": "В начале в памяти: dd=шесть, b=восемь, d=7, a=9.", "target": "dd=6;b=8;d=7;a=9", "kind": "initial"}
+{"id": "dev-00068-clause1", "prompt": "Сохрани прежнее значение b.", "target": "b=(b+0)%10", "kind": "keep"}
+{"id": "dev-00068-clause2", "prompt": "Перепиши значение d в a.", "target": "a=(d+0)%10", "kind": "copy"}
+{"id": "dev-00068-clause3", "prompt": "Сохрани прежнее значение a.", "target": "a=(a+0)%10", "kind": "keep"}
+{"id": "dev-00068-clause4", "prompt": "Замени значение dd на два.", "target": "dd=2", "kind": "set"}
+{"id": "dev-00068-clause5", "prompt": "Назови значение dd.", "target": "?dd", "kind": "query"}
+{"id": "dev-00022-clause0", "prompt": "Сначала запомни: b=3, a=пять, d=7, dd=шесть.", "target": "b=3;a=5;d=7;dd=6", "kind": "initial"}
+{"id": "dev-00022-clause1", "prompt": "Теперь b хранит семь.", "target": "b=7", "kind": "set"}
+{"id": "dev-00022-clause2", "prompt": "Перепиши значение d в dd.", "target": "dd=(d+0)%10", "kind": "copy"}
+{"id": "dev-00022-clause3", "prompt": "Назови значение b.", "target": "?b", "kind": "query"}
+{"id": "dev-00223-clause0", "prompt": "В начале в памяти: bb=пять, dd=7, c=четыре, a=один.", "target": "bb=5;dd=7;c=4;a=1", "kind": "initial"}
+{"id": "dev-00223-clause1", "prompt": "bb должно хранить два, а не четыре.", "target": "bb=2", "kind": "choose"}
+{"id": "dev-00223-clause2", "prompt": "Запиши 4 в c.", "target": "c=4", "kind": "set"}
+{"id": "dev-00223-clause3", "prompt": "Замени значение a на пять.", "target": "a=5", "kind": "set"}
+{"id": "dev-00223-clause4", "prompt": "Перепиши значение bb в dd.", "target": "dd=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00223-clause5", "prompt": "Пусть dd равно три.", "target": "dd=3", "kind": "set"}
+{"id": "dev-00223-clause6", "prompt": "Какое значение у c?", "target": "?c", "kind": "query"}
+{"id": "dev-00206-clause0", "prompt": "Дано: c=7, b=пять, a=один, aa=ноль.", "target": "c=7;b=5;a=1;aa=0", "kind": "initial"}
+{"id": "dev-00206-clause1", "prompt": "Присвой b значение ноль.", "target": "b=0", "kind": "set"}
+{"id": "dev-00206-clause2", "prompt": "Теперь a хранит 8.", "target": "a=8", "kind": "set"}
+{"id": "dev-00206-clause3", "prompt": "Какое значение у a?", "target": "?a", "kind": "query"}
+{"id": "dev-00033-clause0", "prompt": "Сначала запомни: b=пять, bb=1, c=два, d=четыре.", "target": "b=5;bb=1;c=2;d=4", "kind": "initial"}
+{"id": "dev-00033-clause1", "prompt": "Для b возьми значение из d.", "target": "b=(d+0)%10", "kind": "copy"}
+{"id": "dev-00033-clause2", "prompt": "Запиши в d не 2, а пять.", "target": "d=5", "kind": "choose"}
+{"id": "dev-00033-clause3", "prompt": "Оставь d без изменений.", "target": "d=(d+0)%10", "kind": "keep"}
+{"id": "dev-00033-clause4", "prompt": "Какое число хранит bb?", "target": "?bb", "kind": "query"}
+{"id": "dev-00011-clause0", "prompt": "Дано: dd=четыре, b=1, d=четыре, bb=девять.", "target": "dd=4;b=1;d=4;bb=9", "kind": "initial"}
+{"id": "dev-00011-clause1", "prompt": "Возьми число из d и запиши его в bb.", "target": "bb=(d+0)%10", "kind": "copy"}
+{"id": "dev-00011-clause2", "prompt": "Запиши два в bb.", "target": "bb=2", "kind": "set"}
+{"id": "dev-00011-clause3", "prompt": "Запиши в bb не четыре, а три.", "target": "bb=3", "kind": "choose"}
+{"id": "dev-00011-clause4", "prompt": "Скопируй dd в bb.", "target": "bb=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00011-clause5", "prompt": "Для bb возьми значение из dd.", "target": "bb=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00011-clause6", "prompt": "Пусть dd равно три.", "target": "dd=3", "kind": "set"}
+{"id": "dev-00011-clause7", "prompt": "Назови значение dd.", "target": "?dd", "kind": "query"}
+{"id": "dev-00194-clause0", "prompt": "В начале в памяти: d=1, a=ноль, b=5, bb=семь.", "target": "d=1;a=0;b=5;bb=7", "kind": "initial"}
+{"id": "dev-00194-clause1", "prompt": "Сохрани прежнее значение b.", "target": "b=(b+0)%10", "kind": "keep"}
+{"id": "dev-00194-clause2", "prompt": "Скопируй b в bb.", "target": "bb=(b+0)%10", "kind": "copy"}
+{"id": "dev-00194-clause3", "prompt": "Замени значение bb на четыре.", "target": "bb=4", "kind": "set"}
+{"id": "dev-00194-clause4", "prompt": "Возьми число из b и запиши его в bb.", "target": "bb=(b+0)%10", "kind": "copy"}
+{"id": "dev-00194-clause5", "prompt": "Не семь, а пять присвой b.", "target": "b=5", "kind": "choose"}
+{"id": "dev-00194-clause6", "prompt": "Для a выбери четыре вместо 3.", "target": "a=4", "kind": "choose"}
+{"id": "dev-00194-clause7", "prompt": "Назови значение a.", "target": "?a", "kind": "query"}
+{"id": "dev-00067-clause0", "prompt": "В начале в памяти: a=2, b=шесть, dd=четыре, c=шесть.", "target": "a=2;b=6;dd=4;c=6", "kind": "initial"}
+{"id": "dev-00067-clause1", "prompt": "Не заменяй b на четыре.", "target": "b=(b+0)%10", "kind": "keep"}
+{"id": "dev-00067-clause2", "prompt": "Перепиши значение a в c.", "target": "c=(a+0)%10", "kind": "copy"}
+{"id": "dev-00067-clause3", "prompt": "Не меняй значение dd.", "target": "dd=(dd+0)%10", "kind": "keep"}
+{"id": "dev-00067-clause4", "prompt": "Для dd возьми значение из c.", "target": "dd=(c+0)%10", "kind": "copy"}
+{"id": "dev-00067-clause5", "prompt": "Теперь c хранит пять.", "target": "c=5", "kind": "set"}
+{"id": "dev-00067-clause6", "prompt": "Какое число хранит dd?", "target": "?dd", "kind": "query"}
+{"id": "dev-00142-clause0", "prompt": "Начальные значения: bb=семь, b=ноль, cc=шесть, c=один.", "target": "bb=7;b=0;cc=6;c=1", "kind": "initial"}
+{"id": "dev-00142-clause1", "prompt": "Замени значение bb на семь.", "target": "bb=7", "kind": "set"}
+{"id": "dev-00142-clause2", "prompt": "Перепиши значение cc в b.", "target": "b=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00142-clause3", "prompt": "Какое число хранит bb?", "target": "?bb", "kind": "query"}
+{"id": "dev-00083-clause0", "prompt": "Начальные значения: b=шесть, a=9, aa=9, c=четыре.", "target": "b=6;a=9;aa=9;c=4", "kind": "initial"}
+{"id": "dev-00083-clause1", "prompt": "Не заменяй a на 4.", "target": "a=(a+0)%10", "kind": "keep"}
+{"id": "dev-00083-clause2", "prompt": "Перепиши значение aa в c.", "target": "c=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00083-clause3", "prompt": "Возьми число из aa и запиши его в c.", "target": "c=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00083-clause4", "prompt": "Для aa возьми значение из b.", "target": "aa=(b+0)%10", "kind": "copy"}
+{"id": "dev-00083-clause5", "prompt": "Теперь aa хранит семь.", "target": "aa=7", "kind": "set"}
+{"id": "dev-00083-clause6", "prompt": "Для a возьми значение из aa.", "target": "a=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00083-clause7", "prompt": "Какое число хранит a?", "target": "?a", "kind": "query"}
+{"id": "dev-00177-clause0", "prompt": "В начале в памяти: a=пять, b=0, bb=8, aa=9.", "target": "a=5;b=0;bb=8;aa=9", "kind": "initial"}
+{"id": "dev-00177-clause1", "prompt": "Перепиши значение aa в b.", "target": "b=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00177-clause2", "prompt": "Теперь b хранит 7.", "target": "b=7", "kind": "set"}
+{"id": "dev-00177-clause3", "prompt": "Скопируй aa в a.", "target": "a=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00177-clause4", "prompt": "Возьми число из bb и запиши его в b.", "target": "b=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00177-clause5", "prompt": "Замени значение b на 4.", "target": "b=4", "kind": "set"}
+{"id": "dev-00177-clause6", "prompt": "Пусть a хранит значение aa.", "target": "a=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00177-clause7", "prompt": "Что сейчас хранится в aa?", "target": "?aa", "kind": "query"}
+{"id": "dev-00035-clause0", "prompt": "Дано: cc=один, c=один, dd=семь, aa=шесть.", "target": "cc=1;c=1;dd=7;aa=6", "kind": "initial"}
+{"id": "dev-00035-clause1", "prompt": "Замени значение dd на ноль.", "target": "dd=0", "kind": "set"}
+{"id": "dev-00035-clause2", "prompt": "Скопируй cc в c.", "target": "c=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00035-clause3", "prompt": "Назови значение c.", "target": "?c", "kind": "query"}
+{"id": "dev-00039-clause0", "prompt": "Начальные значения: b=семь, d=три, c=два, dd=1.", "target": "b=7;d=3;c=2;dd=1", "kind": "initial"}
+{"id": "dev-00039-clause1", "prompt": "Не записывай пять в dd.", "target": "dd=(dd+0)%10", "kind": "keep"}
+{"id": "dev-00039-clause2", "prompt": "Перепиши значение d в c.", "target": "c=(d+0)%10", "kind": "copy"}
+{"id": "dev-00039-clause3", "prompt": "Пусть b хранит значение dd.", "target": "b=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00039-clause4", "prompt": "Запиши в b не восемь, а шесть.", "target": "b=6", "kind": "choose"}
+{"id": "dev-00039-clause5", "prompt": "Чему равно d?", "target": "?d", "kind": "query"}
+{"id": "dev-00212-clause0", "prompt": "Дано: b=девять, cc=4, aa=4, d=5.", "target": "b=9;cc=4;aa=4;d=5", "kind": "initial"}
+{"id": "dev-00212-clause1", "prompt": "Запиши ноль в aa.", "target": "aa=0", "kind": "set"}
+{"id": "dev-00212-clause2", "prompt": "Не меняй значение d.", "target": "d=(d+0)%10", "kind": "keep"}
+{"id": "dev-00212-clause3", "prompt": "Не меняй значение b.", "target": "b=(b+0)%10", "kind": "keep"}
+{"id": "dev-00212-clause4", "prompt": "Какое число хранит aa?", "target": "?aa", "kind": "query"}
+{"id": "dev-00146-clause0", "prompt": "Сначала запомни: a=восемь, d=0, aa=восемь, cc=восемь.", "target": "a=8;d=0;aa=8;cc=8", "kind": "initial"}
+{"id": "dev-00146-clause1", "prompt": "Возьми число из a и запиши его в d.", "target": "d=(a+0)%10", "kind": "copy"}
+{"id": "dev-00146-clause2", "prompt": "Не 3, а восемь присвой aa.", "target": "aa=8", "kind": "choose"}
+{"id": "dev-00146-clause3", "prompt": "Что сейчас хранится в aa?", "target": "?aa", "kind": "query"}
+{"id": "dev-00053-clause0", "prompt": "В начале в памяти: dd=8, c=один, cc=девять, a=семь.", "target": "dd=8;c=1;cc=9;a=7", "kind": "initial"}
+{"id": "dev-00053-clause1", "prompt": "Перепиши значение a в dd.", "target": "dd=(a+0)%10", "kind": "copy"}
+{"id": "dev-00053-clause2", "prompt": "Не 5, а 7 присвой cc.", "target": "cc=7", "kind": "choose"}
+{"id": "dev-00053-clause3", "prompt": "Назови значение cc.", "target": "?cc", "kind": "query"}
+{"id": "dev-00010-clause0", "prompt": "Начальные значения: c=девять, aa=два, d=четыре, dd=три.", "target": "c=9;aa=2;d=4;dd=3", "kind": "initial"}
+{"id": "dev-00010-clause1", "prompt": "Скопируй d в c.", "target": "c=(d+0)%10", "kind": "copy"}
+{"id": "dev-00010-clause2", "prompt": "Пусть aa хранит значение dd.", "target": "aa=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00010-clause3", "prompt": "dd должно хранить 6, а не пять.", "target": "dd=6", "kind": "choose"}
+{"id": "dev-00010-clause4", "prompt": "Какое значение у aa?", "target": "?aa", "kind": "query"}
+{"id": "dev-00156-clause0", "prompt": "В начале в памяти: aa=ноль, cc=ноль, a=2, dd=8.", "target": "aa=0;cc=0;a=2;dd=8", "kind": "initial"}
+{"id": "dev-00156-clause1", "prompt": "Теперь cc хранит два.", "target": "cc=2", "kind": "set"}
+{"id": "dev-00156-clause2", "prompt": "Оставь cc без изменений.", "target": "cc=(cc+0)%10", "kind": "keep"}
+{"id": "dev-00156-clause3", "prompt": "Для dd возьми значение из aa.", "target": "dd=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00156-clause4", "prompt": "Сохрани прежнее значение a.", "target": "a=(a+0)%10", "kind": "keep"}
+{"id": "dev-00156-clause5", "prompt": "Чему равно a?", "target": "?a", "kind": "query"}
+{"id": "dev-00166-clause0", "prompt": "В начале в памяти: c=два, a=9, bb=ноль, aa=семь.", "target": "c=2;a=9;bb=0;aa=7", "kind": "initial"}
+{"id": "dev-00166-clause1", "prompt": "Теперь bb хранит восемь.", "target": "bb=8", "kind": "set"}
+{"id": "dev-00166-clause2", "prompt": "Присвой a значение пять.", "target": "a=5", "kind": "set"}
+{"id": "dev-00166-clause3", "prompt": "Значение bb теперь 8, не три.", "target": "bb=8", "kind": "choose"}
+{"id": "dev-00166-clause4", "prompt": "Какое значение у a?", "target": "?a", "kind": "query"}
+{"id": "dev-00147-clause0", "prompt": "В начале в памяти: cc=восемь, c=два, bb=7, b=9.", "target": "cc=8;c=2;bb=7;b=9", "kind": "initial"}
+{"id": "dev-00147-clause1", "prompt": "Пусть c равно 8.", "target": "c=8", "kind": "set"}
+{"id": "dev-00147-clause2", "prompt": "Замени значение bb на восемь.", "target": "bb=8", "kind": "set"}
+{"id": "dev-00147-clause3", "prompt": "Чему равно b?", "target": "?b", "kind": "query"}
+{"id": "dev-00230-clause0", "prompt": "Дано: dd=один, c=семь, bb=2, cc=четыре.", "target": "dd=1;c=7;bb=2;cc=4", "kind": "initial"}
+{"id": "dev-00230-clause1", "prompt": "Замени значение cc на шесть.", "target": "cc=6", "kind": "set"}
+{"id": "dev-00230-clause2", "prompt": "Для dd возьми значение из c.", "target": "dd=(c+0)%10", "kind": "copy"}
+{"id": "dev-00230-clause3", "prompt": "Присвой c значение четыре.", "target": "c=4", "kind": "set"}
+{"id": "dev-00230-clause4", "prompt": "Пусть bb хранит значение cc.", "target": "bb=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00230-clause5", "prompt": "Какое значение у bb?", "target": "?bb", "kind": "query"}
+{"id": "dev-00007-clause0", "prompt": "В начале в памяти: bb=один, aa=пять, c=4, a=шесть.", "target": "bb=1;aa=5;c=4;a=6", "kind": "initial"}
+{"id": "dev-00007-clause1", "prompt": "Пусть a равно три.", "target": "a=3", "kind": "set"}
+{"id": "dev-00007-clause2", "prompt": "Скопируй c в a.", "target": "a=(c+0)%10", "kind": "copy"}
+{"id": "dev-00007-clause3", "prompt": "Не 9, а два присвой bb.", "target": "bb=2", "kind": "choose"}
+{"id": "dev-00007-clause4", "prompt": "Перепиши значение bb в a.", "target": "a=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00007-clause5", "prompt": "Не заменяй bb на один.", "target": "bb=(bb+0)%10", "kind": "keep"}
+{"id": "dev-00007-clause6", "prompt": "Для aa возьми значение из a.", "target": "aa=(a+0)%10", "kind": "copy"}
+{"id": "dev-00007-clause7", "prompt": "Какое значение у bb?", "target": "?bb", "kind": "query"}
+{"id": "dev-00025-clause0", "prompt": "Сначала запомни: d=три, bb=пять, c=7, dd=пять.", "target": "d=3;bb=5;c=7;dd=5", "kind": "initial"}
+{"id": "dev-00025-clause1", "prompt": "Теперь d хранит восемь.", "target": "d=8", "kind": "set"}
+{"id": "dev-00025-clause2", "prompt": "Пусть bb хранит значение c.", "target": "bb=(c+0)%10", "kind": "copy"}
+{"id": "dev-00025-clause3", "prompt": "Какое значение у d?", "target": "?d", "kind": "query"}
+{"id": "dev-00129-clause0", "prompt": "В начале в памяти: a=шесть, b=7, bb=три, aa=шесть.", "target": "a=6;b=7;bb=3;aa=6", "kind": "initial"}
+{"id": "dev-00129-clause1", "prompt": "Не меняй значение bb.", "target": "bb=(bb+0)%10", "kind": "keep"}
+{"id": "dev-00129-clause2", "prompt": "Теперь b хранит 4.", "target": "b=4", "kind": "set"}
+{"id": "dev-00129-clause3", "prompt": "Какое число хранит bb?", "target": "?bb", "kind": "query"}
+{"id": "dev-00031-clause0", "prompt": "Дано: b=четыре, bb=один, cc=9, c=пять.", "target": "b=4;bb=1;cc=9;c=5", "kind": "initial"}
+{"id": "dev-00031-clause1", "prompt": "Замени значение c на два.", "target": "c=2", "kind": "set"}
+{"id": "dev-00031-clause2", "prompt": "Замени значение bb на ноль.", "target": "bb=0", "kind": "set"}
+{"id": "dev-00031-clause3", "prompt": "Перепиши значение cc в b.", "target": "b=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00031-clause4", "prompt": "Не записывай пять в c.", "target": "c=(c+0)%10", "kind": "keep"}
+{"id": "dev-00031-clause5", "prompt": "c должно хранить 9, а не 0.", "target": "c=9", "kind": "choose"}
+{"id": "dev-00031-clause6", "prompt": "Какое значение у bb?", "target": "?bb", "kind": "query"}
+{"id": "dev-00051-clause0", "prompt": "Сначала запомни: b=два, dd=шесть, c=семь, cc=6.", "target": "b=2;dd=6;c=7;cc=6", "kind": "initial"}
+{"id": "dev-00051-clause1", "prompt": "Скопируй c в dd.", "target": "dd=(c+0)%10", "kind": "copy"}
+{"id": "dev-00051-clause2", "prompt": "Перепиши значение c в b.", "target": "b=(c+0)%10", "kind": "copy"}
+{"id": "dev-00051-clause3", "prompt": "Чему равно c?", "target": "?c", "kind": "query"}
+{"id": "dev-00112-clause0", "prompt": "Дано: a=семь, c=4, bb=9, aa=шесть.", "target": "a=7;c=4;bb=9;aa=6", "kind": "initial"}
+{"id": "dev-00112-clause1", "prompt": "Оставь c без изменений.", "target": "c=(c+0)%10", "kind": "keep"}
+{"id": "dev-00112-clause2", "prompt": "Возьми число из bb и запиши его в c.", "target": "c=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00112-clause3", "prompt": "Запиши 7 в aa.", "target": "aa=7", "kind": "set"}
+{"id": "dev-00112-clause4", "prompt": "Возьми число из a и запиши его в bb.", "target": "bb=(a+0)%10", "kind": "copy"}
+{"id": "dev-00112-clause5", "prompt": "aa должно хранить 4, а не 9.", "target": "aa=4", "kind": "choose"}
+{"id": "dev-00112-clause6", "prompt": "Какое значение у bb?", "target": "?bb", "kind": "query"}
+{"id": "dev-00186-clause0", "prompt": "В начале в памяти: bb=0, dd=два, aa=семь, a=0.", "target": "bb=0;dd=2;aa=7;a=0", "kind": "initial"}
+{"id": "dev-00186-clause1", "prompt": "Не заменяй aa на пять.", "target": "aa=(aa+0)%10", "kind": "keep"}
+{"id": "dev-00186-clause2", "prompt": "Пусть a равно 0.", "target": "a=0", "kind": "set"}
+{"id": "dev-00186-clause3", "prompt": "Какое значение у dd?", "target": "?dd", "kind": "query"}
+{"id": "dev-00130-clause0", "prompt": "Начальные значения: b=2, aa=семь, a=девять, dd=три.", "target": "b=2;aa=7;a=9;dd=3", "kind": "initial"}
+{"id": "dev-00130-clause1", "prompt": "Возьми число из a и запиши его в aa.", "target": "aa=(a+0)%10", "kind": "copy"}
+{"id": "dev-00130-clause2", "prompt": "Пусть b хранит значение dd.", "target": "b=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00130-clause3", "prompt": "Возьми число из aa и запиши его в a.", "target": "a=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00130-clause4", "prompt": "Запиши шесть в a.", "target": "a=6", "kind": "set"}
+{"id": "dev-00130-clause5", "prompt": "Для a возьми значение из dd.", "target": "a=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00130-clause6", "prompt": "Какое значение у b?", "target": "?b", "kind": "query"}
+{"id": "dev-00125-clause0", "prompt": "В начале в памяти: aa=2, bb=семь, c=четыре, d=8.", "target": "aa=2;bb=7;c=4;d=8", "kind": "initial"}
+{"id": "dev-00125-clause1", "prompt": "Перепиши значение aa в d.", "target": "d=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00125-clause2", "prompt": "Запиши 0 в c.", "target": "c=0", "kind": "set"}
+{"id": "dev-00125-clause3", "prompt": "Оставь bb без изменений.", "target": "bb=(bb+0)%10", "kind": "keep"}
+{"id": "dev-00125-clause4", "prompt": "Присвой bb значение 1.", "target": "bb=1", "kind": "set"}
+{"id": "dev-00125-clause5", "prompt": "Что сейчас хранится в bb?", "target": "?bb", "kind": "query"}
+{"id": "dev-00091-clause0", "prompt": "В начале в памяти: cc=один, bb=девять, c=семь, d=9.", "target": "cc=1;bb=9;c=7;d=9", "kind": "initial"}
+{"id": "dev-00091-clause1", "prompt": "Сохрани прежнее значение d.", "target": "d=(d+0)%10", "kind": "keep"}
+{"id": "dev-00091-clause2", "prompt": "Значение bb теперь пять, не 6.", "target": "bb=5", "kind": "choose"}
+{"id": "dev-00091-clause3", "prompt": "Присвой c значение ноль.", "target": "c=0", "kind": "set"}
+{"id": "dev-00091-clause4", "prompt": "Возьми число из c и запиши его в d.", "target": "d=(c+0)%10", "kind": "copy"}
+{"id": "dev-00091-clause5", "prompt": "Назови значение c.", "target": "?c", "kind": "query"}
+{"id": "dev-00019-clause0", "prompt": "Сначала запомни: a=шесть, aa=пять, d=девять, cc=один.", "target": "a=6;aa=5;d=9;cc=1", "kind": "initial"}
+{"id": "dev-00019-clause1", "prompt": "Теперь d хранит ноль.", "target": "d=0", "kind": "set"}
+{"id": "dev-00019-clause2", "prompt": "Возьми число из a и запиши его в d.", "target": "d=(a+0)%10", "kind": "copy"}
+{"id": "dev-00019-clause3", "prompt": "Теперь a хранит пять.", "target": "a=5", "kind": "set"}
+{"id": "dev-00019-clause4", "prompt": "Какое значение у d?", "target": "?d", "kind": "query"}
+{"id": "dev-00144-clause0", "prompt": "Начальные значения: cc=три, bb=8, d=3, a=1.", "target": "cc=3;bb=8;d=3;a=1", "kind": "initial"}
+{"id": "dev-00144-clause1", "prompt": "Пусть d равно три.", "target": "d=3", "kind": "set"}
+{"id": "dev-00144-clause2", "prompt": "Присвой d значение девять.", "target": "d=9", "kind": "set"}
+{"id": "dev-00144-clause3", "prompt": "Пусть a равно один.", "target": "a=1", "kind": "set"}
+{"id": "dev-00144-clause4", "prompt": "Что сейчас хранится в bb?", "target": "?bb", "kind": "query"}
+{"id": "dev-00023-clause0", "prompt": "Начальные значения: dd=7, a=5, cc=0, aa=ноль.", "target": "dd=7;a=5;cc=0;aa=0", "kind": "initial"}
+{"id": "dev-00023-clause1", "prompt": "Пусть cc равно семь.", "target": "cc=7", "kind": "set"}
+{"id": "dev-00023-clause2", "prompt": "Оставь aa без изменений.", "target": "aa=(aa+0)%10", "kind": "keep"}
+{"id": "dev-00023-clause3", "prompt": "Не записывай 1 в dd.", "target": "dd=(dd+0)%10", "kind": "keep"}
+{"id": "dev-00023-clause4", "prompt": "Что сейчас хранится в cc?", "target": "?cc", "kind": "query"}
+{"id": "dev-00090-clause0", "prompt": "Начальные значения: b=два, aa=0, c=шесть, d=ноль.", "target": "b=2;aa=0;c=6;d=0", "kind": "initial"}
+{"id": "dev-00090-clause1", "prompt": "aa должно хранить три, а не один.", "target": "aa=3", "kind": "choose"}
+{"id": "dev-00090-clause2", "prompt": "Не записывай пять в aa.", "target": "aa=(aa+0)%10", "kind": "keep"}
+{"id": "dev-00090-clause3", "prompt": "Скопируй d в b.", "target": "b=(d+0)%10", "kind": "copy"}
+{"id": "dev-00090-clause4", "prompt": "Перепиши значение d в c.", "target": "c=(d+0)%10", "kind": "copy"}
+{"id": "dev-00090-clause5", "prompt": "Запиши в c не один, а два.", "target": "c=2", "kind": "choose"}
+{"id": "dev-00090-clause6", "prompt": "Что сейчас хранится в d?", "target": "?d", "kind": "query"}
+{"id": "dev-00089-clause0", "prompt": "Сначала запомни: cc=семь, b=один, c=три, dd=четыре.", "target": "cc=7;b=1;c=3;dd=4", "kind": "initial"}
+{"id": "dev-00089-clause1", "prompt": "Пусть c равно девять.", "target": "c=9", "kind": "set"}
+{"id": "dev-00089-clause2", "prompt": "Запиши девять в b.", "target": "b=9", "kind": "set"}
+{"id": "dev-00089-clause3", "prompt": "Запиши 4 в dd.", "target": "dd=4", "kind": "set"}
+{"id": "dev-00089-clause4", "prompt": "Возьми число из b и запиши его в c.", "target": "c=(b+0)%10", "kind": "copy"}
+{"id": "dev-00089-clause5", "prompt": "Назови значение c.", "target": "?c", "kind": "query"}
+{"id": "dev-00215-clause0", "prompt": "Начальные значения: bb=шесть, cc=5, a=девять, aa=три.", "target": "bb=6;cc=5;a=9;aa=3", "kind": "initial"}
+{"id": "dev-00215-clause1", "prompt": "Запиши в a не восемь, а один.", "target": "a=1", "kind": "choose"}
+{"id": "dev-00215-clause2", "prompt": "Запиши в bb не три, а 7.", "target": "bb=7", "kind": "choose"}
+{"id": "dev-00215-clause3", "prompt": "Присвой bb значение шесть.", "target": "bb=6", "kind": "set"}
+{"id": "dev-00215-clause4", "prompt": "Перепиши значение a в cc.", "target": "cc=(a+0)%10", "kind": "copy"}
+{"id": "dev-00215-clause5", "prompt": "Какое значение у cc?", "target": "?cc", "kind": "query"}
+{"id": "dev-00148-clause0", "prompt": "Начальные значения: c=пять, aa=6, cc=девять, dd=6.", "target": "c=5;aa=6;cc=9;dd=6", "kind": "initial"}
+{"id": "dev-00148-clause1", "prompt": "Пусть dd равно четыре.", "target": "dd=4", "kind": "set"}
+{"id": "dev-00148-clause2", "prompt": "Скопируй dd в c.", "target": "c=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00148-clause3", "prompt": "Запиши в c не восемь, а ноль.", "target": "c=0", "kind": "choose"}
+{"id": "dev-00148-clause4", "prompt": "Перепиши значение cc в aa.", "target": "aa=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00148-clause5", "prompt": "Сохрани прежнее значение aa.", "target": "aa=(aa+0)%10", "kind": "keep"}
+{"id": "dev-00148-clause6", "prompt": "cc должно хранить восемь, а не четыре.", "target": "cc=8", "kind": "choose"}
+{"id": "dev-00148-clause7", "prompt": "Чему равно aa?", "target": "?aa", "kind": "query"}
+{"id": "dev-00231-clause0", "prompt": "В начале в памяти: a=восемь, bb=7, c=девять, dd=три.", "target": "a=8;bb=7;c=9;dd=3", "kind": "initial"}
+{"id": "dev-00231-clause1", "prompt": "Перепиши значение c в a.", "target": "a=(c+0)%10", "kind": "copy"}
+{"id": "dev-00231-clause2", "prompt": "Теперь c хранит четыре.", "target": "c=4", "kind": "set"}
+{"id": "dev-00231-clause3", "prompt": "Какое число хранит bb?", "target": "?bb", "kind": "query"}
+{"id": "dev-00132-clause0", "prompt": "В начале в памяти: d=два, c=4, a=один, b=2.", "target": "d=2;c=4;a=1;b=2", "kind": "initial"}
+{"id": "dev-00132-clause1", "prompt": "Сохрани прежнее значение a.", "target": "a=(a+0)%10", "kind": "keep"}
+{"id": "dev-00132-clause2", "prompt": "Запиши пять в b.", "target": "b=5", "kind": "set"}
+{"id": "dev-00132-clause3", "prompt": "Какое значение у c?", "target": "?c", "kind": "query"}
+{"id": "dev-00108-clause0", "prompt": "Дано: bb=три, cc=ноль, c=восемь, b=6.", "target": "bb=3;cc=0;c=8;b=6", "kind": "initial"}
+{"id": "dev-00108-clause1", "prompt": "Теперь bb хранит два.", "target": "bb=2", "kind": "set"}
+{"id": "dev-00108-clause2", "prompt": "Запиши семь в c.", "target": "c=7", "kind": "set"}
+{"id": "dev-00108-clause3", "prompt": "Присвой c значение девять.", "target": "c=9", "kind": "set"}
+{"id": "dev-00108-clause4", "prompt": "Пусть c равно шесть.", "target": "c=6", "kind": "set"}
+{"id": "dev-00108-clause5", "prompt": "Какое число хранит b?", "target": "?b", "kind": "query"}
+{"id": "dev-00058-clause0", "prompt": "Сначала запомни: bb=1, cc=1, aa=шесть, b=семь.", "target": "bb=1;cc=1;aa=6;b=7", "kind": "initial"}
+{"id": "dev-00058-clause1", "prompt": "Сохрани прежнее значение b.", "target": "b=(b+0)%10", "kind": "keep"}
+{"id": "dev-00058-clause2", "prompt": "Замени значение bb на 9.", "target": "bb=9", "kind": "set"}
+{"id": "dev-00058-clause3", "prompt": "Для aa возьми значение из bb.", "target": "aa=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00058-clause4", "prompt": "Пусть cc равно пять.", "target": "cc=5", "kind": "set"}
+{"id": "dev-00058-clause5", "prompt": "Пусть aa хранит значение bb.", "target": "aa=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00058-clause6", "prompt": "Что сейчас хранится в bb?", "target": "?bb", "kind": "query"}
+{"id": "dev-00081-clause0", "prompt": "Сначала запомни: dd=девять, d=семь, c=семь, b=шесть.", "target": "dd=9;d=7;c=7;b=6", "kind": "initial"}
+{"id": "dev-00081-clause1", "prompt": "Возьми число из c и запиши его в b.", "target": "b=(c+0)%10", "kind": "copy"}
+{"id": "dev-00081-clause2", "prompt": "Запиши три в dd.", "target": "dd=3", "kind": "set"}
+{"id": "dev-00081-clause3", "prompt": "Теперь dd хранит один.", "target": "dd=1", "kind": "set"}
+{"id": "dev-00081-clause4", "prompt": "Какое значение у c?", "target": "?c", "kind": "query"}
+{"id": "dev-00062-clause0", "prompt": "Начальные значения: a=семь, bb=пять, cc=три, b=четыре.", "target": "a=7;bb=5;cc=3;b=4", "kind": "initial"}
+{"id": "dev-00062-clause1", "prompt": "Скопируй a в cc.", "target": "cc=(a+0)%10", "kind": "copy"}
+{"id": "dev-00062-clause2", "prompt": "Пусть b равно один.", "target": "b=1", "kind": "set"}
+{"id": "dev-00062-clause3", "prompt": "Возьми число из cc и запиши его в b.", "target": "b=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00062-clause4", "prompt": "Не 6, а ноль присвой b.", "target": "b=0", "kind": "choose"}
+{"id": "dev-00062-clause5", "prompt": "Какое число хранит b?", "target": "?b", "kind": "query"}
+{"id": "dev-00185-clause0", "prompt": "Сначала запомни: b=8, aa=шесть, c=восемь, bb=четыре.", "target": "b=8;aa=6;c=8;bb=4", "kind": "initial"}
+{"id": "dev-00185-clause1", "prompt": "Значение b теперь девять, не 7.", "target": "b=9", "kind": "choose"}
+{"id": "dev-00185-clause2", "prompt": "Не записывай три в aa.", "target": "aa=(aa+0)%10", "kind": "keep"}
+{"id": "dev-00185-clause3", "prompt": "Сохрани прежнее значение b.", "target": "b=(b+0)%10", "kind": "keep"}
+{"id": "dev-00185-clause4", "prompt": "Теперь b хранит один.", "target": "b=1", "kind": "set"}
+{"id": "dev-00185-clause5", "prompt": "Назови значение b.", "target": "?b", "kind": "query"}
+{"id": "dev-00048-clause0", "prompt": "Начальные значения: dd=восемь, b=шесть, a=3, cc=шесть.", "target": "dd=8;b=6;a=3;cc=6", "kind": "initial"}
+{"id": "dev-00048-clause1", "prompt": "Замени значение b на девять.", "target": "b=9", "kind": "set"}
+{"id": "dev-00048-clause2", "prompt": "Запиши девять в a.", "target": "a=9", "kind": "set"}
+{"id": "dev-00048-clause3", "prompt": "Какое число хранит cc?", "target": "?cc", "kind": "query"}
+{"id": "dev-00092-clause0", "prompt": "Начальные значения: b=два, bb=9, cc=семь, aa=0.", "target": "b=2;bb=9;cc=7;aa=0", "kind": "initial"}
+{"id": "dev-00092-clause1", "prompt": "Не записывай один в cc.", "target": "cc=(cc+0)%10", "kind": "keep"}
+{"id": "dev-00092-clause2", "prompt": "Скопируй b в bb.", "target": "bb=(b+0)%10", "kind": "copy"}
+{"id": "dev-00092-clause3", "prompt": "Перепиши значение aa в bb.", "target": "bb=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00092-clause4", "prompt": "Чему равно bb?", "target": "?bb", "kind": "query"}
+{"id": "dev-00134-clause0", "prompt": "В начале в памяти: aa=4, b=два, d=шесть, cc=девять.", "target": "aa=4;b=2;d=6;cc=9", "kind": "initial"}
+{"id": "dev-00134-clause1", "prompt": "Перепиши значение aa в d.", "target": "d=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00134-clause2", "prompt": "Для cc возьми значение из aa.", "target": "cc=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00134-clause3", "prompt": "Оставь b без изменений.", "target": "b=(b+0)%10", "kind": "keep"}
+{"id": "dev-00134-clause4", "prompt": "Перепиши значение cc в aa.", "target": "aa=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00134-clause5", "prompt": "Назови значение aa.", "target": "?aa", "kind": "query"}
+{"id": "dev-00021-clause0", "prompt": "Начальные значения: cc=7, c=три, d=семь, a=восемь.", "target": "cc=7;c=3;d=7;a=8", "kind": "initial"}
+{"id": "dev-00021-clause1", "prompt": "Для a выбери четыре вместо девять.", "target": "a=4", "kind": "choose"}
+{"id": "dev-00021-clause2", "prompt": "Возьми число из d и запиши его в cc.", "target": "cc=(d+0)%10", "kind": "copy"}
+{"id": "dev-00021-clause3", "prompt": "Для c выбери четыре вместо два.", "target": "c=4", "kind": "choose"}
+{"id": "dev-00021-clause4", "prompt": "Назови значение d.", "target": "?d", "kind": "query"}
+{"id": "dev-00005-clause0", "prompt": "Сначала запомни: cc=один, bb=ноль, dd=семь, aa=3.", "target": "cc=1;bb=0;dd=7;aa=3", "kind": "initial"}
+{"id": "dev-00005-clause1", "prompt": "Для cc возьми значение из dd.", "target": "cc=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00005-clause2", "prompt": "Присвой dd значение пять.", "target": "dd=5", "kind": "set"}
+{"id": "dev-00005-clause3", "prompt": "Запиши три в dd.", "target": "dd=3", "kind": "set"}
+{"id": "dev-00005-clause4", "prompt": "Запиши в aa не ноль, а один.", "target": "aa=1", "kind": "choose"}
+{"id": "dev-00005-clause5", "prompt": "Возьми число из aa и запиши его в dd.", "target": "dd=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00005-clause6", "prompt": "Назови значение dd.", "target": "?dd", "kind": "query"}
+{"id": "dev-00173-clause0", "prompt": "В начале в памяти: b=6, a=семь, c=один, bb=два.", "target": "b=6;a=7;c=1;bb=2", "kind": "initial"}
+{"id": "dev-00173-clause1", "prompt": "Не меняй значение bb.", "target": "bb=(bb+0)%10", "kind": "keep"}
+{"id": "dev-00173-clause2", "prompt": "Теперь a хранит семь.", "target": "a=7", "kind": "set"}
+{"id": "dev-00173-clause3", "prompt": "Для c возьми значение из b.", "target": "c=(b+0)%10", "kind": "copy"}
+{"id": "dev-00173-clause4", "prompt": "Перепиши значение a в bb.", "target": "bb=(a+0)%10", "kind": "copy"}
+{"id": "dev-00173-clause5", "prompt": "Чему равно bb?", "target": "?bb", "kind": "query"}
+{"id": "dev-00180-clause0", "prompt": "В начале в памяти: b=семь, c=девять, aa=шесть, a=ноль.", "target": "b=7;c=9;aa=6;a=0", "kind": "initial"}
+{"id": "dev-00180-clause1", "prompt": "Оставь b без изменений.", "target": "b=(b+0)%10", "kind": "keep"}
+{"id": "dev-00180-clause2", "prompt": "Теперь c хранит семь.", "target": "c=7", "kind": "set"}
+{"id": "dev-00180-clause3", "prompt": "Возьми число из a и запиши его в aa.", "target": "aa=(a+0)%10", "kind": "copy"}
+{"id": "dev-00180-clause4", "prompt": "Чему равно a?", "target": "?a", "kind": "query"}
+{"id": "dev-00012-clause0", "prompt": "Начальные значения: bb=четыре, d=один, cc=четыре, b=5.", "target": "bb=4;d=1;cc=4;b=5", "kind": "initial"}
+{"id": "dev-00012-clause1", "prompt": "Пусть cc хранит значение bb.", "target": "cc=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00012-clause2", "prompt": "Не записывай 2 в cc.", "target": "cc=(cc+0)%10", "kind": "keep"}
+{"id": "dev-00012-clause3", "prompt": "Присвой cc значение шесть.", "target": "cc=6", "kind": "set"}
+{"id": "dev-00012-clause4", "prompt": "Не четыре, а девять присвой d.", "target": "d=9", "kind": "choose"}
+{"id": "dev-00012-clause5", "prompt": "Что сейчас хранится в bb?", "target": "?bb", "kind": "query"}
+{"id": "dev-00008-clause0", "prompt": "В начале в памяти: c=пять, aa=два, dd=шесть, a=четыре.", "target": "c=5;aa=2;dd=6;a=4", "kind": "initial"}
+{"id": "dev-00008-clause1", "prompt": "Скопируй c в a.", "target": "a=(c+0)%10", "kind": "copy"}
+{"id": "dev-00008-clause2", "prompt": "Теперь dd хранит семь.", "target": "dd=7", "kind": "set"}
+{"id": "dev-00008-clause3", "prompt": "Возьми число из aa и запиши его в c.", "target": "c=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00008-clause4", "prompt": "Что сейчас хранится в c?", "target": "?c", "kind": "query"}
+{"id": "dev-00041-clause0", "prompt": "Дано: a=0, dd=4, b=два, aa=1.", "target": "a=0;dd=4;b=2;aa=1", "kind": "initial"}
+{"id": "dev-00041-clause1", "prompt": "Пусть a хранит значение aa.", "target": "a=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00041-clause2", "prompt": "Запиши семь в b.", "target": "b=7", "kind": "set"}
+{"id": "dev-00041-clause3", "prompt": "Скопируй aa в dd.", "target": "dd=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00041-clause4", "prompt": "Запиши три в dd.", "target": "dd=3", "kind": "set"}
+{"id": "dev-00041-clause5", "prompt": "Пусть dd равно два.", "target": "dd=2", "kind": "set"}
+{"id": "dev-00041-clause6", "prompt": "Не 6, а три присвой aa.", "target": "aa=3", "kind": "choose"}
+{"id": "dev-00041-clause7", "prompt": "Назови значение aa.", "target": "?aa", "kind": "query"}
+{"id": "dev-00136-clause0", "prompt": "Сначала запомни: cc=три, c=четыре, b=шесть, dd=шесть.", "target": "cc=3;c=4;b=6;dd=6", "kind": "initial"}
+{"id": "dev-00136-clause1", "prompt": "Для c возьми значение из b.", "target": "c=(b+0)%10", "kind": "copy"}
+{"id": "dev-00136-clause2", "prompt": "Возьми число из cc и запиши его в c.", "target": "c=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00136-clause3", "prompt": "Присвой dd значение пять.", "target": "dd=5", "kind": "set"}
+{"id": "dev-00136-clause4", "prompt": "Теперь c хранит 6.", "target": "c=6", "kind": "set"}
+{"id": "dev-00136-clause5", "prompt": "Для cc выбери ноль вместо восемь.", "target": "cc=0", "kind": "choose"}
+{"id": "dev-00136-clause6", "prompt": "Какое значение у dd?", "target": "?dd", "kind": "query"}
+{"id": "dev-00174-clause0", "prompt": "В начале в памяти: c=один, d=два, b=8, aa=три.", "target": "c=1;d=2;b=8;aa=3", "kind": "initial"}
+{"id": "dev-00174-clause1", "prompt": "Не записывай пять в c.", "target": "c=(c+0)%10", "kind": "keep"}
+{"id": "dev-00174-clause2", "prompt": "Замени значение d на пять.", "target": "d=5", "kind": "set"}
+{"id": "dev-00174-clause3", "prompt": "Скопируй d в c.", "target": "c=(d+0)%10", "kind": "copy"}
+{"id": "dev-00174-clause4", "prompt": "Какое значение у b?", "target": "?b", "kind": "query"}
+{"id": "dev-00160-clause0", "prompt": "В начале в памяти: dd=девять, cc=5, aa=5, bb=пять.", "target": "dd=9;cc=5;aa=5;bb=5", "kind": "initial"}
+{"id": "dev-00160-clause1", "prompt": "Замени значение dd на 3.", "target": "dd=3", "kind": "set"}
+{"id": "dev-00160-clause2", "prompt": "Пусть bb хранит значение aa.", "target": "bb=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00160-clause3", "prompt": "Чему равно dd?", "target": "?dd", "kind": "query"}
+{"id": "dev-00069-clause0", "prompt": "Дано: c=пять, bb=два, aa=один, cc=три.", "target": "c=5;bb=2;aa=1;cc=3", "kind": "initial"}
+{"id": "dev-00069-clause1", "prompt": "Не меняй значение cc.", "target": "cc=(cc+0)%10", "kind": "keep"}
+{"id": "dev-00069-clause2", "prompt": "Для bb выбери 3 вместо один.", "target": "bb=3", "kind": "choose"}
+{"id": "dev-00069-clause3", "prompt": "Что сейчас хранится в cc?", "target": "?cc", "kind": "query"}
+{"id": "dev-00107-clause0", "prompt": "Начальные значения: dd=четыре, d=ноль, c=4, a=один.", "target": "dd=4;d=0;c=4;a=1", "kind": "initial"}
+{"id": "dev-00107-clause1", "prompt": "Присвой c значение три.", "target": "c=3", "kind": "set"}
+{"id": "dev-00107-clause2", "prompt": "Замени значение c на девять.", "target": "c=9", "kind": "set"}
+{"id": "dev-00107-clause3", "prompt": "Присвой c значение 5.", "target": "c=5", "kind": "set"}
+{"id": "dev-00107-clause4", "prompt": "Какое число хранит c?", "target": "?c", "kind": "query"}
+{"id": "dev-00204-clause0", "prompt": "В начале в памяти: d=один, a=8, dd=8, c=пять.", "target": "d=1;a=8;dd=8;c=5", "kind": "initial"}
+{"id": "dev-00204-clause1", "prompt": "Значение a теперь три, не один.", "target": "a=3", "kind": "choose"}
+{"id": "dev-00204-clause2", "prompt": "Теперь d хранит один.", "target": "d=1", "kind": "set"}
+{"id": "dev-00204-clause3", "prompt": "Не четыре, а два присвой d.", "target": "d=2", "kind": "choose"}
+{"id": "dev-00204-clause4", "prompt": "Присвой d значение 2.", "target": "d=2", "kind": "set"}
+{"id": "dev-00204-clause5", "prompt": "Какое значение у dd?", "target": "?dd", "kind": "query"}
+{"id": "dev-00192-clause0", "prompt": "Начальные значения: aa=шесть, bb=четыре, d=ноль, dd=девять.", "target": "aa=6;bb=4;d=0;dd=9", "kind": "initial"}
+{"id": "dev-00192-clause1", "prompt": "Запиши 7 в aa.", "target": "aa=7", "kind": "set"}
+{"id": "dev-00192-clause2", "prompt": "Значение aa теперь 6, не девять.", "target": "aa=6", "kind": "choose"}
+{"id": "dev-00192-clause3", "prompt": "Запиши в aa не семь, а шесть.", "target": "aa=6", "kind": "choose"}
+{"id": "dev-00192-clause4", "prompt": "Оставь dd без изменений.", "target": "dd=(dd+0)%10", "kind": "keep"}
+{"id": "dev-00192-clause5", "prompt": "Теперь dd хранит 0.", "target": "dd=0", "kind": "set"}
+{"id": "dev-00192-clause6", "prompt": "Какое число хранит bb?", "target": "?bb", "kind": "query"}
+{"id": "dev-00200-clause0", "prompt": "Дано: aa=пять, a=7, c=девять, cc=ноль.", "target": "aa=5;a=7;c=9;cc=0", "kind": "initial"}
+{"id": "dev-00200-clause1", "prompt": "Перепиши значение a в cc.", "target": "cc=(a+0)%10", "kind": "copy"}
+{"id": "dev-00200-clause2", "prompt": "Теперь a хранит 7.", "target": "a=7", "kind": "set"}
+{"id": "dev-00200-clause3", "prompt": "Скопируй c в aa.", "target": "aa=(c+0)%10", "kind": "copy"}
+{"id": "dev-00200-clause4", "prompt": "Пусть c хранит значение cc.", "target": "c=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00200-clause5", "prompt": "cc должно хранить шесть, а не 2.", "target": "cc=6", "kind": "choose"}
+{"id": "dev-00200-clause6", "prompt": "Чему равно cc?", "target": "?cc", "kind": "query"}
+{"id": "dev-00119-clause0", "prompt": "В начале в памяти: d=2, aa=пять, b=один, a=шесть.", "target": "d=2;aa=5;b=1;a=6", "kind": "initial"}
+{"id": "dev-00119-clause1", "prompt": "Не заменяй aa на три.", "target": "aa=(aa+0)%10", "kind": "keep"}
+{"id": "dev-00119-clause2", "prompt": "Присвой a значение шесть.", "target": "a=6", "kind": "set"}
+{"id": "dev-00119-clause3", "prompt": "Оставь b без изменений.", "target": "b=(b+0)%10", "kind": "keep"}
+{"id": "dev-00119-clause4", "prompt": "Теперь d хранит девять.", "target": "d=9", "kind": "set"}
+{"id": "dev-00119-clause5", "prompt": "Какое значение у d?", "target": "?d", "kind": "query"}
+{"id": "dev-00152-clause0", "prompt": "Дано: c=ноль, dd=пять, cc=восемь, bb=девять.", "target": "c=0;dd=5;cc=8;bb=9", "kind": "initial"}
+{"id": "dev-00152-clause1", "prompt": "Запиши в cc не три, а два.", "target": "cc=2", "kind": "choose"}
+{"id": "dev-00152-clause2", "prompt": "Для c выбери ноль вместо семь.", "target": "c=0", "kind": "choose"}
+{"id": "dev-00152-clause3", "prompt": "Что сейчас хранится в c?", "target": "?c", "kind": "query"}
+{"id": "dev-00103-clause0", "prompt": "Сначала запомни: cc=ноль, dd=четыре, bb=ноль, a=восемь.", "target": "cc=0;dd=4;bb=0;a=8", "kind": "initial"}
+{"id": "dev-00103-clause1", "prompt": "Пусть dd равно четыре.", "target": "dd=4", "kind": "set"}
+{"id": "dev-00103-clause2", "prompt": "Теперь cc хранит два.", "target": "cc=2", "kind": "set"}
+{"id": "dev-00103-clause3", "prompt": "Пусть a хранит значение cc.", "target": "a=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00103-clause4", "prompt": "Перепиши значение dd в a.", "target": "a=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00103-clause5", "prompt": "Для dd возьми значение из bb.", "target": "dd=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00103-clause6", "prompt": "Чему равно a?", "target": "?a", "kind": "query"}
+{"id": "dev-00044-clause0", "prompt": "В начале в памяти: aa=четыре, bb=четыре, c=три, b=шесть.", "target": "aa=4;bb=4;c=3;b=6", "kind": "initial"}
+{"id": "dev-00044-clause1", "prompt": "Не записывай шесть в b.", "target": "b=(b+0)%10", "kind": "keep"}
+{"id": "dev-00044-clause2", "prompt": "Пусть c равно пять.", "target": "c=5", "kind": "set"}
+{"id": "dev-00044-clause3", "prompt": "c должно хранить 0, а не пять.", "target": "c=0", "kind": "choose"}
+{"id": "dev-00044-clause4", "prompt": "Возьми число из c и запиши его в bb.", "target": "bb=(c+0)%10", "kind": "copy"}
+{"id": "dev-00044-clause5", "prompt": "Возьми число из aa и запиши его в b.", "target": "b=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00044-clause6", "prompt": "Что сейчас хранится в b?", "target": "?b", "kind": "query"}
+{"id": "dev-00179-clause0", "prompt": "В начале в памяти: bb=четыре, dd=1, cc=четыре, d=девять.", "target": "bb=4;dd=1;cc=4;d=9", "kind": "initial"}
+{"id": "dev-00179-clause1", "prompt": "Пусть cc хранит значение d.", "target": "cc=(d+0)%10", "kind": "copy"}
+{"id": "dev-00179-clause2", "prompt": "Запиши 4 в dd.", "target": "dd=4", "kind": "set"}
+{"id": "dev-00179-clause3", "prompt": "Скопируй d в cc.", "target": "cc=(d+0)%10", "kind": "copy"}
+{"id": "dev-00179-clause4", "prompt": "Назови значение cc.", "target": "?cc", "kind": "query"}
+{"id": "dev-00046-clause0", "prompt": "В начале в памяти: bb=0, aa=четыре, dd=7, d=3.", "target": "bb=0;aa=4;dd=7;d=3", "kind": "initial"}
+{"id": "dev-00046-clause1", "prompt": "Для bb выбери 4 вместо пять.", "target": "bb=4", "kind": "choose"}
+{"id": "dev-00046-clause2", "prompt": "Пусть bb равно 6.", "target": "bb=6", "kind": "set"}
+{"id": "dev-00046-clause3", "prompt": "Теперь dd хранит пять.", "target": "dd=5", "kind": "set"}
+{"id": "dev-00046-clause4", "prompt": "Скопируй dd в bb.", "target": "bb=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00046-clause5", "prompt": "Пусть d хранит значение dd.", "target": "d=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00046-clause6", "prompt": "Чему равно bb?", "target": "?bb", "kind": "query"}
+{"id": "dev-00163-clause0", "prompt": "Сначала запомни: cc=0, b=7, bb=восемь, dd=пять.", "target": "cc=0;b=7;bb=8;dd=5", "kind": "initial"}
+{"id": "dev-00163-clause1", "prompt": "Запиши 4 в cc.", "target": "cc=4", "kind": "set"}
+{"id": "dev-00163-clause2", "prompt": "Запиши два в b.", "target": "b=2", "kind": "set"}
+{"id": "dev-00163-clause3", "prompt": "Для b возьми значение из cc.", "target": "b=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00163-clause4", "prompt": "Возьми число из bb и запиши его в dd.", "target": "dd=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00163-clause5", "prompt": "Пусть b хранит значение cc.", "target": "b=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00163-clause6", "prompt": "Скопируй dd в cc.", "target": "cc=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00163-clause7", "prompt": "Что сейчас хранится в b?", "target": "?b", "kind": "query"}
+{"id": "dev-00203-clause0", "prompt": "В начале в памяти: dd=два, cc=3, aa=8, c=ноль.", "target": "dd=2;cc=3;aa=8;c=0", "kind": "initial"}
+{"id": "dev-00203-clause1", "prompt": "Оставь c без изменений.", "target": "c=(c+0)%10", "kind": "keep"}
+{"id": "dev-00203-clause2", "prompt": "aa должно хранить семь, а не восемь.", "target": "aa=7", "kind": "choose"}
+{"id": "dev-00203-clause3", "prompt": "Сохрани прежнее значение dd.", "target": "dd=(dd+0)%10", "kind": "keep"}
+{"id": "dev-00203-clause4", "prompt": "Какое значение у aa?", "target": "?aa", "kind": "query"}
+{"id": "dev-00073-clause0", "prompt": "В начале в памяти: b=девять, a=4, dd=четыре, d=пять.", "target": "b=9;a=4;dd=4;d=5", "kind": "initial"}
+{"id": "dev-00073-clause1", "prompt": "Теперь d хранит четыре.", "target": "d=4", "kind": "set"}
+{"id": "dev-00073-clause2", "prompt": "Не меняй значение b.", "target": "b=(b+0)%10", "kind": "keep"}
+{"id": "dev-00073-clause3", "prompt": "Замени значение dd на восемь.", "target": "dd=8", "kind": "set"}
+{"id": "dev-00073-clause4", "prompt": "Перепиши значение b в dd.", "target": "dd=(b+0)%10", "kind": "copy"}
+{"id": "dev-00073-clause5", "prompt": "Что сейчас хранится в d?", "target": "?d", "kind": "query"}
+{"id": "dev-00195-clause0", "prompt": "Начальные значения: dd=6, c=5, bb=четыре, b=3.", "target": "dd=6;c=5;bb=4;b=3", "kind": "initial"}
+{"id": "dev-00195-clause1", "prompt": "Не меняй значение dd.", "target": "dd=(dd+0)%10", "kind": "keep"}
+{"id": "dev-00195-clause2", "prompt": "Не заменяй c на два.", "target": "c=(c+0)%10", "kind": "keep"}
+{"id": "dev-00195-clause3", "prompt": "Замени значение b на восемь.", "target": "b=8", "kind": "set"}
+{"id": "dev-00195-clause4", "prompt": "Запиши шесть в b.", "target": "b=6", "kind": "set"}
+{"id": "dev-00195-clause5", "prompt": "Чему равно c?", "target": "?c", "kind": "query"}
+{"id": "dev-00072-clause0", "prompt": "Начальные значения: c=5, cc=четыре, a=4, d=5.", "target": "c=5;cc=4;a=4;d=5", "kind": "initial"}
+{"id": "dev-00072-clause1", "prompt": "Не 4, а 2 присвой c.", "target": "c=2", "kind": "choose"}
+{"id": "dev-00072-clause2", "prompt": "Присвой d значение 0.", "target": "d=0", "kind": "set"}
+{"id": "dev-00072-clause3", "prompt": "Не один, а три присвой c.", "target": "c=3", "kind": "choose"}
+{"id": "dev-00072-clause4", "prompt": "d должно хранить девять, а не восемь.", "target": "d=9", "kind": "choose"}
+{"id": "dev-00072-clause5", "prompt": "Пусть d хранит значение c.", "target": "d=(c+0)%10", "kind": "copy"}
+{"id": "dev-00072-clause6", "prompt": "Запиши 3 в a.", "target": "a=3", "kind": "set"}
+{"id": "dev-00072-clause7", "prompt": "Назови значение cc.", "target": "?cc", "kind": "query"}
+{"id": "dev-00116-clause0", "prompt": "Начальные значения: aa=пять, c=8, bb=четыре, b=девять.", "target": "aa=5;c=8;bb=4;b=9", "kind": "initial"}
+{"id": "dev-00116-clause1", "prompt": "Скопируй b в aa.", "target": "aa=(b+0)%10", "kind": "copy"}
+{"id": "dev-00116-clause2", "prompt": "Присвой bb значение восемь.", "target": "bb=8", "kind": "set"}
+{"id": "dev-00116-clause3", "prompt": "Перепиши значение bb в c.", "target": "c=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00116-clause4", "prompt": "Запиши 5 в aa.", "target": "aa=5", "kind": "set"}
+{"id": "dev-00116-clause5", "prompt": "Перепиши значение bb в b.", "target": "b=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00116-clause6", "prompt": "Какое число хранит b?", "target": "?b", "kind": "query"}
+{"id": "dev-00236-clause0", "prompt": "В начале в памяти: aa=девять, cc=шесть, dd=один, b=два.", "target": "aa=9;cc=6;dd=1;b=2", "kind": "initial"}
+{"id": "dev-00236-clause1", "prompt": "Не записывай один в cc.", "target": "cc=(cc+0)%10", "kind": "keep"}
+{"id": "dev-00236-clause2", "prompt": "Теперь cc хранит 8.", "target": "cc=8", "kind": "set"}
+{"id": "dev-00236-clause3", "prompt": "Чему равно cc?", "target": "?cc", "kind": "query"}
+{"id": "dev-00059-clause0", "prompt": "Начальные значения: cc=шесть, bb=шесть, b=7, a=2.", "target": "cc=6;bb=6;b=7;a=2", "kind": "initial"}
+{"id": "dev-00059-clause1", "prompt": "Замени значение cc на 9.", "target": "cc=9", "kind": "set"}
+{"id": "dev-00059-clause2", "prompt": "Пусть bb равно шесть.", "target": "bb=6", "kind": "set"}
+{"id": "dev-00059-clause3", "prompt": "Для b выбери ноль вместо шесть.", "target": "b=0", "kind": "choose"}
+{"id": "dev-00059-clause4", "prompt": "Для a возьми значение из cc.", "target": "a=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00059-clause5", "prompt": "Какое число хранит a?", "target": "?a", "kind": "query"}
+{"id": "dev-00126-clause0", "prompt": "В начале в памяти: dd=ноль, d=восемь, b=четыре, c=2.", "target": "dd=0;d=8;b=4;c=2", "kind": "initial"}
+{"id": "dev-00126-clause1", "prompt": "Перепиши значение d в b.", "target": "b=(d+0)%10", "kind": "copy"}
+{"id": "dev-00126-clause2", "prompt": "Запиши 1 в b.", "target": "b=1", "kind": "set"}
+{"id": "dev-00126-clause3", "prompt": "Замени значение dd на четыре.", "target": "dd=4", "kind": "set"}
+{"id": "dev-00126-clause4", "prompt": "Присвой dd значение шесть.", "target": "dd=6", "kind": "set"}
+{"id": "dev-00126-clause5", "prompt": "Значение dd теперь 1, не четыре.", "target": "dd=1", "kind": "choose"}
+{"id": "dev-00126-clause6", "prompt": "Пусть b хранит значение d.", "target": "b=(d+0)%10", "kind": "copy"}
+{"id": "dev-00126-clause7", "prompt": "Что сейчас хранится в c?", "target": "?c", "kind": "query"}
+{"id": "dev-00149-clause0", "prompt": "В начале в памяти: bb=семь, aa=девять, cc=четыре, dd=9.", "target": "bb=7;aa=9;cc=4;dd=9", "kind": "initial"}
+{"id": "dev-00149-clause1", "prompt": "Присвой cc значение два.", "target": "cc=2", "kind": "set"}
+{"id": "dev-00149-clause2", "prompt": "Скопируй aa в dd.", "target": "dd=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00149-clause3", "prompt": "Скопируй bb в dd.", "target": "dd=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00149-clause4", "prompt": "Оставь cc без изменений.", "target": "cc=(cc+0)%10", "kind": "keep"}
+{"id": "dev-00149-clause5", "prompt": "Пусть dd хранит значение aa.", "target": "dd=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00149-clause6", "prompt": "Оставь dd без изменений.", "target": "dd=(dd+0)%10", "kind": "keep"}
+{"id": "dev-00149-clause7", "prompt": "Чему равно dd?", "target": "?dd", "kind": "query"}
+{"id": "dev-00159-clause0", "prompt": "Начальные значения: a=три, cc=один, b=три, bb=пять.", "target": "a=3;cc=1;b=3;bb=5", "kind": "initial"}
+{"id": "dev-00159-clause1", "prompt": "Замени значение b на восемь.", "target": "b=8", "kind": "set"}
+{"id": "dev-00159-clause2", "prompt": "Пусть bb хранит значение cc.", "target": "bb=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00159-clause3", "prompt": "Скопируй b в bb.", "target": "bb=(b+0)%10", "kind": "copy"}
+{"id": "dev-00159-clause4", "prompt": "Для b возьми значение из a.", "target": "b=(a+0)%10", "kind": "copy"}
+{"id": "dev-00159-clause5", "prompt": "Скопируй a в b.", "target": "b=(a+0)%10", "kind": "copy"}
+{"id": "dev-00159-clause6", "prompt": "Чему равно a?", "target": "?a", "kind": "query"}
+{"id": "dev-00057-clause0", "prompt": "Начальные значения: dd=4, cc=9, d=6, a=один.", "target": "dd=4;cc=9;d=6;a=1", "kind": "initial"}
+{"id": "dev-00057-clause1", "prompt": "Теперь dd хранит 0.", "target": "dd=0", "kind": "set"}
+{"id": "dev-00057-clause2", "prompt": "Теперь a хранит ноль.", "target": "a=0", "kind": "set"}
+{"id": "dev-00057-clause3", "prompt": "Запиши ноль в d.", "target": "d=0", "kind": "set"}
+{"id": "dev-00057-clause4", "prompt": "Пусть d хранит значение cc.", "target": "d=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00057-clause5", "prompt": "Какое число хранит cc?", "target": "?cc", "kind": "query"}
+{"id": "dev-00167-clause0", "prompt": "Начальные значения: aa=7, cc=3, d=4, b=девять.", "target": "aa=7;cc=3;d=4;b=9", "kind": "initial"}
+{"id": "dev-00167-clause1", "prompt": "d должно хранить три, а не 0.", "target": "d=3", "kind": "choose"}
+{"id": "dev-00167-clause2", "prompt": "Оставь b без изменений.", "target": "b=(b+0)%10", "kind": "keep"}
+{"id": "dev-00167-clause3", "prompt": "Оставь b без изменений.", "target": "b=(b+0)%10", "kind": "keep"}
+{"id": "dev-00167-clause4", "prompt": "Перепиши значение d в cc.", "target": "cc=(d+0)%10", "kind": "copy"}
+{"id": "dev-00167-clause5", "prompt": "Для aa выбери 5 вместо ноль.", "target": "aa=5", "kind": "choose"}
+{"id": "dev-00167-clause6", "prompt": "Какое значение у aa?", "target": "?aa", "kind": "query"}
+{"id": "dev-00009-clause0", "prompt": "Дано: bb=четыре, dd=два, cc=3, b=ноль.", "target": "bb=4;dd=2;cc=3;b=0", "kind": "initial"}
+{"id": "dev-00009-clause1", "prompt": "Возьми число из bb и запиши его в dd.", "target": "dd=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00009-clause2", "prompt": "Значение dd теперь три, не два.", "target": "dd=3", "kind": "choose"}
+{"id": "dev-00009-clause3", "prompt": "Чему равно cc?", "target": "?cc", "kind": "query"}
+{"id": "dev-00162-clause0", "prompt": "Сначала запомни: b=шесть, cc=четыре, aa=4, c=пять.", "target": "b=6;cc=4;aa=4;c=5", "kind": "initial"}
+{"id": "dev-00162-clause1", "prompt": "Возьми число из aa и запиши его в c.", "target": "c=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00162-clause2", "prompt": "Теперь c хранит пять.", "target": "c=5", "kind": "set"}
+{"id": "dev-00162-clause3", "prompt": "Какое число хранит aa?", "target": "?aa", "kind": "query"}
+{"id": "dev-00161-clause0", "prompt": "Начальные значения: dd=шесть, c=9, d=7, cc=два.", "target": "dd=6;c=9;d=7;cc=2", "kind": "initial"}
+{"id": "dev-00161-clause1", "prompt": "Замени значение cc на пять.", "target": "cc=5", "kind": "set"}
+{"id": "dev-00161-clause2", "prompt": "Скопируй c в cc.", "target": "cc=(c+0)%10", "kind": "copy"}
+{"id": "dev-00161-clause3", "prompt": "Присвой dd значение 9.", "target": "dd=9", "kind": "set"}
+{"id": "dev-00161-clause4", "prompt": "Пусть c хранит значение d.", "target": "c=(d+0)%10", "kind": "copy"}
+{"id": "dev-00161-clause5", "prompt": "Присвой cc значение 5.", "target": "cc=5", "kind": "set"}
+{"id": "dev-00161-clause6", "prompt": "Замени значение dd на 3.", "target": "dd=3", "kind": "set"}
+{"id": "dev-00161-clause7", "prompt": "Какое число хранит dd?", "target": "?dd", "kind": "query"}
+{"id": "dev-00226-clause0", "prompt": "В начале в памяти: a=шесть, c=5, dd=восемь, b=один.", "target": "a=6;c=5;dd=8;b=1", "kind": "initial"}
+{"id": "dev-00226-clause1", "prompt": "Не записывай 8 в a.", "target": "a=(a+0)%10", "kind": "keep"}
+{"id": "dev-00226-clause2", "prompt": "Скопируй c в dd.", "target": "dd=(c+0)%10", "kind": "copy"}
+{"id": "dev-00226-clause3", "prompt": "Запиши три в a.", "target": "a=3", "kind": "set"}
+{"id": "dev-00226-clause4", "prompt": "Запиши семь в b.", "target": "b=7", "kind": "set"}
+{"id": "dev-00226-clause5", "prompt": "Назови значение dd.", "target": "?dd", "kind": "query"}
+{"id": "dev-00239-clause0", "prompt": "Дано: cc=шесть, c=пять, aa=три, b=семь.", "target": "cc=6;c=5;aa=3;b=7", "kind": "initial"}
+{"id": "dev-00239-clause1", "prompt": "Сохрани прежнее значение b.", "target": "b=(b+0)%10", "kind": "keep"}
+{"id": "dev-00239-clause2", "prompt": "Присвой b значение четыре.", "target": "b=4", "kind": "set"}
+{"id": "dev-00239-clause3", "prompt": "Для aa возьми значение из cc.", "target": "aa=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00239-clause4", "prompt": "Запиши девять в c.", "target": "c=9", "kind": "set"}
+{"id": "dev-00239-clause5", "prompt": "Что сейчас хранится в c?", "target": "?c", "kind": "query"}
+{"id": "dev-00196-clause0", "prompt": "Начальные значения: c=шесть, d=восемь, a=2, dd=ноль.", "target": "c=6;d=8;a=2;dd=0", "kind": "initial"}
+{"id": "dev-00196-clause1", "prompt": "Не меняй значение a.", "target": "a=(a+0)%10", "kind": "keep"}
+{"id": "dev-00196-clause2", "prompt": "Возьми число из a и запиши его в dd.", "target": "dd=(a+0)%10", "kind": "copy"}
+{"id": "dev-00196-clause3", "prompt": "Пусть d хранит значение a.", "target": "d=(a+0)%10", "kind": "copy"}
+{"id": "dev-00196-clause4", "prompt": "Запиши пять в dd.", "target": "dd=5", "kind": "set"}
+{"id": "dev-00196-clause5", "prompt": "Для c возьми значение из d.", "target": "c=(d+0)%10", "kind": "copy"}
+{"id": "dev-00196-clause6", "prompt": "Какое число хранит dd?", "target": "?dd", "kind": "query"}
+{"id": "dev-00128-clause0", "prompt": "В начале в памяти: b=2, dd=6, d=один, bb=пять.", "target": "b=2;dd=6;d=1;bb=5", "kind": "initial"}
+{"id": "dev-00128-clause1", "prompt": "Не записывай шесть в b.", "target": "b=(b+0)%10", "kind": "keep"}
+{"id": "dev-00128-clause2", "prompt": "Возьми число из b и запиши его в d.", "target": "d=(b+0)%10", "kind": "copy"}
+{"id": "dev-00128-clause3", "prompt": "Что сейчас хранится в d?", "target": "?d", "kind": "query"}
+{"id": "dev-00235-clause0", "prompt": "Сначала запомни: aa=восемь, cc=4, bb=один, dd=5.", "target": "aa=8;cc=4;bb=1;dd=5", "kind": "initial"}
+{"id": "dev-00235-clause1", "prompt": "Значение aa теперь ноль, не три.", "target": "aa=0", "kind": "choose"}
+{"id": "dev-00235-clause2", "prompt": "Теперь aa хранит 8.", "target": "aa=8", "kind": "set"}
+{"id": "dev-00235-clause3", "prompt": "Теперь bb хранит пять.", "target": "bb=5", "kind": "set"}
+{"id": "dev-00235-clause4", "prompt": "Назови значение aa.", "target": "?aa", "kind": "query"}
+{"id": "dev-00024-clause0", "prompt": "В начале в памяти: aa=6, d=восемь, b=6, a=один.", "target": "aa=6;d=8;b=6;a=1", "kind": "initial"}
+{"id": "dev-00024-clause1", "prompt": "Сохрани прежнее значение a.", "target": "a=(a+0)%10", "kind": "keep"}
+{"id": "dev-00024-clause2", "prompt": "Скопируй aa в b.", "target": "b=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00024-clause3", "prompt": "Пусть a равно четыре.", "target": "a=4", "kind": "set"}
+{"id": "dev-00024-clause4", "prompt": "Не один, а 2 присвой a.", "target": "a=2", "kind": "choose"}
+{"id": "dev-00024-clause5", "prompt": "Не меняй значение d.", "target": "d=(d+0)%10", "kind": "keep"}
+{"id": "dev-00024-clause6", "prompt": "Что сейчас хранится в d?", "target": "?d", "kind": "query"}
+{"id": "dev-00127-clause0", "prompt": "Начальные значения: a=один, cc=два, dd=5, b=шесть.", "target": "a=1;cc=2;dd=5;b=6", "kind": "initial"}
+{"id": "dev-00127-clause1", "prompt": "Для a возьми значение из cc.", "target": "a=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00127-clause2", "prompt": "Запиши семь в dd.", "target": "dd=7", "kind": "set"}
+{"id": "dev-00127-clause3", "prompt": "Теперь dd хранит шесть.", "target": "dd=6", "kind": "set"}
+{"id": "dev-00127-clause4", "prompt": "Какое число хранит a?", "target": "?a", "kind": "query"}
+{"id": "dev-00138-clause0", "prompt": "В начале в памяти: b=ноль, c=шесть, aa=девять, cc=0.", "target": "b=0;c=6;aa=9;cc=0", "kind": "initial"}
+{"id": "dev-00138-clause1", "prompt": "Не три, а восемь присвой cc.", "target": "cc=8", "kind": "choose"}
+{"id": "dev-00138-clause2", "prompt": "Оставь b без изменений.", "target": "b=(b+0)%10", "kind": "keep"}
+{"id": "dev-00138-clause3", "prompt": "Что сейчас хранится в c?", "target": "?c", "kind": "query"}
+{"id": "dev-00188-clause0", "prompt": "Сначала запомни: cc=три, dd=8, a=два, c=четыре.", "target": "cc=3;dd=8;a=2;c=4", "kind": "initial"}
+{"id": "dev-00188-clause1", "prompt": "Для c выбери два вместо девять.", "target": "c=2", "kind": "choose"}
+{"id": "dev-00188-clause2", "prompt": "a должно хранить два, а не четыре.", "target": "a=2", "kind": "choose"}
+{"id": "dev-00188-clause3", "prompt": "Не заменяй a на 3.", "target": "a=(a+0)%10", "kind": "keep"}
+{"id": "dev-00188-clause4", "prompt": "Что сейчас хранится в a?", "target": "?a", "kind": "query"}
+{"id": "dev-00158-clause0", "prompt": "Начальные значения: b=пять, d=пять, c=0, cc=три.", "target": "b=5;d=5;c=0;cc=3", "kind": "initial"}
+{"id": "dev-00158-clause1", "prompt": "Запиши в b не 9, а 5.", "target": "b=5", "kind": "choose"}
+{"id": "dev-00158-clause2", "prompt": "Замени значение cc на два.", "target": "cc=2", "kind": "set"}
+{"id": "dev-00158-clause3", "prompt": "Не записывай четыре в d.", "target": "d=(d+0)%10", "kind": "keep"}
+{"id": "dev-00158-clause4", "prompt": "Что сейчас хранится в cc?", "target": "?cc", "kind": "query"}
+{"id": "dev-00100-clause0", "prompt": "Сначала запомни: aa=ноль, dd=2, d=пять, bb=3.", "target": "aa=0;dd=2;d=5;bb=3", "kind": "initial"}
+{"id": "dev-00100-clause1", "prompt": "Не пять, а один присвой bb.", "target": "bb=1", "kind": "choose"}
+{"id": "dev-00100-clause2", "prompt": "Теперь d хранит три.", "target": "d=3", "kind": "set"}
+{"id": "dev-00100-clause3", "prompt": "Скопируй bb в aa.", "target": "aa=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00100-clause4", "prompt": "Что сейчас хранится в d?", "target": "?d", "kind": "query"}
+{"id": "dev-00102-clause0", "prompt": "Сначала запомни: a=4, b=три, c=1, cc=ноль.", "target": "a=4;b=3;c=1;cc=0", "kind": "initial"}
+{"id": "dev-00102-clause1", "prompt": "Возьми число из b и запиши его в c.", "target": "c=(b+0)%10", "kind": "copy"}
+{"id": "dev-00102-clause2", "prompt": "Для cc возьми значение из b.", "target": "cc=(b+0)%10", "kind": "copy"}
+{"id": "dev-00102-clause3", "prompt": "Какое число хранит a?", "target": "?a", "kind": "query"}
+{"id": "dev-00109-clause0", "prompt": "В начале в памяти: aa=три, cc=2, b=3, d=ноль.", "target": "aa=3;cc=2;b=3;d=0", "kind": "initial"}
+{"id": "dev-00109-clause1", "prompt": "Теперь b хранит шесть.", "target": "b=6", "kind": "set"}
+{"id": "dev-00109-clause2", "prompt": "Присвой d значение один.", "target": "d=1", "kind": "set"}
+{"id": "dev-00109-clause3", "prompt": "Что сейчас хранится в b?", "target": "?b", "kind": "query"}
+{"id": "dev-00054-clause0", "prompt": "В начале в памяти: a=четыре, b=восемь, c=0, bb=семь.", "target": "a=4;b=8;c=0;bb=7", "kind": "initial"}
+{"id": "dev-00054-clause1", "prompt": "Теперь c хранит ноль.", "target": "c=0", "kind": "set"}
+{"id": "dev-00054-clause2", "prompt": "Не меняй значение b.", "target": "b=(b+0)%10", "kind": "keep"}
+{"id": "dev-00054-clause3", "prompt": "Чему равно b?", "target": "?b", "kind": "query"}
+{"id": "dev-00131-clause0", "prompt": "Сначала запомни: d=ноль, dd=9, c=1, bb=4.", "target": "d=0;dd=9;c=1;bb=4", "kind": "initial"}
+{"id": "dev-00131-clause1", "prompt": "Значение d теперь 0, не три.", "target": "d=0", "kind": "choose"}
+{"id": "dev-00131-clause2", "prompt": "d должно хранить три, а не восемь.", "target": "d=3", "kind": "choose"}
+{"id": "dev-00131-clause3", "prompt": "Чему равно d?", "target": "?d", "kind": "query"}
+{"id": "dev-00096-clause0", "prompt": "Дано: cc=пять, b=2, d=семь, c=два.", "target": "cc=5;b=2;d=7;c=2", "kind": "initial"}
+{"id": "dev-00096-clause1", "prompt": "Не записывай 6 в d.", "target": "d=(d+0)%10", "kind": "keep"}
+{"id": "dev-00096-clause2", "prompt": "Не заменяй d на четыре.", "target": "d=(d+0)%10", "kind": "keep"}
+{"id": "dev-00096-clause3", "prompt": "Чему равно c?", "target": "?c", "kind": "query"}
+{"id": "dev-00004-clause0", "prompt": "Начальные значения: aa=0, a=восемь, dd=1, d=5.", "target": "aa=0;a=8;dd=1;d=5", "kind": "initial"}
+{"id": "dev-00004-clause1", "prompt": "Присвой aa значение 1.", "target": "aa=1", "kind": "set"}
+{"id": "dev-00004-clause2", "prompt": "Скопируй dd в a.", "target": "a=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00004-clause3", "prompt": "Для aa возьми значение из dd.", "target": "aa=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00004-clause4", "prompt": "Какое число хранит a?", "target": "?a", "kind": "query"}
+{"id": "dev-00189-clause0", "prompt": "Сначала запомни: dd=3, b=шесть, a=3, aa=ноль.", "target": "dd=3;b=6;a=3;aa=0", "kind": "initial"}
+{"id": "dev-00189-clause1", "prompt": "Не меняй значение dd.", "target": "dd=(dd+0)%10", "kind": "keep"}
+{"id": "dev-00189-clause2", "prompt": "Замени значение aa на один.", "target": "aa=1", "kind": "set"}
+{"id": "dev-00189-clause3", "prompt": "Пусть b равно 4.", "target": "b=4", "kind": "set"}
+{"id": "dev-00189-clause4", "prompt": "Оставь a без изменений.", "target": "a=(a+0)%10", "kind": "keep"}
+{"id": "dev-00189-clause5", "prompt": "Запиши три в a.", "target": "a=3", "kind": "set"}
+{"id": "dev-00189-clause6", "prompt": "Назови значение dd.", "target": "?dd", "kind": "query"}
+{"id": "dev-00122-clause0", "prompt": "Сначала запомни: a=8, c=восемь, b=7, aa=пять.", "target": "a=8;c=8;b=7;aa=5", "kind": "initial"}
+{"id": "dev-00122-clause1", "prompt": "Перепиши значение a в b.", "target": "b=(a+0)%10", "kind": "copy"}
+{"id": "dev-00122-clause2", "prompt": "Теперь c хранит ноль.", "target": "c=0", "kind": "set"}
+{"id": "dev-00122-clause3", "prompt": "Не заменяй b на 8.", "target": "b=(b+0)%10", "kind": "keep"}
+{"id": "dev-00122-clause4", "prompt": "Не заменяй a на шесть.", "target": "a=(a+0)%10", "kind": "keep"}
+{"id": "dev-00122-clause5", "prompt": "Что сейчас хранится в c?", "target": "?c", "kind": "query"}
+{"id": "dev-00123-clause0", "prompt": "Начальные значения: cc=ноль, b=один, a=семь, c=один.", "target": "cc=0;b=1;a=7;c=1", "kind": "initial"}
+{"id": "dev-00123-clause1", "prompt": "Возьми число из c и запиши его в a.", "target": "a=(c+0)%10", "kind": "copy"}
+{"id": "dev-00123-clause2", "prompt": "Запиши в a не шесть, а два.", "target": "a=2", "kind": "choose"}
+{"id": "dev-00123-clause3", "prompt": "Замени значение a на два.", "target": "a=2", "kind": "set"}
+{"id": "dev-00123-clause4", "prompt": "Назови значение c.", "target": "?c", "kind": "query"}
+{"id": "dev-00175-clause0", "prompt": "Начальные значения: b=ноль, d=8, aa=три, bb=три.", "target": "b=0;d=8;aa=3;bb=3", "kind": "initial"}
+{"id": "dev-00175-clause1", "prompt": "Для bb возьми значение из d.", "target": "bb=(d+0)%10", "kind": "copy"}
+{"id": "dev-00175-clause2", "prompt": "Для b выбери ноль вместо 6.", "target": "b=0", "kind": "choose"}
+{"id": "dev-00175-clause3", "prompt": "Сохрани прежнее значение b.", "target": "b=(b+0)%10", "kind": "keep"}
+{"id": "dev-00175-clause4", "prompt": "Для aa возьми значение из bb.", "target": "aa=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00175-clause5", "prompt": "Назови значение bb.", "target": "?bb", "kind": "query"}
+{"id": "dev-00182-clause0", "prompt": "Дано: c=8, aa=8, dd=пять, bb=7.", "target": "c=8;aa=8;dd=5;bb=7", "kind": "initial"}
+{"id": "dev-00182-clause1", "prompt": "Сохрани прежнее значение c.", "target": "c=(c+0)%10", "kind": "keep"}
+{"id": "dev-00182-clause2", "prompt": "Пусть c хранит значение aa.", "target": "c=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00182-clause3", "prompt": "Значение bb теперь ноль, не девять.", "target": "bb=0", "kind": "choose"}
+{"id": "dev-00182-clause4", "prompt": "Не меняй значение c.", "target": "c=(c+0)%10", "kind": "keep"}
+{"id": "dev-00182-clause5", "prompt": "Какое число хранит bb?", "target": "?bb", "kind": "query"}
+{"id": "dev-00150-clause0", "prompt": "Начальные значения: aa=пять, d=ноль, dd=девять, c=семь.", "target": "aa=5;d=0;dd=9;c=7", "kind": "initial"}
+{"id": "dev-00150-clause1", "prompt": "Пусть c равно шесть.", "target": "c=6", "kind": "set"}
+{"id": "dev-00150-clause2", "prompt": "Пусть aa равно семь.", "target": "aa=7", "kind": "set"}
+{"id": "dev-00150-clause3", "prompt": "Теперь dd хранит один.", "target": "dd=1", "kind": "set"}
+{"id": "dev-00150-clause4", "prompt": "Теперь c хранит три.", "target": "c=3", "kind": "set"}
+{"id": "dev-00150-clause5", "prompt": "Не заменяй aa на девять.", "target": "aa=(aa+0)%10", "kind": "keep"}
+{"id": "dev-00150-clause6", "prompt": "Пусть aa равно семь.", "target": "aa=7", "kind": "set"}
+{"id": "dev-00150-clause7", "prompt": "Назови значение d.", "target": "?d", "kind": "query"}
+{"id": "dev-00065-clause0", "prompt": "В начале в памяти: bb=три, a=шесть, d=один, cc=восемь.", "target": "bb=3;a=6;d=1;cc=8", "kind": "initial"}
+{"id": "dev-00065-clause1", "prompt": "Не заменяй d на четыре.", "target": "d=(d+0)%10", "kind": "keep"}
+{"id": "dev-00065-clause2", "prompt": "Перепиши значение d в cc.", "target": "cc=(d+0)%10", "kind": "copy"}
+{"id": "dev-00065-clause3", "prompt": "Пусть cc равно 9.", "target": "cc=9", "kind": "set"}
+{"id": "dev-00065-clause4", "prompt": "Пусть cc равно три.", "target": "cc=3", "kind": "set"}
+{"id": "dev-00065-clause5", "prompt": "Пусть bb равно ноль.", "target": "bb=0", "kind": "set"}
+{"id": "dev-00065-clause6", "prompt": "Для cc возьми значение из d.", "target": "cc=(d+0)%10", "kind": "copy"}
+{"id": "dev-00065-clause7", "prompt": "Какое значение у cc?", "target": "?cc", "kind": "query"}
+{"id": "dev-00105-clause0", "prompt": "Начальные значения: aa=пять, d=три, a=1, cc=пять.", "target": "aa=5;d=3;a=1;cc=5", "kind": "initial"}
+{"id": "dev-00105-clause1", "prompt": "Присвой d значение 6.", "target": "d=6", "kind": "set"}
+{"id": "dev-00105-clause2", "prompt": "Скопируй a в aa.", "target": "aa=(a+0)%10", "kind": "copy"}
+{"id": "dev-00105-clause3", "prompt": "Какое число хранит cc?", "target": "?cc", "kind": "query"}
+{"id": "dev-00137-clause0", "prompt": "Сначала запомни: dd=пять, a=восемь, aa=7, b=четыре.", "target": "dd=5;a=8;aa=7;b=4", "kind": "initial"}
+{"id": "dev-00137-clause1", "prompt": "Пусть aa равно семь.", "target": "aa=7", "kind": "set"}
+{"id": "dev-00137-clause2", "prompt": "Возьми число из dd и запиши его в a.", "target": "a=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00137-clause3", "prompt": "Назови значение a.", "target": "?a", "kind": "query"}
+{"id": "dev-00099-clause0", "prompt": "Сначала запомни: c=7, a=три, cc=семь, aa=четыре.", "target": "c=7;a=3;cc=7;aa=4", "kind": "initial"}
+{"id": "dev-00099-clause1", "prompt": "Пусть c хранит значение aa.", "target": "c=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00099-clause2", "prompt": "Запиши в cc не один, а 8.", "target": "cc=8", "kind": "choose"}
+{"id": "dev-00099-clause3", "prompt": "Чему равно a?", "target": "?a", "kind": "query"}
+{"id": "dev-00155-clause0", "prompt": "Дано: cc=восемь, a=четыре, aa=ноль, dd=девять.", "target": "cc=8;a=4;aa=0;dd=9", "kind": "initial"}
+{"id": "dev-00155-clause1", "prompt": "Пусть aa равно шесть.", "target": "aa=6", "kind": "set"}
+{"id": "dev-00155-clause2", "prompt": "Скопируй dd в a.", "target": "a=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00155-clause3", "prompt": "Запиши восемь в cc.", "target": "cc=8", "kind": "set"}
+{"id": "dev-00155-clause4", "prompt": "Присвой dd значение один.", "target": "dd=1", "kind": "set"}
+{"id": "dev-00155-clause5", "prompt": "Не записывай 7 в dd.", "target": "dd=(dd+0)%10", "kind": "keep"}
+{"id": "dev-00155-clause6", "prompt": "Что сейчас хранится в dd?", "target": "?dd", "kind": "query"}
+{"id": "dev-00036-clause0", "prompt": "В начале в памяти: a=восемь, b=три, cc=четыре, dd=два.", "target": "a=8;b=3;cc=4;dd=2", "kind": "initial"}
+{"id": "dev-00036-clause1", "prompt": "Возьми число из cc и запиши его в b.", "target": "b=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00036-clause2", "prompt": "Сохрани прежнее значение dd.", "target": "dd=(dd+0)%10", "kind": "keep"}
+{"id": "dev-00036-clause3", "prompt": "Замени значение a на 5.", "target": "a=5", "kind": "set"}
+{"id": "dev-00036-clause4", "prompt": "Скопируй b в a.", "target": "a=(b+0)%10", "kind": "copy"}
+{"id": "dev-00036-clause5", "prompt": "Какое число хранит dd?", "target": "?dd", "kind": "query"}
+{"id": "dev-00170-clause0", "prompt": "Начальные значения: cc=один, d=0, aa=восемь, dd=1.", "target": "cc=1;d=0;aa=8;dd=1", "kind": "initial"}
+{"id": "dev-00170-clause1", "prompt": "Запиши шесть в cc.", "target": "cc=6", "kind": "set"}
+{"id": "dev-00170-clause2", "prompt": "Не записывай 6 в d.", "target": "d=(d+0)%10", "kind": "keep"}
+{"id": "dev-00170-clause3", "prompt": "Чему равно cc?", "target": "?cc", "kind": "query"}
+{"id": "dev-00104-clause0", "prompt": "Дано: c=семь, cc=пять, dd=два, bb=один.", "target": "c=7;cc=5;dd=2;bb=1", "kind": "initial"}
+{"id": "dev-00104-clause1", "prompt": "Пусть bb равно 4.", "target": "bb=4", "kind": "set"}
+{"id": "dev-00104-clause2", "prompt": "Не 8, а шесть присвой dd.", "target": "dd=6", "kind": "choose"}
+{"id": "dev-00104-clause3", "prompt": "Перепиши значение bb в dd.", "target": "dd=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00104-clause4", "prompt": "Не меняй значение c.", "target": "c=(c+0)%10", "kind": "keep"}
+{"id": "dev-00104-clause5", "prompt": "Чему равно dd?", "target": "?dd", "kind": "query"}
+{"id": "dev-00193-clause0", "prompt": "В начале в памяти: b=пять, a=8, aa=семь, cc=один.", "target": "b=5;a=8;aa=7;cc=1", "kind": "initial"}
+{"id": "dev-00193-clause1", "prompt": "Перепиши значение b в cc.", "target": "cc=(b+0)%10", "kind": "copy"}
+{"id": "dev-00193-clause2", "prompt": "Для a выбери четыре вместо ноль.", "target": "a=4", "kind": "choose"}
+{"id": "dev-00193-clause3", "prompt": "Теперь b хранит ноль.", "target": "b=0", "kind": "set"}
+{"id": "dev-00193-clause4", "prompt": "b должно хранить три, а не девять.", "target": "b=3", "kind": "choose"}
+{"id": "dev-00193-clause5", "prompt": "Возьми число из a и запиши его в b.", "target": "b=(a+0)%10", "kind": "copy"}
+{"id": "dev-00193-clause6", "prompt": "Чему равно a?", "target": "?a", "kind": "query"}
+{"id": "dev-00014-clause0", "prompt": "В начале в памяти: a=девять, cc=3, bb=ноль, d=ноль.", "target": "a=9;cc=3;bb=0;d=0", "kind": "initial"}
+{"id": "dev-00014-clause1", "prompt": "Не меняй значение bb.", "target": "bb=(bb+0)%10", "kind": "keep"}
+{"id": "dev-00014-clause2", "prompt": "cc должно хранить восемь, а не шесть.", "target": "cc=8", "kind": "choose"}
+{"id": "dev-00014-clause3", "prompt": "Запиши в a не 0, а девять.", "target": "a=9", "kind": "choose"}
+{"id": "dev-00014-clause4", "prompt": "Сохрани прежнее значение bb.", "target": "bb=(bb+0)%10", "kind": "keep"}
+{"id": "dev-00014-clause5", "prompt": "Теперь cc хранит 4.", "target": "cc=4", "kind": "set"}
+{"id": "dev-00014-clause6", "prompt": "Запиши четыре в bb.", "target": "bb=4", "kind": "set"}
+{"id": "dev-00014-clause7", "prompt": "Какое значение у bb?", "target": "?bb", "kind": "query"}
+{"id": "dev-00101-clause0", "prompt": "Начальные значения: d=два, bb=девять, cc=6, dd=три.", "target": "d=2;bb=9;cc=6;dd=3", "kind": "initial"}
+{"id": "dev-00101-clause1", "prompt": "Скопируй dd в d.", "target": "d=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00101-clause2", "prompt": "Скопируй cc в bb.", "target": "bb=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00101-clause3", "prompt": "Перепиши значение d в cc.", "target": "cc=(d+0)%10", "kind": "copy"}
+{"id": "dev-00101-clause4", "prompt": "Возьми число из d и запиши его в dd.", "target": "dd=(d+0)%10", "kind": "copy"}
+{"id": "dev-00101-clause5", "prompt": "Не записывай два в dd.", "target": "dd=(dd+0)%10", "kind": "keep"}
+{"id": "dev-00101-clause6", "prompt": "Назови значение dd.", "target": "?dd", "kind": "query"}
+{"id": "dev-00201-clause0", "prompt": "Начальные значения: a=четыре, cc=2, dd=7, d=0.", "target": "a=4;cc=2;dd=7;d=0", "kind": "initial"}
+{"id": "dev-00201-clause1", "prompt": "Присвой a значение 5.", "target": "a=5", "kind": "set"}
+{"id": "dev-00201-clause2", "prompt": "Значение a теперь семь, не 2.", "target": "a=7", "kind": "choose"}
+{"id": "dev-00201-clause3", "prompt": "Чему равно dd?", "target": "?dd", "kind": "query"}
+{"id": "dev-00197-clause0", "prompt": "Сначала запомни: d=5, a=8, dd=6, c=7.", "target": "d=5;a=8;dd=6;c=7", "kind": "initial"}
+{"id": "dev-00197-clause1", "prompt": "Возьми число из c и запиши его в d.", "target": "d=(c+0)%10", "kind": "copy"}
+{"id": "dev-00197-clause2", "prompt": "Не заменяй dd на шесть.", "target": "dd=(dd+0)%10", "kind": "keep"}
+{"id": "dev-00197-clause3", "prompt": "Пусть dd равно пять.", "target": "dd=5", "kind": "set"}
+{"id": "dev-00197-clause4", "prompt": "Какое значение у dd?", "target": "?dd", "kind": "query"}
+{"id": "dev-00140-clause0", "prompt": "Сначала запомни: d=шесть, aa=девять, b=6, a=два.", "target": "d=6;aa=9;b=6;a=2", "kind": "initial"}
+{"id": "dev-00140-clause1", "prompt": "Замени значение aa на три.", "target": "aa=3", "kind": "set"}
+{"id": "dev-00140-clause2", "prompt": "Не записывай три в b.", "target": "b=(b+0)%10", "kind": "keep"}
+{"id": "dev-00140-clause3", "prompt": "Для d возьми значение из b.", "target": "d=(b+0)%10", "kind": "copy"}
+{"id": "dev-00140-clause4", "prompt": "Перепиши значение b в aa.", "target": "aa=(b+0)%10", "kind": "copy"}
+{"id": "dev-00140-clause5", "prompt": "Назови значение aa.", "target": "?aa", "kind": "query"}
+{"id": "dev-00234-clause0", "prompt": "Дано: b=3, aa=восемь, bb=7, a=три.", "target": "b=3;aa=8;bb=7;a=3", "kind": "initial"}
+{"id": "dev-00234-clause1", "prompt": "Запиши два в a.", "target": "a=2", "kind": "set"}
+{"id": "dev-00234-clause2", "prompt": "Скопируй a в bb.", "target": "bb=(a+0)%10", "kind": "copy"}
+{"id": "dev-00234-clause3", "prompt": "Оставь a без изменений.", "target": "a=(a+0)%10", "kind": "keep"}
+{"id": "dev-00234-clause4", "prompt": "Какое значение у aa?", "target": "?aa", "kind": "query"}
+{"id": "dev-00029-clause0", "prompt": "Дано: bb=9, d=два, aa=шесть, dd=2.", "target": "bb=9;d=2;aa=6;dd=2", "kind": "initial"}
+{"id": "dev-00029-clause1", "prompt": "Замени значение d на один.", "target": "d=1", "kind": "set"}
+{"id": "dev-00029-clause2", "prompt": "Теперь aa хранит два.", "target": "aa=2", "kind": "set"}
+{"id": "dev-00029-clause3", "prompt": "aa должно хранить девять, а не пять.", "target": "aa=9", "kind": "choose"}
+{"id": "dev-00029-clause4", "prompt": "Пусть bb равно три.", "target": "bb=3", "kind": "set"}
+{"id": "dev-00029-clause5", "prompt": "Запиши в bb не четыре, а 9.", "target": "bb=9", "kind": "choose"}
+{"id": "dev-00029-clause6", "prompt": "Пусть dd равно девять.", "target": "dd=9", "kind": "set"}
+{"id": "dev-00029-clause7", "prompt": "Какое число хранит dd?", "target": "?dd", "kind": "query"}
+{"id": "dev-00169-clause0", "prompt": "Начальные значения: aa=1, b=3, dd=три, a=шесть.", "target": "aa=1;b=3;dd=3;a=6", "kind": "initial"}
+{"id": "dev-00169-clause1", "prompt": "aa должно хранить семь, а не четыре.", "target": "aa=7", "kind": "choose"}
+{"id": "dev-00169-clause2", "prompt": "Для a возьми значение из aa.", "target": "a=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00169-clause3", "prompt": "Запиши ноль в dd.", "target": "dd=0", "kind": "set"}
+{"id": "dev-00169-clause4", "prompt": "Теперь dd хранит 6.", "target": "dd=6", "kind": "set"}
+{"id": "dev-00169-clause5", "prompt": "Не заменяй aa на восемь.", "target": "aa=(aa+0)%10", "kind": "keep"}
+{"id": "dev-00169-clause6", "prompt": "Перепиши значение a в b.", "target": "b=(a+0)%10", "kind": "copy"}
+{"id": "dev-00169-clause7", "prompt": "Чему равно dd?", "target": "?dd", "kind": "query"}
+{"id": "dev-00202-clause0", "prompt": "В начале в памяти: aa=8, a=один, b=семь, d=ноль.", "target": "aa=8;a=1;b=7;d=0", "kind": "initial"}
+{"id": "dev-00202-clause1", "prompt": "Скопируй b в a.", "target": "a=(b+0)%10", "kind": "copy"}
+{"id": "dev-00202-clause2", "prompt": "Не записывай девять в d.", "target": "d=(d+0)%10", "kind": "keep"}
+{"id": "dev-00202-clause3", "prompt": "Пусть aa равно семь.", "target": "aa=7", "kind": "set"}
+{"id": "dev-00202-clause4", "prompt": "Пусть d равно 6.", "target": "d=6", "kind": "set"}
+{"id": "dev-00202-clause5", "prompt": "Скопируй b в aa.", "target": "aa=(b+0)%10", "kind": "copy"}
+{"id": "dev-00202-clause6", "prompt": "Что сейчас хранится в a?", "target": "?a", "kind": "query"}
+{"id": "dev-00016-clause0", "prompt": "Дано: bb=4, cc=пять, d=шесть, aa=7.", "target": "bb=4;cc=5;d=6;aa=7", "kind": "initial"}
+{"id": "dev-00016-clause1", "prompt": "Запиши в aa не 3, а семь.", "target": "aa=7", "kind": "choose"}
+{"id": "dev-00016-clause2", "prompt": "Значение d теперь семь, не 9.", "target": "d=7", "kind": "choose"}
+{"id": "dev-00016-clause3", "prompt": "Возьми число из bb и запиши его в d.", "target": "d=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00016-clause4", "prompt": "Запиши пять в d.", "target": "d=5", "kind": "set"}
+{"id": "dev-00016-clause5", "prompt": "Пусть aa хранит значение cc.", "target": "aa=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00016-clause6", "prompt": "Оставь aa без изменений.", "target": "aa=(aa+0)%10", "kind": "keep"}
+{"id": "dev-00016-clause7", "prompt": "Назови значение d.", "target": "?d", "kind": "query"}
+{"id": "dev-00141-clause0", "prompt": "В начале в памяти: d=три, c=три, a=три, aa=семь.", "target": "d=3;c=3;a=3;aa=7", "kind": "initial"}
+{"id": "dev-00141-clause1", "prompt": "Замени значение a на три.", "target": "a=3", "kind": "set"}
+{"id": "dev-00141-clause2", "prompt": "Оставь c без изменений.", "target": "c=(c+0)%10", "kind": "keep"}
+{"id": "dev-00141-clause3", "prompt": "Назови значение aa.", "target": "?aa", "kind": "query"}
+{"id": "dev-00210-clause0", "prompt": "Сначала запомни: b=9, d=ноль, dd=восемь, aa=ноль.", "target": "b=9;d=0;dd=8;aa=0", "kind": "initial"}
+{"id": "dev-00210-clause1", "prompt": "Скопируй b в aa.", "target": "aa=(b+0)%10", "kind": "copy"}
+{"id": "dev-00210-clause2", "prompt": "Оставь d без изменений.", "target": "d=(d+0)%10", "kind": "keep"}
+{"id": "dev-00210-clause3", "prompt": "Замени значение b на два.", "target": "b=2", "kind": "set"}
+{"id": "dev-00210-clause4", "prompt": "Запиши 9 в aa.", "target": "aa=9", "kind": "set"}
+{"id": "dev-00210-clause5", "prompt": "Какое значение у d?", "target": "?d", "kind": "query"}
+{"id": "dev-00094-clause0", "prompt": "Дано: a=восемь, c=пять, d=четыре, dd=один.", "target": "a=8;c=5;d=4;dd=1", "kind": "initial"}
+{"id": "dev-00094-clause1", "prompt": "Сохрани прежнее значение dd.", "target": "dd=(dd+0)%10", "kind": "keep"}
+{"id": "dev-00094-clause2", "prompt": "Присвой dd значение пять.", "target": "dd=5", "kind": "set"}
+{"id": "dev-00094-clause3", "prompt": "Замени значение d на один.", "target": "d=1", "kind": "set"}
+{"id": "dev-00094-clause4", "prompt": "Оставь dd без изменений.", "target": "dd=(dd+0)%10", "kind": "keep"}
+{"id": "dev-00094-clause5", "prompt": "Не меняй значение a.", "target": "a=(a+0)%10", "kind": "keep"}
+{"id": "dev-00094-clause6", "prompt": "Запиши семь в c.", "target": "c=7", "kind": "set"}
+{"id": "dev-00094-clause7", "prompt": "Какое число хранит d?", "target": "?d", "kind": "query"}
+{"id": "dev-00183-clause0", "prompt": "Начальные значения: b=5, aa=восемь, c=один, d=три.", "target": "b=5;aa=8;c=1;d=3", "kind": "initial"}
+{"id": "dev-00183-clause1", "prompt": "Замени значение b на 7.", "target": "b=7", "kind": "set"}
+{"id": "dev-00183-clause2", "prompt": "Не записывай 4 в c.", "target": "c=(c+0)%10", "kind": "keep"}
+{"id": "dev-00183-clause3", "prompt": "Не меняй значение aa.", "target": "aa=(aa+0)%10", "kind": "keep"}
+{"id": "dev-00183-clause4", "prompt": "Не 1, а ноль присвой b.", "target": "b=0", "kind": "choose"}
+{"id": "dev-00183-clause5", "prompt": "Что сейчас хранится в c?", "target": "?c", "kind": "query"}
+{"id": "dev-00000-clause0", "prompt": "В начале в памяти: a=три, dd=7, cc=0, aa=девять.", "target": "a=3;dd=7;cc=0;aa=9", "kind": "initial"}
+{"id": "dev-00000-clause1", "prompt": "Для a возьми значение из dd.", "target": "a=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00000-clause2", "prompt": "Не шесть, а три присвой dd.", "target": "dd=3", "kind": "choose"}
+{"id": "dev-00000-clause3", "prompt": "Какое число хранит cc?", "target": "?cc", "kind": "query"}
+{"id": "dev-00078-clause0", "prompt": "В начале в памяти: dd=три, aa=шесть, d=два, bb=два.", "target": "dd=3;aa=6;d=2;bb=2", "kind": "initial"}
+{"id": "dev-00078-clause1", "prompt": "Скопируй aa в bb.", "target": "bb=(aa+0)%10", "kind": "copy"}
+{"id": "dev-00078-clause2", "prompt": "bb должно хранить два, а не четыре.", "target": "bb=2", "kind": "choose"}
+{"id": "dev-00078-clause3", "prompt": "Перепиши значение bb в d.", "target": "d=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00078-clause4", "prompt": "Теперь bb хранит три.", "target": "bb=3", "kind": "set"}
+{"id": "dev-00078-clause5", "prompt": "Какое значение у aa?", "target": "?aa", "kind": "query"}
+{"id": "dev-00120-clause0", "prompt": "Сначала запомни: bb=ноль, a=один, c=семь, b=6.", "target": "bb=0;a=1;c=7;b=6", "kind": "initial"}
+{"id": "dev-00120-clause1", "prompt": "Для a возьми значение из b.", "target": "a=(b+0)%10", "kind": "copy"}
+{"id": "dev-00120-clause2", "prompt": "Теперь a хранит шесть.", "target": "a=6", "kind": "set"}
+{"id": "dev-00120-clause3", "prompt": "Что сейчас хранится в bb?", "target": "?bb", "kind": "query"}
+{"id": "dev-00026-clause0", "prompt": "Сначала запомни: aa=шесть, a=0, bb=шесть, dd=8.", "target": "aa=6;a=0;bb=6;dd=8", "kind": "initial"}
+{"id": "dev-00026-clause1", "prompt": "Запиши 6 в bb.", "target": "bb=6", "kind": "set"}
+{"id": "dev-00026-clause2", "prompt": "Для bb возьми значение из dd.", "target": "bb=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00026-clause3", "prompt": "Пусть aa равно восемь.", "target": "aa=8", "kind": "set"}
+{"id": "dev-00026-clause4", "prompt": "Чему равно aa?", "target": "?aa", "kind": "query"}
+{"id": "dev-00224-clause0", "prompt": "В начале в памяти: d=два, aa=три, a=9, dd=семь.", "target": "d=2;aa=3;a=9;dd=7", "kind": "initial"}
+{"id": "dev-00224-clause1", "prompt": "Не 2, а четыре присвой a.", "target": "a=4", "kind": "choose"}
+{"id": "dev-00224-clause2", "prompt": "Сохрани прежнее значение a.", "target": "a=(a+0)%10", "kind": "keep"}
+{"id": "dev-00224-clause3", "prompt": "Назови значение a.", "target": "?a", "kind": "query"}
+{"id": "dev-00113-clause0", "prompt": "Дано: c=3, aa=8, dd=три, d=ноль.", "target": "c=3;aa=8;dd=3;d=0", "kind": "initial"}
+{"id": "dev-00113-clause1", "prompt": "Присвой d значение два.", "target": "d=2", "kind": "set"}
+{"id": "dev-00113-clause2", "prompt": "Для dd возьми значение из d.", "target": "dd=(d+0)%10", "kind": "copy"}
+{"id": "dev-00113-clause3", "prompt": "Запиши в c не один, а четыре.", "target": "c=4", "kind": "choose"}
+{"id": "dev-00113-clause4", "prompt": "Замени значение c на 7.", "target": "c=7", "kind": "set"}
+{"id": "dev-00113-clause5", "prompt": "Пусть aa равно 9.", "target": "aa=9", "kind": "set"}
+{"id": "dev-00113-clause6", "prompt": "Скопируй c в d.", "target": "d=(c+0)%10", "kind": "copy"}
+{"id": "dev-00113-clause7", "prompt": "Что сейчас хранится в d?", "target": "?d", "kind": "query"}
+{"id": "dev-00084-clause0", "prompt": "Начальные значения: dd=8, d=6, cc=семь, bb=четыре.", "target": "dd=8;d=6;cc=7;bb=4", "kind": "initial"}
+{"id": "dev-00084-clause1", "prompt": "Присвой cc значение семь.", "target": "cc=7", "kind": "set"}
+{"id": "dev-00084-clause2", "prompt": "Пусть cc равно четыре.", "target": "cc=4", "kind": "set"}
+{"id": "dev-00084-clause3", "prompt": "Пусть d равно один.", "target": "d=1", "kind": "set"}
+{"id": "dev-00084-clause4", "prompt": "Перепиши значение cc в bb.", "target": "bb=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00084-clause5", "prompt": "Для bb выбери четыре вместо ноль.", "target": "bb=4", "kind": "choose"}
+{"id": "dev-00084-clause6", "prompt": "Для cc выбери 1 вместо девять.", "target": "cc=1", "kind": "choose"}
+{"id": "dev-00084-clause7", "prompt": "Какое значение у dd?", "target": "?dd", "kind": "query"}
+{"id": "dev-00043-clause0", "prompt": "Начальные значения: aa=2, a=ноль, c=четыре, d=2.", "target": "aa=2;a=0;c=4;d=2", "kind": "initial"}
+{"id": "dev-00043-clause1", "prompt": "Скопируй c в aa.", "target": "aa=(c+0)%10", "kind": "copy"}
+{"id": "dev-00043-clause2", "prompt": "Присвой c значение шесть.", "target": "c=6", "kind": "set"}
+{"id": "dev-00043-clause3", "prompt": "Запиши шесть в a.", "target": "a=6", "kind": "set"}
+{"id": "dev-00043-clause4", "prompt": "Запиши в c не один, а четыре.", "target": "c=4", "kind": "choose"}
+{"id": "dev-00043-clause5", "prompt": "Возьми число из c и запиши его в d.", "target": "d=(c+0)%10", "kind": "copy"}
+{"id": "dev-00043-clause6", "prompt": "Чему равно c?", "target": "?c", "kind": "query"}
+{"id": "dev-00135-clause0", "prompt": "В начале в памяти: dd=девять, aa=ноль, a=пять, cc=три.", "target": "dd=9;aa=0;a=5;cc=3", "kind": "initial"}
+{"id": "dev-00135-clause1", "prompt": "Перепиши значение dd в aa.", "target": "aa=(dd+0)%10", "kind": "copy"}
+{"id": "dev-00135-clause2", "prompt": "Не пять, а 3 присвой cc.", "target": "cc=3", "kind": "choose"}
+{"id": "dev-00135-clause3", "prompt": "Присвой cc значение восемь.", "target": "cc=8", "kind": "set"}
+{"id": "dev-00135-clause4", "prompt": "Пусть dd хранит значение a.", "target": "dd=(a+0)%10", "kind": "copy"}
+{"id": "dev-00135-clause5", "prompt": "Назови значение a.", "target": "?a", "kind": "query"}
+{"id": "dev-00181-clause0", "prompt": "В начале в памяти: b=девять, aa=ноль, d=9, c=один.", "target": "b=9;aa=0;d=9;c=1", "kind": "initial"}
+{"id": "dev-00181-clause1", "prompt": "Для d возьми значение из b.", "target": "d=(b+0)%10", "kind": "copy"}
+{"id": "dev-00181-clause2", "prompt": "Присвой aa значение один.", "target": "aa=1", "kind": "set"}
+{"id": "dev-00181-clause3", "prompt": "Сохрани прежнее значение d.", "target": "d=(d+0)%10", "kind": "keep"}
+{"id": "dev-00181-clause4", "prompt": "Замени значение d на два.", "target": "d=2", "kind": "set"}
+{"id": "dev-00181-clause5", "prompt": "Пусть c равно 0.", "target": "c=0", "kind": "set"}
+{"id": "dev-00181-clause6", "prompt": "Скопируй d в b.", "target": "b=(d+0)%10", "kind": "copy"}
+{"id": "dev-00181-clause7", "prompt": "Что сейчас хранится в c?", "target": "?c", "kind": "query"}
+{"id": "dev-00030-clause0", "prompt": "Начальные значения: cc=один, d=ноль, dd=ноль, a=3.", "target": "cc=1;d=0;dd=0;a=3", "kind": "initial"}
+{"id": "dev-00030-clause1", "prompt": "Оставь d без изменений.", "target": "d=(d+0)%10", "kind": "keep"}
+{"id": "dev-00030-clause2", "prompt": "Не записывай два в cc.", "target": "cc=(cc+0)%10", "kind": "keep"}
+{"id": "dev-00030-clause3", "prompt": "Возьми число из a и запиши его в cc.", "target": "cc=(a+0)%10", "kind": "copy"}
+{"id": "dev-00030-clause4", "prompt": "Запиши три в a.", "target": "a=3", "kind": "set"}
+{"id": "dev-00030-clause5", "prompt": "Присвой d значение пять.", "target": "d=5", "kind": "set"}
+{"id": "dev-00030-clause6", "prompt": "Какое число хранит dd?", "target": "?dd", "kind": "query"}
+{"id": "dev-00017-clause0", "prompt": "Сначала запомни: cc=семь, bb=два, a=семь, c=семь.", "target": "cc=7;bb=2;a=7;c=7", "kind": "initial"}
+{"id": "dev-00017-clause1", "prompt": "Сохрани прежнее значение bb.", "target": "bb=(bb+0)%10", "kind": "keep"}
+{"id": "dev-00017-clause2", "prompt": "Присвой cc значение 9.", "target": "cc=9", "kind": "set"}
+{"id": "dev-00017-clause3", "prompt": "Теперь c хранит 5.", "target": "c=5", "kind": "set"}
+{"id": "dev-00017-clause4", "prompt": "Чему равно c?", "target": "?c", "kind": "query"}
+{"id": "dev-00219-clause0", "prompt": "Дано: cc=ноль, b=четыре, d=три, dd=6.", "target": "cc=0;b=4;d=3;dd=6", "kind": "initial"}
+{"id": "dev-00219-clause1", "prompt": "Запиши два в dd.", "target": "dd=2", "kind": "set"}
+{"id": "dev-00219-clause2", "prompt": "Теперь dd хранит семь.", "target": "dd=7", "kind": "set"}
+{"id": "dev-00219-clause3", "prompt": "Перепиши значение cc в dd.", "target": "dd=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00219-clause4", "prompt": "Что сейчас хранится в d?", "target": "?d", "kind": "query"}
+{"id": "dev-00028-clause0", "prompt": "Сначала запомни: dd=9, b=3, aa=четыре, a=девять.", "target": "dd=9;b=3;aa=4;a=9", "kind": "initial"}
+{"id": "dev-00028-clause1", "prompt": "Скопируй a в dd.", "target": "dd=(a+0)%10", "kind": "copy"}
+{"id": "dev-00028-clause2", "prompt": "Скопируй a в b.", "target": "b=(a+0)%10", "kind": "copy"}
+{"id": "dev-00028-clause3", "prompt": "Присвой aa значение восемь.", "target": "aa=8", "kind": "set"}
+{"id": "dev-00028-clause4", "prompt": "Что сейчас хранится в dd?", "target": "?dd", "kind": "query"}
+{"id": "dev-00050-clause0", "prompt": "Дано: dd=пять, c=ноль, aa=4, cc=2.", "target": "dd=5;c=0;aa=4;cc=2", "kind": "initial"}
+{"id": "dev-00050-clause1", "prompt": "Теперь c хранит четыре.", "target": "c=4", "kind": "set"}
+{"id": "dev-00050-clause2", "prompt": "Замени значение dd на 4.", "target": "dd=4", "kind": "set"}
+{"id": "dev-00050-clause3", "prompt": "Замени значение aa на 0.", "target": "aa=0", "kind": "set"}
+{"id": "dev-00050-clause4", "prompt": "Присвой c значение один.", "target": "c=1", "kind": "set"}
+{"id": "dev-00050-clause5", "prompt": "Не меняй значение c.", "target": "c=(c+0)%10", "kind": "keep"}
+{"id": "dev-00050-clause6", "prompt": "Замени значение cc на шесть.", "target": "cc=6", "kind": "set"}
+{"id": "dev-00050-clause7", "prompt": "Какое значение у cc?", "target": "?cc", "kind": "query"}
+{"id": "dev-00047-clause0", "prompt": "Начальные значения: c=один, dd=семь, bb=пять, cc=ноль.", "target": "c=1;dd=7;bb=5;cc=0", "kind": "initial"}
+{"id": "dev-00047-clause1", "prompt": "Пусть cc хранит значение bb.", "target": "cc=(bb+0)%10", "kind": "copy"}
+{"id": "dev-00047-clause2", "prompt": "Присвой bb значение ноль.", "target": "bb=0", "kind": "set"}
+{"id": "dev-00047-clause3", "prompt": "Скопируй cc в bb.", "target": "bb=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00047-clause4", "prompt": "Назови значение bb.", "target": "?bb", "kind": "query"}
+{"id": "dev-00001-clause0", "prompt": "Сначала запомни: cc=девять, b=четыре, c=семь, a=ноль.", "target": "cc=9;b=4;c=7;a=0", "kind": "initial"}
+{"id": "dev-00001-clause1", "prompt": "Пусть c хранит значение a.", "target": "c=(a+0)%10", "kind": "copy"}
+{"id": "dev-00001-clause2", "prompt": "Замени значение b на шесть.", "target": "b=6", "kind": "set"}
+{"id": "dev-00001-clause3", "prompt": "Запиши семь в cc.", "target": "cc=7", "kind": "set"}
+{"id": "dev-00001-clause4", "prompt": "Какое значение у c?", "target": "?c", "kind": "query"}
+{"id": "dev-00153-clause0", "prompt": "Начальные значения: bb=один, c=четыре, a=три, aa=один.", "target": "bb=1;c=4;a=3;aa=1", "kind": "initial"}
+{"id": "dev-00153-clause1", "prompt": "c должно хранить 9, а не четыре.", "target": "c=9", "kind": "choose"}
+{"id": "dev-00153-clause2", "prompt": "Запиши семь в c.", "target": "c=7", "kind": "set"}
+{"id": "dev-00153-clause3", "prompt": "Назови значение aa.", "target": "?aa", "kind": "query"}
+{"id": "dev-00110-clause0", "prompt": "Сначала запомни: cc=шесть, b=ноль, dd=восемь, aa=6.", "target": "cc=6;b=0;dd=8;aa=6", "kind": "initial"}
+{"id": "dev-00110-clause1", "prompt": "Присвой b значение девять.", "target": "b=9", "kind": "set"}
+{"id": "dev-00110-clause2", "prompt": "Для b возьми значение из cc.", "target": "b=(cc+0)%10", "kind": "copy"}
+{"id": "dev-00110-clause3", "prompt": "Присвой cc значение шесть.", "target": "cc=6", "kind": "set"}
+{"id": "dev-00110-clause4", "prompt": "Что сейчас хранится в cc?", "target": "?cc", "kind": "query"}

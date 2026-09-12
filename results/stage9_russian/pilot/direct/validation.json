@@ -1,0 +1,172 @@
+{
+  "dev": {
+    "count": 240,
+    "answer_accuracy": 0.2875,
+    "completion_exact": 0.2833333333333333,
+    "halted_fraction": 1.0,
+    "by_role": {
+      "earlier_written": {
+        "count": 80,
+        "answer_accuracy": 0.325,
+        "completion_exact": 0.325,
+        "halted_fraction": 1.0
+      },
+      "last_written": {
+        "count": 80,
+        "answer_accuracy": 0.2875,
+        "completion_exact": 0.2875,
+        "halted_fraction": 1.0
+      },
+      "initial": {
+        "count": 80,
+        "answer_accuracy": 0.25,
+        "completion_exact": 0.2375,
+        "halted_fraction": 1.0
+      }
+    },
+    "by_length": {
+      "2": {
+        "count": 53,
+        "answer_accuracy": 0.32075471698113206,
+        "completion_exact": 0.32075471698113206,
+        "halted_fraction": 1.0
+      },
+      "4": {
+        "count": 51,
+        "answer_accuracy": 0.23529411764705882,
+        "completion_exact": 0.23529411764705882,
+        "halted_fraction": 1.0
+      },
+      "5": {
+        "count": 46,
+        "answer_accuracy": 0.21739130434782608,
+        "completion_exact": 0.21739130434782608,
+        "halted_fraction": 1.0
+      },
+      "3": {
+        "count": 56,
+        "answer_accuracy": 0.32142857142857145,
+        "completion_exact": 0.30357142857142855,
+        "halted_fraction": 1.0
+      },
+      "6": {
+        "count": 34,
+        "answer_accuracy": 0.35294117647058826,
+        "completion_exact": 0.35294117647058826,
+        "halted_fraction": 1.0
+      }
+    },
+    "token_nll": 1.0324859062830607
+  },
+  "dev_phrases": {
+    "count": 240,
+    "answer_accuracy": 0.21666666666666667,
+    "completion_exact": 0.21666666666666667,
+    "halted_fraction": 1.0,
+    "by_role": {
+      "earlier_written": {
+        "count": 80,
+        "answer_accuracy": 0.225,
+        "completion_exact": 0.225,
+        "halted_fraction": 1.0
+      },
+      "last_written": {
+        "count": 80,
+        "answer_accuracy": 0.225,
+        "completion_exact": 0.225,
+        "halted_fraction": 1.0
+      },
+      "initial": {
+        "count": 80,
+        "answer_accuracy": 0.2,
+        "completion_exact": 0.2,
+        "halted_fraction": 1.0
+      }
+    },
+    "by_length": {
+      "2": {
+        "count": 53,
+        "answer_accuracy": 0.32075471698113206,
+        "completion_exact": 0.32075471698113206,
+        "halted_fraction": 1.0
+      },
+      "4": {
+        "count": 51,
+        "answer_accuracy": 0.21568627450980393,
+        "completion_exact": 0.21568627450980393,
+        "halted_fraction": 1.0
+      },
+      "5": {
+        "count": 46,
+        "answer_accuracy": 0.17391304347826086,
+        "completion_exact": 0.17391304347826086,
+        "halted_fraction": 1.0
+      },
+      "3": {
+        "count": 56,
+        "answer_accuracy": 0.16071428571428573,
+        "completion_exact": 0.16071428571428573,
+        "halted_fraction": 1.0
+      },
+      "6": {
+        "count": 34,
+        "answer_accuracy": 0.20588235294117646,
+        "completion_exact": 0.20588235294117646,
+        "halted_fraction": 1.0
+      }
+    },
+    "token_nll": 1.0500452677408854
+  },
+  "legacy_dev": {
+    "count": 240,
+    "answer_accuracy": 0.7416666666666667,
+    "completion_exact": 0.6708333333333333,
+    "halted_fraction": 1.0,
+    "by_family": {
+      "logic": {
+        "count": 60,
+        "answer_accuracy": 0.9166666666666666,
+        "completion_exact": 0.8,
+        "halted_fraction": 1.0
+      },
+      "code": {
+        "count": 60,
+        "answer_accuracy": 0.38333333333333336,
+        "completion_exact": 0.25,
+        "halted_fraction": 1.0
+      },
+      "memory": {
+        "count": 60,
+        "answer_accuracy": 0.85,
+        "completion_exact": 0.8166666666666667,
+        "halted_fraction": 1.0
+      },
+      "sum": {
+        "count": 60,
+        "answer_accuracy": 0.8166666666666667,
+        "completion_exact": 0.8166666666666667,
+        "halted_fraction": 1.0
+      }
+    }
+  },
+  "selection_score": [
+    0.2520833333333333,
+    0.7416666666666667,
+    -1.041265587011973
+  ],
+  "selected_step": 1200,
+  "checkpoint_sha256": "b5aaf11b05c5b1d5b0253fffd3b7d709b57c685e4f5bdcda35ba1275ec195777",
+  "final_training_examples": 19200,
+  "final_input_tokens": 1545101,
+  "final_target_tokens": 277599,
+  "total_seconds": 140.55603953199898,
+  "active_training_seconds": 96.46726689301431,
+  "stream_counts": {
+    "legacy": 6736,
+    "russian": 9744,
+    "formal": 2720
+  },
+  "max_sampled_gradients": {
+    "new_input_rows": 0.09816040843725204
+  }
+}

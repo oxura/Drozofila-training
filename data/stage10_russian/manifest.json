@@ -1,0 +1,23 @@
+{
+  "counts": {
+    "train": 26738,
+    "dev": 1392,
+    "dev_phrases": 1392
+  },
+  "train_kinds": {
+    "initial": 18000,
+    "set": 800,
+    "keep": 344,
+    "choose": 7274,
+    "query": 40,
+    "copy": 280
+  },
+  "hashes": {
+    "train": "f6202e4d193bb8c8120972595de9bb3b3d109bcb29abddbb1ec414dbecd28e18",
+    "dev": "aa99a1c96ce4b08ef502f50e30c6e94473eeb79eb4a2457ce3084d55d15dbddd",
+    "dev_phrases": "b507ab98da3c95d933709092f0afaad7df2986b9baef4e301b74f02fe51afdd7"
+  },
+  "source_manifest_sha256": "5d3010ba5899211359fca3fea6b48645f114782496eb0c8d32aa8d59ec4f3be7",
+  "interpretation": "Deduplicated atomic meanings; dev_phrases clauses unseen. Ordinary dev clauses may repeat known primitives in new worlds.",
+  "final_test_open": false
+}

@@ -1,0 +1,6 @@
+{
+  "checkpoint": "results/stage9_russian/pilot/trace/best.pt",
+  "sha256": "782c55782d0f081b5e63f628b2526c319098e06bc32ac6f7662c7d0c2d3f21cb",
+  "selection": "Pilot development only; no independent final evaluation.",
+  "name": "trace"
+}

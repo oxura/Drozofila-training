@@ -1,0 +1,157 @@
+{
+  "dev": {
+    "count": 240,
+    "answer_accuracy": 0.17916666666666667,
+    "completion_exact": 0.0,
+    "halted_fraction": 0.9333333333333333,
+    "by_role": {
+      "earlier_written": {
+        "count": 80,
+        "answer_accuracy": 0.1625,
+        "completion_exact": 0.0,
+        "halted_fraction": 0.95
+      },
+      "last_written": {
+        "count": 80,
+        "answer_accuracy": 0.1875,
+        "completion_exact": 0.0,
+        "halted_fraction": 0.925
+      },
+      "initial": {
+        "count": 80,
+        "answer_accuracy": 0.1875,
+        "completion_exact": 0.0,
+        "halted_fraction": 0.925
+      }
+    },
+    "by_length": {
+      "2": {
+        "count": 53,
+        "answer_accuracy": 0.22641509433962265,
+        "completion_exact": 0.0,
+        "halted_fraction": 1.0
+      },
+      "4": {
+        "count": 51,
+        "answer_accuracy": 0.27450980392156865,
+        "completion_exact": 0.0,
+        "halted_fraction": 0.9215686274509803
+      },
+      "5": {
+        "count": 46,
+        "answer_accuracy": 0.10869565217391304,
+        "completion_exact": 0.0,
+        "halted_fraction": 0.8913043478260869
+      },
+      "3": {
+        "count": 56,
+        "answer_accuracy": 0.17857142857142858,
+        "completion_exact": 0.0,
+        "halted_fraction": 0.9107142857142857
+      },
+      "6": {
+        "count": 34,
+        "answer_accuracy": 0.058823529411764705,
+        "completion_exact": 0.0,
+        "halted_fraction": 0.9411764705882353
+      }
+    },
+    "token_nll": 5.387444586087656
+  },
+  "dev_phrases": {
+    "count": 240,
+    "answer_accuracy": 0.17083333333333334,
+    "completion_exact": 0.0,
+    "halted_fraction": 0.9166666666666666,
+    "by_role": {
+      "earlier_written": {
+        "count": 80,
+        "answer_accuracy": 0.1125,
+        "completion_exact": 0.0,
+        "halted_fraction": 0.9
+      },
+      "last_written": {
+        "count": 80,
+        "answer_accuracy": 0.1625,
+        "completion_exact": 0.0,
+        "halted_fraction": 0.9375
+      },
+      "initial": {
+        "count": 80,
+        "answer_accuracy": 0.2375,
+        "completion_exact": 0.0,
+        "halted_fraction": 0.9125
+      }
+    },
+    "by_length": {
+      "2": {
+        "count": 53,
+        "answer_accuracy": 0.2830188679245283,
+        "completion_exact": 0.0,
+        "halted_fraction": 0.9622641509433962
+      },
+      "4": {
+        "count": 51,
+        "answer_accuracy": 0.1568627450980392,
+        "completion_exact": 0.0,
+        "halted_fraction": 0.8823529411764706
+      },
+      "5": {
+        "count": 46,
+        "answer_accuracy": 0.15217391304347827,
+        "completion_exact": 0.0,
+        "halted_fraction": 0.9130434782608695
+      },
+      "3": {
+        "count": 56,
+        "answer_accuracy": 0.125,
+        "completion_exact": 0.0,
+        "halted_fraction": 0.9821428571428571
+      },
+      "6": {
+        "count": 34,
+        "answer_accuracy": 0.11764705882352941,
+        "completion_exact": 0.0,
+        "halted_fraction": 0.7941176470588235
+      }
+    },
+    "token_nll": 5.403875768780909
+  },
+  "legacy_dev": {
+    "count": 240,
+    "answer_accuracy": 0.75,
+    "completion_exact": 0.6791666666666667,
+    "halted_fraction": 1.0,
+    "by_family": {
+      "logic": {
+        "count": 60,
+        "answer_accuracy": 0.9333333333333333,
+        "completion_exact": 0.85,
+        "halted_fraction": 1.0
+      },
+      "code": {
+        "count": 60,
+        "answer_accuracy": 0.4,
+        "completion_exact": 0.21666666666666667,
+        "halted_fraction": 1.0
+      },
+      "memory": {
+        "count": 60,
+        "answer_accuracy": 0.8333333333333334,
+        "completion_exact": 0.8166666666666667,
+        "halted_fraction": 1.0
+      },
+      "sum": {
+        "count": 60,
+        "answer_accuracy": 0.8333333333333334,
+        "completion_exact": 0.8333333333333334,
+        "halted_fraction": 1.0
+      }
+    }
+  },
+  "selection_score": [
+    0.175,
+    0.75,
+    -5.395660177434283
+  ]
+}
