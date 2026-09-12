@@ -1,0 +1,1 @@
+{"run": "pooled_fly_seed0", "query_accuracy": {"test": 0.7412860576923077, "parity2": 0.49609375, "parity3": 0.4799107142857143, "majority3": 0.49595424107142855, "multiplexer3": 0.4898681640625, "parity4": 0.495849609375, "support_curve": 0.50283203125, "wide": null}}

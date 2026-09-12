@@ -1,0 +1,65 @@
+{
+  "memory/fly": {
+    "test": "100.00%",
+    "parity2": "100.00%",
+    "parity3": "99.33%",
+    "majority3": "99.14%",
+    "multiplexer3": "98.17%",
+    "parity4": "46.07%",
+    "wide": "99.03%"
+  },
+  "memory/rewired": {
+    "test": "100.00%",
+    "parity2": "100.00%",
+    "parity3": "99.33%",
+    "majority3": "99.12%",
+    "multiplexer3": "98.21%",
+    "parity4": "46.19%",
+    "wide": "99.05%"
+  },
+  "memory/frozen": {
+    "test": "100.00%",
+    "parity2": "100.00%",
+    "parity3": "99.33%",
+    "majority3": "99.14%",
+    "multiplexer3": "98.22%",
+    "parity4": "46.00%",
+    "wide": "99.05%"
+  },
+  "memory/no_edges": {
+    "test": "100.00%",
+    "parity2": "100.00%",
+    "parity3": "99.33%",
+    "majority3": "99.14%",
+    "multiplexer3": "98.59%",
+    "parity4": "45.78%",
+    "wide": "99.05%"
+  },
+  "memory/mlp": {
+    "test": "100.00%",
+    "parity2": "100.00%",
+    "parity3": "98.58%",
+    "majority3": "99.40%",
+    "multiplexer3": "98.51%",
+    "parity4": "46.68%",
+    "wide": "97.09%"
+  },
+  "pooled/fly": {
+    "test": "74.03%",
+    "parity2": "49.53%",
+    "parity3": "48.02%",
+    "majority3": "49.27%",
+    "multiplexer3": "48.80%",
+    "parity4": "49.35%",
+    "wide": "\u2014"
+  },
+  "pooled/mlp": {
+    "test": "74.01%",
+    "parity2": "49.70%",
+    "parity3": "48.08%",
+    "majority3": "49.05%",
+    "multiplexer3": "49.06%",
+    "parity4": "49.37%",
+    "wide": "\u2014"
+  }
+}

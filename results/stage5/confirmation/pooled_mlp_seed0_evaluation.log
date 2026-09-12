@@ -1,0 +1,1 @@
+{"run": "pooled_mlp_seed0", "query_accuracy": {"test": 0.7412860576923077, "parity2": 0.5008370535714286, "parity3": 0.47865513392857145, "majority3": 0.49428013392857145, "multiplexer3": 0.493896484375, "parity4": 0.496337890625, "support_curve": 0.5021484375, "wide": null}}

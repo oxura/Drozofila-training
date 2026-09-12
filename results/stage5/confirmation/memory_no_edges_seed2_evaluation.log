@@ -1,0 +1,1 @@
+{"run": "memory_no_edges_seed2", "query_accuracy": {"test": 1.0, "parity2": 1.0, "parity3": 0.9933035714285714, "majority3": 0.9912109375, "multiplexer3": 0.9857177734375, "parity4": 0.4580078125, "support_curve": 0.79697265625, "wide": 0.990478515625}}

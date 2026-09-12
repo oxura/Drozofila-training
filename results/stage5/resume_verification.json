@@ -1,0 +1,18 @@
+{
+  "source_sha256": {
+    "last.pt": "e45af9af13dcbcc1012d662ea514b4efeb1e4d6465d4d981ce48b413666c09c4",
+    "history.jsonl": "d506e0f9c9bdfc8ee7ec21253b1bb9aca0a119a3dd484856eea0068e586d5c19",
+    "validation.json": "f6a48be17cfb96a86c6e75ec34c02b20b242ac060dceb8df199a67f7c05840d4",
+    "best.pt": "5121ed2c50e323e92e938c46a349f8aa23ca6c02b51f06e054badc2260cd6b93",
+    "validation_predictions.jsonl": "2f2e010dbcb2852ce21536b6595ea1202812f67f882dd79937dedfce51dbb444"
+  },
+  "source": "results/stage5/development/memory_fly_seed0",
+  "copy": "results/stage5/resume_check",
+  "old_step": 600,
+  "requested_step": 601,
+  "source_unchanged": true,
+  "new_step": 601,
+  "optimizer_present": true,
+  "rng_present": true,
+  "passed": true
+}

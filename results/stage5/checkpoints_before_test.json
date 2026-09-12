@@ -1,0 +1,86 @@
+{
+  "memory_fly_seed0": {
+    "best.pt": "3567dc4dc967059a0ea80fc040405b4ae38e15780e7d02eac9b37ad3ce4d5f8e",
+    "last.pt": "4a3e61a8b34de4387eba6584d573bac91174cd37d2b1870f8669b71706cb3f73"
+  },
+  "memory_fly_seed1": {
+    "best.pt": "261a938234aae925e3a1717f0777c0f946f3cad1320b76b34f353184c5554705",
+    "last.pt": "baf4170eec4c44d53adbc3328786715c8823b42bf3c3e624bf04c58846b9a715"
+  },
+  "memory_fly_seed2": {
+    "best.pt": "c7355ef748a644032a6c515c0d4d04a011cd4071c93ffdcdbe92ec0accd3181a",
+    "last.pt": "35dbf609f93f2515c027b9afa714a2e974a34b5f1a65123aec11e80d729b1471"
+  },
+  "memory_rewired_seed0": {
+    "best.pt": "2da24e3e86325224f6b639234fdebebcdc3fba0264824c3eef892931f6de173f",
+    "last.pt": "7a45ba8ad8d346324fd7269d930be58aafa5cfe168af60de03bc6d0f59adcaed"
+  },
+  "memory_rewired_seed1": {
+    "best.pt": "f4ca7227a81aa6a64737b6a780dc7bc95adb6a70b8601d0c5d6deb5592d671a5",
+    "last.pt": "17ea2504786b624d507aa5b451fda1825266991522ef338d8fd40f6a1cd7fd86"
+  },
+  "memory_rewired_seed2": {
+    "best.pt": "9418f7a27f30765f4a7e36b9add8ac37c12048b072164d2541c0fa10909e7f36",
+    "last.pt": "a01ad764c6332321176aa402a3ea4db126529624bad5166077c21a9775a92c6f"
+  },
+  "memory_frozen_seed0": {
+    "best.pt": "458fcfe09c93ac809dcb754e84f7f469dfe3219ebe6971fbe69001895851d72d",
+    "last.pt": "c550c60da1257065f53793564494c7d0fbde1c8e59a4ea7ef0d575bb08339f16"
+  },
+  "memory_frozen_seed1": {
+    "best.pt": "83c6af41b6fa02ad2f6d7c3c40158ff35b152b1550cd8e82223d87c1f9d56cb4",
+    "last.pt": "3578501331950d9d97775218d875c97e824b641ee2b3437abe959e1ff6121fb8"
+  },
+  "memory_frozen_seed2": {
+    "best.pt": "9eca8e8dec4aa7a16994a8fb39e3ff5dd549ff2108be0712b9a2a7ef3ff03adb",
+    "last.pt": "ff2c3eeff7ae68cfa4ff2a1a32f079aa6d01872629b3552fca096b7f03cc1b11"
+  },
+  "memory_no_edges_seed0": {
+    "best.pt": "50ea0f1df4b1703d5ebb3c786272edfbd7b37a02bdc5d46d441f7c4eeceb80e2",
+    "last.pt": "cb5745b35b46b231b50c991b2b97601eb30605c09fb842f3c4ac09bee9e4eaf1"
+  },
+  "memory_no_edges_seed1": {
+    "best.pt": "54312f17f8c782779669bee23dfa21b28d82963c2ff27e07687647b3cbe2ac6b",
+    "last.pt": "6559c8c4ad3f0d461ed203d4a6e13281d42496ca0709cfce2fe6b1f4fbc01351"
+  },
+  "memory_no_edges_seed2": {
+    "best.pt": "9a804ccba5682f7a5a5bbf48294ce7d929a28b8e2edaea09577943d205b18d15",
+    "last.pt": "39243bb872f5e662c4f549b3a3033803ba1bd95c83365775a31133fd231bf014"
+  },
+  "memory_mlp_seed0": {
+    "best.pt": "6355ccb42dd85434cc3d0d01daab08787916b9eefa53c2e59374da16352cf6ea",
+    "last.pt": "0972f5746fd6bf70265d308d2c3c6cb0fb0d3060dd995123b1ffab210baf10b4"
+  },
+  "memory_mlp_seed1": {
+    "best.pt": "37cf595f830def9a2701aa28c661c21189ebd0c734c666688c7d64e9454d9cde",
+    "last.pt": "983a0c06d286e3a440a29ab2f8f93762f5a36616b129a016cf8acf9f509fc08d"
+  },
+  "memory_mlp_seed2": {
+    "best.pt": "2eb282b1b82b3f44d236be8a9c0ecd3f17997d98a202a79feb2ff5faf50234cf",
+    "last.pt": "cf96205d0e1d7b99d028acf11f8d8fa1045ec18f2347b7bbd1a04b97d56e10bc"
+  },
+  "pooled_fly_seed0": {
+    "best.pt": "7c03d626b7f6724f50a94f75485bb034fca1ea0eeb025dd5451a37cdb7da1332",
+    "last.pt": "3f92d174d2ca690561c8917fbe95294a5dcf627eedf64331d49a866e98be6b0e"
+  },
+  "pooled_fly_seed1": {
+    "best.pt": "f23ed6a88ed3d0c834b134ba77479019221ce1266cdf17c3a7dd91d255397b3b",
+    "last.pt": "3106b13edc18a8accd47d0974374f71c9d9f0e29e92bdfd2b57db1d01417bbb5"
+  },
+  "pooled_fly_seed2": {
+    "best.pt": "67eb26cb21736deead3f3295d79d1aeb4e9e1efa3216189255969707d5aa1493",
+    "last.pt": "e8904dc6a26d5aec8da021b43aac66240eb5d09b1f7b6519c91a77281786b616"
+  },
+  "pooled_mlp_seed0": {
+    "best.pt": "c9b26bbb5c21730c003e8dc8120a3cc6bc49f080058f7e121d8b956731e4236b",
+    "last.pt": "6008247ccf43688425d6f0b29b237748c70c55a25896f03934d1ed359afe2f92"
+  },
+  "pooled_mlp_seed1": {
+    "best.pt": "710ea0b882c1262b6bc6f718fafe9d9e43c89240e8107f91def95e0d75d591ac",
+    "last.pt": "34e2a50f61bb5e055877801842c98f97d716c75f0ad42023d7db125665c2291a"
+  },
+  "pooled_mlp_seed2": {
+    "best.pt": "cbc1aea1598dcce67fdf558c1fe9dbff83cc6bc6eaef64bad8fe6527892a5829",
+    "last.pt": "e67b85b2f120da76812d5e32f208a1820aa200108eb25c8ccf25e6a886f36b7d"
+  }
+}

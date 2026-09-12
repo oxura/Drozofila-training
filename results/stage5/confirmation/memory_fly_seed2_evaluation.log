@@ -1,0 +1,1 @@
+{"run": "memory_fly_seed2", "query_accuracy": {"test": 1.0, "parity2": 1.0, "parity3": 0.9933035714285714, "majority3": 0.9912109375, "multiplexer3": 0.9815673828125, "parity4": 0.4615478515625, "support_curve": 0.7923828125, "wide": 0.990478515625}}

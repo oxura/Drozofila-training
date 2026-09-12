@@ -1,0 +1,436 @@
+{
+  "method": "Written maximum predictive uncertainty, compared to random queries; models frozen.",
+  "teacher": "Procedural environment supplies labels of selected inputs only.",
+  "heldout_query_inputs_never_requested": true,
+  "rules": 64,
+  "episodes_per_family": 32,
+  "model_seeds": [
+    0
+  ],
+  "results": {
+    "memory_fly_seed0/uncertainty": {
+      "4": {
+        "query_accuracy": 0.564453125,
+        "episode_exact": 0.0,
+        "bce": 0.6967403647912833,
+        "count": 64,
+        "queries": 2048,
+        "label_one_fraction": 0.51611328125,
+        "by_family": {
+          "parity3": {
+            "query_accuracy": 0.4912109375,
+            "episode_exact": 0.0,
+            "bce": 0.7563925270686562,
+            "count": 32,
+            "queries": 1024,
+            "label_one_fraction": 0.5244140625
+          },
+          "majority3": {
+            "query_accuracy": 0.6376953125,
+            "episode_exact": 0.0,
+            "bce": 0.6370882025139105,
+            "count": 32,
+            "queries": 1024,
+            "label_one_fraction": 0.5078125
+          }
+        }
+      },
+      "8": {
+        "query_accuracy": 0.61279296875,
+        "episode_exact": 0.0,
+        "bce": 0.6955217279597303,
+        "count": 64,
+        "queries": 2048,
+        "label_one_fraction": 0.51611328125,
+        "by_family": {
+          "parity3": {
+            "query_accuracy": 0.5361328125,
+            "episode_exact": 0.0,
+            "bce": 0.7708574786267504,
+            "count": 32,
+            "queries": 1024,
+            "label_one_fraction": 0.5244140625
+          },
+          "majority3": {
+            "query_accuracy": 0.689453125,
+            "episode_exact": 0.0,
+            "bce": 0.6201859772927103,
+            "count": 32,
+            "queries": 1024,
+            "label_one_fraction": 0.5078125
+          }
+        }
+      },
+      "16": {
+        "query_accuracy": 1.0,
+        "episode_exact": 1.0,
+        "bce": 0.19467788974477132,
+        "count": 64,
+        "queries": 2048,
+        "label_one_fraction": 0.51611328125,
+        "by_family": {
+          "parity3": {
+            "query_accuracy": 1.0,
+            "episode_exact": 1.0,
+            "bce": 0.1945934567535979,
+            "count": 32,
+            "queries": 1024,
+            "label_one_fraction": 0.5244140625
+          },
+          "majority3": {
+            "query_accuracy": 1.0,
+            "episode_exact": 1.0,
+            "bce": 0.19476232273594474,
+            "count": 32,
+            "queries": 1024,
+            "label_one_fraction": 0.5078125
+          }
+        }
+      },
+      "32": {
+        "query_accuracy": 1.0,
+        "episode_exact": 1.0,
+        "bce": 0.10541744723527716,
+        "count": 64,
+        "queries": 2048,
+        "label_one_fraction": 0.51611328125,
+        "by_family": {
+          "parity3": {
+            "query_accuracy": 1.0,
+            "episode_exact": 1.0,
+            "bce": 0.1054743642705139,
+            "count": 32,
+            "queries": 1024,
+            "label_one_fraction": 0.5244140625
+          },
+          "majority3": {
+            "query_accuracy": 1.0,
+            "episode_exact": 1.0,
+            "bce": 0.10536053020004041,
+            "count": 32,
+            "queries": 1024,
+            "label_one_fraction": 0.5078125
+          }
+        }
+      }
+    },
+    "memory_fly_seed0/random": {
+      "4": {
+        "query_accuracy": 0.564453125,
+        "episode_exact": 0.0,
+        "bce": 0.6967403647912833,
+        "count": 64,
+        "queries": 2048,
+        "label_one_fraction": 0.51611328125,
+        "by_family": {
+          "parity3": {
+            "query_accuracy": 0.4912109375,
+            "episode_exact": 0.0,
+            "bce": 0.7563925270686562,
+            "count": 32,
+            "queries": 1024,
+            "label_one_fraction": 0.5244140625
+          },
+          "majority3": {
+            "query_accuracy": 0.6376953125,
+            "episode_exact": 0.0,
+            "bce": 0.6370882025139105,
+            "count": 32,
+            "queries": 1024,
+            "label_one_fraction": 0.5078125
+          }
+        }
+      },
+      "8": {
+        "query_accuracy": 0.63671875,
+        "episode_exact": 0.0,
+        "bce": 0.6582422667739464,
+        "count": 64,
+        "queries": 2048,
+        "label_one_fraction": 0.51611328125,
+        "by_family": {
+          "parity3": {
+            "query_accuracy": 0.6083984375,
+            "episode_exact": 0.0,
+            "bce": 0.6646394680521397,
+            "count": 32,
+            "queries": 1024,
+            "label_one_fraction": 0.5244140625
+          },
+          "majority3": {
+            "query_accuracy": 0.6650390625,
+            "episode_exact": 0.0,
+            "bce": 0.651845065495753,
+            "count": 32,
+            "queries": 1024,
+            "label_one_fraction": 0.5078125
+          }
+        }
+      },
+      "16": {
+        "query_accuracy": 0.89453125,
+        "episode_exact": 0.40625,
+        "bce": 0.30583457494949684,
+        "count": 64,
+        "queries": 2048,
+        "label_one_fraction": 0.51611328125,
+        "by_family": {
+          "parity3": {
+            "query_accuracy": 0.935546875,
+            "episode_exact": 0.46875,
+            "bce": 0.2512108057805696,
+            "count": 32,
+            "queries": 1024,
+            "label_one_fraction": 0.5244140625
+          },
+          "majority3": {
+            "query_accuracy": 0.853515625,
+            "episode_exact": 0.34375,
+            "bce": 0.36045834411842415,
+            "count": 32,
+            "queries": 1024,
+            "label_one_fraction": 0.5078125
+          }
+        }
+      },
+      "32": {
+        "query_accuracy": 0.98974609375,
+        "episode_exact": 0.9375,
+        "bce": 0.1311716932333545,
+        "count": 64,
+        "queries": 2048,
+        "label_one_fraction": 0.51611328125,
+        "by_family": {
+          "parity3": {
+            "query_accuracy": 0.9951171875,
+            "episode_exact": 0.96875,
+            "bce": 0.12762991117603711,
+            "count": 32,
+            "queries": 1024,
+            "label_one_fraction": 0.5244140625
+          },
+          "majority3": {
+            "query_accuracy": 0.984375,
+            "episode_exact": 0.90625,
+            "bce": 0.1347134752906719,
+            "count": 32,
+            "queries": 1024,
+            "label_one_fraction": 0.5078125
+          }
+        }
+      }
+    },
+    "memory_mlp_seed0/uncertainty": {
+      "4": {
+        "query_accuracy": 0.56201171875,
+        "episode_exact": 0.0,
+        "bce": 0.7052437744148501,
+        "count": 64,
+        "queries": 2048,
+        "label_one_fraction": 0.51611328125,
+        "by_family": {
+          "parity3": {
+            "query_accuracy": 0.4931640625,
+            "episode_exact": 0.0,
+            "bce": 0.7697107857656629,
+            "count": 32,
+            "queries": 1024,
+            "label_one_fraction": 0.5244140625
+          },
+          "majority3": {
+            "query_accuracy": 0.630859375,
+            "episode_exact": 0.0,
+            "bce": 0.6407767630640373,
+            "count": 32,
+            "queries": 1024,
+            "label_one_fraction": 0.5078125
+          }
+        }
+      },
+      "8": {
+        "query_accuracy": 0.59521484375,
+        "episode_exact": 0.0,
+        "bce": 0.7467493809022472,
+        "count": 64,
+        "queries": 2048,
+        "label_one_fraction": 0.51611328125,
+        "by_family": {
+          "parity3": {
+            "query_accuracy": 0.498046875,
+            "episode_exact": 0.0,
+            "bce": 0.8577170486206074,
+            "count": 32,
+            "queries": 1024,
+            "label_one_fraction": 0.5244140625
+          },
+          "majority3": {
+            "query_accuracy": 0.6923828125,
+            "episode_exact": 0.0,
+            "bce": 0.635781713183887,
+            "count": 32,
+            "queries": 1024,
+            "label_one_fraction": 0.5078125
+          }
+        }
+      },
+      "16": {
+        "query_accuracy": 0.99853515625,
+        "episode_exact": 0.96875,
+        "bce": 0.19717613256679525,
+        "count": 64,
+        "queries": 2048,
+        "label_one_fraction": 0.51611328125,
+        "by_family": {
+          "parity3": {
+            "query_accuracy": 0.998046875,
+            "episode_exact": 0.96875,
+            "bce": 0.19371521626990834,
+            "count": 32,
+            "queries": 1024,
+            "label_one_fraction": 0.5244140625
+          },
+          "majority3": {
+            "query_accuracy": 0.9990234375,
+            "episode_exact": 0.96875,
+            "bce": 0.20063704886368217,
+            "count": 32,
+            "queries": 1024,
+            "label_one_fraction": 0.5078125
+          }
+        }
+      },
+      "32": {
+        "query_accuracy": 1.0,
+        "episode_exact": 1.0,
+        "bce": 0.10548493769707845,
+        "count": 64,
+        "queries": 2048,
+        "label_one_fraction": 0.51611328125,
+        "by_family": {
+          "parity3": {
+            "query_accuracy": 1.0,
+            "episode_exact": 1.0,
+            "bce": 0.10548413871952837,
+            "count": 32,
+            "queries": 1024,
+            "label_one_fraction": 0.5244140625
+          },
+          "majority3": {
+            "query_accuracy": 1.0,
+            "episode_exact": 1.0,
+            "bce": 0.10548573667462852,
+            "count": 32,
+            "queries": 1024,
+            "label_one_fraction": 0.5078125
+          }
+        }
+      }
+    },
+    "memory_mlp_seed0/random": {
+      "4": {
+        "query_accuracy": 0.56201171875,
+        "episode_exact": 0.0,
+        "bce": 0.7052437744148501,
+        "count": 64,
+        "queries": 2048,
+        "label_one_fraction": 0.51611328125,
+        "by_family": {
+          "parity3": {
+            "query_accuracy": 0.4931640625,
+            "episode_exact": 0.0,
+            "bce": 0.7697107857656629,
+            "count": 32,
+            "queries": 1024,
+            "label_one_fraction": 0.5244140625
+          },
+          "majority3": {
+            "query_accuracy": 0.630859375,
+            "episode_exact": 0.0,
+            "bce": 0.6407767630640373,
+            "count": 32,
+            "queries": 1024,
+            "label_one_fraction": 0.5078125
+          }
+        }
+      },
+      "8": {
+        "query_accuracy": 0.6298828125,
+        "episode_exact": 0.015625,
+        "bce": 0.6806065553607271,
+        "count": 64,
+        "queries": 2048,
+        "label_one_fraction": 0.51611328125,
+        "by_family": {
+          "parity3": {
+            "query_accuracy": 0.5859375,
+            "episode_exact": 0.03125,
+            "bce": 0.7061169795208355,
+            "count": 32,
+            "queries": 1024,
+            "label_one_fraction": 0.5244140625
+          },
+          "majority3": {
+            "query_accuracy": 0.673828125,
+            "episode_exact": 0.0,
+            "bce": 0.6550961312006187,
+            "count": 32,
+            "queries": 1024,
+            "label_one_fraction": 0.5078125
+          }
+        }
+      },
+      "16": {
+        "query_accuracy": 0.87353515625,
+        "episode_exact": 0.328125,
+        "bce": 0.31453921290239995,
+        "count": 64,
+        "queries": 2048,
+        "label_one_fraction": 0.51611328125,
+        "by_family": {
+          "parity3": {
+            "query_accuracy": 0.9091796875,
+            "episode_exact": 0.34375,
+            "bce": 0.2510683039071433,
+            "count": 32,
+            "queries": 1024,
+            "label_one_fraction": 0.5244140625
+          },
+          "majority3": {
+            "query_accuracy": 0.837890625,
+            "episode_exact": 0.3125,
+            "bce": 0.37801012189765665,
+            "count": 32,
+            "queries": 1024,
+            "label_one_fraction": 0.5078125
+          }
+        }
+      },
+      "32": {
+        "query_accuracy": 0.986328125,
+        "episode_exact": 0.921875,
+        "bce": 0.13115310519845136,
+        "count": 64,
+        "queries": 2048,
+        "label_one_fraction": 0.51611328125,
+        "by_family": {
+          "parity3": {
+            "query_accuracy": 0.98828125,
+            "episode_exact": 0.9375,
+            "bce": 0.12770845499379677,
+            "count": 32,
+            "queries": 1024,
+            "label_one_fraction": 0.5244140625
+          },
+          "majority3": {
+            "query_accuracy": 0.984375,
+            "episode_exact": 0.90625,
+            "bce": 0.13459775540310595,
+            "count": 32,
+            "queries": 1024,
+            "label_one_fraction": 0.5078125
+          }
+        }
+      }
+    }
+  }
+}

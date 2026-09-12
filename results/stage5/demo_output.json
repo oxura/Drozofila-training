@@ -1,0 +1,511 @@
+{
+  "model": {
+    "condition": "fly",
+    "mode": "memory",
+    "seed": 0
+  },
+  "demonstration_count": 32,
+  "input_width": 8,
+  "scope": "Бинарные правила с максимум тремя существенными признаками; искусственная память и нейронная оценка её частей.",
+  "predictions": [
+    {
+      "input": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "answer": 0,
+      "probability_one": 0.10000000149011612,
+      "forced_by_all_consistent_sparse_rules": true
+    },
+    {
+      "input": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "answer": 1,
+      "probability_one": 0.8999999761581421,
+      "forced_by_all_consistent_sparse_rules": true
+    },
+    {
+      "input": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "answer": 1,
+      "probability_one": 0.8999999761581421,
+      "forced_by_all_consistent_sparse_rules": true
+    },
+    {
+      "input": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "answer": 0,
+      "probability_one": 0.10000000149011612,
+      "forced_by_all_consistent_sparse_rules": true
+    },
+    {
+      "input": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "answer": 1,
+      "probability_one": 0.8999999761581421,
+      "forced_by_all_consistent_sparse_rules": true
+    },
+    {
+      "input": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "answer": 1,
+      "probability_one": 0.8999999761581421,
+      "forced_by_all_consistent_sparse_rules": true
+    },
+    {
+      "input": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "answer": 1,
+      "probability_one": 0.9166666865348816,
+      "forced_by_all_consistent_sparse_rules": true
+    },
+    {
+      "input": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "answer": 0,
+      "probability_one": 0.0833333358168602,
+      "forced_by_all_consistent_sparse_rules": true
+    },
+    {
+      "input": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "answer": 1,
+      "probability_one": 0.8999999761581421,
+      "forced_by_all_consistent_sparse_rules": true
+    },
+    {
+      "input": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "answer": 1,
+      "probability_one": 0.9166666865348816,
+      "forced_by_all_consistent_sparse_rules": true
+    },
+    {
+      "input": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "answer": 0,
+      "probability_one": 0.0833333358168602,
+      "forced_by_all_consistent_sparse_rules": true
+    },
+    {
+      "input": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "answer": 1,
+      "probability_one": 0.9166666865348816,
+      "forced_by_all_consistent_sparse_rules": true
+    },
+    {
+      "input": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "answer": 1,
+      "probability_one": 0.8999999761581421,
+      "forced_by_all_consistent_sparse_rules": true
+    },
+    {
+      "input": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "answer": 0,
+      "probability_one": 0.0833333358168602,
+      "forced_by_all_consistent_sparse_rules": true
+    },
+    {
+      "input": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "answer": 1,
+      "probability_one": 0.8999999761581421,
+      "forced_by_all_consistent_sparse_rules": true
+    },
+    {
+      "input": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "answer": 1,
+      "probability_one": 0.9166666865348816,
+      "forced_by_all_consistent_sparse_rules": true
+    },
+    {
+      "input": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "answer": 0,
+      "probability_one": 0.1666666716337204,
+      "forced_by_all_consistent_sparse_rules": true
+    },
+    {
+      "input": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "answer": 1,
+      "probability_one": 0.8999999761581421,
+      "forced_by_all_consistent_sparse_rules": true
+    },
+    {
+      "input": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "answer": 0,
+      "probability_one": 0.1666666716337204,
+      "forced_by_all_consistent_sparse_rules": true
+    },
+    {
+      "input": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "answer": 0,
+      "probability_one": 0.10000000149011612,
+      "forced_by_all_consistent_sparse_rules": true
+    },
+    {
+      "input": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "answer": 0,
+      "probability_one": 0.1666666716337204,
+      "forced_by_all_consistent_sparse_rules": true
+    },
+    {
+      "input": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "answer": 0,
+      "probability_one": 0.10000000149011612,
+      "forced_by_all_consistent_sparse_rules": true
+    },
+    {
+      "input": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "answer": 0,
+      "probability_one": 0.0833333358168602,
+      "forced_by_all_consistent_sparse_rules": true
+    },
+    {
+      "input": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "answer": 0,
+      "probability_one": 0.0833333358168602,
+      "forced_by_all_consistent_sparse_rules": true
+    },
+    {
+      "input": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "answer": 0,
+      "probability_one": 0.10000000149011612,
+      "forced_by_all_consistent_sparse_rules": true
+    },
+    {
+      "input": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "answer": 0,
+      "probability_one": 0.10000000149011612,
+      "forced_by_all_consistent_sparse_rules": true
+    },
+    {
+      "input": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "answer": 0,
+      "probability_one": 0.10000000149011612,
+      "forced_by_all_consistent_sparse_rules": true
+    },
+    {
+      "input": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "answer": 1,
+      "probability_one": 0.9166666865348816,
+      "forced_by_all_consistent_sparse_rules": true
+    },
+    {
+      "input": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "answer": 1,
+      "probability_one": 0.8999999761581421,
+      "forced_by_all_consistent_sparse_rules": true
+    },
+    {
+      "input": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "answer": 1,
+      "probability_one": 0.8999999761581421,
+      "forced_by_all_consistent_sparse_rules": true
+    },
+    {
+      "input": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "answer": 0,
+      "probability_one": 0.1666666716337204,
+      "forced_by_all_consistent_sparse_rules": true
+    },
+    {
+      "input": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "answer": 1,
+      "probability_one": 0.9166666865348816,
+      "forced_by_all_consistent_sparse_rules": true
+    }
+  ],
+  "support_consistent_with_sparse_class": true,
+  "certainty_note": "Флаг forced — отдельная написанная проверка в ограниченном классе правил; вероятность нейросети не является гарантией.",
+  "next_question": {
+    "input": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "probability_one": 0.1666666716337204,
+    "uncertainty": 0.5555555688010321,
+    "remaining_candidates": 224,
+    "policy": "written_maximum_predictive_uncertainty",
+    "needs_user_label": true
+  }
+}

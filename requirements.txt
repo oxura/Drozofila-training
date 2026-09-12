@@ -6,3 +6,4 @@ torch==2.14.0
 brian2==2.10.1
 joblib==1.5.3
 snntorch==1.0.0
+matplotlib==3.10.8

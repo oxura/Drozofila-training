@@ -1,0 +1,39 @@
+{
+  "config": {
+    "mode": "memory",
+    "condition": "rewired",
+    "seed": 0,
+    "steps": 6000,
+    "batch_size": 16,
+    "ticks": 3,
+    "lr": 0.003,
+    "threads": 2,
+    "eval_every": 1000
+  },
+  "validation": {
+    "query_accuracy": 0.9372996794871795,
+    "episode_exact": 0.6794871794871795,
+    "bce": 0.2070671256238712,
+    "count": 156,
+    "queries": 4992,
+    "label_one_fraction": 0.5056089743589743
+  },
+  "best_step": 4000,
+  "seconds": 108.52685278299032,
+  "parameters": 10843,
+  "max_edge_gradient": 0.005663642194122076,
+  "dataset_hashes": {
+    "train": "0b10073c301a31294486a741720bc818085d5a7fd7daf686c0214922340844c0",
+    "val": "f4a6e0b5541121e4debb6516475a283c276d42889c4e297a43049355083b9dcb",
+    "test": "45d8ae068108f6027b711e907cef92ed33fb165f3fb32c3f0f7fd69633234a66",
+    "parity2": "fb5afb472fd8747b8109891016e9ec28461b5277735d99be388ef8b92bcc8214",
+    "parity3": "4e668b295b45f272dac2c13867694510c8940181a6227568e34eac4a9255377a",
+    "majority3": "7cde175c57244ea98a84fa491561579507c5d53272d1af53d312ca56cce9d8bc",
+    "multiplexer3": "dc29180b87e501af90cdd03eb927d9ddc1a721255d06e7b7a6a15eb0b5bbd6b3",
+    "parity4": "071e7933cf51a3fd19d2303f201d46b9de4f145545c3cd2a3f4cc94f7ed89135",
+    "support_curve": "a6ec3319f88f3b13565958eb4103ca814905cb8424deb5f823979bddd9ae8306",
+    "wide": "8f5d463f9c3e16676efcefea3f211258d275f0f330686b66c5e507d493512e1f",
+    "rules": "c7a8630bf8ac56fb56dd90d730d35a33ae013888f6b3b7b415ffb61c9612004a"
+  },
+  "final_test_read": false
+}

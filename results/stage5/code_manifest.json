@@ -1,0 +1,26 @@
+{
+  "source_hashes": {
+    "stage5_active.py": "2ea56403f6664b13ff0baa802253a85ef1061728596f67708e8b91c8c2485ca0",
+    "stage5_checks.py": "7759b2eb9e9b4e6f9947ed622c35f95c0881a4a573478b58d4caefc7dc7ed3f3",
+    "stage5_engine.py": "ac24e5eb140183fe9d43524b7fc26002b08c65e9e376b12d0724217323afa976",
+    "stage5_evaluate.py": "95189044b619af2660d2ba610d645e3b9687489f6eb3fe4c9f96b04134261b55",
+    "stage5_memory.py": "91e1e6231c1edeaa0a5bc7bde7f19bec48661b5e6ce8af72bce117330a74be4e",
+    "stage5_model.py": "9f6288ee4f34a94b5f2c176f8e97f7265e5f8cd627b6b54a7a0ee290504a77eb",
+    "stage5_report.py": "be71b0bffe4f42b45e23ed3da2d396ef2fe99c554923407ed7feacd8c951070b",
+    "stage5_run.py": "67a75e9db0bb91dc9b42f2c10684886dce1abb1cc4f307064e2e611c5895820d",
+    "stage5_tasks.py": "00d908af431a616b2ffacbab6c050acf3aab5d898b53a4057715c19b3e3057a8",
+    "stage5_train.py": "ba68324ad1bb96d25be4b9e82de91c78ed89babca8c1847ccba1d8d09d90f3b0",
+    "fly_rules.py": "a9ed4fb9382270b9b9429da9591e9685d69ab447d4e12670b1148bb9962e3840",
+    "model.py": "5e0f41d93d33630ead06f01e8fc4abb784188e52c449d2af4b27281199658426",
+    "requirements.txt": "85c8740ce614a5340da913d0499118c9b4a7015057604938edfa947ce1e10342",
+    "STAGE5_PROTOCOL.md": "31ba1d95cbfdaf518abae15a9e0cd2da88fec8c30d18a4f722575d5d42969bfd",
+    "STAGE5_RESULTS.md": "9baa4e7e7ccab63648fcc2ed37519ecdebcf677152f317c041eb0b5c110b46f9",
+    "README.md": "b245f0c929cf3a55dd17a2a375886ace3b55376fba1aedb640d8a107ad2caf1f",
+    "CONTINUE.md": "fedbc9f952a3da89ec61a7515504e3d44db5816ddc7e346ad7de5cc513297099"
+  },
+  "frozen_experiment_sources_unchanged": true,
+  "all_best_and_last_checkpoints_unchanged_after_test": true,
+  "confirmation_runs_completed": 21,
+  "all_planned_evaluations_complete": true,
+  "report_plot_visually_checked": true
+}

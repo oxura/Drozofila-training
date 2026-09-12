@@ -1,0 +1,269 @@
+{
+  "frozen_utc": "2026-09-12T06:59:16.908154+00:00",
+  "runs": [
+    "memory_fly_seed0",
+    "memory_fly_seed1",
+    "memory_fly_seed2",
+    "memory_rewired_seed0",
+    "memory_rewired_seed1",
+    "memory_rewired_seed2",
+    "memory_frozen_seed0",
+    "memory_frozen_seed1",
+    "memory_frozen_seed2",
+    "memory_no_edges_seed0",
+    "memory_no_edges_seed1",
+    "memory_no_edges_seed2",
+    "memory_mlp_seed0",
+    "memory_mlp_seed1",
+    "memory_mlp_seed2",
+    "pooled_fly_seed0",
+    "pooled_fly_seed1",
+    "pooled_fly_seed2",
+    "pooled_mlp_seed0",
+    "pooled_mlp_seed1",
+    "pooled_mlp_seed2"
+  ],
+  "steps": 6000,
+  "batch_size": 16,
+  "eval_every": 1000,
+  "lr": 0.003,
+  "ticks": 3,
+  "threads": 2,
+  "source_hashes": {
+    "stage5_active.py": "2ea56403f6664b13ff0baa802253a85ef1061728596f67708e8b91c8c2485ca0",
+    "stage5_checks.py": "7759b2eb9e9b4e6f9947ed622c35f95c0881a4a573478b58d4caefc7dc7ed3f3",
+    "stage5_engine.py": "ac24e5eb140183fe9d43524b7fc26002b08c65e9e376b12d0724217323afa976",
+    "stage5_evaluate.py": "95189044b619af2660d2ba610d645e3b9687489f6eb3fe4c9f96b04134261b55",
+    "stage5_memory.py": "91e1e6231c1edeaa0a5bc7bde7f19bec48661b5e6ce8af72bce117330a74be4e",
+    "stage5_model.py": "9f6288ee4f34a94b5f2c176f8e97f7265e5f8cd627b6b54a7a0ee290504a77eb",
+    "stage5_run.py": "67a75e9db0bb91dc9b42f2c10684886dce1abb1cc4f307064e2e611c5895820d",
+    "stage5_tasks.py": "00d908af431a616b2ffacbab6c050acf3aab5d898b53a4057715c19b3e3057a8",
+    "stage5_train.py": "ba68324ad1bb96d25be4b9e82de91c78ed89babca8c1847ccba1d8d09d90f3b0",
+    "fly_rules.py": "a9ed4fb9382270b9b9429da9591e9685d69ab447d4e12670b1148bb9962e3840",
+    "model.py": "5e0f41d93d33630ead06f01e8fc4abb784188e52c449d2af4b27281199658426"
+  },
+  "dataset_hashes": {
+    "train": "0b10073c301a31294486a741720bc818085d5a7fd7daf686c0214922340844c0",
+    "val": "f4a6e0b5541121e4debb6516475a283c276d42889c4e297a43049355083b9dcb",
+    "test": "45d8ae068108f6027b711e907cef92ed33fb165f3fb32c3f0f7fd69633234a66",
+    "parity2": "fb5afb472fd8747b8109891016e9ec28461b5277735d99be388ef8b92bcc8214",
+    "parity3": "4e668b295b45f272dac2c13867694510c8940181a6227568e34eac4a9255377a",
+    "majority3": "7cde175c57244ea98a84fa491561579507c5d53272d1af53d312ca56cce9d8bc",
+    "multiplexer3": "dc29180b87e501af90cdd03eb927d9ddc1a721255d06e7b7a6a15eb0b5bbd6b3",
+    "parity4": "071e7933cf51a3fd19d2303f201d46b9de4f145545c3cd2a3f4cc94f7ed89135",
+    "support_curve": "a6ec3319f88f3b13565958eb4103ca814905cb8424deb5f823979bddd9ae8306",
+    "wide": "8f5d463f9c3e16676efcefea3f211258d275f0f330686b66c5e507d493512e1f",
+    "rules": "c7a8630bf8ac56fb56dd90d730d35a33ae013888f6b3b7b415ffb61c9612004a"
+  },
+  "checkpoint_selection": "validation query accuracy, then lower BCE; final tests never used",
+  "budget_reason": "Extended train/validation-only pilots: memory improves over 600 steps; pooled model stagnates. Give all conditions the same 6000-step budget and retain best validation weights.",
+  "development": [
+    {
+      "path": "results/stage5/development/memory_fly_seed0/validation.json",
+      "config": {
+        "mode": "memory",
+        "condition": "fly",
+        "seed": 0,
+        "steps": 600,
+        "batch_size": 16,
+        "ticks": 3,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 200
+      },
+      "validation": {
+        "query_accuracy": 0.9340945512820513,
+        "episode_exact": 0.6730769230769231,
+        "bce": 0.21778016226962002,
+        "count": 156,
+        "queries": 4992,
+        "label_one_fraction": 0.5056089743589743
+      },
+      "best_step": 400,
+      "seconds": 11.80330692800635,
+      "parameters": 10843,
+      "max_edge_gradient": 0.00041163244168274105,
+      "dataset_hashes": {
+        "train": "0b10073c301a31294486a741720bc818085d5a7fd7daf686c0214922340844c0",
+        "val": "f4a6e0b5541121e4debb6516475a283c276d42889c4e297a43049355083b9dcb",
+        "test": "45d8ae068108f6027b711e907cef92ed33fb165f3fb32c3f0f7fd69633234a66",
+        "parity2": "fb5afb472fd8747b8109891016e9ec28461b5277735d99be388ef8b92bcc8214",
+        "parity3": "4e668b295b45f272dac2c13867694510c8940181a6227568e34eac4a9255377a",
+        "majority3": "7cde175c57244ea98a84fa491561579507c5d53272d1af53d312ca56cce9d8bc",
+        "multiplexer3": "dc29180b87e501af90cdd03eb927d9ddc1a721255d06e7b7a6a15eb0b5bbd6b3",
+        "parity4": "071e7933cf51a3fd19d2303f201d46b9de4f145545c3cd2a3f4cc94f7ed89135",
+        "support_curve": "a6ec3319f88f3b13565958eb4103ca814905cb8424deb5f823979bddd9ae8306",
+        "wide": "8f5d463f9c3e16676efcefea3f211258d275f0f330686b66c5e507d493512e1f",
+        "rules": "c7a8630bf8ac56fb56dd90d730d35a33ae013888f6b3b7b415ffb61c9612004a"
+      },
+      "final_test_read": false
+    },
+    {
+      "path": "results/stage5/development/memory_mlp_seed0/validation.json",
+      "config": {
+        "mode": "memory",
+        "condition": "mlp",
+        "seed": 0,
+        "steps": 600,
+        "batch_size": 16,
+        "ticks": 3,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 200
+      },
+      "validation": {
+        "query_accuracy": 0.9381009615384616,
+        "episode_exact": 0.6987179487179487,
+        "bce": 0.21679693140717796,
+        "count": 156,
+        "queries": 4992,
+        "label_one_fraction": 0.5056089743589743
+      },
+      "best_step": 400,
+      "seconds": 2.0216981610137736,
+      "parameters": 10465,
+      "max_edge_gradient": 0,
+      "dataset_hashes": {
+        "train": "0b10073c301a31294486a741720bc818085d5a7fd7daf686c0214922340844c0",
+        "val": "f4a6e0b5541121e4debb6516475a283c276d42889c4e297a43049355083b9dcb",
+        "test": "45d8ae068108f6027b711e907cef92ed33fb165f3fb32c3f0f7fd69633234a66",
+        "parity2": "fb5afb472fd8747b8109891016e9ec28461b5277735d99be388ef8b92bcc8214",
+        "parity3": "4e668b295b45f272dac2c13867694510c8940181a6227568e34eac4a9255377a",
+        "majority3": "7cde175c57244ea98a84fa491561579507c5d53272d1af53d312ca56cce9d8bc",
+        "multiplexer3": "dc29180b87e501af90cdd03eb927d9ddc1a721255d06e7b7a6a15eb0b5bbd6b3",
+        "parity4": "071e7933cf51a3fd19d2303f201d46b9de4f145545c3cd2a3f4cc94f7ed89135",
+        "support_curve": "a6ec3319f88f3b13565958eb4103ca814905cb8424deb5f823979bddd9ae8306",
+        "wide": "8f5d463f9c3e16676efcefea3f211258d275f0f330686b66c5e507d493512e1f",
+        "rules": "c7a8630bf8ac56fb56dd90d730d35a33ae013888f6b3b7b415ffb61c9612004a"
+      },
+      "final_test_read": false
+    },
+    {
+      "path": "results/stage5/development/pooled_fly_seed0/validation.json",
+      "config": {
+        "mode": "pooled",
+        "condition": "fly",
+        "seed": 0,
+        "steps": 600,
+        "batch_size": 16,
+        "ticks": 3,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 200
+      },
+      "validation": {
+        "query_accuracy": 0.6999198717948718,
+        "episode_exact": 0.0,
+        "bce": 0.6106540974686061,
+        "count": 156,
+        "queries": 4992,
+        "label_one_fraction": 0.5056089743589743
+      },
+      "best_step": 400,
+      "seconds": 3.5538137900002766,
+      "parameters": 19899,
+      "max_edge_gradient": 0.0009565367363393307,
+      "dataset_hashes": {
+        "train": "0b10073c301a31294486a741720bc818085d5a7fd7daf686c0214922340844c0",
+        "val": "f4a6e0b5541121e4debb6516475a283c276d42889c4e297a43049355083b9dcb",
+        "test": "45d8ae068108f6027b711e907cef92ed33fb165f3fb32c3f0f7fd69633234a66",
+        "parity2": "fb5afb472fd8747b8109891016e9ec28461b5277735d99be388ef8b92bcc8214",
+        "parity3": "4e668b295b45f272dac2c13867694510c8940181a6227568e34eac4a9255377a",
+        "majority3": "7cde175c57244ea98a84fa491561579507c5d53272d1af53d312ca56cce9d8bc",
+        "multiplexer3": "dc29180b87e501af90cdd03eb927d9ddc1a721255d06e7b7a6a15eb0b5bbd6b3",
+        "parity4": "071e7933cf51a3fd19d2303f201d46b9de4f145545c3cd2a3f4cc94f7ed89135",
+        "support_curve": "a6ec3319f88f3b13565958eb4103ca814905cb8424deb5f823979bddd9ae8306",
+        "wide": "8f5d463f9c3e16676efcefea3f211258d275f0f330686b66c5e507d493512e1f",
+        "rules": "c7a8630bf8ac56fb56dd90d730d35a33ae013888f6b3b7b415ffb61c9612004a"
+      },
+      "final_test_read": false
+    },
+    {
+      "path": "results/stage5/development_extended/memory_fly_seed0/validation.json",
+      "config": {
+        "mode": "memory",
+        "condition": "fly",
+        "seed": 0,
+        "steps": 6000,
+        "batch_size": 16,
+        "ticks": 3,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 1000
+      },
+      "validation": {
+        "query_accuracy": 0.9407051282051282,
+        "episode_exact": 0.6923076923076923,
+        "bce": 0.2072610569762412,
+        "count": 156,
+        "queries": 4992,
+        "label_one_fraction": 0.5056089743589743
+      },
+      "best_step": 2000,
+      "seconds": 105.55875225999625,
+      "parameters": 10843,
+      "max_edge_gradient": 0.002819325076416135,
+      "dataset_hashes": {
+        "train": "0b10073c301a31294486a741720bc818085d5a7fd7daf686c0214922340844c0",
+        "val": "f4a6e0b5541121e4debb6516475a283c276d42889c4e297a43049355083b9dcb",
+        "test": "45d8ae068108f6027b711e907cef92ed33fb165f3fb32c3f0f7fd69633234a66",
+        "parity2": "fb5afb472fd8747b8109891016e9ec28461b5277735d99be388ef8b92bcc8214",
+        "parity3": "4e668b295b45f272dac2c13867694510c8940181a6227568e34eac4a9255377a",
+        "majority3": "7cde175c57244ea98a84fa491561579507c5d53272d1af53d312ca56cce9d8bc",
+        "multiplexer3": "dc29180b87e501af90cdd03eb927d9ddc1a721255d06e7b7a6a15eb0b5bbd6b3",
+        "parity4": "071e7933cf51a3fd19d2303f201d46b9de4f145545c3cd2a3f4cc94f7ed89135",
+        "support_curve": "a6ec3319f88f3b13565958eb4103ca814905cb8424deb5f823979bddd9ae8306",
+        "wide": "8f5d463f9c3e16676efcefea3f211258d275f0f330686b66c5e507d493512e1f",
+        "rules": "c7a8630bf8ac56fb56dd90d730d35a33ae013888f6b3b7b415ffb61c9612004a"
+      },
+      "final_test_read": false
+    },
+    {
+      "path": "results/stage5/development_extended/pooled_fly_seed0/validation.json",
+      "config": {
+        "mode": "pooled",
+        "condition": "fly",
+        "seed": 0,
+        "steps": 6000,
+        "batch_size": 16,
+        "ticks": 3,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 1000
+      },
+      "validation": {
+        "query_accuracy": 0.7021233974358975,
+        "episode_exact": 0.0,
+        "bce": 0.6096121063611193,
+        "count": 156,
+        "queries": 4992,
+        "label_one_fraction": 0.5056089743589743
+      },
+      "best_step": 2000,
+      "seconds": 34.64403096800379,
+      "parameters": 19899,
+      "max_edge_gradient": 0.0009971009567379951,
+      "dataset_hashes": {
+        "train": "0b10073c301a31294486a741720bc818085d5a7fd7daf686c0214922340844c0",
+        "val": "f4a6e0b5541121e4debb6516475a283c276d42889c4e297a43049355083b9dcb",
+        "test": "45d8ae068108f6027b711e907cef92ed33fb165f3fb32c3f0f7fd69633234a66",
+        "parity2": "fb5afb472fd8747b8109891016e9ec28461b5277735d99be388ef8b92bcc8214",
+        "parity3": "4e668b295b45f272dac2c13867694510c8940181a6227568e34eac4a9255377a",
+        "majority3": "7cde175c57244ea98a84fa491561579507c5d53272d1af53d312ca56cce9d8bc",
+        "multiplexer3": "dc29180b87e501af90cdd03eb927d9ddc1a721255d06e7b7a6a15eb0b5bbd6b3",
+        "parity4": "071e7933cf51a3fd19d2303f201d46b9de4f145545c3cd2a3f4cc94f7ed89135",
+        "support_curve": "a6ec3319f88f3b13565958eb4103ca814905cb8424deb5f823979bddd9ae8306",
+        "wide": "8f5d463f9c3e16676efcefea3f211258d275f0f330686b66c5e507d493512e1f",
+        "rules": "c7a8630bf8ac56fb56dd90d730d35a33ae013888f6b3b7b415ffb61c9612004a"
+      },
+      "final_test_read": false
+    }
+  ],
+  "active_models": [
+    "memory_fly_seed0",
+    "memory_mlp_seed0"
+  ],
+  "active_protocol": "First 32 unique final rules of each of parity3 and majority3, same initial 4 supports and same 32 held-out queries; compare written uncertainty selection to random at budgets 4/8/16/32.",
+  "reporting": "All 21 runs, 3 seeds per group, exact episodes and query accuracy, all negative controls; no winning-seed selection.",
+  "final_test_open": false
+}

@@ -1,0 +1,27 @@
+{
+  "episodes_checked": 7884,
+  "rule_identity_separation": true,
+  "whole_families_held_out": true,
+  "independent_scalar_labels": true,
+  "support_query_disjoint": true,
+  "version_space_matches_exhaustive_truth_tables": true,
+  "support_order_invariant": true,
+  "label_complement_changes_predictions": true,
+  "trainable_edge_gradient": true,
+  "inference_without_teacher_import": true,
+  "hidden_metadata_and_answers_do_not_affect_inference": true,
+  "masks_at_width8": 92,
+  "masks_at_width12": 298,
+  "parameters": {
+    "memory/fly": 10843,
+    "memory/rewired": 10843,
+    "memory/frozen": 3329,
+    "memory/no_edges": 3329,
+    "memory/mlp": 10465,
+    "pooled/fly": 19899,
+    "pooled/rewired": 19899,
+    "pooled/frozen": 12385,
+    "pooled/no_edges": 12385,
+    "pooled/mlp": 19821
+  }
+}

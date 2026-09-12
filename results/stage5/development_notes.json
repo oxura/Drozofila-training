@@ -1,0 +1,6 @@
+{
+  "initial_pilots": "Three runs at 600 steps; no final test predictions generated.",
+  "extended_pilots": "Two further runs at 6000 steps chosen after train/validation-only results. Same training data and algorithms.",
+  "validation_selection": "memory/fly best 94.0705% at 2000 steps; pooled/fly best 70.2123% at 2000. All confirmation conditions receive 6000 steps, selection on validation only.",
+  "implementation_note": "After pilot start, encode() validation was tightened to reject fractional nonbinary input before casting. All datasets are integer binary, so preprocessing for these runs is unchanged."
+}

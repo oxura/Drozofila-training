@@ -1,0 +1,26 @@
+FINISHED memory_fly_seed2
+FINISHED memory_fly_seed1
+FINISHED memory_fly_seed0
+FINISHED memory_rewired_seed0
+FINISHED memory_frozen_seed0
+FINISHED memory_rewired_seed2
+FINISHED memory_frozen_seed1
+FINISHED memory_rewired_seed1
+FINISHED memory_frozen_seed2
+FINISHED memory_no_edges_seed1
+FINISHED memory_no_edges_seed0
+FINISHED memory_no_edges_seed2
+FINISHED memory_mlp_seed0
+FINISHED pooled_fly_seed0
+FINISHED memory_mlp_seed1
+FINISHED memory_mlp_seed2
+FINISHED pooled_fly_seed1
+FINISHED pooled_mlp_seed1
+FINISHED pooled_mlp_seed0
+FINISHED pooled_fly_seed2
+FINISHED pooled_mlp_seed2
+{"uniform_memory": {"test": 0.8120492788461539, "parity2": 0.6065848214285714, "parity3": 0.47488839285714285, "majority3": 0.8256138392857143, "multiplexer3": 0.7613525390625, "parity4": 0.466796875, "support_curve": 0.4857421875, "wide": 0.500244140625, "flip_1": 0.47056361607142855, "flip_8": 0.49344308035714285, "shuffle_labels": 0.48828125}, "symbolic_occam": {"test": 1.0, "parity2": 1.0, "parity3": 0.9933035714285714, "majority3": 0.99609375, "multiplexer3": 0.9921875, "parity4": 0.45458984375, "support_curve": 0.79697265625, "wide": 0.990478515625, "flip_1": 0.9861886160714286, "flip_8": 0.5687779017857143, "shuffle_labels": 0.49693080357142855}, "nearest_neighbor": {"test": 0.8688401442307693, "parity2": 0.7154017857142857, "parity3": 0.5619419642857143, "majority3": 0.7978515625, "multiplexer3": 0.7911376953125, "parity4": 0.473388671875, "support_curve": 0.54501953125, "wide": 0.549560546875, "flip_1": 0.5609654017857143, "flip_8": 0.53125, "shuffle_labels": 0.49734933035714285}, "majority": {"test": 0.7400841346153846, "parity2": 0.49246651785714285, "parity3": 0.484375, "majority3": 0.4974888392857143, "multiplexer3": 0.489990234375, "parity4": 0.492431640625, "support_curve": 0.49619140625, "wide": 0.49609375, "flip_1": 0.48353794642857145, "flip_8": 0.49637276785714285, "shuffle_labels": 0.484375}, "untrained_fly": {"test": 0.8093449519230769, "parity2": 0.6012834821428571, "parity3": 0.47391183035714285, "majority3": 0.8250558035714286, "multiplexer3": 0.7591552734375, "parity4": 0.466552734375, "support_curve": 0.4853515625, "wide": 0.49951171875, "flip_1": 0.46958705357142855, "flip_8": 0.4937220982142857, "shuffle_labels": 0.48911830357142855}}
+{"model": "memory_fly_seed0", "policy": "uncertainty", "accuracy": {"4": 0.564453125, "8": 0.61279296875, "16": 1.0, "32": 1.0}}
+{"model": "memory_fly_seed0", "policy": "random", "accuracy": {"4": 0.564453125, "8": 0.63671875, "16": 0.89453125, "32": 0.98974609375}}
+{"model": "memory_mlp_seed0", "policy": "uncertainty", "accuracy": {"4": 0.56201171875, "8": 0.59521484375, "16": 0.99853515625, "32": 1.0}}
+{"model": "memory_mlp_seed0", "policy": "random", "accuracy": {"4": 0.56201171875, "8": 0.6298828125, "16": 0.87353515625, "32": 0.986328125}}

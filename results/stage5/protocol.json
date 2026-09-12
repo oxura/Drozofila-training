@@ -1,0 +1,82 @@
+{
+  "created_utc": "2026-09-12T06:54:46.909659+00:00",
+  "stage": 5,
+  "hypothesis": "A shared neural scorer over supplied sparse associative memories can use demonstrations of rule families absent from optimization. Test its added value against written and ordinary neural controls.",
+  "train_families": [
+    "unary",
+    "binary_nonparity"
+  ],
+  "withheld_families": [
+    "parity2",
+    "parity3",
+    "majority3",
+    "multiplexer3",
+    "parity4"
+  ],
+  "architecture": "Enumerate subsets of <=3 of n binary coordinates. Supplied counts, label means and consistency statistics form external memory. The network learns a scalar trust score per subset from query-answer BCE only. No hidden rule labels are input.",
+  "pooled_baseline": "A separate end-to-end DeepSets support encoder plus query decoder, fixed 8-bit width; same episodes and query supervision.",
+  "development": {
+    "runs": [
+      "memory/fly/0",
+      "memory/mlp/0",
+      "pooled/fly/0"
+    ],
+    "steps": 600,
+    "allowed_selection": "train and validation only, both from known families"
+  },
+  "confirmation_proposed": {
+    "memory_conditions": [
+      "fly",
+      "rewired",
+      "frozen",
+      "no_edges",
+      "mlp"
+    ],
+    "pooled_conditions": [
+      "fly",
+      "mlp"
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "steps": 1800,
+    "batch_size": 16,
+    "lr": 0.003,
+    "ticks": 3
+  },
+  "selection": "maximize validation query accuracy, then minimize validation BCE; freeze final budget/code/run list before opening final predictions",
+  "baselines": [
+    "untrained learned scorer",
+    "uniform subset memory",
+    "minimum-error then minimum-arity symbolic subset selector",
+    "Hamming nearest neighbor",
+    "support class majority"
+  ],
+  "primary_metrics": [
+    "query accuracy",
+    "all-32-query episode exact",
+    "BCE",
+    "accuracy on version-space-forced queries"
+  ],
+  "stress": [
+    "nested K=4,8,16,32,64 demonstrations on parity3",
+    "12 input bits (more irrelevant coordinates)",
+    "one and eight corrupted support labels",
+    "shuffled and absent support labels",
+    "support-order and coordinate-permutation invariance"
+  ],
+  "limits": [
+    "A 256-neuron source subgraph plus artificial adapters, not a whole fly brain.",
+    "Sparse feature enumeration and associative retrieval are supplied algorithms, not learned.",
+    "Unseen functions are restricted to <=3 relevant Boolean inputs; parity4 is explicitly outside that class.",
+    "No natural language understanding, arbitrary Python generation, biological intelligence claim, or hidden oracle fallback."
+  ],
+  "data_manifest_sha256": "1a99df792dee66a56735cbea9bc18c669810e82055b582dbc4ce7a8fcce8e580",
+  "source_references": [
+    "https://arxiv.org/abs/1606.04080",
+    "https://www.nature.com/articles/s41586-023-06668-3"
+  ],
+  "final_test_open": false
+}
