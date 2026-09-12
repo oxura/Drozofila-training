@@ -1,0 +1,325 @@
+{
+  "dev": {
+    "translation_by_kind": {
+      "initial": {
+        "count": 240,
+        "accuracy": 0.9875
+      },
+      "copy": {
+        "count": 309,
+        "accuracy": 1.0
+      },
+      "set": {
+        "count": 333,
+        "accuracy": 1.0
+      },
+      "query": {
+        "count": 240,
+        "accuracy": 1.0
+      },
+      "keep": {
+        "count": 151,
+        "accuracy": 1.0
+      },
+      "choose": {
+        "count": 119,
+        "accuracy": 1.0
+      }
+    },
+    "pipeline": {
+      "count": 240,
+      "answer_accuracy": 0.5166666666666667,
+      "halted_fraction": 1.0,
+      "program_exact": 0.9875,
+      "clause_exact": 0.9978448275862069,
+      "by_role": {
+        "earlier_written": {
+          "count": 80,
+          "accuracy": 0.475
+        },
+        "initial": {
+          "count": 80,
+          "accuracy": 0.6
+        },
+        "last_written": {
+          "count": 80,
+          "accuracy": 0.475
+        }
+      },
+      "by_length": {
+        "2": {
+          "count": 53,
+          "accuracy": 0.6037735849056604
+        },
+        "3": {
+          "count": 56,
+          "accuracy": 0.5714285714285714
+        },
+        "4": {
+          "count": 51,
+          "accuracy": 0.47058823529411764
+        },
+        "5": {
+          "count": 46,
+          "accuracy": 0.4782608695652174
+        },
+        "6": {
+          "count": 34,
+          "accuracy": 0.4117647058823529
+        }
+      }
+    },
+    "oracle_formal_input": {
+      "count": 240,
+      "answer_accuracy": 0.5208333333333334,
+      "halted_fraction": 1.0,
+      "program_exact": 1.0,
+      "clause_exact": 0.0,
+      "by_role": {
+        "earlier_written": {
+          "count": 80,
+          "accuracy": 0.475
+        },
+        "initial": {
+          "count": 80,
+          "accuracy": 0.6
+        },
+        "last_written": {
+          "count": 80,
+          "accuracy": 0.4875
+        }
+      },
+      "by_length": {
+        "2": {
+          "count": 53,
+          "accuracy": 0.6037735849056604
+        },
+        "3": {
+          "count": 56,
+          "accuracy": 0.5714285714285714
+        },
+        "4": {
+          "count": 51,
+          "accuracy": 0.47058823529411764
+        },
+        "5": {
+          "count": 46,
+          "accuracy": 0.4782608695652174
+        },
+        "6": {
+          "count": 34,
+          "accuracy": 0.4411764705882353
+        }
+      }
+    },
+    "first_errors_in_fixed_data_order": [
+      {
+        "prompt": "Начальные значения: cc=три, bb=8, d=3, a=1.",
+        "expected": "cc=3;bb=8;d=3;a=1",
+        "actual": "cc=3;bb=8;d=1;a=1",
+        "kind": "initial"
+      },
+      {
+        "prompt": "В начале в памяти: bb=семь, aa=девять, cc=четыре, dd=9.",
+        "expected": "bb=7;aa=9;cc=4;dd=9",
+        "actual": "bb=7;aa=4;cc=4;dd=9",
+        "kind": "initial"
+      },
+      {
+        "prompt": "Сначала запомни: aa=восемь, cc=4, bb=один, dd=5.",
+        "expected": "aa=8;cc=4;bb=1;dd=5",
+        "actual": "aa=8;cc=1;bb=1;dd=5",
+        "kind": "initial"
+      }
+    ]
+  },
+  "dev_phrases": {
+    "translation_by_kind": {
+      "initial": {
+        "count": 240,
+        "accuracy": 0.9708333333333333
+      },
+      "copy": {
+        "count": 309,
+        "accuracy": 0.0
+      },
+      "set": {
+        "count": 333,
+        "accuracy": 0.7117117117117117
+      },
+      "query": {
+        "count": 240,
+        "accuracy": 1.0
+      },
+      "keep": {
+        "count": 151,
+        "accuracy": 0.5099337748344371
+      },
+      "choose": {
+        "count": 119,
+        "accuracy": 0.907563025210084
+      }
+    },
+    "pipeline": {
+      "count": 240,
+      "answer_accuracy": 0.4125,
+      "halted_fraction": 1.0,
+      "program_exact": 0.08333333333333333,
+      "clause_exact": 0.6429597701149425,
+      "by_role": {
+        "earlier_written": {
+          "count": 80,
+          "accuracy": 0.4375
+        },
+        "initial": {
+          "count": 80,
+          "accuracy": 0.4375
+        },
+        "last_written": {
+          "count": 80,
+          "accuracy": 0.3625
+        }
+      },
+      "by_length": {
+        "2": {
+          "count": 53,
+          "accuracy": 0.5849056603773585
+        },
+        "3": {
+          "count": 56,
+          "accuracy": 0.42857142857142855
+        },
+        "4": {
+          "count": 51,
+          "accuracy": 0.23529411764705882
+        },
+        "5": {
+          "count": 46,
+          "accuracy": 0.391304347826087
+        },
+        "6": {
+          "count": 34,
+          "accuracy": 0.4117647058823529
+        }
+      }
+    },
+    "oracle_formal_input": {
+      "count": 240,
+      "answer_accuracy": 0.5208333333333334,
+      "halted_fraction": 1.0,
+      "program_exact": 1.0,
+      "clause_exact": 0.0,
+      "by_role": {
+        "earlier_written": {
+          "count": 80,
+          "accuracy": 0.475
+        },
+        "initial": {
+          "count": 80,
+          "accuracy": 0.6
+        },
+        "last_written": {
+          "count": 80,
+          "accuracy": 0.4875
+        }
+      },
+      "by_length": {
+        "2": {
+          "count": 53,
+          "accuracy": 0.6037735849056604
+        },
+        "3": {
+          "count": 56,
+          "accuracy": 0.5714285714285714
+        },
+        "4": {
+          "count": 51,
+          "accuracy": 0.47058823529411764
+        },
+        "5": {
+          "count": 46,
+          "accuracy": 0.4782608695652174
+        },
+        "6": {
+          "count": 34,
+          "accuracy": 0.4411764705882353
+        }
+      }
+    },
+    "first_errors_in_fixed_data_order": [
+      {
+        "prompt": "В dd скопируй c.",
+        "expected": "dd=(c+0)%10",
+        "actual": "cd=1",
+        "kind": "copy"
+      },
+      {
+        "prompt": "В c запиши пять.",
+        "expected": "c=5",
+        "actual": "cc=5",
+        "kind": "set"
+      },
+      {
+        "prompt": "В aa не записывай четыре.",
+        "expected": "aa=(aa+0)%10",
+        "actual": "aa=4",
+        "kind": "keep"
+      },
+      {
+        "prompt": "Значение cc перепиши в a.",
+        "expected": "a=(cc+0)%10",
+        "actual": "a= cc=(cc+0)%10",
+        "kind": "copy"
+      },
+      {
+        "prompt": "В a скопируй cc.",
+        "expected": "a=(cc+0)%10",
+        "actual": "aa=1",
+        "kind": "copy"
+      },
+      {
+        "prompt": "В a скопируй dd.",
+        "expected": "a=(dd+0)%10",
+        "actual": "aa=1",
+        "kind": "copy"
+      },
+      {
+        "prompt": "В a не записывай шесть.",
+        "expected": "a=(a+0)%10",
+        "actual": "a=1",
+        "kind": "keep"
+      },
+      {
+        "prompt": "Значение cc перепиши в dd.",
+        "expected": "dd=(cc+0)%10",
+        "actual": "dd= cd= cd= dd=(dc+0)%10",
+        "kind": "copy"
+      },
+      {
+        "prompt": "В dd скопируй aa.",
+        "expected": "dd=(aa+0)%10",
+        "actual": "ad=1",
+        "kind": "copy"
+      },
+      {
+        "prompt": "В cc скопируй bb.",
+        "expected": "cc=(bb+0)%10",
+        "actual": "bb=1",
+        "kind": "copy"
+      },
+      {
+        "prompt": "Значение cc перепиши в c.",
+        "expected": "c=(cc+0)%10",
+        "actual": "cc= cc= cc= cc=(cc+0)%10",
+        "kind": "copy"
+      },
+      {
+        "prompt": "Значение dd перепиши в b.",
+        "expected": "b=(dd+0)%10",
+        "actual": "bd=d= dd= dd=d= bd=(b=(bb:b(bb+0",
+        "kind": "copy"
+      }
+    ]
+  },
+  "interpretation": "Open development diagnostics, not independent confirmation. Oracle translation is used only in the explicitly separate diagnostic control."
+}

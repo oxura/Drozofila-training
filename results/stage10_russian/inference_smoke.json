@@ -1,0 +1,37 @@
+{
+  "blocked_teacher_imports": true,
+  "prompt": "Дано: a=два, b=семь, c=ноль, d=один. Перепиши значение b в a. Не меняй значение a. Чему равно a?",
+  "result": {
+    "program": "код a=2;b=7;c=0;d=1;a=(b+0)%10;a=(a+0)%10;?a",
+    "translation_halted": true,
+    "clauses": [
+      {
+        "text": "a=2;b=7;c=0;d=1",
+        "halted": true,
+        "generated_tokens": 16
+      },
+      {
+        "text": "a=(b+0)%10",
+        "halted": true,
+        "generated_tokens": 11
+      },
+      {
+        "text": "a=(a+0)%10",
+        "halted": true,
+        "generated_tokens": 11
+      },
+      {
+        "text": "?a",
+        "halted": true,
+        "generated_tokens": 3
+      }
+    ],
+    "execution": {
+      "text": "a:7+0=7;a:7+0=7|7",
+      "halted": true,
+      "generated_tokens": 18
+    },
+    "answer": "7",
+    "halted": true
+  }
+}

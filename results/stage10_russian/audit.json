@@ -1,0 +1,14 @@
+{
+  "checkpoints": {
+    "pilot": {
+      "selected_step": 1200,
+      "final_step": 1200,
+      "examples": 38400
+    }
+  },
+  "validation_world_predictions": 480,
+  "final_world_predictions": 0,
+  "matched_sampling_across_architectures": [],
+  "frozen_sources_verified": true,
+  "teachers_excluded_from_inference": "See inference_smoke.json for blocked-import verification."
+}

@@ -1,0 +1,8 @@
+{
+  "blocked_teacher_imports": true,
+  "output": {
+    "text": "a=2;b=7;c=0;d=0;a=0;a=0|0",
+    "halted": true,
+    "generated_tokens": 26
+  }
+}

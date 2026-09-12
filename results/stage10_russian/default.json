@@ -1,0 +1,7 @@
+{
+  "name": "pilot",
+  "checkpoint": "results/stage10_russian/pilot/pilot/best.pt",
+  "sha256": "9e0690a7b1dc38de28d6642e1464475da4da27b0f1b3bde8c588307dc017acb8",
+  "selection": "Pilot development only; no independent final evaluation.",
+  "executor": "results/stage7/confirmation/history_seed1/best.pt"
+}
