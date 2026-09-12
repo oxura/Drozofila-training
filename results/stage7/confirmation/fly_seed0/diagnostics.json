@@ -1,0 +1,196 @@
+{
+  "forced_true_steps": {
+    "count": 120,
+    "accuracy": 0.9083333333333333,
+    "note": "Diagnostic teacher assistance; excluded from free-inference accuracy."
+  },
+  "history_interventions": {
+    "count": 120,
+    "baseline_correct_count": 108,
+    "follows_changed_value_on_baseline_correct": 0.4444444444444444,
+    "irrelevant_stable_on_baseline_correct": 0.9907407407407407,
+    "note": "Forced altered traces conflict with the original program. Measures sensitivity to supplied history, not semantic correctness or spontaneous memory use. Every prefix is recomputed with an empty cache."
+  },
+  "ablations": {
+    "normal": {
+      "count": 120,
+      "answer_accuracy": 0.6333333333333333,
+      "completion_exact": 0.49166666666666664,
+      "halted_fraction": 1.0,
+      "by_family": {
+        "sum": {
+          "count": 32,
+          "answer_accuracy": 0.0,
+          "completion_exact": 0.0,
+          "halted_fraction": 1.0
+        },
+        "memory": {
+          "count": 30,
+          "answer_accuracy": 0.8666666666666667,
+          "completion_exact": 0.7333333333333333,
+          "halted_fraction": 1.0
+        },
+        "code": {
+          "count": 21,
+          "answer_accuracy": 0.7619047619047619,
+          "completion_exact": 0.42857142857142855,
+          "halted_fraction": 1.0
+        },
+        "logic": {
+          "count": 37,
+          "answer_accuracy": 0.918918918918919,
+          "completion_exact": 0.7567567567567568,
+          "halted_fraction": 1.0
+        }
+      },
+      "macro_answer_accuracy": 0.6368725868725869,
+      "macro_completion_exact": 0.47966537966537964,
+      "query_position": {
+        "memory_earlier": {
+          "count": 11,
+          "answer_accuracy": 0.7272727272727273,
+          "completion_exact": 0.5454545454545454,
+          "halted_fraction": 1.0
+        },
+        "memory_last": {
+          "count": 19,
+          "answer_accuracy": 0.9473684210526315,
+          "completion_exact": 0.8421052631578947,
+          "halted_fraction": 1.0
+        },
+        "code_earlier": {
+          "count": 10,
+          "answer_accuracy": 0.9,
+          "completion_exact": 0.5,
+          "halted_fraction": 1.0
+        },
+        "code_last": {
+          "count": 11,
+          "answer_accuracy": 0.6363636363636364,
+          "completion_exact": 0.36363636363636365,
+          "halted_fraction": 1.0
+        }
+      }
+    },
+    "history_disabled": {
+      "count": 120,
+      "answer_accuracy": 0.49166666666666664,
+      "completion_exact": 0.3333333333333333,
+      "halted_fraction": 1.0,
+      "by_family": {
+        "sum": {
+          "count": 32,
+          "answer_accuracy": 0.0,
+          "completion_exact": 0.0,
+          "halted_fraction": 1.0
+        },
+        "memory": {
+          "count": 30,
+          "answer_accuracy": 0.4666666666666667,
+          "completion_exact": 0.26666666666666666,
+          "halted_fraction": 1.0
+        },
+        "code": {
+          "count": 21,
+          "answer_accuracy": 0.5238095238095238,
+          "completion_exact": 0.19047619047619047,
+          "halted_fraction": 1.0
+        },
+        "logic": {
+          "count": 37,
+          "answer_accuracy": 0.918918918918919,
+          "completion_exact": 0.7567567567567568,
+          "halted_fraction": 1.0
+        }
+      },
+      "macro_answer_accuracy": 0.47734877734877734,
+      "macro_completion_exact": 0.30347490347490347,
+      "query_position": {
+        "memory_earlier": {
+          "count": 11,
+          "answer_accuracy": 0.45454545454545453,
+          "completion_exact": 0.18181818181818182,
+          "halted_fraction": 1.0
+        },
+        "memory_last": {
+          "count": 19,
+          "answer_accuracy": 0.47368421052631576,
+          "completion_exact": 0.3157894736842105,
+          "halted_fraction": 1.0
+        },
+        "code_earlier": {
+          "count": 10,
+          "answer_accuracy": 0.8,
+          "completion_exact": 0.4,
+          "halted_fraction": 1.0
+        },
+        "code_last": {
+          "count": 11,
+          "answer_accuracy": 0.2727272727272727,
+          "completion_exact": 0.0,
+          "halted_fraction": 1.0
+        }
+      }
+    },
+    "edges_disabled": {
+      "count": 120,
+      "answer_accuracy": 0.5583333333333333,
+      "completion_exact": 0.36666666666666664,
+      "halted_fraction": 1.0,
+      "by_family": {
+        "sum": {
+          "count": 32,
+          "answer_accuracy": 0.0,
+          "completion_exact": 0.0,
+          "halted_fraction": 1.0
+        },
+        "memory": {
+          "count": 30,
+          "answer_accuracy": 0.8,
+          "completion_exact": 0.5333333333333333,
+          "halted_fraction": 1.0
+        },
+        "code": {
+          "count": 21,
+          "answer_accuracy": 0.6190476190476191,
+          "completion_exact": 0.2857142857142857,
+          "halted_fraction": 1.0
+        },
+        "logic": {
+          "count": 37,
+          "answer_accuracy": 0.8108108108108109,
+          "completion_exact": 0.5945945945945946,
+          "halted_fraction": 1.0
+        }
+      },
+      "macro_answer_accuracy": 0.5574646074646075,
+      "macro_completion_exact": 0.3534105534105534,
+      "query_position": {
+        "memory_earlier": {
+          "count": 11,
+          "answer_accuracy": 0.45454545454545453,
+          "completion_exact": 0.2727272727272727,
+          "halted_fraction": 1.0
+        },
+        "memory_last": {
+          "count": 19,
+          "answer_accuracy": 1.0,
+          "completion_exact": 0.6842105263157895,
+          "halted_fraction": 1.0
+        },
+        "code_earlier": {
+          "count": 10,
+          "answer_accuracy": 0.8,
+          "completion_exact": 0.3,
+          "halted_fraction": 1.0
+        },
+        "code_last": {
+          "count": 11,
+          "answer_accuracy": 0.45454545454545453,
+          "completion_exact": 0.2727272727272727,
+          "halted_fraction": 1.0
+        }
+      }
+    }
+  }
+}

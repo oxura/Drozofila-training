@@ -1,0 +1,107 @@
+{
+  "created_utc": "2026-09-12T15:39:53.473017+00:00",
+  "runs": {
+    "gru_seed0": {
+      "train": {
+        "count": 4200,
+        "accuracy": 0.48214285714285715,
+        "macro_role_accuracy": 0.48214285714285715,
+        "loss": 1.3640572959805528,
+        "by_role": {
+          "initial": 0.2642857142857143,
+          "earlier_written": 0.3964285714285714,
+          "last": 0.7857142857142857
+        },
+        "by_length": {
+          "2": 0.4866666666666667,
+          "3": 0.5116666666666667,
+          "4": 0.505,
+          "5": 0.4683333333333333,
+          "6": 0.5066666666666667,
+          "7": 0.44666666666666666,
+          "8": 0.45
+        }
+      },
+      "selection_and_optimizer_checked": true
+    },
+    "slots_seed0": {
+      "train": {
+        "count": 4200,
+        "accuracy": 0.38333333333333336,
+        "macro_role_accuracy": 0.3833333333333333,
+        "loss": 1.7094947119270052,
+        "by_role": {
+          "initial": 0.17857142857142858,
+          "earlier_written": 0.32285714285714284,
+          "last": 0.6485714285714286
+        },
+        "by_length": {
+          "2": 0.435,
+          "3": 0.405,
+          "4": 0.395,
+          "5": 0.38333333333333336,
+          "6": 0.37833333333333335,
+          "7": 0.37833333333333335,
+          "8": 0.30833333333333335
+        }
+      },
+      "selection_and_optimizer_checked": true,
+      "address_diagnostics": {
+        "read_entropy_fraction": 0.8503520060330629,
+        "needed_event_coefficient_mass": 0.03794928805598627,
+        "latest_write_coefficient_mass": 0.03780973030855724,
+        "query_event_coefficient_mass": 0.041336534494378914,
+        "total_event_coefficient_mass": 0.44395028338250186,
+        "query_write_gate": 0.5116657683418857
+      }
+    },
+    "wider_seed0": {
+      "train": {
+        "count": 4200,
+        "accuracy": 0.38047619047619047,
+        "macro_role_accuracy": 0.38047619047619047,
+        "loss": 1.6929104462017615,
+        "by_role": {
+          "initial": 0.185,
+          "earlier_written": 0.3192857142857143,
+          "last": 0.6371428571428571
+        },
+        "by_length": {
+          "2": 0.42,
+          "3": 0.4033333333333333,
+          "4": 0.3933333333333333,
+          "5": 0.38666666666666666,
+          "6": 0.3616666666666667,
+          "7": 0.375,
+          "8": 0.3233333333333333
+        }
+      },
+      "selection_and_optimizer_checked": true
+    }
+  },
+  "cli_teacher_imports_blocked": true,
+  "demonstrations": [
+    {
+      "prompt": "код a=2;b=3;c=0;d=1;a=7;b=8;?a",
+      "output": {
+        "answer": 8,
+        "checkpoint": "/workspace/scratch/f69c8da825ec/flybrain_lab/results/stage8_pilot/gru_seed0/best.pt",
+        "stage": "stage8_pilot",
+        "evaluation_status": "development only"
+      }
+    },
+    {
+      "prompt": "код a=2;b=3;c=0;d=1;a=7;b=8;?b",
+      "output": {
+        "answer": 8,
+        "checkpoint": "/workspace/scratch/f69c8da825ec/flybrain_lab/results/stage8_pilot/gru_seed0/best.pt",
+        "stage": "stage8_pilot",
+        "evaluation_status": "development only"
+      }
+    }
+  ],
+  "additional_training_fit_predictions": 12600,
+  "final_test_used": false,
+  "checkpoints_unchanged": true,
+  "note": "Post-hoc descriptive diagnostics on train/dev, no tuning. Coefficient masses omit value vectors and the output projection; they are not semantic accuracy or causal attribution."
+}

@@ -18,6 +18,7 @@ def git(*args):
 def main():
     p = argparse.ArgumentParser(); p.add_argument('--label', required=True)
     p.add_argument('--sdk-dir', required=True); p.add_argument('--connector-id', required=True)
+    p.add_argument('--extra-path', action='append', default=[], help='Additional completed repository artifact or directory.')
     args = p.parse_args(); assert re.fullmatch(r'[a-z0-9_-]+', args.label)
     assert not git('diff', '--cached', '--name-only').strip(), 'Preserve/reconcile the existing staged changes first.'
     state = Path('/tmp/flybrain-publish'); state.mkdir(exist_ok=True)
@@ -28,6 +29,10 @@ def main():
         'notes/stage7_CONTINUE_before_recovery.md',
         'results/stage7/data_characterization.json', 'results/stage7/recovery/restore_manifest.json']]
     paths.extend((ROOT / 'results/stage7/recovery').glob('*.json'))
+    for name in args.extra_path:
+        extra = (ROOT / name).resolve()
+        assert extra.is_relative_to(ROOT), name
+        paths.append(extra)
     for filename in ['checkpoint_consistency.json', 'checkpoints_before_test.json', 'cli_verification.json']:
         paths.append(ROOT / 'results/stage7' / filename)
     progress = {}
@@ -41,7 +46,11 @@ def main():
         progress[name] = last['step']
         # Completed evaluations are immutable. Otherwise include only training
         # files; prediction files may still be in the middle of a write.
-        evaluated = (path / 'final_metrics.json').exists()
+        try:
+            metrics = json.loads((path / 'final_metrics.json').read_text())
+            evaluated = metrics['checkpoint_unchanged'] and len(metrics['splits']) == len(plan['final_splits']) + 1
+        except (FileNotFoundError, json.JSONDecodeError):
+            evaluated = False
         training_files = {'best.pt', 'last.pt', 'config.json', 'history.jsonl',
             'validation.json', 'initial_validation.json', 'initial_predictions.jsonl',
             'validation_predictions.jsonl'}

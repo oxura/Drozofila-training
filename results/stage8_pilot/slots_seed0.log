@@ -1,0 +1,5 @@
+{"run": "slots_seed0", "step": 300, "dev": 0.33611111111111114}
+{"run": "slots_seed0", "step": 600, "dev": 0.31805555555555554}
+{"run": "slots_seed0", "step": 900, "dev": 0.3125}
+{"run": "slots_seed0", "step": 1200, "dev": 0.31666666666666665}
+{"run": "slots_seed0", "step": 1500, "dev": 0.30694444444444446}

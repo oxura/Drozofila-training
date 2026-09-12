@@ -1,0 +1,92 @@
+{
+  "config": {
+    "mode": "gru",
+    "width": 64,
+    "seed": 0,
+    "steps": 1500,
+    "batch_size": 64,
+    "eval_every": 300,
+    "lr": 0.002,
+    "threads": 1
+  },
+  "parameters": 29898,
+  "best_step": 1200,
+  "dev": {
+    "dev": {
+      "count": 720,
+      "accuracy": 0.3375,
+      "macro_role_accuracy": 0.33749999999999997,
+      "loss": 1.8934749379340146,
+      "by_role": {
+        "initial": 0.15833333333333333,
+        "earlier_written": 0.175,
+        "last": 0.6791666666666667
+      },
+      "by_length": {
+        "2": 0.37777777777777777,
+        "5": 0.3333333333333333,
+        "8": 0.29444444444444445,
+        "12": 0.34444444444444444
+      }
+    },
+    "dev_renamed": {
+      "count": 720,
+      "accuracy": 0.32222222222222224,
+      "macro_role_accuracy": 0.32222222222222224,
+      "loss": 1.9529603096759982,
+      "by_role": {
+        "initial": 0.18333333333333332,
+        "earlier_written": 0.17083333333333334,
+        "last": 0.6125
+      },
+      "by_length": {
+        "2": 0.37222222222222223,
+        "5": 0.3277777777777778,
+        "8": 0.29444444444444445,
+        "12": 0.29444444444444445
+      }
+    },
+    "dev_unseen": {
+      "count": 720,
+      "accuracy": 0.3375,
+      "macro_role_accuracy": 0.33749999999999997,
+      "loss": 1.887794129933334,
+      "by_role": {
+        "initial": 0.1375,
+        "earlier_written": 0.1875,
+        "last": 0.6875
+      },
+      "by_length": {
+        "2": 0.39444444444444443,
+        "5": 0.31666666666666665,
+        "8": 0.3111111111111111,
+        "12": 0.3277777777777778
+      }
+    }
+  },
+  "interventions": {
+    "no_recurrent": {
+      "count": 720,
+      "accuracy": 0.10277777777777777,
+      "macro_role_accuracy": 0.10277777777777779,
+      "loss": 2.3343309367696445,
+      "by_role": {
+        "initial": 0.09166666666666666,
+        "earlier_written": 0.10833333333333334,
+        "last": 0.10833333333333334
+      },
+      "by_length": {
+        "2": 0.10555555555555556,
+        "5": 0.12222222222222222,
+        "8": 0.1,
+        "12": 0.08333333333333333
+      }
+    }
+  },
+  "presentations": 96000,
+  "completed_steps": 1500,
+  "checkpoint_sha256": "857367cffc4787e5570d4e7722f160b80c6c3ff68487c884d6ed27243627725b",
+  "final_test_used": false,
+  "previous_stage_default_replaced": false,
+  "note": "Open development measurements, one seed. Input provides event boundaries and the query location; learned halting and arithmetic are not tested."
+}

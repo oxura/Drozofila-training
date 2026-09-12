@@ -1,0 +1,109 @@
+{
+  "config": {
+    "mode": "slots",
+    "width": 64,
+    "seed": 0,
+    "steps": 1500,
+    "batch_size": 64,
+    "eval_every": 300,
+    "lr": 0.002,
+    "threads": 1
+  },
+  "parameters": 33131,
+  "best_step": 300,
+  "dev": {
+    "dev": {
+      "count": 720,
+      "accuracy": 0.33611111111111114,
+      "macro_role_accuracy": 0.3361111111111111,
+      "loss": 1.9028307075094846,
+      "by_role": {
+        "initial": 0.13333333333333333,
+        "earlier_written": 0.21666666666666667,
+        "last": 0.6583333333333333
+      },
+      "by_length": {
+        "2": 0.4,
+        "5": 0.3333333333333333,
+        "8": 0.3,
+        "12": 0.3111111111111111
+      }
+    },
+    "dev_renamed": {
+      "count": 720,
+      "accuracy": 0.32083333333333336,
+      "macro_role_accuracy": 0.32083333333333336,
+      "loss": 1.909155621048477,
+      "by_role": {
+        "initial": 0.11666666666666667,
+        "earlier_written": 0.22083333333333333,
+        "last": 0.625
+      },
+      "by_length": {
+        "2": 0.36666666666666664,
+        "5": 0.32222222222222224,
+        "8": 0.3055555555555556,
+        "12": 0.28888888888888886
+      }
+    },
+    "dev_unseen": {
+      "count": 720,
+      "accuracy": 0.325,
+      "macro_role_accuracy": 0.325,
+      "loss": 1.8971724678451816,
+      "by_role": {
+        "initial": 0.13333333333333333,
+        "earlier_written": 0.2125,
+        "last": 0.6291666666666667
+      },
+      "by_length": {
+        "2": 0.38333333333333336,
+        "5": 0.3333333333333333,
+        "8": 0.2833333333333333,
+        "12": 0.3
+      }
+    }
+  },
+  "interventions": {
+    "no_slots": {
+      "count": 720,
+      "accuracy": 0.3402777777777778,
+      "macro_role_accuracy": 0.34027777777777773,
+      "loss": 1.8917907323688268,
+      "by_role": {
+        "initial": 0.11666666666666667,
+        "earlier_written": 0.20833333333333334,
+        "last": 0.6958333333333333
+      },
+      "by_length": {
+        "2": 0.38333333333333336,
+        "5": 0.35,
+        "8": 0.32222222222222224,
+        "12": 0.3055555555555556
+      }
+    },
+    "no_recurrent": {
+      "count": 720,
+      "accuracy": 0.15555555555555556,
+      "macro_role_accuracy": 0.15555555555555556,
+      "loss": 2.2441465662585363,
+      "by_role": {
+        "initial": 0.15416666666666667,
+        "earlier_written": 0.15416666666666667,
+        "last": 0.15833333333333333
+      },
+      "by_length": {
+        "2": 0.2222222222222222,
+        "5": 0.15,
+        "8": 0.1388888888888889,
+        "12": 0.1111111111111111
+      }
+    }
+  },
+  "presentations": 96000,
+  "completed_steps": 1500,
+  "checkpoint_sha256": "6509bcd204c9b65044a9bbf918b72ad1cff6fb36be147ac632451d23cd798f7e",
+  "final_test_used": false,
+  "previous_stage_default_replaced": false,
+  "note": "Open development measurements, one seed. Input provides event boundaries and the query location; learned halting and arithmetic are not tested."
+}
