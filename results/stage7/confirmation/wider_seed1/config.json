@@ -1,0 +1,14 @@
+{
+  "variant": "wider",
+  "mode": "history",
+  "condition": "mlp",
+  "curriculum": true,
+  "wider": true,
+  "answer_weight": 0.0,
+  "seed": 1,
+  "steps": 8000,
+  "eval_every": 2000,
+  "batch_size": 16,
+  "lr": 0.0005,
+  "threads": 1
+}
