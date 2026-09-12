@@ -1,0 +1,190 @@
+{
+  "status": "Main model evaluations completed; complete archive and final source-baseline comparison unavailable after execution environment disconnected.",
+  "evidence": "These values were read from local final_metrics.json files before disconnection. Group percentages are rounded to two decimals; this is not the full raw-result archive.",
+  "date": "2026-09-12",
+  "confirmation_runs": 24,
+  "pilot_runs": 6,
+  "seeds_per_variant": 3,
+  "completed_optimizer_progress_steps": 201600,
+  "training_example_presentations": 3225600,
+  "accounting_note": "Excludes repeated work after interruption, profiling and verification updates.",
+  "main_predictions_per_frozen_plan": 72960,
+  "historical_predictions_per_frozen_plan": 17280,
+  "final_test_open": true,
+  "default_model": {
+    "run": "history_seed1",
+    "checkpoint": "results/stage7/confirmation/history_seed1/best.pt",
+    "validation_score": [
+      0.8916666666666667,
+      0.8041666666666667,
+      -0.020285721169859796
+    ],
+    "selection": "Validation only before test",
+    "final_test_used": false
+  },
+  "default_checkpoint_git_blob": "d854ae1079941ac330160c60fc3fe4bd7383ecf7",
+  "new_test_rows_per_family": 240,
+  "unit": "percent",
+  "groups": {
+    "prompt": {
+      "memory": 76.67,
+      "code": 39.03,
+      "sum": 73.33,
+      "logic": 89.44,
+      "macro": 69.62
+    },
+    "history": {
+      "memory": 82.78,
+      "code": 56.53,
+      "sum": 79.86,
+      "logic": 92.36,
+      "macro": 77.88
+    },
+    "slots": {
+      "memory": 85.56,
+      "code": 59.17,
+      "sum": 79.03,
+      "logic": 89.31,
+      "macro": 78.26
+    },
+    "wider": {
+      "memory": 84.86,
+      "code": 58.61,
+      "sum": 79.03,
+      "logic": 90.56,
+      "macro": 78.26
+    },
+    "no_memory_curriculum": {
+      "memory": 22.08,
+      "code": 47.64,
+      "sum": 71.53,
+      "logic": 89.86,
+      "macro": 57.78
+    },
+    "fly": {
+      "memory": 84.86,
+      "code": 63.06,
+      "sum": 10.56,
+      "logic": 84.72,
+      "macro": 60.8
+    },
+    "rewired": {
+      "memory": 70.42,
+      "code": 39.31,
+      "sum": 25.97,
+      "logic": 85,
+      "macro": 55.17
+    },
+    "no_edges": {
+      "memory": 71.67,
+      "code": 47.92,
+      "sum": 5.14,
+      "logic": 83.89,
+      "macro": 52.15
+    }
+  },
+  "selected_test": {
+    "memory": 87.08,
+    "code": 67.92,
+    "sum": 91.25,
+    "logic": 93.75,
+    "macro": 85
+  },
+  "selected_transfer": {
+    "long_16": {
+      "memory": 25,
+      "code": 11.25
+    },
+    "very_long_32": {
+      "memory": 13.12,
+      "code": 8.12
+    },
+    "renamed_familiar_characters": {
+      "memory": 68.75,
+      "code": 33.75
+    },
+    "unseen_characters": {
+      "memory": 27.08,
+      "code": 7.92
+    }
+  },
+  "selected_memory_query_roles": {
+    "initial": {
+      "count": 38,
+      "accuracy": 63.16
+    },
+    "earlier_written": {
+      "count": 82,
+      "accuracy": 79.27
+    },
+    "last": {
+      "count": 120,
+      "accuracy": 100
+    }
+  },
+  "selected_code_query_roles": {
+    "initial": {
+      "count": 78,
+      "accuracy": 73.08
+    },
+    "earlier_written": {
+      "count": 42,
+      "accuracy": 47.62
+    },
+    "last": {
+      "count": 120,
+      "accuracy": 71.67
+    }
+  },
+  "selected_code_syntactically_complete_fragments": {
+    "expected_16": 8.28125,
+    "expected_32": 9.6125,
+    "note": "Fragment count is not semantic correctness."
+  },
+  "group_diagnostic_macro_on_first_120": {
+    "history": {
+      "normal": 78.3,
+      "history_disabled": 60.61
+    },
+    "slots": {
+      "normal": 82.17,
+      "history_disabled": 61.85,
+      "slots_disabled": 79.58
+    },
+    "wider": {
+      "normal": 82.08,
+      "history_disabled": 61.17
+    },
+    "fly": {
+      "normal": 66.99,
+      "history_disabled": 53.26,
+      "edges_disabled": 58.33
+    },
+    "rewired": {
+      "normal": 57.02,
+      "history_disabled": 48.58,
+      "edges_disabled": 50.76
+    },
+    "no_edges": {
+      "normal": 52.53,
+      "history_disabled": 37.57
+    }
+  },
+  "operational_cli_checks": {
+    "teacher_imports_blocked": true,
+    "demonstrations": 4,
+    "invalid_input_checks": 3,
+    "accuracy_benchmark": false
+  },
+  "checkpoint_consistency_audit_reported_pass": 24,
+  "source_baseline_files_last_observed": 1,
+  "source_baselines_planned": 12,
+  "complete_archive_published": false,
+  "final_report_generated_and_reviewed": false,
+  "limitations": [
+    "Full prior text remains visible to the Transformer; storage after context removal was not tested.",
+    "One source graph of 256 nodes/7514 edges, repeated in three artificial blocks; not whole-brain emulation.",
+    "Warm starts differ across graph conditions; three seeds are not independent biological subgraphs.",
+    "Formal tasks and procedurally generated labels; no general Russian language or arbitrary code generation demonstrated."
+  ]
+}

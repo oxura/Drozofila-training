@@ -1,0 +1,11 @@
+{
+  "run": "history_seed1",
+  "checkpoint": "results/stage7/confirmation/history_seed1/best.pt",
+  "validation_score": [
+    0.8916666666666667,
+    0.8041666666666667,
+    -0.020285721169859796
+  ],
+  "selection": "Validation only before test",
+  "final_test_used": false
+}
