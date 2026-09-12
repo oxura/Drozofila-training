@@ -1,0 +1,108 @@
+{
+  "config": {
+    "mode": "hidden",
+    "condition": "no_edges",
+    "seed": 2,
+    "steps": 1200,
+    "ticks": 4,
+    "batch_size": 112,
+    "sequence_batch_size": 16,
+    "lr": 0.003,
+    "threads": 2,
+    "eval_every": 300
+  },
+  "best_step": 300,
+  "splits": {
+    "test": {
+      "exact": 0.25,
+      "nonempty_exact": 0.0,
+      "nonempty_count": 180,
+      "count": 240,
+      "empty_answer_baseline": 0.25,
+      "completed_and_halted": 1.0,
+      "errors": {},
+      "mean_steps": 8.445833333333333
+    },
+    "composition": {
+      "exact": 0.25,
+      "nonempty_exact": 0.0,
+      "nonempty_count": 180,
+      "count": 240,
+      "empty_answer_baseline": 0.25,
+      "completed_and_halted": 1.0,
+      "errors": {},
+      "mean_steps": 9.391666666666667
+    },
+    "long_tape": {
+      "exact": 0.25,
+      "nonempty_exact": 0.0,
+      "nonempty_count": 216,
+      "count": 288,
+      "empty_answer_baseline": 0.25,
+      "completed_and_halted": 1.0,
+      "errors": {},
+      "mean_steps": 99.53819444444444
+    },
+    "long_program": {
+      "exact": 0.25,
+      "nonempty_exact": 0.0,
+      "nonempty_count": 216,
+      "count": 288,
+      "empty_answer_baseline": 0.25,
+      "completed_and_halted": 1.0,
+      "errors": {},
+      "mean_steps": 21.03125
+    },
+    "stress": {
+      "exact": 0.5416666666666666,
+      "nonempty_exact": 0.0,
+      "nonempty_count": 11,
+      "count": 24,
+      "empty_answer_baseline": 0.5416666666666666,
+      "completed_and_halted": 1.0,
+      "errors": {},
+      "mean_steps": 49.5
+    }
+  },
+  "grouped": {
+    "long_tape": {
+      "16": {
+        "count": 96,
+        "exact": 0.25,
+        "nonempty_exact": 0.0
+      },
+      "64": {
+        "count": 96,
+        "exact": 0.25,
+        "nonempty_exact": 0.0
+      },
+      "256": {
+        "count": 96,
+        "exact": 0.25,
+        "nonempty_exact": 0.0
+      }
+    },
+    "long_program": {
+      "4": {
+        "count": 96,
+        "exact": 0.25,
+        "nonempty_exact": 0.0
+      },
+      "8": {
+        "count": 96,
+        "exact": 0.25,
+        "nonempty_exact": 0.0
+      },
+      "16": {
+        "count": 96,
+        "exact": 0.25,
+        "nonempty_exact": 0.0
+      }
+    }
+  },
+  "local_training_rules": null,
+  "direct_cache_parity": null,
+  "post_training_edge_ablation": null,
+  "seconds": 0.7624200579884928,
+  "checkpoint_sha256": "5f58bbf43efd0a4922020a266fde2ee299a1f2a3c7b49af24ec586ec6b7c395a"
+}

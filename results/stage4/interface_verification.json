@@ -1,0 +1,276 @@
+{
+  "program_example": {
+    "answer": [
+      5,
+      3
+    ],
+    "program_completed": true,
+    "halted": true,
+    "error": null,
+    "steps": 30,
+    "trace": [
+      {
+        "observation": [
+          1,
+          10,
+          14
+        ],
+        "action": "right"
+      },
+      {
+        "observation": [
+          1,
+          1,
+          1
+        ],
+        "action": "right"
+      },
+      {
+        "observation": [
+          1,
+          2,
+          1
+        ],
+        "action": "right"
+      },
+      {
+        "observation": [
+          1,
+          3,
+          1
+        ],
+        "action": "right"
+      },
+      {
+        "observation": [
+          1,
+          4,
+          1
+        ],
+        "action": "right"
+      },
+      {
+        "observation": [
+          1,
+          11,
+          1
+        ],
+        "action": "left"
+      },
+      {
+        "observation": [
+          1,
+          4,
+          0
+        ],
+        "action": "write_4"
+      },
+      {
+        "observation": [
+          1,
+          4,
+          6
+        ],
+        "action": "left"
+      },
+      {
+        "observation": [
+          1,
+          3,
+          0
+        ],
+        "action": "write_3"
+      },
+      {
+        "observation": [
+          1,
+          3,
+          5
+        ],
+        "action": "left"
+      },
+      {
+        "observation": [
+          1,
+          2,
+          0
+        ],
+        "action": "write_2"
+      },
+      {
+        "observation": [
+          1,
+          2,
+          4
+        ],
+        "action": "left"
+      },
+      {
+        "observation": [
+          1,
+          1,
+          0
+        ],
+        "action": "write_1"
+      },
+      {
+        "observation": [
+          1,
+          1,
+          3
+        ],
+        "action": "left"
+      },
+      {
+        "observation": [
+          1,
+          10,
+          0
+        ],
+        "action": "next"
+      },
+      {
+        "observation": [
+          2,
+          10,
+          12
+        ],
+        "action": "right"
+      },
+      {
+        "observation": [
+          2,
+          4,
+          1
+        ],
+        "action": "write_4"
+      },
+      {
+        "observation": [
+          2,
+          4,
+          6
+        ],
+        "action": "right"
+      },
+      {
+        "observation": [
+          2,
+          3,
+          1
+        ],
+        "action": "right"
+      },
+      {
+        "observation": [
+          2,
+          2,
+          1
+        ],
+        "action": "write_2"
+      },
+      {
+        "observation": [
+          2,
+          2,
+          4
+        ],
+        "action": "right"
+      },
+      {
+        "observation": [
+          2,
+          1,
+          1
+        ],
+        "action": "right"
+      },
+      {
+        "observation": [
+          2,
+          11,
+          1
+        ],
+        "action": "next"
+      },
+      {
+        "observation": [
+          4,
+          10,
+          12
+        ],
+        "action": "right"
+      },
+      {
+        "observation": [
+          4,
+          4,
+          1
+        ],
+        "action": "write_5"
+      },
+      {
+        "observation": [
+          4,
+          4,
+          7
+        ],
+        "action": "right"
+      },
+      {
+        "observation": [
+          4,
+          2,
+          1
+        ],
+        "action": "write_3"
+      },
+      {
+        "observation": [
+          4,
+          2,
+          5
+        ],
+        "action": "right"
+      },
+      {
+        "observation": [
+          4,
+          11,
+          1
+        ],
+        "action": "next"
+      },
+      {
+        "observation": [
+          6,
+          10,
+          12
+        ],
+        "action": "halt"
+      }
+    ],
+    "program": [
+      "reverse",
+      "even",
+      "inc"
+    ],
+    "method": "learned_low_level_actions"
+  },
+  "goal_example": {
+    "found": true,
+    "program": [
+      "reverse",
+      "inc"
+    ],
+    "predicted_result": [
+      4,
+      3,
+      2
+    ],
+    "expanded": 2,
+    "visited": 7,
+    "invalid_model_transitions": 0,
+    "method": "engineered_search_with_learned_transitions"
+  }
+}

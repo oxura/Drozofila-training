@@ -1,0 +1,4946 @@
+{
+  "aggregate": {
+    "reactive/fly": {
+      "seeds": 3,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        },
+        "long_tape": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        },
+        "long_program": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        },
+        "stress": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "64": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "256": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        },
+        "long_program": {
+          "4": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "16": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        }
+      }
+    },
+    "reactive/rewired": {
+      "seeds": 3,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        },
+        "long_tape": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        },
+        "long_program": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        },
+        "stress": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "64": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "256": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        },
+        "long_program": {
+          "4": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "16": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        }
+      }
+    },
+    "reactive/frozen": {
+      "seeds": 3,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        },
+        "long_tape": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        },
+        "long_program": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        },
+        "stress": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "64": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "256": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        },
+        "long_program": {
+          "4": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "16": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        }
+      }
+    },
+    "reactive/no_edges": {
+      "seeds": 3,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        },
+        "long_tape": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        },
+        "long_program": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        },
+        "stress": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "64": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "256": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        },
+        "long_program": {
+          "4": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "16": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        }
+      }
+    },
+    "reactive/mlp": {
+      "seeds": 3,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        },
+        "long_tape": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        },
+        "long_program": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        },
+        "stress": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "64": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "256": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        },
+        "long_program": {
+          "4": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "16": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        }
+      }
+    },
+    "hidden/fly": {
+      "seeds": 3,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        },
+        "composition": {
+          "exact": 0.9875000000000002,
+          "nonempty_exact": 0.9833333333333334
+        },
+        "long_tape": {
+          "exact": 0.7175925925925926,
+          "nonempty_exact": 0.6234567901234568
+        },
+        "long_program": {
+          "exact": 0.96875,
+          "nonempty_exact": 0.9614197530864197
+        },
+        "stress": {
+          "exact": 0.7916666666666666,
+          "nonempty_exact": 0.5454545454545455
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "exact": 0.9201388888888888,
+            "nonempty_exact": 0.8935185185185186
+          },
+          "64": {
+            "exact": 0.7048611111111112,
+            "nonempty_exact": 0.6064814814814815
+          },
+          "256": {
+            "exact": 0.5277777777777778,
+            "nonempty_exact": 0.3703703703703704
+          }
+        },
+        "long_program": {
+          "4": {
+            "exact": 0.9965277777777778,
+            "nonempty_exact": 0.9953703703703703
+          },
+          "8": {
+            "exact": 0.9791666666666666,
+            "nonempty_exact": 0.976851851851852
+          },
+          "16": {
+            "exact": 0.9305555555555555,
+            "nonempty_exact": 0.9120370370370371
+          }
+        }
+      }
+    },
+    "hidden/rewired": {
+      "seeds": 3,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        },
+        "long_tape": {
+          "exact": 0.7974537037037037,
+          "nonempty_exact": 0.7314814814814815
+        },
+        "long_program": {
+          "exact": 0.9988425925925926,
+          "nonempty_exact": 0.9984567901234568
+        },
+        "stress": {
+          "exact": 0.736111111111111,
+          "nonempty_exact": 0.48484848484848486
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "exact": 0.9409722222222223,
+            "nonempty_exact": 0.9212962962962963
+          },
+          "64": {
+            "exact": 0.7777777777777777,
+            "nonempty_exact": 0.7037037037037037
+          },
+          "256": {
+            "exact": 0.673611111111111,
+            "nonempty_exact": 0.5694444444444444
+          }
+        },
+        "long_program": {
+          "4": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "exact": 0.9965277777777778,
+            "nonempty_exact": 0.9953703703703703
+          },
+          "16": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        }
+      }
+    },
+    "hidden/frozen": {
+      "seeds": 3,
+      "splits": {
+        "test": {
+          "exact": 0.9763888888888889,
+          "nonempty_exact": 0.9685185185185184
+        },
+        "composition": {
+          "exact": 0.9652777777777777,
+          "nonempty_exact": 0.9537037037037037
+        },
+        "long_tape": {
+          "exact": 0.5775462962962963,
+          "nonempty_exact": 0.44135802469135804
+        },
+        "long_program": {
+          "exact": 0.9178240740740741,
+          "nonempty_exact": 0.8904320987654323
+        },
+        "stress": {
+          "exact": 0.75,
+          "nonempty_exact": 0.48484848484848486
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "exact": 0.7847222222222222,
+            "nonempty_exact": 0.7129629629629629
+          },
+          "64": {
+            "exact": 0.5173611111111112,
+            "nonempty_exact": 0.3657407407407407
+          },
+          "256": {
+            "exact": 0.4305555555555556,
+            "nonempty_exact": 0.24537037037037038
+          }
+        },
+        "long_program": {
+          "4": {
+            "exact": 0.9340277777777778,
+            "nonempty_exact": 0.9120370370370371
+          },
+          "8": {
+            "exact": 0.9340277777777777,
+            "nonempty_exact": 0.9120370370370371
+          },
+          "16": {
+            "exact": 0.8854166666666666,
+            "nonempty_exact": 0.8472222222222222
+          }
+        }
+      }
+    },
+    "hidden/no_edges": {
+      "seeds": 3,
+      "splits": {
+        "test": {
+          "exact": 0.25,
+          "nonempty_exact": 0.003703703703703704
+        },
+        "composition": {
+          "exact": 0.2388888888888889,
+          "nonempty_exact": 0.011111111111111112
+        },
+        "long_tape": {
+          "exact": 0.2488425925925926,
+          "nonempty_exact": 0.0
+        },
+        "long_program": {
+          "exact": 0.23495370370370372,
+          "nonempty_exact": 0.0
+        },
+        "stress": {
+          "exact": 0.5277777777777777,
+          "nonempty_exact": 0.0
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "exact": 0.25,
+            "nonempty_exact": 0.0
+          },
+          "64": {
+            "exact": 0.25,
+            "nonempty_exact": 0.0
+          },
+          "256": {
+            "exact": 0.2465277777777778,
+            "nonempty_exact": 0.0
+          }
+        },
+        "long_program": {
+          "4": {
+            "exact": 0.23958333333333334,
+            "nonempty_exact": 0.0
+          },
+          "8": {
+            "exact": 0.22916666666666666,
+            "nonempty_exact": 0.0
+          },
+          "16": {
+            "exact": 0.23611111111111113,
+            "nonempty_exact": 0.0
+          }
+        }
+      }
+    },
+    "hidden/gru": {
+      "seeds": 3,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        },
+        "long_tape": {
+          "exact": 0.9143518518518517,
+          "nonempty_exact": 0.8873456790123457
+        },
+        "long_program": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        },
+        "stress": {
+          "exact": 0.8611111111111112,
+          "nonempty_exact": 0.6969696969696969
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "64": {
+            "exact": 0.9479166666666666,
+            "nonempty_exact": 0.9305555555555555
+          },
+          "256": {
+            "exact": 0.795138888888889,
+            "nonempty_exact": 0.7314814814814815
+          }
+        },
+        "long_program": {
+          "4": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "16": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        }
+      }
+    },
+    "recurrent/fly": {
+      "seeds": 3,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        },
+        "long_tape": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        },
+        "long_program": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        },
+        "stress": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "64": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "256": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        },
+        "long_program": {
+          "4": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "16": {
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        }
+      }
+    },
+    "blind/fly": {
+      "seeds": 3,
+      "splits": {
+        "test": {
+          "exact": 0.05833333333333333,
+          "nonempty_exact": 0.0
+        },
+        "composition": {
+          "exact": 0.13333333333333333,
+          "nonempty_exact": 0.0
+        },
+        "long_tape": {
+          "exact": 0.003472222222222222,
+          "nonempty_exact": 0.0
+        },
+        "long_program": {
+          "exact": 0.05555555555555555,
+          "nonempty_exact": 0.0
+        },
+        "stress": {
+          "exact": 0.375,
+          "nonempty_exact": 0.0
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "exact": 0.0,
+            "nonempty_exact": 0.0
+          },
+          "64": {
+            "exact": 0.0,
+            "nonempty_exact": 0.0
+          },
+          "256": {
+            "exact": 0.010416666666666666,
+            "nonempty_exact": 0.0
+          }
+        },
+        "long_program": {
+          "4": {
+            "exact": 0.052083333333333336,
+            "nonempty_exact": 0.0
+          },
+          "8": {
+            "exact": 0.07291666666666667,
+            "nonempty_exact": 0.0
+          },
+          "16": {
+            "exact": 0.041666666666666664,
+            "nonempty_exact": 0.0
+          }
+        }
+      }
+    }
+  },
+  "runs": {
+    "reactive_fly_seed0": {
+      "config": {
+        "mode": "reactive",
+        "condition": "fly",
+        "seed": 0,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 18.779166666666665
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 24.420833333333334
+        },
+        "long_tape": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 370.7291666666667
+        },
+        "long_program": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 73.74652777777777
+        },
+        "stress": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 296.375
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "64": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "256": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        }
+      },
+      "local_training_rules": {
+        "correct": 140,
+        "total": 140
+      },
+      "direct_cache_parity": {
+        "equal": true,
+        "cases": 2,
+        "tape_length": 256,
+        "program_depth": 16
+      },
+      "post_training_edge_ablation": {
+        "exact": 0.25,
+        "nonempty_exact": 0.027777777777777776,
+        "nonempty_count": 72,
+        "count": 96,
+        "empty_answer_baseline": 0.25,
+        "completed_and_halted": 0.8229166666666666,
+        "errors": {
+          "step_budget": 17
+        },
+        "mean_steps": 22.166666666666668
+      },
+      "seconds": 0.3091371039918158,
+      "checkpoint_sha256": "d1fb90847fe9a9ae61d25723e4ccf5226c033b64d84aa3b6aad159143c068ffe"
+    },
+    "reactive_fly_seed1": {
+      "config": {
+        "mode": "reactive",
+        "condition": "fly",
+        "seed": 1,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 18.779166666666665
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 24.420833333333334
+        },
+        "long_tape": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 370.7291666666667
+        },
+        "long_program": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 73.74652777777777
+        },
+        "stress": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 296.375
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "64": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "256": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        }
+      },
+      "local_training_rules": {
+        "correct": 140,
+        "total": 140
+      },
+      "direct_cache_parity": {
+        "equal": true,
+        "cases": 2,
+        "tape_length": 256,
+        "program_depth": 16
+      },
+      "post_training_edge_ablation": {
+        "exact": 0.23958333333333334,
+        "nonempty_exact": 0.027777777777777776,
+        "nonempty_count": 72,
+        "count": 96,
+        "empty_answer_baseline": 0.25,
+        "completed_and_halted": 1.0,
+        "errors": {},
+        "mean_steps": 16.302083333333332
+      },
+      "seconds": 0.2902741299913032,
+      "checkpoint_sha256": "0cc72652c260ad946977e878f6f92416a8b2c93e1cbb7d697c41fb0fea6a6ab8"
+    },
+    "reactive_fly_seed2": {
+      "config": {
+        "mode": "reactive",
+        "condition": "fly",
+        "seed": 2,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 18.779166666666665
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 24.420833333333334
+        },
+        "long_tape": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 370.7291666666667
+        },
+        "long_program": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 73.74652777777777
+        },
+        "stress": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 296.375
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "64": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "256": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        }
+      },
+      "local_training_rules": {
+        "correct": 140,
+        "total": 140
+      },
+      "direct_cache_parity": {
+        "equal": true,
+        "cases": 2,
+        "tape_length": 256,
+        "program_depth": 16
+      },
+      "post_training_edge_ablation": {
+        "exact": 0.28125,
+        "nonempty_exact": 0.06944444444444445,
+        "nonempty_count": 72,
+        "count": 96,
+        "empty_answer_baseline": 0.25,
+        "completed_and_halted": 0.9479166666666666,
+        "errors": {
+          "step_budget": 5
+        },
+        "mean_steps": 17.302083333333332
+      },
+      "seconds": 0.2918075040070107,
+      "checkpoint_sha256": "3fc0ed0756a1ce8a38d73cd13b997f0c480ea0bba226580669b5f93b355ab03a"
+    },
+    "reactive_rewired_seed0": {
+      "config": {
+        "mode": "reactive",
+        "condition": "rewired",
+        "seed": 0,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 18.779166666666665
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 24.420833333333334
+        },
+        "long_tape": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 370.7291666666667
+        },
+        "long_program": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 73.74652777777777
+        },
+        "stress": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 296.375
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "64": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "256": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        }
+      },
+      "local_training_rules": {
+        "correct": 140,
+        "total": 140
+      },
+      "direct_cache_parity": {
+        "equal": true,
+        "cases": 2,
+        "tape_length": 256,
+        "program_depth": 16
+      },
+      "post_training_edge_ablation": null,
+      "seconds": 0.2629419989971211,
+      "checkpoint_sha256": "a69a56ff987227edb066ed93f56e3de2a5e4a901786dca4ccfb363efb4c1f4c1"
+    },
+    "reactive_rewired_seed1": {
+      "config": {
+        "mode": "reactive",
+        "condition": "rewired",
+        "seed": 1,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 18.779166666666665
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 24.420833333333334
+        },
+        "long_tape": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 370.7291666666667
+        },
+        "long_program": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 73.74652777777777
+        },
+        "stress": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 296.375
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "64": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "256": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        }
+      },
+      "local_training_rules": {
+        "correct": 140,
+        "total": 140
+      },
+      "direct_cache_parity": {
+        "equal": true,
+        "cases": 2,
+        "tape_length": 256,
+        "program_depth": 16
+      },
+      "post_training_edge_ablation": null,
+      "seconds": 0.2980913600040367,
+      "checkpoint_sha256": "eb69194daaf3eb6dcb74e9746b2d611e80823a4f558ceb42f083a4fcd9994b18"
+    },
+    "reactive_rewired_seed2": {
+      "config": {
+        "mode": "reactive",
+        "condition": "rewired",
+        "seed": 2,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 18.779166666666665
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 24.420833333333334
+        },
+        "long_tape": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 370.7291666666667
+        },
+        "long_program": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 73.74652777777777
+        },
+        "stress": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 296.375
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "64": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "256": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        }
+      },
+      "local_training_rules": {
+        "correct": 140,
+        "total": 140
+      },
+      "direct_cache_parity": {
+        "equal": true,
+        "cases": 2,
+        "tape_length": 256,
+        "program_depth": 16
+      },
+      "post_training_edge_ablation": null,
+      "seconds": 0.28561759600415826,
+      "checkpoint_sha256": "b27a9be1038ff46864d599559c4e092f7ea3395a960c7f2af32492357b78a135"
+    },
+    "reactive_frozen_seed0": {
+      "config": {
+        "mode": "reactive",
+        "condition": "frozen",
+        "seed": 0,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 18.779166666666665
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 24.420833333333334
+        },
+        "long_tape": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 370.7291666666667
+        },
+        "long_program": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 73.74652777777777
+        },
+        "stress": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 296.375
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "64": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "256": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        }
+      },
+      "local_training_rules": {
+        "correct": 140,
+        "total": 140
+      },
+      "direct_cache_parity": {
+        "equal": true,
+        "cases": 2,
+        "tape_length": 256,
+        "program_depth": 16
+      },
+      "post_training_edge_ablation": null,
+      "seconds": 0.29225746099837124,
+      "checkpoint_sha256": "86187b63f5224f78780950fb3d9bf418011fbd3c6873c6be86e443ef4454da60"
+    },
+    "reactive_frozen_seed1": {
+      "config": {
+        "mode": "reactive",
+        "condition": "frozen",
+        "seed": 1,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 18.779166666666665
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 24.420833333333334
+        },
+        "long_tape": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 370.7291666666667
+        },
+        "long_program": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 73.74652777777777
+        },
+        "stress": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 296.375
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "64": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "256": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        }
+      },
+      "local_training_rules": {
+        "correct": 140,
+        "total": 140
+      },
+      "direct_cache_parity": {
+        "equal": true,
+        "cases": 2,
+        "tape_length": 256,
+        "program_depth": 16
+      },
+      "post_training_edge_ablation": null,
+      "seconds": 0.29287572400062345,
+      "checkpoint_sha256": "d67897134436da5cc499758f10378b16481e4e410cfff3c37b7f8bd07269e079"
+    },
+    "reactive_frozen_seed2": {
+      "config": {
+        "mode": "reactive",
+        "condition": "frozen",
+        "seed": 2,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 18.779166666666665
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 24.420833333333334
+        },
+        "long_tape": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 370.7291666666667
+        },
+        "long_program": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 73.74652777777777
+        },
+        "stress": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 296.375
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "64": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "256": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        }
+      },
+      "local_training_rules": {
+        "correct": 140,
+        "total": 140
+      },
+      "direct_cache_parity": {
+        "equal": true,
+        "cases": 2,
+        "tape_length": 256,
+        "program_depth": 16
+      },
+      "post_training_edge_ablation": null,
+      "seconds": 0.2847417839948321,
+      "checkpoint_sha256": "b567b8ed0ce55e2be2ce81f32c7bd2590d76a0be8dd0a051bcdeed7a8823180a"
+    },
+    "reactive_no_edges_seed0": {
+      "config": {
+        "mode": "reactive",
+        "condition": "no_edges",
+        "seed": 0,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 18.779166666666665
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 24.420833333333334
+        },
+        "long_tape": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 370.7291666666667
+        },
+        "long_program": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 73.74652777777777
+        },
+        "stress": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 296.375
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "64": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "256": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        }
+      },
+      "local_training_rules": {
+        "correct": 140,
+        "total": 140
+      },
+      "direct_cache_parity": {
+        "equal": true,
+        "cases": 2,
+        "tape_length": 256,
+        "program_depth": 16
+      },
+      "post_training_edge_ablation": null,
+      "seconds": 0.27979178399255034,
+      "checkpoint_sha256": "34900690a5d0f4ac6bfce9a5a5715dbedae5c065a468cd4391b0d80db3d55c02"
+    },
+    "reactive_no_edges_seed1": {
+      "config": {
+        "mode": "reactive",
+        "condition": "no_edges",
+        "seed": 1,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 18.779166666666665
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 24.420833333333334
+        },
+        "long_tape": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 370.7291666666667
+        },
+        "long_program": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 73.74652777777777
+        },
+        "stress": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 296.375
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "64": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "256": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        }
+      },
+      "local_training_rules": {
+        "correct": 140,
+        "total": 140
+      },
+      "direct_cache_parity": {
+        "equal": true,
+        "cases": 2,
+        "tape_length": 256,
+        "program_depth": 16
+      },
+      "post_training_edge_ablation": null,
+      "seconds": 0.2927314609987661,
+      "checkpoint_sha256": "a05b20ddac913e6486589f6f08ee5638050e20df4a5c0ce6e78e3a8deef1f978"
+    },
+    "reactive_no_edges_seed2": {
+      "config": {
+        "mode": "reactive",
+        "condition": "no_edges",
+        "seed": 2,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 18.779166666666665
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 24.420833333333334
+        },
+        "long_tape": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 370.7291666666667
+        },
+        "long_program": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 73.74652777777777
+        },
+        "stress": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 296.375
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "64": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "256": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        }
+      },
+      "local_training_rules": {
+        "correct": 140,
+        "total": 140
+      },
+      "direct_cache_parity": {
+        "equal": true,
+        "cases": 2,
+        "tape_length": 256,
+        "program_depth": 16
+      },
+      "post_training_edge_ablation": null,
+      "seconds": 0.2957504940131912,
+      "checkpoint_sha256": "6975980d97a57ad48d07b2d957e0b25c029718c36c004757e4ea7b05c6879fe3"
+    },
+    "reactive_mlp_seed0": {
+      "config": {
+        "mode": "reactive",
+        "condition": "mlp",
+        "seed": 0,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 18.779166666666665
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 24.420833333333334
+        },
+        "long_tape": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 370.7291666666667
+        },
+        "long_program": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 73.74652777777777
+        },
+        "stress": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 296.375
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "64": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "256": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        }
+      },
+      "local_training_rules": {
+        "correct": 140,
+        "total": 140
+      },
+      "direct_cache_parity": {
+        "equal": true,
+        "cases": 2,
+        "tape_length": 256,
+        "program_depth": 16
+      },
+      "post_training_edge_ablation": null,
+      "seconds": 0.15594819499528967,
+      "checkpoint_sha256": "dd8e90433cb4a1506869c1596d3b59d0c840f8e33d4ef69002dd67360e9c53ad"
+    },
+    "reactive_mlp_seed1": {
+      "config": {
+        "mode": "reactive",
+        "condition": "mlp",
+        "seed": 1,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 18.779166666666665
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 24.420833333333334
+        },
+        "long_tape": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 370.7291666666667
+        },
+        "long_program": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 73.74652777777777
+        },
+        "stress": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 296.375
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "64": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "256": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        }
+      },
+      "local_training_rules": {
+        "correct": 140,
+        "total": 140
+      },
+      "direct_cache_parity": {
+        "equal": true,
+        "cases": 2,
+        "tape_length": 256,
+        "program_depth": 16
+      },
+      "post_training_edge_ablation": null,
+      "seconds": 0.16148231700935867,
+      "checkpoint_sha256": "cccf338dbbdf428717ea265146b82833dc48af27678afe67205a08a2868b291c"
+    },
+    "reactive_mlp_seed2": {
+      "config": {
+        "mode": "reactive",
+        "condition": "mlp",
+        "seed": 2,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 18.779166666666665
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 24.420833333333334
+        },
+        "long_tape": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 370.7291666666667
+        },
+        "long_program": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 73.74652777777777
+        },
+        "stress": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 296.375
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "64": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "256": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        }
+      },
+      "local_training_rules": {
+        "correct": 140,
+        "total": 140
+      },
+      "direct_cache_parity": {
+        "equal": true,
+        "cases": 2,
+        "tape_length": 256,
+        "program_depth": 16
+      },
+      "post_training_edge_ablation": null,
+      "seconds": 0.15767084900289774,
+      "checkpoint_sha256": "6012799827637681d3ac4459c6c836cd79a51b1dfa539755a0f376fcaf61beda"
+    },
+    "hidden_fly_seed0": {
+      "config": {
+        "mode": "hidden",
+        "condition": "fly",
+        "seed": 0,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 18.779166666666665
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 24.420833333333334
+        },
+        "long_tape": {
+          "exact": 0.7638888888888888,
+          "nonempty_exact": 0.6851851851851852,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 366.90972222222223
+        },
+        "long_program": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 73.74652777777777
+        },
+        "stress": {
+          "exact": 0.875,
+          "nonempty_exact": 0.7272727272727273,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 269.5
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 0.9895833333333334,
+            "nonempty_exact": 0.9861111111111112
+          },
+          "64": {
+            "count": 96,
+            "exact": 0.75,
+            "nonempty_exact": 0.6666666666666666
+          },
+          "256": {
+            "count": 96,
+            "exact": 0.5520833333333334,
+            "nonempty_exact": 0.4027777777777778
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        }
+      },
+      "local_training_rules": null,
+      "direct_cache_parity": null,
+      "post_training_edge_ablation": {
+        "exact": 0.0625,
+        "nonempty_exact": 0.0,
+        "nonempty_count": 72,
+        "count": 96,
+        "empty_answer_baseline": 0.25,
+        "completed_and_halted": 0.3645833333333333,
+        "errors": {
+          "step_budget": 61
+        },
+        "mean_steps": 39.604166666666664
+      },
+      "seconds": 5.023533086001407,
+      "checkpoint_sha256": "966bbf4a51ad100bc209a7c1f9b9a687c8b420b6e01da3f3b4e953f07452901b"
+    },
+    "hidden_fly_seed1": {
+      "config": {
+        "mode": "hidden",
+        "condition": "fly",
+        "seed": 1,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 18.779166666666665
+        },
+        "composition": {
+          "exact": 0.975,
+          "nonempty_exact": 0.9666666666666667,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 24.6625
+        },
+        "long_tape": {
+          "exact": 0.8368055555555556,
+          "nonempty_exact": 0.7824074074074074,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 0.9965277777777778,
+          "errors": {
+            "step_budget": 1
+          },
+          "mean_steps": 367.55902777777777
+        },
+        "long_program": {
+          "exact": 0.9340277777777778,
+          "nonempty_exact": 0.9212962962962963,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 0.9895833333333334,
+          "errors": {
+            "step_budget": 3
+          },
+          "mean_steps": 76.27777777777777
+        },
+        "stress": {
+          "exact": 0.75,
+          "nonempty_exact": 0.45454545454545453,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 0.875,
+          "errors": {
+            "pointer_out_of_bounds": 3
+          },
+          "mean_steps": 254.0
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 0.9791666666666666,
+            "nonempty_exact": 0.9722222222222222
+          },
+          "64": {
+            "count": 96,
+            "exact": 0.8645833333333334,
+            "nonempty_exact": 0.8194444444444444
+          },
+          "256": {
+            "count": 96,
+            "exact": 0.6666666666666666,
+            "nonempty_exact": 0.5555555555555556
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 0.9895833333333334,
+            "nonempty_exact": 0.9861111111111112
+          },
+          "8": {
+            "count": 96,
+            "exact": 0.96875,
+            "nonempty_exact": 0.9722222222222222
+          },
+          "16": {
+            "count": 96,
+            "exact": 0.84375,
+            "nonempty_exact": 0.8055555555555556
+          }
+        }
+      },
+      "local_training_rules": null,
+      "direct_cache_parity": null,
+      "post_training_edge_ablation": {
+        "exact": 0.052083333333333336,
+        "nonempty_exact": 0.0,
+        "nonempty_count": 72,
+        "count": 96,
+        "empty_answer_baseline": 0.25,
+        "completed_and_halted": 0.16666666666666666,
+        "errors": {
+          "step_budget": 80
+        },
+        "mean_steps": 49.260416666666664
+      },
+      "seconds": 5.140201282003545,
+      "checkpoint_sha256": "953c5cb4dbe996f0179834eb37e2238e1cf315ad8a14d2230ae7e6c700b41846"
+    },
+    "hidden_fly_seed2": {
+      "config": {
+        "mode": "hidden",
+        "condition": "fly",
+        "seed": 2,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 18.779166666666665
+        },
+        "composition": {
+          "exact": 0.9875,
+          "nonempty_exact": 0.9833333333333333,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 24.354166666666668
+        },
+        "long_tape": {
+          "exact": 0.5520833333333334,
+          "nonempty_exact": 0.4027777777777778,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 0.9791666666666666,
+          "errors": {
+            "step_budget": 6
+          },
+          "mean_steps": 320.4583333333333
+        },
+        "long_program": {
+          "exact": 0.9722222222222222,
+          "nonempty_exact": 0.9629629629629629,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 73.52083333333333
+        },
+        "stress": {
+          "exact": 0.75,
+          "nonempty_exact": 0.45454545454545453,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 0.9166666666666666,
+          "errors": {
+            "step_budget": 2
+          },
+          "mean_steps": 139.41666666666666
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 0.7916666666666666,
+            "nonempty_exact": 0.7222222222222222
+          },
+          "64": {
+            "count": 96,
+            "exact": 0.5,
+            "nonempty_exact": 0.3333333333333333
+          },
+          "256": {
+            "count": 96,
+            "exact": 0.3645833333333333,
+            "nonempty_exact": 0.1527777777777778
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "count": 96,
+            "exact": 0.96875,
+            "nonempty_exact": 0.9583333333333334
+          },
+          "16": {
+            "count": 96,
+            "exact": 0.9479166666666666,
+            "nonempty_exact": 0.9305555555555556
+          }
+        }
+      },
+      "local_training_rules": null,
+      "direct_cache_parity": null,
+      "post_training_edge_ablation": {
+        "exact": 0.020833333333333332,
+        "nonempty_exact": 0.0,
+        "nonempty_count": 72,
+        "count": 96,
+        "empty_answer_baseline": 0.25,
+        "completed_and_halted": 0.09375,
+        "errors": {
+          "step_budget": 87
+        },
+        "mean_steps": 52.645833333333336
+      },
+      "seconds": 6.007473352990928,
+      "checkpoint_sha256": "87d48b5325cc82b70aec9915c53ef6914815c4d472eed3e60f78da2bbb2606e8"
+    },
+    "hidden_rewired_seed0": {
+      "config": {
+        "mode": "hidden",
+        "condition": "rewired",
+        "seed": 0,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 18.779166666666665
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 24.420833333333334
+        },
+        "long_tape": {
+          "exact": 0.7152777777777778,
+          "nonempty_exact": 0.6203703703703703,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 268.1041666666667
+        },
+        "long_program": {
+          "exact": 0.9965277777777778,
+          "nonempty_exact": 0.9953703703703703,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 73.78125
+        },
+        "stress": {
+          "exact": 0.75,
+          "nonempty_exact": 0.45454545454545453,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 97.375
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 0.8645833333333334,
+            "nonempty_exact": 0.8194444444444444
+          },
+          "64": {
+            "count": 96,
+            "exact": 0.71875,
+            "nonempty_exact": 0.625
+          },
+          "256": {
+            "count": 96,
+            "exact": 0.5625,
+            "nonempty_exact": 0.4166666666666667
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "count": 96,
+            "exact": 0.9895833333333334,
+            "nonempty_exact": 0.9861111111111112
+          },
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        }
+      },
+      "local_training_rules": null,
+      "direct_cache_parity": null,
+      "post_training_edge_ablation": null,
+      "seconds": 3.6521159740077564,
+      "checkpoint_sha256": "30fd8e2e33821811da03a3530d4dc43ce5150faa410e3ecd24caa3956e12e6c5"
+    },
+    "hidden_rewired_seed1": {
+      "config": {
+        "mode": "hidden",
+        "condition": "rewired",
+        "seed": 1,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 18.779166666666665
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 24.420833333333334
+        },
+        "long_tape": {
+          "exact": 0.8298611111111112,
+          "nonempty_exact": 0.7731481481481481,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 315.43402777777777
+        },
+        "long_program": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 73.74652777777777
+        },
+        "stress": {
+          "exact": 0.7916666666666666,
+          "nonempty_exact": 0.5454545454545454,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 296.6666666666667
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 0.96875,
+            "nonempty_exact": 0.9583333333333334
+          },
+          "64": {
+            "count": 96,
+            "exact": 0.8229166666666666,
+            "nonempty_exact": 0.7638888888888888
+          },
+          "256": {
+            "count": 96,
+            "exact": 0.6979166666666666,
+            "nonempty_exact": 0.5972222222222222
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        }
+      },
+      "local_training_rules": null,
+      "direct_cache_parity": null,
+      "post_training_edge_ablation": null,
+      "seconds": 4.53028465899115,
+      "checkpoint_sha256": "a145ac92e3026bb1785cd3bb420ce75c309cbeff724430408caab5af638349a6"
+    },
+    "hidden_rewired_seed2": {
+      "config": {
+        "mode": "hidden",
+        "condition": "rewired",
+        "seed": 2,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 18.779166666666665
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 24.420833333333334
+        },
+        "long_tape": {
+          "exact": 0.8472222222222222,
+          "nonempty_exact": 0.8009259259259259,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 0.9895833333333334,
+          "errors": {
+            "step_budget": 3
+          },
+          "mean_steps": 303.0208333333333
+        },
+        "long_program": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 73.74652777777777
+        },
+        "stress": {
+          "exact": 0.6666666666666666,
+          "nonempty_exact": 0.45454545454545453,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 0.875,
+          "errors": {
+            "step_budget": 3
+          },
+          "mean_steps": 419.9583333333333
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 0.9895833333333334,
+            "nonempty_exact": 0.9861111111111112
+          },
+          "64": {
+            "count": 96,
+            "exact": 0.7916666666666666,
+            "nonempty_exact": 0.7222222222222222
+          },
+          "256": {
+            "count": 96,
+            "exact": 0.7604166666666666,
+            "nonempty_exact": 0.6944444444444444
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        }
+      },
+      "local_training_rules": null,
+      "direct_cache_parity": null,
+      "post_training_edge_ablation": null,
+      "seconds": 6.720620962994872,
+      "checkpoint_sha256": "8b83121e6d82b8242fbc76870de07af2a4f9abc512c7fd871529da0139cfed3c"
+    },
+    "hidden_frozen_seed0": {
+      "config": {
+        "mode": "hidden",
+        "condition": "frozen",
+        "seed": 0,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 0.9333333333333333,
+          "nonempty_exact": 0.9111111111111111,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 18.633333333333333
+        },
+        "composition": {
+          "exact": 0.9,
+          "nonempty_exact": 0.8666666666666667,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 24.258333333333333
+        },
+        "long_tape": {
+          "exact": 0.6319444444444444,
+          "nonempty_exact": 0.5092592592592593,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 0.9861111111111112,
+          "errors": {
+            "step_budget": 4
+          },
+          "mean_steps": 278.9513888888889
+        },
+        "long_program": {
+          "exact": 0.8194444444444444,
+          "nonempty_exact": 0.7592592592592593,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 73.08333333333333
+        },
+        "stress": {
+          "exact": 0.7083333333333334,
+          "nonempty_exact": 0.45454545454545453,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 0.9583333333333334,
+          "errors": {
+            "step_budget": 1
+          },
+          "mean_steps": 117.66666666666667
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 0.8125,
+            "nonempty_exact": 0.75
+          },
+          "64": {
+            "count": 96,
+            "exact": 0.625,
+            "nonempty_exact": 0.5
+          },
+          "256": {
+            "count": 96,
+            "exact": 0.4583333333333333,
+            "nonempty_exact": 0.2777777777777778
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 0.8125,
+            "nonempty_exact": 0.75
+          },
+          "8": {
+            "count": 96,
+            "exact": 0.8541666666666666,
+            "nonempty_exact": 0.8055555555555556
+          },
+          "16": {
+            "count": 96,
+            "exact": 0.7916666666666666,
+            "nonempty_exact": 0.7222222222222222
+          }
+        }
+      },
+      "local_training_rules": null,
+      "direct_cache_parity": null,
+      "post_training_edge_ablation": null,
+      "seconds": 5.242077952992986,
+      "checkpoint_sha256": "5c3ddae982a4e73e7502eca0cbd251ca8257be1f9ecbf425220e9a1d775bc4e5"
+    },
+    "hidden_frozen_seed1": {
+      "config": {
+        "mode": "hidden",
+        "condition": "frozen",
+        "seed": 1,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 0.9958333333333333,
+          "nonempty_exact": 0.9944444444444445,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 18.758333333333333
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 24.404166666666665
+        },
+        "long_tape": {
+          "exact": 0.4652777777777778,
+          "nonempty_exact": 0.2916666666666667,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 0.8854166666666666,
+          "errors": {
+            "step_budget": 33
+          },
+          "mean_steps": 370.6979166666667
+        },
+        "long_program": {
+          "exact": 0.9861111111111112,
+          "nonempty_exact": 0.9814814814814815,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 73.50694444444444
+        },
+        "stress": {
+          "exact": 0.7916666666666666,
+          "nonempty_exact": 0.5454545454545454,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 0.9166666666666666,
+          "errors": {
+            "step_budget": 2
+          },
+          "mean_steps": 139.29166666666666
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 0.6979166666666666,
+            "nonempty_exact": 0.5972222222222222
+          },
+          "64": {
+            "count": 96,
+            "exact": 0.34375,
+            "nonempty_exact": 0.1388888888888889
+          },
+          "256": {
+            "count": 96,
+            "exact": 0.3541666666666667,
+            "nonempty_exact": 0.1388888888888889
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "16": {
+            "count": 96,
+            "exact": 0.9583333333333334,
+            "nonempty_exact": 0.9444444444444444
+          }
+        }
+      },
+      "local_training_rules": null,
+      "direct_cache_parity": null,
+      "post_training_edge_ablation": null,
+      "seconds": 6.354718568007229,
+      "checkpoint_sha256": "9acdd7e58971696299a62baadb4c44863d69f4a1b6c96fba1eed427e0643e1e8"
+    },
+    "hidden_frozen_seed2": {
+      "config": {
+        "mode": "hidden",
+        "condition": "frozen",
+        "seed": 2,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 18.770833333333332
+        },
+        "composition": {
+          "exact": 0.9958333333333333,
+          "nonempty_exact": 0.9944444444444445,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 24.420833333333334
+        },
+        "long_tape": {
+          "exact": 0.6354166666666666,
+          "nonempty_exact": 0.5231481481481481,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 0.8298611111111112,
+          "errors": {
+            "step_budget": 49
+          },
+          "mean_steps": 436.0451388888889
+        },
+        "long_program": {
+          "exact": 0.9479166666666666,
+          "nonempty_exact": 0.9305555555555556,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 0.9965277777777778,
+          "errors": {
+            "step_budget": 1
+          },
+          "mean_steps": 74.72569444444444
+        },
+        "stress": {
+          "exact": 0.75,
+          "nonempty_exact": 0.45454545454545453,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 0.9166666666666666,
+          "errors": {
+            "step_budget": 2
+          },
+          "mean_steps": 161.20833333333334
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 0.84375,
+            "nonempty_exact": 0.7916666666666666
+          },
+          "64": {
+            "count": 96,
+            "exact": 0.5833333333333334,
+            "nonempty_exact": 0.4583333333333333
+          },
+          "256": {
+            "count": 96,
+            "exact": 0.4791666666666667,
+            "nonempty_exact": 0.3194444444444444
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 0.9895833333333334,
+            "nonempty_exact": 0.9861111111111112
+          },
+          "8": {
+            "count": 96,
+            "exact": 0.9479166666666666,
+            "nonempty_exact": 0.9305555555555556
+          },
+          "16": {
+            "count": 96,
+            "exact": 0.90625,
+            "nonempty_exact": 0.875
+          }
+        }
+      },
+      "local_training_rules": null,
+      "direct_cache_parity": null,
+      "post_training_edge_ablation": null,
+      "seconds": 6.506335623998893,
+      "checkpoint_sha256": "3f0251cb460b502e5e47c4bdbdb822ee9c7ce8ce74b6c00b7dac4bec39af1688"
+    },
+    "hidden_no_edges_seed0": {
+      "config": {
+        "mode": "hidden",
+        "condition": "no_edges",
+        "seed": 0,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 0.25833333333333336,
+          "nonempty_exact": 0.011111111111111112,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 10.7
+        },
+        "composition": {
+          "exact": 0.275,
+          "nonempty_exact": 0.03333333333333333,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 12.320833333333333
+        },
+        "long_tape": {
+          "exact": 0.25,
+          "nonempty_exact": 0.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 0.9930555555555556,
+          "errors": {
+            "step_budget": 2
+          },
+          "mean_steps": 112.45833333333333
+        },
+        "long_program": {
+          "exact": 0.25,
+          "nonempty_exact": 0.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 0.9895833333333334,
+          "errors": {
+            "step_budget": 3
+          },
+          "mean_steps": 30.51388888888889
+        },
+        "stress": {
+          "exact": 0.5416666666666666,
+          "nonempty_exact": 0.0,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 52.375
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 0.25,
+            "nonempty_exact": 0.0
+          },
+          "64": {
+            "count": 96,
+            "exact": 0.25,
+            "nonempty_exact": 0.0
+          },
+          "256": {
+            "count": 96,
+            "exact": 0.25,
+            "nonempty_exact": 0.0
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 0.25,
+            "nonempty_exact": 0.0
+          },
+          "8": {
+            "count": 96,
+            "exact": 0.25,
+            "nonempty_exact": 0.0
+          },
+          "16": {
+            "count": 96,
+            "exact": 0.25,
+            "nonempty_exact": 0.0
+          }
+        }
+      },
+      "local_training_rules": null,
+      "direct_cache_parity": null,
+      "post_training_edge_ablation": null,
+      "seconds": 3.1853738310019253,
+      "checkpoint_sha256": "fe37839e261293a4e9f1694358d4f53756587a101d63c5b8ecc6cc8378f62168"
+    },
+    "hidden_no_edges_seed1": {
+      "config": {
+        "mode": "hidden",
+        "condition": "no_edges",
+        "seed": 1,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 0.24166666666666667,
+          "nonempty_exact": 0.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 0.8875,
+          "errors": {
+            "step_budget": 27
+          },
+          "mean_steps": 13.658333333333333
+        },
+        "composition": {
+          "exact": 0.19166666666666668,
+          "nonempty_exact": 0.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 0.8458333333333333,
+          "errors": {
+            "step_budget": 37
+          },
+          "mean_steps": 19.1375
+        },
+        "long_tape": {
+          "exact": 0.2465277777777778,
+          "nonempty_exact": 0.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 0.8576388888888888,
+          "errors": {
+            "step_budget": 41
+          },
+          "mean_steps": 239.09375
+        },
+        "long_program": {
+          "exact": 0.2048611111111111,
+          "nonempty_exact": 0.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 0.7847222222222222,
+          "errors": {
+            "step_budget": 62
+          },
+          "mean_steps": 70.92361111111111
+        },
+        "stress": {
+          "exact": 0.5,
+          "nonempty_exact": 0.0,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 0.75,
+          "errors": {
+            "step_budget": 6
+          },
+          "mean_steps": 230.83333333333334
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 0.25,
+            "nonempty_exact": 0.0
+          },
+          "64": {
+            "count": 96,
+            "exact": 0.25,
+            "nonempty_exact": 0.0
+          },
+          "256": {
+            "count": 96,
+            "exact": 0.23958333333333334,
+            "nonempty_exact": 0.0
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 0.21875,
+            "nonempty_exact": 0.0
+          },
+          "8": {
+            "count": 96,
+            "exact": 0.1875,
+            "nonempty_exact": 0.0
+          },
+          "16": {
+            "count": 96,
+            "exact": 0.20833333333333334,
+            "nonempty_exact": 0.0
+          }
+        }
+      },
+      "local_training_rules": null,
+      "direct_cache_parity": null,
+      "post_training_edge_ablation": null,
+      "seconds": 7.643265887003508,
+      "checkpoint_sha256": "30432a34b7e02792eeb71d73d6e31a4db252d815dd0bcc0ae148c5e49c66cd46"
+    },
+    "hidden_no_edges_seed2": {
+      "config": {
+        "mode": "hidden",
+        "condition": "no_edges",
+        "seed": 2,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 300,
+      "splits": {
+        "test": {
+          "exact": 0.25,
+          "nonempty_exact": 0.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 8.445833333333333
+        },
+        "composition": {
+          "exact": 0.25,
+          "nonempty_exact": 0.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 9.391666666666667
+        },
+        "long_tape": {
+          "exact": 0.25,
+          "nonempty_exact": 0.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 99.53819444444444
+        },
+        "long_program": {
+          "exact": 0.25,
+          "nonempty_exact": 0.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 21.03125
+        },
+        "stress": {
+          "exact": 0.5416666666666666,
+          "nonempty_exact": 0.0,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 49.5
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 0.25,
+            "nonempty_exact": 0.0
+          },
+          "64": {
+            "count": 96,
+            "exact": 0.25,
+            "nonempty_exact": 0.0
+          },
+          "256": {
+            "count": 96,
+            "exact": 0.25,
+            "nonempty_exact": 0.0
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 0.25,
+            "nonempty_exact": 0.0
+          },
+          "8": {
+            "count": 96,
+            "exact": 0.25,
+            "nonempty_exact": 0.0
+          },
+          "16": {
+            "count": 96,
+            "exact": 0.25,
+            "nonempty_exact": 0.0
+          }
+        }
+      },
+      "local_training_rules": null,
+      "direct_cache_parity": null,
+      "post_training_edge_ablation": null,
+      "seconds": 0.7624200579884928,
+      "checkpoint_sha256": "5f58bbf43efd0a4922020a266fde2ee299a1f2a3c7b49af24ec586ec6b7c395a"
+    },
+    "hidden_gru_seed0": {
+      "config": {
+        "mode": "hidden",
+        "condition": "gru",
+        "seed": 0,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 18.779166666666665
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 24.420833333333334
+        },
+        "long_tape": {
+          "exact": 0.8854166666666666,
+          "nonempty_exact": 0.8518518518518519,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 370.4375
+        },
+        "long_program": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 73.74652777777777
+        },
+        "stress": {
+          "exact": 0.875,
+          "nonempty_exact": 0.7272727272727273,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 291.125
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "64": {
+            "count": 96,
+            "exact": 0.9375,
+            "nonempty_exact": 0.9166666666666666
+          },
+          "256": {
+            "count": 96,
+            "exact": 0.71875,
+            "nonempty_exact": 0.6388888888888888
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        }
+      },
+      "local_training_rules": null,
+      "direct_cache_parity": null,
+      "post_training_edge_ablation": null,
+      "seconds": 2.723083022996434,
+      "checkpoint_sha256": "1af1c1071592c6a0975b7eae577d0f6ad02779bf0fde1b4decb9d1270cef5cbd"
+    },
+    "hidden_gru_seed1": {
+      "config": {
+        "mode": "hidden",
+        "condition": "gru",
+        "seed": 1,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 18.779166666666665
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 24.420833333333334
+        },
+        "long_tape": {
+          "exact": 0.9583333333333334,
+          "nonempty_exact": 0.9444444444444444,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 370.37847222222223
+        },
+        "long_program": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 73.74652777777777
+        },
+        "stress": {
+          "exact": 0.8333333333333334,
+          "nonempty_exact": 0.6363636363636364,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 295.6666666666667
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "64": {
+            "count": 96,
+            "exact": 0.9791666666666666,
+            "nonempty_exact": 0.9722222222222222
+          },
+          "256": {
+            "count": 96,
+            "exact": 0.8958333333333334,
+            "nonempty_exact": 0.8611111111111112
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        }
+      },
+      "local_training_rules": null,
+      "direct_cache_parity": null,
+      "post_training_edge_ablation": null,
+      "seconds": 2.7321961400011787,
+      "checkpoint_sha256": "ec895b47b3fe5fbe70e6c0f01f40e4845b0e60ba7af032dec5a7737ce0992d77"
+    },
+    "hidden_gru_seed2": {
+      "config": {
+        "mode": "hidden",
+        "condition": "gru",
+        "seed": 2,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 18.779166666666665
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 24.420833333333334
+        },
+        "long_tape": {
+          "exact": 0.8993055555555556,
+          "nonempty_exact": 0.8657407407407407,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 0.9965277777777778,
+          "errors": {
+            "step_budget": 1
+          },
+          "mean_steps": 352.77777777777777
+        },
+        "long_program": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 73.74652777777777
+        },
+        "stress": {
+          "exact": 0.875,
+          "nonempty_exact": 0.7272727272727273,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 280.0
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "64": {
+            "count": 96,
+            "exact": 0.9270833333333334,
+            "nonempty_exact": 0.9027777777777778
+          },
+          "256": {
+            "count": 96,
+            "exact": 0.7708333333333334,
+            "nonempty_exact": 0.6944444444444444
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        }
+      },
+      "local_training_rules": null,
+      "direct_cache_parity": null,
+      "post_training_edge_ablation": null,
+      "seconds": 2.956130287013366,
+      "checkpoint_sha256": "1876d2a97dea30c27578eccd33106822dfa782ad39b44d6f117ced8f42e13a2a"
+    },
+    "recurrent_fly_seed0": {
+      "config": {
+        "mode": "recurrent",
+        "condition": "fly",
+        "seed": 0,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 18.779166666666665
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 24.420833333333334
+        },
+        "long_tape": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 370.7291666666667
+        },
+        "long_program": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 73.74652777777777
+        },
+        "stress": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 296.375
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "64": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "256": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        }
+      },
+      "local_training_rules": null,
+      "direct_cache_parity": null,
+      "post_training_edge_ablation": null,
+      "seconds": 3.764407091002795,
+      "checkpoint_sha256": "98c5cdfe6fa4042112a7c3fafc87af4381d6c9d06ed3366de89139761dead57b"
+    },
+    "recurrent_fly_seed1": {
+      "config": {
+        "mode": "recurrent",
+        "condition": "fly",
+        "seed": 1,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 18.779166666666665
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 24.420833333333334
+        },
+        "long_tape": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 370.7291666666667
+        },
+        "long_program": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 73.74652777777777
+        },
+        "stress": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 296.375
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "64": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "256": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        }
+      },
+      "local_training_rules": null,
+      "direct_cache_parity": null,
+      "post_training_edge_ablation": null,
+      "seconds": 5.066288814006839,
+      "checkpoint_sha256": "f08f41df3ee1d45f6781b6992e88b30aab09c09358fe0ac6b180a392cf54a305"
+    },
+    "recurrent_fly_seed2": {
+      "config": {
+        "mode": "recurrent",
+        "condition": "fly",
+        "seed": 2,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 18.779166666666665
+        },
+        "composition": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 24.420833333333334
+        },
+        "long_tape": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 370.7291666666667
+        },
+        "long_program": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 73.74652777777777
+        },
+        "stress": {
+          "exact": 1.0,
+          "nonempty_exact": 1.0,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 1.0,
+          "errors": {},
+          "mean_steps": 296.375
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "64": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "256": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "8": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          },
+          "16": {
+            "count": 96,
+            "exact": 1.0,
+            "nonempty_exact": 1.0
+          }
+        }
+      },
+      "local_training_rules": null,
+      "direct_cache_parity": null,
+      "post_training_edge_ablation": null,
+      "seconds": 5.2969285669969395,
+      "checkpoint_sha256": "3eff602e8bd2417da9292cd6071991fe22c49806716d2d914bbd879c2e172778"
+    },
+    "blind_fly_seed0": {
+      "config": {
+        "mode": "blind",
+        "condition": "fly",
+        "seed": 0,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 900,
+      "splits": {
+        "test": {
+          "exact": 0.058333333333333334,
+          "nonempty_exact": 0.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 0.1625,
+          "errors": {
+            "step_budget": 201
+          },
+          "mean_steps": 46.75416666666667
+        },
+        "composition": {
+          "exact": 0.13333333333333333,
+          "nonempty_exact": 0.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 0.22916666666666666,
+          "errors": {
+            "step_budget": 185
+          },
+          "mean_steps": 56.329166666666666
+        },
+        "long_tape": {
+          "exact": 0.003472222222222222,
+          "nonempty_exact": 0.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 0.1423611111111111,
+          "errors": {
+            "step_budget": 247
+          },
+          "mean_steps": 774.0416666666666
+        },
+        "long_program": {
+          "exact": 0.05555555555555555,
+          "nonempty_exact": 0.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 0.22569444444444445,
+          "errors": {
+            "step_budget": 223
+          },
+          "mean_steps": 181.71180555555554
+        },
+        "stress": {
+          "exact": 0.375,
+          "nonempty_exact": 0.0,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 0.5833333333333334,
+          "errors": {
+            "step_budget": 10
+          },
+          "mean_steps": 492.2916666666667
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 0.0,
+            "nonempty_exact": 0.0
+          },
+          "64": {
+            "count": 96,
+            "exact": 0.0,
+            "nonempty_exact": 0.0
+          },
+          "256": {
+            "count": 96,
+            "exact": 0.010416666666666666,
+            "nonempty_exact": 0.0
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 0.052083333333333336,
+            "nonempty_exact": 0.0
+          },
+          "8": {
+            "count": 96,
+            "exact": 0.07291666666666667,
+            "nonempty_exact": 0.0
+          },
+          "16": {
+            "count": 96,
+            "exact": 0.041666666666666664,
+            "nonempty_exact": 0.0
+          }
+        }
+      },
+      "local_training_rules": {
+        "correct": 78,
+        "total": 140
+      },
+      "direct_cache_parity": {
+        "equal": true,
+        "cases": 2,
+        "tape_length": 256,
+        "program_depth": 16
+      },
+      "post_training_edge_ablation": null,
+      "seconds": 0.6976234799949452,
+      "checkpoint_sha256": "006b45f7e224560c5105643a94db47c123eab89cc29f744d897b5fc69eb7e5c7"
+    },
+    "blind_fly_seed1": {
+      "config": {
+        "mode": "blind",
+        "condition": "fly",
+        "seed": 1,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 0.058333333333333334,
+          "nonempty_exact": 0.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 0.1625,
+          "errors": {
+            "step_budget": 201
+          },
+          "mean_steps": 46.75416666666667
+        },
+        "composition": {
+          "exact": 0.13333333333333333,
+          "nonempty_exact": 0.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 0.22916666666666666,
+          "errors": {
+            "step_budget": 185
+          },
+          "mean_steps": 56.329166666666666
+        },
+        "long_tape": {
+          "exact": 0.003472222222222222,
+          "nonempty_exact": 0.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 0.1423611111111111,
+          "errors": {
+            "step_budget": 247
+          },
+          "mean_steps": 774.0416666666666
+        },
+        "long_program": {
+          "exact": 0.05555555555555555,
+          "nonempty_exact": 0.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 0.22569444444444445,
+          "errors": {
+            "step_budget": 223
+          },
+          "mean_steps": 181.71180555555554
+        },
+        "stress": {
+          "exact": 0.375,
+          "nonempty_exact": 0.0,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 0.5833333333333334,
+          "errors": {
+            "step_budget": 10
+          },
+          "mean_steps": 492.2916666666667
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 0.0,
+            "nonempty_exact": 0.0
+          },
+          "64": {
+            "count": 96,
+            "exact": 0.0,
+            "nonempty_exact": 0.0
+          },
+          "256": {
+            "count": 96,
+            "exact": 0.010416666666666666,
+            "nonempty_exact": 0.0
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 0.052083333333333336,
+            "nonempty_exact": 0.0
+          },
+          "8": {
+            "count": 96,
+            "exact": 0.07291666666666667,
+            "nonempty_exact": 0.0
+          },
+          "16": {
+            "count": 96,
+            "exact": 0.041666666666666664,
+            "nonempty_exact": 0.0
+          }
+        }
+      },
+      "local_training_rules": {
+        "correct": 78,
+        "total": 140
+      },
+      "direct_cache_parity": {
+        "equal": true,
+        "cases": 2,
+        "tape_length": 256,
+        "program_depth": 16
+      },
+      "post_training_edge_ablation": null,
+      "seconds": 0.7013713140040636,
+      "checkpoint_sha256": "a8cae4e368ed71c7dd23e9fba72a2da98913cebb45d4306244e3e5f08c4670e3"
+    },
+    "blind_fly_seed2": {
+      "config": {
+        "mode": "blind",
+        "condition": "fly",
+        "seed": 2,
+        "steps": 1200,
+        "ticks": 4,
+        "batch_size": 112,
+        "sequence_batch_size": 16,
+        "lr": 0.003,
+        "threads": 2,
+        "eval_every": 300
+      },
+      "best_step": 1200,
+      "splits": {
+        "test": {
+          "exact": 0.058333333333333334,
+          "nonempty_exact": 0.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 0.1625,
+          "errors": {
+            "step_budget": 201
+          },
+          "mean_steps": 46.75416666666667
+        },
+        "composition": {
+          "exact": 0.13333333333333333,
+          "nonempty_exact": 0.0,
+          "nonempty_count": 180,
+          "count": 240,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 0.22916666666666666,
+          "errors": {
+            "step_budget": 185
+          },
+          "mean_steps": 56.329166666666666
+        },
+        "long_tape": {
+          "exact": 0.003472222222222222,
+          "nonempty_exact": 0.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 0.1423611111111111,
+          "errors": {
+            "step_budget": 247
+          },
+          "mean_steps": 774.0416666666666
+        },
+        "long_program": {
+          "exact": 0.05555555555555555,
+          "nonempty_exact": 0.0,
+          "nonempty_count": 216,
+          "count": 288,
+          "empty_answer_baseline": 0.25,
+          "completed_and_halted": 0.22569444444444445,
+          "errors": {
+            "step_budget": 223
+          },
+          "mean_steps": 181.71180555555554
+        },
+        "stress": {
+          "exact": 0.375,
+          "nonempty_exact": 0.0,
+          "nonempty_count": 11,
+          "count": 24,
+          "empty_answer_baseline": 0.5416666666666666,
+          "completed_and_halted": 0.5833333333333334,
+          "errors": {
+            "step_budget": 10
+          },
+          "mean_steps": 492.2916666666667
+        }
+      },
+      "grouped": {
+        "long_tape": {
+          "16": {
+            "count": 96,
+            "exact": 0.0,
+            "nonempty_exact": 0.0
+          },
+          "64": {
+            "count": 96,
+            "exact": 0.0,
+            "nonempty_exact": 0.0
+          },
+          "256": {
+            "count": 96,
+            "exact": 0.010416666666666666,
+            "nonempty_exact": 0.0
+          }
+        },
+        "long_program": {
+          "4": {
+            "count": 96,
+            "exact": 0.052083333333333336,
+            "nonempty_exact": 0.0
+          },
+          "8": {
+            "count": 96,
+            "exact": 0.07291666666666667,
+            "nonempty_exact": 0.0
+          },
+          "16": {
+            "count": 96,
+            "exact": 0.041666666666666664,
+            "nonempty_exact": 0.0
+          }
+        }
+      },
+      "local_training_rules": {
+        "correct": 78,
+        "total": 140
+      },
+      "direct_cache_parity": {
+        "equal": true,
+        "cases": 2,
+        "tape_length": 256,
+        "program_depth": 16
+      },
+      "post_training_edge_ablation": null,
+      "seconds": 0.6914176950085675,
+      "checkpoint_sha256": "7444a4a2ba60a4074b5f4be12e0141224a342332b92da7acf1e31dc62263fb07"
+    }
+  },
+  "goals": {
+    "reactive_fly_seed0": {
+      "count": 64,
+      "exact": 1.0,
+      "nonempty_exact": 1.0,
+      "mean_expansions": 3.9375,
+      "seconds": 0.012731580005493015
+    },
+    "reactive_mlp_seed0": {
+      "count": 64,
+      "exact": 1.0,
+      "nonempty_exact": 1.0,
+      "mean_expansions": 3.9375,
+      "seconds": 0.013974215005873702
+    },
+    "hidden_fly_seed0": {
+      "count": 64,
+      "exact": 1.0,
+      "nonempty_exact": 1.0,
+      "mean_expansions": 3.9375,
+      "seconds": 0.9382005389925325
+    },
+    "hidden_gru_seed0": {
+      "count": 64,
+      "exact": 1.0,
+      "nonempty_exact": 1.0,
+      "mean_expansions": 3.9375,
+      "seconds": 0.7115013930015266
+    }
+  },
+  "observation_coverage": {
+    "test": {
+      "unique_observations": 140,
+      "unseen_training_observations": 0
+    },
+    "composition": {
+      "unique_observations": 140,
+      "unseen_training_observations": 0
+    },
+    "long_tape": {
+      "unique_observations": 140,
+      "unseen_training_observations": 0
+    },
+    "long_program": {
+      "unique_observations": 140,
+      "unseen_training_observations": 0
+    },
+    "stress": {
+      "unique_observations": 138,
+      "unseen_training_observations": 0
+    }
+  },
+  "plan": {
+    "created_at": "2026-09-12T06:27:24.663918+00:00",
+    "frozen_before_final_test": true,
+    "steps": 1200,
+    "runs": [
+      "reactive_fly_seed0",
+      "reactive_fly_seed1",
+      "reactive_fly_seed2",
+      "reactive_rewired_seed0",
+      "reactive_rewired_seed1",
+      "reactive_rewired_seed2",
+      "reactive_frozen_seed0",
+      "reactive_frozen_seed1",
+      "reactive_frozen_seed2",
+      "reactive_no_edges_seed0",
+      "reactive_no_edges_seed1",
+      "reactive_no_edges_seed2",
+      "reactive_mlp_seed0",
+      "reactive_mlp_seed1",
+      "reactive_mlp_seed2",
+      "hidden_fly_seed0",
+      "hidden_fly_seed1",
+      "hidden_fly_seed2",
+      "hidden_rewired_seed0",
+      "hidden_rewired_seed1",
+      "hidden_rewired_seed2",
+      "hidden_frozen_seed0",
+      "hidden_frozen_seed1",
+      "hidden_frozen_seed2",
+      "hidden_no_edges_seed0",
+      "hidden_no_edges_seed1",
+      "hidden_no_edges_seed2",
+      "hidden_gru_seed0",
+      "hidden_gru_seed1",
+      "hidden_gru_seed2",
+      "recurrent_fly_seed0",
+      "recurrent_fly_seed1",
+      "recurrent_fly_seed2",
+      "blind_fly_seed0",
+      "blind_fly_seed1",
+      "blind_fly_seed2"
+    ],
+    "default_checkpoint": "reactive_fly_seed0/best.pt",
+    "code_sha256": {
+      "stage4_env.py": "61f12dc6e93f0e96d71a030b166222c0102793027a8e89f249cc836a0cd76cfd",
+      "stage4_tasks.py": "8f93dded4063d83dc82a959e5b26ef576534cb4597284c05cdd6005207630139",
+      "stage4_model.py": "52cba304ec9dd6ae4c32109d9d5933615d77514ef14e821aa14c65a004c17b5d",
+      "stage4_engine.py": "0ebd1b4b9de404ed3b6b43c4e0d0853829e5188c3c99af59223d6a5331c9d6fe",
+      "stage4_train.py": "b395e65910032a04b9e9642c88f684f9a315f6c8ac8fc632c46eb36eff576d49",
+      "stage4_evaluate.py": "d8f5ce9f93471d8f60d807a99034504ad3c071b5048ea358a65adcf9c1babd97",
+      "stage4_planner.py": "32292d1806211be72f6ba62dad413af1f28dc6ec2e7675bef85f87e64ff31e26",
+      "stage4_planning_tasks.py": "d6aa6e5a93adea4aec6c2d6f3d5b01d02a8df398293a5c25dda277a0dff301c2",
+      "model.py": "5e0f41d93d33630ead06f01e8fc4abb784188e52c449d2af4b27281199658426"
+    },
+    "selection": "800-step development: reactive, recurrent, hidden fly and hidden GRU reached 100% short validation; blind failed all nonempty outputs. Use fixed 1200 steps and seeds 0,1,2 in confirmation. Select checkpoint by short validation exact then recent training loss.",
+    "training_difference": "Reactive/blind sample action-balanced single observations. Recurrent/hidden sample full expert trajectories. Architecture and training sampling both differ across these families. Conditions within a family use the same data and sampler.",
+    "planning": "64 independent start-goal puzzles, 4 preselected seed-0 controllers; BFS is engineered and uses learned transition execution; witness program not passed to solver."
+  }
+}

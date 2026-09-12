@@ -1,0 +1,169 @@
+{
+  "example": {
+    "id": "composition_1",
+    "program": [
+      "even",
+      "even",
+      "inc"
+    ],
+    "data": [
+      5,
+      1,
+      3,
+      2,
+      1
+    ],
+    "answer": [
+      3
+    ],
+    "length": 5,
+    "depth": 3
+  },
+  "result": {
+    "answer": [
+      3
+    ],
+    "program_completed": true,
+    "halted": true,
+    "error": null,
+    "steps": 17,
+    "trace": [
+      {
+        "observation": [
+          2,
+          10,
+          14
+        ],
+        "action": "right"
+      },
+      {
+        "observation": [
+          2,
+          5,
+          1
+        ],
+        "action": "right"
+      },
+      {
+        "observation": [
+          2,
+          1,
+          1
+        ],
+        "action": "right"
+      },
+      {
+        "observation": [
+          2,
+          3,
+          1
+        ],
+        "action": "right"
+      },
+      {
+        "observation": [
+          2,
+          2,
+          1
+        ],
+        "action": "write_2"
+      },
+      {
+        "observation": [
+          2,
+          2,
+          4
+        ],
+        "action": "right"
+      },
+      {
+        "observation": [
+          2,
+          1,
+          1
+        ],
+        "action": "right"
+      },
+      {
+        "observation": [
+          2,
+          11,
+          1
+        ],
+        "action": "next"
+      },
+      {
+        "observation": [
+          2,
+          10,
+          12
+        ],
+        "action": "right"
+      },
+      {
+        "observation": [
+          2,
+          2,
+          1
+        ],
+        "action": "write_2"
+      },
+      {
+        "observation": [
+          2,
+          2,
+          4
+        ],
+        "action": "right"
+      },
+      {
+        "observation": [
+          2,
+          11,
+          1
+        ],
+        "action": "next"
+      },
+      {
+        "observation": [
+          4,
+          10,
+          12
+        ],
+        "action": "right"
+      },
+      {
+        "observation": [
+          4,
+          2,
+          1
+        ],
+        "action": "write_3"
+      },
+      {
+        "observation": [
+          4,
+          2,
+          5
+        ],
+        "action": "right"
+      },
+      {
+        "observation": [
+          4,
+          11,
+          1
+        ],
+        "action": "next"
+      },
+      {
+        "observation": [
+          6,
+          10,
+          12
+        ],
+        "action": "halt"
+      }
+    ]
+  }
+}

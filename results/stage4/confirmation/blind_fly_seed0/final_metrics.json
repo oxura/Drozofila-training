@@ -1,0 +1,126 @@
+{
+  "config": {
+    "mode": "blind",
+    "condition": "fly",
+    "seed": 0,
+    "steps": 1200,
+    "ticks": 4,
+    "batch_size": 112,
+    "sequence_batch_size": 16,
+    "lr": 0.003,
+    "threads": 2,
+    "eval_every": 300
+  },
+  "best_step": 900,
+  "splits": {
+    "test": {
+      "exact": 0.058333333333333334,
+      "nonempty_exact": 0.0,
+      "nonempty_count": 180,
+      "count": 240,
+      "empty_answer_baseline": 0.25,
+      "completed_and_halted": 0.1625,
+      "errors": {
+        "step_budget": 201
+      },
+      "mean_steps": 46.75416666666667
+    },
+    "composition": {
+      "exact": 0.13333333333333333,
+      "nonempty_exact": 0.0,
+      "nonempty_count": 180,
+      "count": 240,
+      "empty_answer_baseline": 0.25,
+      "completed_and_halted": 0.22916666666666666,
+      "errors": {
+        "step_budget": 185
+      },
+      "mean_steps": 56.329166666666666
+    },
+    "long_tape": {
+      "exact": 0.003472222222222222,
+      "nonempty_exact": 0.0,
+      "nonempty_count": 216,
+      "count": 288,
+      "empty_answer_baseline": 0.25,
+      "completed_and_halted": 0.1423611111111111,
+      "errors": {
+        "step_budget": 247
+      },
+      "mean_steps": 774.0416666666666
+    },
+    "long_program": {
+      "exact": 0.05555555555555555,
+      "nonempty_exact": 0.0,
+      "nonempty_count": 216,
+      "count": 288,
+      "empty_answer_baseline": 0.25,
+      "completed_and_halted": 0.22569444444444445,
+      "errors": {
+        "step_budget": 223
+      },
+      "mean_steps": 181.71180555555554
+    },
+    "stress": {
+      "exact": 0.375,
+      "nonempty_exact": 0.0,
+      "nonempty_count": 11,
+      "count": 24,
+      "empty_answer_baseline": 0.5416666666666666,
+      "completed_and_halted": 0.5833333333333334,
+      "errors": {
+        "step_budget": 10
+      },
+      "mean_steps": 492.2916666666667
+    }
+  },
+  "grouped": {
+    "long_tape": {
+      "16": {
+        "count": 96,
+        "exact": 0.0,
+        "nonempty_exact": 0.0
+      },
+      "64": {
+        "count": 96,
+        "exact": 0.0,
+        "nonempty_exact": 0.0
+      },
+      "256": {
+        "count": 96,
+        "exact": 0.010416666666666666,
+        "nonempty_exact": 0.0
+      }
+    },
+    "long_program": {
+      "4": {
+        "count": 96,
+        "exact": 0.052083333333333336,
+        "nonempty_exact": 0.0
+      },
+      "8": {
+        "count": 96,
+        "exact": 0.07291666666666667,
+        "nonempty_exact": 0.0
+      },
+      "16": {
+        "count": 96,
+        "exact": 0.041666666666666664,
+        "nonempty_exact": 0.0
+      }
+    }
+  },
+  "local_training_rules": {
+    "correct": 78,
+    "total": 140
+  },
+  "direct_cache_parity": {
+    "equal": true,
+    "cases": 2,
+    "tape_length": 256,
+    "program_depth": 16
+  },
+  "post_training_edge_ablation": null,
+  "seconds": 0.6976234799949452,
+  "checkpoint_sha256": "006b45f7e224560c5105643a94db47c123eab89cc29f744d897b5fc69eb7e5c7"
+}

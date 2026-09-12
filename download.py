@@ -11,6 +11,9 @@ FILES = ['Connectivity_783.parquet', 'Completeness_783.csv',
 
 
 def main():
+    if (ROOT / 'assets/manifest.json').exists():
+        from restore_large_files import restore
+        restore()
     manifest_path = ROOT / 'data/source_manifest.json'
     manifest = json.loads(manifest_path.read_text()) if manifest_path.exists() else {
         'repository': 'https://github.com/philshiu/Drosophila_brain_model',

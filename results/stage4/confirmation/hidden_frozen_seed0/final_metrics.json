@@ -1,0 +1,112 @@
+{
+  "config": {
+    "mode": "hidden",
+    "condition": "frozen",
+    "seed": 0,
+    "steps": 1200,
+    "ticks": 4,
+    "batch_size": 112,
+    "sequence_batch_size": 16,
+    "lr": 0.003,
+    "threads": 2,
+    "eval_every": 300
+  },
+  "best_step": 1200,
+  "splits": {
+    "test": {
+      "exact": 0.9333333333333333,
+      "nonempty_exact": 0.9111111111111111,
+      "nonempty_count": 180,
+      "count": 240,
+      "empty_answer_baseline": 0.25,
+      "completed_and_halted": 1.0,
+      "errors": {},
+      "mean_steps": 18.633333333333333
+    },
+    "composition": {
+      "exact": 0.9,
+      "nonempty_exact": 0.8666666666666667,
+      "nonempty_count": 180,
+      "count": 240,
+      "empty_answer_baseline": 0.25,
+      "completed_and_halted": 1.0,
+      "errors": {},
+      "mean_steps": 24.258333333333333
+    },
+    "long_tape": {
+      "exact": 0.6319444444444444,
+      "nonempty_exact": 0.5092592592592593,
+      "nonempty_count": 216,
+      "count": 288,
+      "empty_answer_baseline": 0.25,
+      "completed_and_halted": 0.9861111111111112,
+      "errors": {
+        "step_budget": 4
+      },
+      "mean_steps": 278.9513888888889
+    },
+    "long_program": {
+      "exact": 0.8194444444444444,
+      "nonempty_exact": 0.7592592592592593,
+      "nonempty_count": 216,
+      "count": 288,
+      "empty_answer_baseline": 0.25,
+      "completed_and_halted": 1.0,
+      "errors": {},
+      "mean_steps": 73.08333333333333
+    },
+    "stress": {
+      "exact": 0.7083333333333334,
+      "nonempty_exact": 0.45454545454545453,
+      "nonempty_count": 11,
+      "count": 24,
+      "empty_answer_baseline": 0.5416666666666666,
+      "completed_and_halted": 0.9583333333333334,
+      "errors": {
+        "step_budget": 1
+      },
+      "mean_steps": 117.66666666666667
+    }
+  },
+  "grouped": {
+    "long_tape": {
+      "16": {
+        "count": 96,
+        "exact": 0.8125,
+        "nonempty_exact": 0.75
+      },
+      "64": {
+        "count": 96,
+        "exact": 0.625,
+        "nonempty_exact": 0.5
+      },
+      "256": {
+        "count": 96,
+        "exact": 0.4583333333333333,
+        "nonempty_exact": 0.2777777777777778
+      }
+    },
+    "long_program": {
+      "4": {
+        "count": 96,
+        "exact": 0.8125,
+        "nonempty_exact": 0.75
+      },
+      "8": {
+        "count": 96,
+        "exact": 0.8541666666666666,
+        "nonempty_exact": 0.8055555555555556
+      },
+      "16": {
+        "count": 96,
+        "exact": 0.7916666666666666,
+        "nonempty_exact": 0.7222222222222222
+      }
+    }
+  },
+  "local_training_rules": null,
+  "direct_cache_parity": null,
+  "post_training_edge_ablation": null,
+  "seconds": 5.242077952992986,
+  "checkpoint_sha256": "5c3ddae982a4e73e7502eca0cbd251ca8257be1f9ecbf425220e9a1d775bc4e5"
+}

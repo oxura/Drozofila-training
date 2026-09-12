@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-09-12T06:22:12.817558+00:00",
+  "final_test_opened": false,
+  "hypothesis": "A learned low-level action policy can generalize to new tape lengths and unseen high-level program compositions when task-neutral interfaces expose local observations and previous predicted actions. Test whether source connectome helps beyond matched controls.",
+  "development_modes": [
+    "reactive",
+    "recurrent",
+    "hidden",
+    "blind"
+  ],
+  "development_steps": 800,
+  "development_seeds": [
+    0
+  ],
+  "confirmation_seeds": [
+    0,
+    1,
+    2
+  ],
+  "candidate_conditions": [
+    "fly",
+    "rewired",
+    "frozen",
+    "no_edges",
+    "mlp"
+  ],
+  "metrics": [
+    "full output and completed program and learned halt",
+    "nonempty output subset",
+    "invalid actions and resource budget failures",
+    "teacher-action agreement on local training observations"
+  ],
+  "data_source": "Procedural Python teacher trajectories; no language-model distillation.",
+  "given": "High-level program, primitive-action semantics, tape/output memory, supervised teacher actions in training. High-level plan choice is not learned.",
+  "selection": "Train and short validation only; freeze code and budget before opening final results.",
+  "split": "Unseen pairs of operations, lengths 16/64/256, program depths 4/8/16. Every regular set has 75 percent nonempty outputs."
+}

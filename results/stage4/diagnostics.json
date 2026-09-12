@@ -1,0 +1,11 @@
+{
+  "planned_program_length_counts": {
+    "1": 26,
+    "3": 8,
+    "4": 2,
+    "2": 27,
+    "5": 1
+  },
+  "all_witnesses_hidden_from_solver": true,
+  "local_observation_coverage_does_not_test_new_rules": true
+}

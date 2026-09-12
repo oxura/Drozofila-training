@@ -1,0 +1,84 @@
+{
+  "seed": 2026091504,
+  "hashes": {
+    "train.jsonl": "ba091e4a42887f258fc77227c33c56c4f8f4d9d3ffa43dd00901618b0c0cf52b",
+    "val.jsonl": "8070b22b51379e9dc571ff2b8a9f5ded139161ea6d4df33802bcfc1ee5dd06e2",
+    "test.jsonl": "6cf2955db391717faf6f2e2438d8c43c75d91f652026042539d08d76fafde90c",
+    "composition.jsonl": "d16251b961b5e4603d5faa2327e0890f1fd7d17fcbc439dd17d990c92a9e2188",
+    "long_tape.jsonl": "63f844b6ee5ee600f4e1f9f7ce7b48b0b1e8f955e01a12e8b0c32aa9be2cf115",
+    "long_program.jsonl": "c9e11f1566c15ad33d3a5fabce2d2abe4e521ed1577fd0f3c0cdf43bbd4b86d6",
+    "stress.jsonl": "b5ae666478aa17580a9f70a03251af01946c2fd467003a6dac3598507868da59"
+  },
+  "counts": {
+    "train": 3600,
+    "val": 240,
+    "test": 240,
+    "composition": 240,
+    "long_tape": 288,
+    "long_program": 288,
+    "stress": 24
+  },
+  "heldout_adjacent_pairs": [
+    [
+      "reverse",
+      "even"
+    ],
+    [
+      "even",
+      "inc"
+    ],
+    [
+      "inc",
+      "reverse"
+    ],
+    [
+      "odd",
+      "dec"
+    ],
+    [
+      "dec",
+      "copy"
+    ],
+    [
+      "copy",
+      "odd"
+    ]
+  ],
+  "train_lengths": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "train_depths": [
+    1,
+    2,
+    3
+  ],
+  "training_action_steps": 63015,
+  "unique_training_observations": 140,
+  "learned": [
+    "pointer movement",
+    "digit to write",
+    "whether to filter",
+    "stage transition",
+    "halt"
+  ],
+  "given": [
+    "high-level program",
+    "meaning of primitive actions",
+    "tape and append-only output buffer",
+    "current instruction and current cell",
+    "previous predicted action in history-enabled modes",
+    "expert action labels during training"
+  ],
+  "not_demonstrated": [
+    "high-level goal planning",
+    "new primitive rules",
+    "open-language understanding",
+    "general intelligence"
+  ]
+}

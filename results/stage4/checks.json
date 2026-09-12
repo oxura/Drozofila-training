@@ -1,0 +1,18 @@
+{
+  "disjoint_input_program_pairs": true,
+  "heldout_adjacencies_verified": true,
+  "empty_output_baseline": 0.25,
+  "training_observation_action_rules": 140,
+  "environment_actions_independent_of_task": true,
+  "edge_gradient_present": true,
+  "random_weight_direct_cache_parity": true,
+  "no_hidden_teacher_fallback": true,
+  "parameters": {
+    "fly": 20328,
+    "rewired": 20328,
+    "frozen": 12814,
+    "no_edges": 12814,
+    "mlp": 20125,
+    "gru": 20110
+  }
+}

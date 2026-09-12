@@ -1,0 +1,114 @@
+{
+  "config": {
+    "mode": "hidden",
+    "condition": "frozen",
+    "seed": 2,
+    "steps": 1200,
+    "ticks": 4,
+    "batch_size": 112,
+    "sequence_batch_size": 16,
+    "lr": 0.003,
+    "threads": 2,
+    "eval_every": 300
+  },
+  "best_step": 1200,
+  "splits": {
+    "test": {
+      "exact": 1.0,
+      "nonempty_exact": 1.0,
+      "nonempty_count": 180,
+      "count": 240,
+      "empty_answer_baseline": 0.25,
+      "completed_and_halted": 1.0,
+      "errors": {},
+      "mean_steps": 18.770833333333332
+    },
+    "composition": {
+      "exact": 0.9958333333333333,
+      "nonempty_exact": 0.9944444444444445,
+      "nonempty_count": 180,
+      "count": 240,
+      "empty_answer_baseline": 0.25,
+      "completed_and_halted": 1.0,
+      "errors": {},
+      "mean_steps": 24.420833333333334
+    },
+    "long_tape": {
+      "exact": 0.6354166666666666,
+      "nonempty_exact": 0.5231481481481481,
+      "nonempty_count": 216,
+      "count": 288,
+      "empty_answer_baseline": 0.25,
+      "completed_and_halted": 0.8298611111111112,
+      "errors": {
+        "step_budget": 49
+      },
+      "mean_steps": 436.0451388888889
+    },
+    "long_program": {
+      "exact": 0.9479166666666666,
+      "nonempty_exact": 0.9305555555555556,
+      "nonempty_count": 216,
+      "count": 288,
+      "empty_answer_baseline": 0.25,
+      "completed_and_halted": 0.9965277777777778,
+      "errors": {
+        "step_budget": 1
+      },
+      "mean_steps": 74.72569444444444
+    },
+    "stress": {
+      "exact": 0.75,
+      "nonempty_exact": 0.45454545454545453,
+      "nonempty_count": 11,
+      "count": 24,
+      "empty_answer_baseline": 0.5416666666666666,
+      "completed_and_halted": 0.9166666666666666,
+      "errors": {
+        "step_budget": 2
+      },
+      "mean_steps": 161.20833333333334
+    }
+  },
+  "grouped": {
+    "long_tape": {
+      "16": {
+        "count": 96,
+        "exact": 0.84375,
+        "nonempty_exact": 0.7916666666666666
+      },
+      "64": {
+        "count": 96,
+        "exact": 0.5833333333333334,
+        "nonempty_exact": 0.4583333333333333
+      },
+      "256": {
+        "count": 96,
+        "exact": 0.4791666666666667,
+        "nonempty_exact": 0.3194444444444444
+      }
+    },
+    "long_program": {
+      "4": {
+        "count": 96,
+        "exact": 0.9895833333333334,
+        "nonempty_exact": 0.9861111111111112
+      },
+      "8": {
+        "count": 96,
+        "exact": 0.9479166666666666,
+        "nonempty_exact": 0.9305555555555556
+      },
+      "16": {
+        "count": 96,
+        "exact": 0.90625,
+        "nonempty_exact": 0.875
+      }
+    }
+  },
+  "local_training_rules": null,
+  "direct_cache_parity": null,
+  "post_training_edge_ablation": null,
+  "seconds": 6.506335623998893,
+  "checkpoint_sha256": "3f0251cb460b502e5e47c4bdbdb822ee9c7ce8ce74b6c00b7dac4bec39af1688"
+}

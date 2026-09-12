@@ -1,0 +1,116 @@
+{
+  "config": {
+    "mode": "reactive",
+    "condition": "no_edges",
+    "seed": 2,
+    "steps": 1200,
+    "ticks": 4,
+    "batch_size": 112,
+    "sequence_batch_size": 16,
+    "lr": 0.003,
+    "threads": 2,
+    "eval_every": 300
+  },
+  "best_step": 1200,
+  "splits": {
+    "test": {
+      "exact": 1.0,
+      "nonempty_exact": 1.0,
+      "nonempty_count": 180,
+      "count": 240,
+      "empty_answer_baseline": 0.25,
+      "completed_and_halted": 1.0,
+      "errors": {},
+      "mean_steps": 18.779166666666665
+    },
+    "composition": {
+      "exact": 1.0,
+      "nonempty_exact": 1.0,
+      "nonempty_count": 180,
+      "count": 240,
+      "empty_answer_baseline": 0.25,
+      "completed_and_halted": 1.0,
+      "errors": {},
+      "mean_steps": 24.420833333333334
+    },
+    "long_tape": {
+      "exact": 1.0,
+      "nonempty_exact": 1.0,
+      "nonempty_count": 216,
+      "count": 288,
+      "empty_answer_baseline": 0.25,
+      "completed_and_halted": 1.0,
+      "errors": {},
+      "mean_steps": 370.7291666666667
+    },
+    "long_program": {
+      "exact": 1.0,
+      "nonempty_exact": 1.0,
+      "nonempty_count": 216,
+      "count": 288,
+      "empty_answer_baseline": 0.25,
+      "completed_and_halted": 1.0,
+      "errors": {},
+      "mean_steps": 73.74652777777777
+    },
+    "stress": {
+      "exact": 1.0,
+      "nonempty_exact": 1.0,
+      "nonempty_count": 11,
+      "count": 24,
+      "empty_answer_baseline": 0.5416666666666666,
+      "completed_and_halted": 1.0,
+      "errors": {},
+      "mean_steps": 296.375
+    }
+  },
+  "grouped": {
+    "long_tape": {
+      "16": {
+        "count": 96,
+        "exact": 1.0,
+        "nonempty_exact": 1.0
+      },
+      "64": {
+        "count": 96,
+        "exact": 1.0,
+        "nonempty_exact": 1.0
+      },
+      "256": {
+        "count": 96,
+        "exact": 1.0,
+        "nonempty_exact": 1.0
+      }
+    },
+    "long_program": {
+      "4": {
+        "count": 96,
+        "exact": 1.0,
+        "nonempty_exact": 1.0
+      },
+      "8": {
+        "count": 96,
+        "exact": 1.0,
+        "nonempty_exact": 1.0
+      },
+      "16": {
+        "count": 96,
+        "exact": 1.0,
+        "nonempty_exact": 1.0
+      }
+    }
+  },
+  "local_training_rules": {
+    "correct": 140,
+    "total": 140
+  },
+  "direct_cache_parity": {
+    "equal": true,
+    "cases": 2,
+    "tape_length": 256,
+    "program_depth": 16
+  },
+  "post_training_edge_ablation": null,
+  "seconds": 0.2957504940131912,
+  "checkpoint_sha256": "6975980d97a57ad48d07b2d957e0b25c029718c36c004757e4ea7b05c6879fe3"
+}

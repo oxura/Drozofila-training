@@ -1,0 +1,39 @@
+{
+  "config": {
+    "mode": "reactive",
+    "condition": "rewired",
+    "seed": 1,
+    "steps": 1200,
+    "ticks": 4,
+    "batch_size": 112,
+    "sequence_batch_size": 16,
+    "lr": 0.003,
+    "threads": 2,
+    "eval_every": 300
+  },
+  "validation": {
+    "exact": 1.0,
+    "nonempty_exact": 1.0,
+    "nonempty_count": 180,
+    "count": 240,
+    "empty_answer_baseline": 0.25,
+    "completed_and_halted": 1.0,
+    "errors": {},
+    "mean_steps": 18.595833333333335
+  },
+  "best_step": 1200,
+  "seconds": 6.628743391003809,
+  "parameters": 20328,
+  "max_edge_gradient": 0.008207262493669987,
+  "training_action_steps": 134400,
+  "dataset_hashes": {
+    "train.jsonl": "494a1a96b32ffc31cc88acbc7c89170c8e09a64335af5b166ab4ca05be9aca3b",
+    "val.jsonl": "d279c50cfc76738334f3b2fe6201bde9579d53d0c84dcda4c9e1a9c4b80e55ec",
+    "test.jsonl": "c302aa80ac27469457cbd88bf230871ec506bf895348a4527ac0b838e024f39a",
+    "composition.jsonl": "2d4e7e1bb48af6639114d127846aecd5f114824ffb832282f7a2266aaef42a5b",
+    "long_tape.jsonl": "26ad2070f15f745b077ffd958dac5b1e725d20dd65ab6edfa5720fac81e4332b",
+    "long_program.jsonl": "aed6d2bfc7da7de7f139f3cddaa9e516c6fc15e9b6fc55530d38d8805bb25367",
+    "stress.jsonl": "b5ae666478aa17580a9f70a03251af01946c2fd467003a6dac3598507868da59"
+  },
+  "final_test_read": false
+}

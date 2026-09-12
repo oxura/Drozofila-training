@@ -1,0 +1,21 @@
+{
+  "seed": 2026091544,
+  "count": 64,
+  "sha256": "9b80b5975f280d03377648dd7a9e54d3bf155794f523731f28d06d6f64739f4a",
+  "max_depth": 6,
+  "max_expanded_states": 512,
+  "empty_goals": 0.25,
+  "evaluated_runs": [
+    "reactive_fly_seed0",
+    "reactive_mlp_seed0",
+    "hidden_fly_seed0",
+    "hidden_gru_seed0"
+  ],
+  "selection": "Fixed seed 0 and these four controllers before opening goal evaluation",
+  "planner_inputs": [
+    "initial",
+    "goal"
+  ],
+  "oracle_used_only_for_scoring": true,
+  "search_algorithm": "hand-written breadth-first search over learned transitions"
+}
